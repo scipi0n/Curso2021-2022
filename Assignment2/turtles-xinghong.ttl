@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix : <http://Eje/> .
+
+:Clase01 rdf:include :Sensor029 ;
+   rdf:include  :Computer101 ;
+.
+:Sensor029 rdf:hasMeasurement :Measurement8401 ;
+.
+
+:Measurement8401 rdf:hasTemperature "29" ; 
+rdfs:atTime "2010-06-12T12:00:12"
+.
+
+:Computer101 rdf:hasOwner :User10A ;.
+
+:User10A rdf:hasName "Pedro";.
