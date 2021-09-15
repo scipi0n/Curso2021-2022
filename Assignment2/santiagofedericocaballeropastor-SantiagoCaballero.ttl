@@ -1,0 +1,14 @@
+@prefix datatype:<http://www.w3.org/2001/XMLSchema#date>.
+@prefix vocab:<http://www.ontogrid.net/StickyNote#>.
+<Class01>
+	vocab:includes:<Sensor029>;
+	vocab:includes:<Computer101>.
+<Sensor029>
+	vocab:hasMeasurement:<Measurement8401>.
+<Computer101>
+	vocab:hasOwner:<User10A>.
+<Measurement8401>
+	vocab:hasTemperature:"29";
+	datatype:atTime:"2010-06-12T12:00:12".
+<User10A>
+	vocab:hasName:"Pedro".
