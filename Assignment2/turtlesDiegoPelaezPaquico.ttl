@@ -6,7 +6,7 @@
 
 :Sensor029 a2:hasMeasurement :Measurement8401.
 
-:Measurement8401 a2:hasTemperature "29"xsd:integer;
+:Measurement8401 a2:hasTemperature "29"^^xsd:integer;
                  a2:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
 :Computer101 a2:hasOwner :User10A.
