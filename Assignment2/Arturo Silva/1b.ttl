@@ -10,4 +10,4 @@
 :Computer101		component:hasOwner: User10A.
 :Measurement8401	measurement:hasTemperature "29"^^xsd:integer;
 			measurement:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
-:User10A		user:hasName "xPedro".
+:User10A		user:hasName "Pedro".
