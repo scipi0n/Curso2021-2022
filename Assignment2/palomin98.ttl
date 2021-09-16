@@ -1,0 +1,24 @@
+@base  <http://www.assignament2.net/turtle>
+
+@prefix cl: <http://www.assignament2.net/turtle/class/>
+@prefix class: <http://www.assignament2.net/turtle/class#>
+@prefix s: <http://www.assignament2.net/turtle/sensor/>
+@prefix sensor: <http://www.assignament2.net/turtle/sensor#>
+@prefix c: <http://www.assignament2.net/turtle/computer/>
+@prefix comp: <http://www.assignament2.net/turtle/computer#>
+@prefix m: <http://www.assignament2.net/turtle/measurement/>
+@prefix mes: <http://www.assignament2.net/turtle/measurement#>
+@prefix o: <http://www.assignament2.net/turtle/owner/>
+@prefix own: <http://www.assignament2.net/turtle/owner#>
+
+cl:Class01 class:includes s:Sensor029;
+          class:includes c:Computer101.
+
+s:Sensor029 sensor:hasMeasurement m:Measurement8401.
+
+c:Computer101 comp:hasOwner o:User10A.
+
+m:Measurement8401 mes:hasTemperature "29"^^xsd:integer;
+                  mes:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+o:User10A own:hasName "Pedro".
