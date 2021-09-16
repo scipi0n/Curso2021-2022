@@ -1,0 +1,14 @@
+@prefix fi: <https://oeg.fi.upm.es#> .
+@prefix : <https://assignment2/classes#> .
+
+:Class01 fi:includes :Computer101 ;
+         fi:includes :Sensor029 .
+
+:Computer101 fi:hasOwner :User10A .
+
+:User10A fi:hasName "Pedro" .
+
+:Sensor029 fi:hasMeasurement :Measurement8401 .
+
+:Measurement8401 fi:hasTemperature "29" ;
+		 fi:atTime "2010-06-12T12:00:12" .
