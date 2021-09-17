@@ -1,0 +1,18 @@
+@prefix cl: <http://www.oeg-upm.net/Class01#/>.
+@prefix s: <http://www.oeg-upm.net/Sensor029#/>.
+@prefix pc: <http://www.oeg-upm.net/Computer101#/>.
+@prefix m: <http://www.oeg-upm.net/Measurement8401#/>.
+@prefix u: <http://www.oeg-upm.net/User10A#/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+cl:Class01 cl:includes s:Sensor029;
+         cl:includes pc:Computer101.
+
+s:Sensor029 s:hasMeasurement m:Measurement8401.
+
+m:Measurement8401 m:hasTemperature "29"^^xsd:integer;
+                 m:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+pc:Computer101 pc:hasOwner u:User10A.
+
+u:User10A u:hasName "Pedro"^^xsd:string.
