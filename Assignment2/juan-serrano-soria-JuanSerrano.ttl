@@ -1,5 +1,5 @@
 @base <example.org/assignment2a/>
-@prefix v <example.org/assignment2a#>
+@prefix v: <example.org/assignment2a#>
 
 :Class01 v:includes :Sensor029M;
          v:includes :Computer101.
