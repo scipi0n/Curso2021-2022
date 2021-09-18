@@ -3,16 +3,16 @@
 
 @prefix : <http://Eje/> .
 
-:Clase01 :include :Sensor029 ;
-	:include  :Computer101.
+:Clase01 a:include :Sensor029 ;
+	a:include  :Computer101.
 	
-:Sensor029 :hasMeasurement :Measurement8401
+:Sensor029 a:hasMeasurement :Measurement8401
 .
 
-:Measurement8401 rdf:hasTemperature "29"^^xsd:integer ; 
-rdfs:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Measurement8401 a:hasTemperature "29"^^xsd:integer ; 
+a:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
 
-:Computer101 rdf:hasOwner :User10A .
+:Computer101 a:hasOwner :User10A .
 
-:User10A rdf:hasName "Pedro".
+:User10A a:hasName "Pedro".
