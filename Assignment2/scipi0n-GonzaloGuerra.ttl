@@ -1,0 +1,21 @@
+@prefix t1: <http://www.ontogrid.net/Tarea1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+t1:Class01
+  t1:includes t1:Sensor029, t1:Computer101.
+
+t1:Sensor029
+  t1:hasMeasurement t1:Measurement8401.
+
+t1:Computer101
+  t1:hasOwner t1:User10A.
+
+t1:User10A
+  t1:hasName t1:Pedro.
+
+t1:Measurement8401
+  t1:hasTemperatura "29"^^xsd:integer.
+
+t1:Measurement8401
+  t1:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+  
