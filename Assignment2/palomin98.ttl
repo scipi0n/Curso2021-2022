@@ -1,24 +1,15 @@
-@base  <http://www.assignament2.net/turtle>
+@base <http://example.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <http://example.org/elements>.
 
-@prefix cl: <http://www.assignament2.net/turtle/class/>
-@prefix class: <http://www.assignament2.net/turtle/class#>
-@prefix s: <http://www.assignament2.net/turtle/sensor/>
-@prefix sensor: <http://www.assignament2.net/turtle/sensor#>
-@prefix c: <http://www.assignament2.net/turtle/computer/>
-@prefix comp: <http://www.assignament2.net/turtle/computer#>
-@prefix m: <http://www.assignament2.net/turtle/measurement/>
-@prefix mes: <http://www.assignament2.net/turtle/measurement#>
-@prefix o: <http://www.assignament2.net/turtle/owner/>
-@prefix own: <http://www.assignament2.net/turtle/owner#>
+:Class01 :includes :Sensor029;
+         :includes :Computer101.
 
-cl:Class01 class:includes s:Sensor029;
-          class:includes c:Computer101.
+:Computer101 :hasOwner :User10A.
+          
+:Sensor029 :hasMeasurement :Measurement8401.
 
-s:Sensor029 sensor:hasMeasurement m:Measurement8401.
-
-c:Computer101 comp:hasOwner o:User10A.
-
-m:Measurement8401 mes:hasTemperature "29"^^xsd:integer;
-                  mes:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
-
-o:User10A own:hasName "Pedro".
+:User10A :hasName "Pedro"^^xsd:String.
+ 
+:Measurement8401 :hasTemperature "29"^^xsd:positiveInteger.
+                 :atTime "2010-06-12T12:00:12"^^xsd:dateTime.
