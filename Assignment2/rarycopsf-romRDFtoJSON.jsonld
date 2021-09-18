@@ -1,5 +1,6 @@
 {
-    "@context":{
+    "@context":
+    {
         "class":"http://www.oeg-upm.net/class/",
         "includes":"http://www.oeg-upm.net/class/includes",
         "sensor":"http://www.oeg-upm.net/sensor/",
