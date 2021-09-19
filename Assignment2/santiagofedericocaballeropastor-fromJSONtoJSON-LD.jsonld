@@ -1,0 +1,68 @@
+{
+  "@context":{
+		"rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+		"name":"http://www.oeg-upm.net/ontologies/people/",
+    		"sub":"http://www.example.org#",
+		"hometown":"rdfs:label",
+		"age":"rdfs:age",
+		"Alma_mater":"rdfs:label",
+    		"parents":"name:parent",
+		"father":"name:father",
+		"mother":"name:mother",
+    		"subject1":"sub:subject",
+    		"subject2":"sub:subject",
+    		"subject3":"sub:subject",
+    		"subject4":"sub:subject",
+    		"subject5":"sub:subject",
+		"title":"sub:title",
+		"teacher":"sub:teacher",
+		"description":"sub:comment"	
+	},
+	"@id":"http://www.oeg-upm.net/ontologies/people/Santiago",
+	"@type":"name:Santiago",
+	"name":"Santiago Federico Caballero Pastor",
+	"hometown":"Madrid",
+	"age":"21",
+	"Alma_mater":"Universidad Politecnica de Madrid",
+	"parents":{
+      	"@id":"parents",
+		"father":"José Francisco",
+		"mother":"María Eugenia"
+	},
+  	"subject1":{
+  		"@id":"subject/Web_Semantic",
+      	"@type":"sub:Web_Semantic",
+  		"title":"Web Semantic",
+  		"teacher":"Oscar Corcho",
+    	"description":"Gain knowledge on the Web of Linked Data and knowledge graphs"
+	},
+    "subject2":{
+  		"@id":"subject/Nanotechnology",
+      	"@type":"sub:Nanotechnology",
+  		"title":"Nanotechnology",
+  		"teacher":"María Estibaliz",
+    	"description":"The science that treats the manipulation of matter with at least one dimension the size of between 1 to 100 nanometers"
+	},
+      "subject3":{
+  		"@id":"subject/Management_Information_Systems",
+      	"@type":"sub: Management_Information_Systems",
+  		"title":" Management Information Systems",
+  		"teacher":"Gabriel Cebrián",
+	   	"description":"Show students the tasks and responsibilities of a administrator in information systems"
+	},
+  	"subject4":{
+  		"@id":"subject/Information_Management",
+      	"@type":"sub: Information_Management",
+  		"title":" Information Management",
+  		"teacher":"Edmundo Tovar",
+	   	"description":"This subject treats de elements of an organization"
+	},
+  	"subject5":{
+  		"@id":"subject/Software_Engineering_II",
+      	"@type":"sub: Software_Engineering_II",
+  		"title":" Software Engineering II",
+  		"teacher":"Ana María Moreno",
+	   	"description":"This subject focusses on applying the aspects of software development"
+	}
+	
+}
