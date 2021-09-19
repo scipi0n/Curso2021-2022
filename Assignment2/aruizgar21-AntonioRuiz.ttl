@@ -1,10 +1,9 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://ex.org/#> .
-:Class01 rdfs:includes:Computer101;
-rdfs:includes:Sensor029.
-:Sensor029 rdfs:hasMeasurement:Measurement8401.
-:Measurement8401 rdfs:hasTemperature "29";
-rdfs:atTime "2010-06-12T12:00:12".
-:Computer101 rdfs:hasOwner:User10A.
-:User10A rdfs:hasName "Pedro" ;
-.
+@prefix pr: <http://ex.org/#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+pr:Class01 pr:includes pr:Computer101;
+pr:includes pr:Sensor029.
+pr:Sensor029 pr:hasMeasurement pr:Measurement8401.
+pr:Measurement8401 pr:hasTemperature "29"^^xsd:integer;
+pr:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+pr:Computer101 pr:hasOwner pr:User10A.
+pr:User10A pr:hasName "Pedro"^^xsd:string.
