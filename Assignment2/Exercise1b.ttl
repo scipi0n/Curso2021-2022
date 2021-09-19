@@ -1,13 +1,16 @@
-@base <http://www.oeg-upm.net/assignment2>
-@prefix vocab: <http://www.ontologies.org/ontologies/assignment2#>
+@prefix t2: <http://www.ontologies.org/ontologies/area2#>.
+@prefix vocab: <http://www.ontologies.org/ontologies/assignment2#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-: Class01 vocab: includes :Sensor029,Computer101.
+t2:Class01 
+                  vocab:includes t2:Sensor029, t2:Computer101.
 
-: Sensor029 vocab: hasMeasurement : Measurement8401.
+t2:Sensor029 
+                  vocab:hasMeasurement t2:Measurement8401.
 
-: Measurement8401 vocab: hasTemperature: 29;
-                  vocab: atTime "2010-06-12T12:00:12".
+t2:Measurement8401 vocab:hasTemperature "29"^^xsd:integer;
+                                   vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
-: Computer101 vocab: hasOwner : User10A.
+t2:Computer101 vocab:hasOwner t2:User10A.
 
-: User10A vocab: hasName "Pedro".
+t2:User10A vocab:hasName "Pedro".
