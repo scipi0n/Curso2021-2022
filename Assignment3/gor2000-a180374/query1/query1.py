@@ -1,11 +1,8 @@
 # Query 1
 from SPARQLWrapper import SPARQLWrapper, XML
-import simplejson as json
 
 sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
-# Below we SELECT both the hot sauce items & their labels
-# in the WHERE clause we specify that we want labels as well as items
 sparql.setQuery("""
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
