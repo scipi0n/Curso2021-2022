@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="property"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#comment</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#seeAlso</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://xmlns.com/foaf/0.1/homepage</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/name</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://xmlns.com/foaf/0.1/depiction</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/thumbnail</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/deathPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/deathPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/deathDate</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/birthPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/birthPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/birthDate</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://purl.org/dc/terms/subject</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/wikiPageID</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/wikiPageRevisionID</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/wikiPageWikiLink</uri></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri></binding>
+  </result>
+ </results>
+</sparql>
