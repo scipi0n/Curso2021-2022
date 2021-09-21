@@ -1,0 +1,73 @@
+{
+
+"@context":{
+  "person":"http://gob.es/personas",
+  "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+  "name":"rdfs:label",
+  "fullName":"rdfs:label",
+  "hometown":"rdfs:label",
+  "age":"rdfs:label",
+  "alma-mater":"rdfs:label",
+  "parents":"http://upm.fi.es/padres/",
+  "teachers":"http://upm.fi.es/teachers/",
+  "subjects":"http://upm.fi.es/subjects",
+  "subject":"http://upm.fi.es/subjects",
+  "description":"rdfs:label"
+
+},
+"@id":"http://upm.fi.es/alumnos/GonzaloLeon",
+"@type":"person",
+"fullName": "Gonzalo Leon Aragon",
+"hometown":"Navas del Rey",
+"age":21,
+"alma-mater":"UPM",
+"parents":[
+  {
+    "@type":"person",
+    "name":"Jesus"
+  }
+  ,
+  {
+    "@type":"person",
+    "name":"MºCarmen"
+  }
+],
+"subjects":[
+  {
+    "@id":"ide1",
+    "@type":"subject",
+    "name":"Semantic Web",
+    "teachers":[
+      {
+          "@type": "teacher",
+          "name":"Oscar Corcho"
+        },
+        {
+          "@type": "teacher",
+          "name": "Raul García"
+          }
+
+      ],
+      "description":"Una asignatura muy buena"
+    },
+    {"@id":"ide2",
+    "@type":"subject",
+    "name":"Ingenieria de Software",
+    "teachers":[
+      {
+          "@type": "teacher",
+          "name":"Tomas san Feliu"
+        },
+        {
+          "@type": "teacher",
+          "name": "Ana María Moreno"
+          }
+
+      ],
+      "description":"Una asignatura no tan buena"
+
+    }
+
+]
+
+}
