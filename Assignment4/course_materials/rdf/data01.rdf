@@ -28,15 +28,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 	 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/EMAIL">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0#EMAIL">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
-    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Family">
+    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0#Family">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Property>
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Given">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0#Given">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
  
@@ -65,7 +65,6 @@
     <Person rdf:about="#SaraJones">
     </Person>
     
-
     <Person rdf:about="#JohnSmith">
         <vcard-rdf:Given rdf:datatype="&xsd;string">John</vcard-rdf:Given>
         <vcard-rdf:EMAIL rdf:datatype="&xsd;string">j.smith@data.org</vcard-rdf:EMAIL>
@@ -76,13 +75,11 @@
         <vcard-rdf:Family rdf:datatype="&xsd;string">Doe</vcard-rdf:Family>
     </Person>
     
-
     <Person rdf:about="#HarryPotter">
         <vcard-rdf:Given rdf:datatype="&xsd;string">Harry</vcard-rdf:Given>
-        <vcard-rdf:EMAIL rdf:datatype="&xsd;string">hpotter@data.org</vcard-rdf:EMAIL>
+        <vcard-rdf:Family rdf:datatype="&xsd;string">Potter</vcard-rdf:Family>
     </Person>
     
-
 </rdf:RDF>
 
 
