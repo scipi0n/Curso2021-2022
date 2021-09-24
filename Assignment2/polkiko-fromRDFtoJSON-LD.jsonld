@@ -12,25 +12,25 @@
       "@id": "http://www.web.com/ontologies/Class01",
       "vocab:includes": [
         {
-          "@type": "rdfs:Class",
+          "@type": "rdfs:Sensor",
           "@id": "http://www.web.com/ontologies/Sensor029"
         },
         {
-          "@type": "rdfs:Class",
+          "@type": "rdfs:Computer",
           "@id": "http://www.web.com/ontologies/Computer101"
         }
       ]
     },
     {
-      "@type": "rdfs:Class",
+      "@type": "rdfs:Sensor",
       "@id": "http://www.web.com/ontologies/Sensor029",
       "vocab:hasMeasurement": {
-        "@type": "rdfs:Class",
+        "@type": "rdfs:Measurement",
         "@id": "http://www.web.com/ontologies/Measurement8401"
       }
     },
     {
-      "@type": "rdfs:Class",
+      "@type": "rdfs:Measurement",
       "@id": "http://www.web.com/ontologies/Measurement8401",
       "vocab:hasTemperature": {
         "@type": "xsd:integer",
@@ -42,14 +42,14 @@
       }
     },
     {
-      "@type": "rdfs:Class",
+      "@type": "rdfs:Computer",
       "@id": "http://www.web.com/ontologies/Computer101",
       "vocab:hasOwner": {
         "@id": "http://www.web.com/ontologies/User10A"
       }
     },
     {
-      "@type": "rdfs:Class",
+      "@type": "rdfs:User",
       "@id": "http://www.web.com/ontologies/User10A",
       "vocab:hasName:": {
         "@type": "xsd:string",
