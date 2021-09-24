@@ -1,0 +1,55 @@
+{
+  "@context":{
+    "person":"http://gob.es/personas",
+    "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+    "dateTime":"http://www.w3.org/2000/01/dateTime",
+    "includes":"rdfs:label",
+    "hasMeasurement":"rdfs:label",
+    "name":"rdfs:label",
+    "temperature":"rdfs:label",
+    "time":"dateTime:time",
+    "class":"http://upm.fi.es/class/",
+    "sensor":"http://upm.fi.es/sensor/",
+    "computer":"http://upm.fi.es/computer",
+    "measurement":"http://upm.fi.es/measurement",
+    "owner":"person:owner"
+
+
+  },
+
+
+  "@id":"http://upm.fi.es/class/class01",
+  "@type":"class",
+  "includes":[
+    {
+      "@id":"http://upm.fi.es/sensor/sensor029",
+      "@type":"sensor",
+      "hasMeasurement":{
+        "@id":"http://upm.fi.es/measurement/Measurement8401",
+        "@type":"measurement",
+        "temperature":29,
+        "time":{
+          "@id":"http://www.w3.org/2000/01/dateTime/2010-06-12T12:00:12",
+          "@type":"dateTime",
+          "date":"2010-06-12T12:00:12"
+        }
+      }
+    }
+  ,
+  {
+    "@id":"http://upm.fi.es/computer/Computer101",
+    "@type":"computer",
+    "owner":{
+      "@id":"http://gob.es/personas/User10A",
+      "@type":"person",
+      "name":"Pedro"
+
+    }
+  }
+    ]
+
+
+
+
+
+}
