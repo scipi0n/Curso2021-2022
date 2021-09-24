@@ -1,0 +1,19 @@
+@base <http://www.assignment2.net/ontologies/classes/ >.
+@prefix c: <http://www.assignment2.net/ontologies/classes#>.
+@prefix o: <http://www.assignment2.net/ontologies/classes/objects#>.
+@prefix i: <http://www.assignment2.net/ontologies/classes/objects/info#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:Class01 c:includes:Sensor029 ;
+         c:includes :Computer101.
+
+
+:Sesnsor029 o:hasMeasurement :Measurement8401.
+
+:Measurement8401 i:hasTemperature "29"^^xsd:integer;
+                 i:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+
+:Computer101: o:hasOwner :User10A.
+
+:User10A   i:hasName "Pedro".
