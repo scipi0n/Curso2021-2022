@@ -1,0 +1,23 @@
+@prefix dev: <http://a_clearly_real_base_page.org/prefix/devices#> .
+@prefix m: <http://a_clearly_real_base_page.org/prefix/measure#> .
+@prefix u: <http://a_clearly_real_base_page.org/prefix/users#> .
+@prefix c: <http://a_clearly_real_base_page.org/prefix/classes#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+c:Class01
+ dev:includes dev:Sensor029, dev:Computer101.
+
+dev:Sensor029
+ m:hasMeasurement m:Measurement8401.
+
+m:Measurement8401 
+ m:hasTemperature "29"^^xsd:integer.
+
+m:Measurement8401
+ m:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+dev:Computer101
+ u:hasOwner u:User10A.
+
+u:User10A 
+ u:hasName u:Pedro.
