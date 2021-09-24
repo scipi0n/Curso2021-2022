@@ -1,0 +1,52 @@
+{
+	"@context":{
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+		"fullName":"rdfs:label",
+		"homeTown":"rdfs:label",
+		"age":"rdfs:label",
+		"parents":"http://one-web.com/parents",
+		"subjects":"http://one-web.com/subjects",
+		"teachers":"http://one-web.com/teachers",
+		"students":"http://one-web.com/students",
+		"name":"rdfs:label",
+		"description":"rdfs:label"
+
+	},
+	"@id":"http://one-web.com/students/sergiopardo",
+	"@type":"students",
+	"fullName":"Sergio Pardo",
+	"homeTown":"Las Rozas",
+	"age":21,
+	"parents:[
+		{
+			"@id":"http://one-web.com/parents/santiago",
+			"@type":"parents",
+			"name":"Santiago"
+		},
+		{
+			"@id":"http://one-web.com/parents/esperanza",
+			"@type":"parents",
+			"name":"Esperanza"
+		}
+	],
+	"subjects":[
+		{
+			"@id":"http://one-web.com/subjects/semanticweb",
+			"@type":"subjects",
+			"name":"Semantic Web",
+			"teachers":[
+				{
+					"@id":"http://one-web.com/teachers/oscarcorcho",
+					"@type":"teachers",
+					"name:"Óscar Corcho"
+				},
+				{
+					"@id":"http://one-web.com/teachers/raulgarcia",
+					"@type":"teachers",
+					"name:"Raúl García"
+				}
+			]
+			"description":"Chuli piruli"
+		}
+	]
+}
