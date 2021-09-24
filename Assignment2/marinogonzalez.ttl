@@ -1,0 +1,16 @@
+@prefix a2a: <http://www.oeg-upm.es/Tarea1/> .
+@prefix vocab: <http://www.oeg-upm.es/Tarea1/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+a2a:Class01 vocab:includes a2a:Sensor029 ;
+	    vocab:includes a2a:Computer101 .
+
+a2a:Sensor029 vocab:hasMeasurement a2a:Measurement8401 .
+
+a2a:Measurement8401 vocab:hasTemperature "29"^^xsd:integer ;
+                    vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+a2a:Computer101 vocab:hasOwner a2a:User10A .
+
+a2a:User10A vocab:hasName "Pedro" .
