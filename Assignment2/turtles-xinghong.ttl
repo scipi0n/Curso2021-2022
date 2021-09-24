@@ -1,0 +1,18 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix a:<http://upm.org/data/>.
+
+@prefix : <http://Eje/> .
+
+:Clase01 a:include :Sensor029 ;
+	a:include  :Computer101.
+	
+:Sensor029 a:hasMeasurement :Measurement8401
+.
+
+:Measurement8401 a:hasTemperature "29"^^xsd:integer ; 
+a:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+
+:Computer101 a:hasOwner :User10A .
+
+:User10A a:hasName "Pedro".
