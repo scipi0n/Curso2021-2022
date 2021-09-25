@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "vocab": "http://www.web.com/ontologies/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "items": "rdfs:Class",
+    "data": "rdfs:label"
+  },
+  "items": [
+    {
+      "@type": "rdfs:Class",
+      "@id": "http://www.web.com/ontologies/Class01",
+      "vocab:includes": [
+        {
+          "@type": "rdfs:Sensor",
+          "@id": "http://www.web.com/ontologies/Sensor029"
+        },
+        {
+          "@type": "rdfs:Computer",
+          "@id": "http://www.web.com/ontologies/Computer101"
+        }
+      ]
+    },
+    {
+      "@type": "rdfs:Sensor",
+      "@id": "http://www.web.com/ontologies/Sensor029",
+      "vocab:hasMeasurement": {
+        "@type": "rdfs:Measurement",
+        "@id": "http://www.web.com/ontologies/Measurement8401"
+      }
+    },
+    {
+      "@type": "rdfs:Measurement",
+      "@id": "http://www.web.com/ontologies/Measurement8401",
+      "vocab:hasTemperature": {
+        "@type": "xsd:integer",
+        "data": "29"
+      },
+      "vocab:aTime": {
+        "@type": "xsd:dateTime",
+        "data": "2010-06-12T12:00:12"
+      }
+    },
+    {
+      "@type": "rdfs:Computer",
+      "@id": "http://www.web.com/ontologies/Computer101",
+      "vocab:hasOwner": {
+        "@id": "http://www.web.com/ontologies/User10A"
+      }
+    },
+    {
+      "@type": "rdfs:User",
+      "@id": "http://www.web.com/ontologies/User10A",
+      "vocab:hasName:": {
+        "@type": "xsd:string",
+        "data": "Pedro"
+      }
+    }
+  ]
+}

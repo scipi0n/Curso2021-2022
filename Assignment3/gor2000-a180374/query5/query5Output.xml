@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="property"/>
+  <variable name="counter"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/countriesVisited</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/directorOfIntergovernmentalAffairsStart</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/overlay1left</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/father'sName</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/officialFacebookPage</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/isbn</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/careerEnd</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/indianaStateHouseOfRepresentatives</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/subDiscipline</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">27</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/footerBackground</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/color</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">57</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/7a</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/stateDistrict</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/founder</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/beatifiedDate</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/dtitle</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/mark3size</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/grandsire</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/pages</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">302</literal></binding>
+  </result>
+  <result>
+   <binding name="property"><uri>http://dbpedia.org/property/name18d</uri></binding>
+   <binding name="counter"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+  </result>
+ </results>
+</sparql>
