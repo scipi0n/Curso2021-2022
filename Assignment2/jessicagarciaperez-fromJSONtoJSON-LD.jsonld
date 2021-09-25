@@ -1,0 +1,33 @@
+{
+    "name": "Jessica García Pérez",
+    "hometown": "Madrid",
+    "age": "24",
+    "almaMater": "Universidad Politécnica de Madrid",
+    "parents": {
+        "mother": "Libia",
+        "father": "Miguel Ángel"
+    },
+    "subjects": [
+        {
+            "name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "teachers": [
+                {
+                    "name": "Oscar Corcho"
+                },
+                {
+                    "name": "Raul Garcia"
+                }
+            ],
+            "description": "Linked Data"
+        },
+        {
+            "name": "Ecuaciones Diferenciales",
+            "teachers": [
+                {
+                    "name": "Miguel Reyes"
+                }
+            ],
+            "description": "Maths"
+        }
+    ]
+}
