@@ -1,49 +1,40 @@
 {
-    "@context": {
-        "ppl": "https://oeg.fi.upm.es/ontologies/people/",
-        "cls": "https://oeg.fi.upm.es/ontologies/classes/",
-        "itms": "https://oeg.fi.upm.es/ontologies/items/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "act": "https://oeg.fi.upm.es/ontologies/actions/",
-        "vcard": "http://www.w3.org/2006/vcard/ns#",
-        "temperature": "rdfs:Literal",
-        "atTime": "vcard:rev",
-        "name": "rdfs:label"
+    "@context":{
+       "ppl":"https://oeg.fi.upm.es/ontologies/people/",
+       "cls":"https://oeg.fi.upm.es/ontologies/classes/",
+       "itms":"https://oeg.fi.upm.es/ontologies/items/",
+       "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+       "xsd":"http://www.w3.org/2001/XMLSchema#",
+       "act":"https://oeg.fi.upm.es/ontologies/actions/",
+       "temperature":"xsd:float",
+       "time":"xsd:dateTime",
+       "name":"rdfs:label"
     },
-    "@id": "https://oeg.fi.upm.es/ontologies/classes/Class01",
-    "@type": "cls",
-    "Class01": {
-        "includes":{
-            "@id": "https://oeg.fi.upm.es/ontologies/actions/include",
-            "@type": "act",
-            "Sensor029": {
-                "@id": "https://oeg.fi.upm.es/ontologies/items/Sensor029",
-                "@type": "itms",
-                "hasMeasurement": {
-                    "@id": "https://oeg.fi.upm.es/ontologies/actions/hasMeasurement",
-                    "@type": "act",
-                    "hasTemperature": {
-                        "@id": "https://oeg.fi.upm.es/ontologies/actions/hasTemperature",
-                        "@type": "act",
-                        "temperature": 29
-                    },
-                    "atTime": "2010-06-12T12:00:12" 
-                }
-            },
-            "Computer101": {
-                "@id": "https://oeg.fi.upm.es/ontologies/items/Computer101",
-                "@type": "itms",
-                "hasOwner": {
-                    "@id": "https://oeg.fi.upm.es/ontologies/actions/hasOwner",
-                    "@type": "act",
-                    "User10A": {
-                        "@id": "https://oeg.fi.upm.es/ontologies/people/alumnos/Pedro",
-                        "@type": "itms:alumnos/",
-                        "name": "Pedro"
-                    }
-                }
-            }
-        }
-    }
-}
+    "@id":"cls:Class01",
+    "@type":"cls",
+    "act:includes":[
+       {
+          "@id":"itms:Sensor029",
+          "@type":"itms",
+          "act:hasMeasurement":{
+             "act:hasTemperature":{
+                "temperature":"29.00"
+             },
+             "act:atTime":{
+                "time":"2010-06-12T12:00:12"
+             }
+          }
+       },
+       {
+          "@id":"itms:Computer101",
+          "@type":"itms",
+          "act:hasOwner":{
+             "@id":"ppl:alumnos/Pedro",
+             "@type":"ppl",
+                "act:hasName":{
+                "name":"Pedro"
+             }
+          }
+       }
+    ]
+ }
