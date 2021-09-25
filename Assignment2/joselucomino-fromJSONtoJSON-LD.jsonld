@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "person": "http://www.w3.org/2003/01/person/",
+    "subject": "http://www.w3.org/2006/subject/sb#",
+    "name": "rdfs:label",
+    "age": "rdfs:label"
+  },
+  "@id": "http://www.assignment2.org/joselucomino",
+  "@type": "person",
+  "name": "José Luis Comino Aparicio",
+  "age": 21,
+  "subjects": [
+    {
+      "@id": "http://www.fi.upm.es/GPTI",
+      "@type": "subject",
+      "name": "Gestión de procesos de tecnologías de la información",
+      "teachers": [
+      	{
+      	  "@id": "http://www.edmundo.org",
+      	  "@type": "person",
+      	  "name": "Edmundo"
+        },
+    	{	
+          "@id": "http://www.oscar.org",
+          "@type": "person",
+          "name": "Óscar"
+    
+        }
+      ]
+    },
+    {
+      "@id": "http://www.fi.upm.es/EPAC",
+      "@type": "subject",
+      "name": "English For Professional And Academic Communication",
+      "teachers": [
+      	{
+      	  "@id": "http://www.elenamontiel.org",
+      	  "@type": "person",
+      	  "name": "Elena"
+        },
+    	{	
+          "@id": "http://www.jelenabobkina.org",
+          "@type": "person",
+          "name": "Jelena"
+    
+        }
+      ]
+    }
+  ]
+}
