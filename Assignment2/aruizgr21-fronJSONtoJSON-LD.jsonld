@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "yo": "http://yo.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "Antonio Ruiz García",
+  "data": [
+    { "@id": "Las Rozas", "@type": "hometown" },
+    { "@id": "21", "@type": "age" },
+    {
+      "@id": "Parents",
+      "includes": [{ "@id": "Vicente" }, { "@id": "Virginia" }]
+    },
+    {
+      "@id": "ETSIINF",
+      "@type": "almaMater",
+      "@subjects": [
+        {
+          "@id": "GPTI",
+          "teacher": "Edmundo",
+          "description": "Process managing"
+        },
+        {
+          "@id": "Reconocimiento de Formas",
+          "teacher": "Luis",
+          "description": "Recongnise forms"
+        },
+        {
+          "@id": "ISII",
+          "teacher": "Tomas",
+          "description": "Software Engineering"
+        }
+      ]
+    }
+  ]
+}
