@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "person": "http://xmlns.com/foaf/0.1/Person/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "name": "http://xmlns.com/foaf/0.1/name/",
+    "hometown": "rdfs:label",
+    "age": "rdfs:label",
+    "university": "rdfs:label",
+    "parents": "rdfs:label",
+    "subject": "http://www.w3.org/subject/"
+  },
+  "@id": "http://my-web.com/JesusJerez",
+  "@type": "person",
+  "name": "Jesús Jerez Ballesteros",
+  "hometown": "Alicante",
+  "age": 24,
+  "university": "UPM",
+  "parents": [
+    {
+      "@type": "person",
+      "name": "Maria Victoria"
+    },
+    {
+      "@type": "person",
+      "name": "Antonio Jesús"
+    }
+  ],
+  "subjects": [
+    {
+      "@id": "http://upm.com/ETSIINF/IS2",
+      "@type": "subject",
+      "name": "Ingeniería del Software II",
+      "teachers": [
+        {
+          "@type": "person",
+          "name": "Ana María"
+        },
+        {
+          "@type": "person",
+          "name": "Tomás"
+        }
+      ],
+      "briefDescription": "Burocracia"
+    },
+    {
+      "@id": "http://upm.com/ETSIINF/ASI",
+      "@type": "subject",
+      "name": "Administración de sistemas informáticos",
+      "teachers": [
+        {
+          "@type": "person",
+          "name": "Frosales"
+        },
+        {
+          "@type": "person",
+          "name": "Costoya"
+        }
+      ],
+      "briefDescription": "Minishell 2.0"
+    },
+    {
+      "@id": "http://upm.com/ETSIINF/GPTI",
+      "@type": "subject",
+      "name": "Gestión de procesos TI",
+      "teachers": [
+        {
+          "@type": "person",
+          "name": "Edmundo"
+        },
+        {
+          "@type": "person",
+          "name": "Oscar"
+        }
+      ],
+      "briefDescription": "Empresa"
+    }
+  ]
+}
