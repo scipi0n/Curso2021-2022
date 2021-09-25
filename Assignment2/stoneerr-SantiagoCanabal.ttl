@@ -1,0 +1,23 @@
+@base <http://www.oeg-upm.net/ontologies/> .
+@prefix cls: <http://www.oeg-upm.net/ontologies/class/> .
+@prefix cmp: <http://www.oeg-upm.net/ontologies/computer/> .
+@prefix u: <http://www.oeg-upm.net/ontologies/user/> .
+@prefix s: <http://www.oeg-upm.net/ontologies/sensor/> .
+@prefix m: <http://www.oeg-upm.net/ontologies/measurement/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cls:class01
+	cls:includes s:sensor029, cmp:computer101.
+
+cmp:computer101
+	cmp:hasOwner u:user10A.
+
+u:user10A
+	u:hasName "Pedro".
+
+s:sensor029
+	s:hasMeasurement m:measurement8401.
+
+m:measurement8401
+	m:hasTemperature "29"^^xsd:integer;
+	m:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
