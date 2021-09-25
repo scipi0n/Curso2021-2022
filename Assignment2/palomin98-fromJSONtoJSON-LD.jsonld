@@ -1,50 +1,41 @@
 {
-    "@context" : {
-        "xsd" : "http://www.w3.org/2001/XMLSchema#",
-        "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-        "clase" : "http://example.org#",
-        "info" : "http://example.org/info",
-        "includes" : "clase:includes",
-        "hasMeasurement" : "clase:hasMeasurement/",
-        "hasTemperature" : "clase:hasTemperature/",
-        "atTime" : "clase:atTime/",
-        "hasOwner" : "clase:hasOwner/",
-        "hasName" : "clase:hasName/"
+	"@context": {
+		"student": "http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"fullName":"student:fullName",
+		"homeTown":"student:homeTown",
+		"age":"student:age",
+		"materAlm":"student:materAlm",
+		"nameParents":"student:nameParents",
+		"subjects":"student:subjects",
+      	"subjectName":"student:subjectName",
+      	"teachers":"student:teachers",
+      	"description":"student:description"
     },
-    "@graph" : [
-      {
-        "@id" : "http://example.org/Class01",
-        "@type" : "clase:Class01",
-        "includes" : [
-          {
-            "@id" : "http://example.org/Class01/Sensor029",
-            "@type" : "clase:Sensor029",
-            "hasMeasurement" : {
-                "@id" : "http://example.org/Class01/Sensor029/Measurement8401",
-                "@type" : "clase:Measurement8401",
-                "hasTemperature" : {
-                    "@value" : "29",
-                    "@type" : "xsd:integer"
-                  },
-                  "atTime" : {
-                    "@value" : "2010-06-12T12:00:12",
-                    "@type" : "xsd:dateTime"
-                  }
-              }
-          },
-          {
-            "@id" : "http://example.org/Class01/Computer101",
-            "@type" : "clase:Computer101",
-            "hasOwner" : {
-                "@id" : "http://example.org/Class01/Computer101/User10A",
-                "@type" : "clase:User10A",
-                "hasName" : {
-                    "@value" : "Pedro",
-                    "@type" : "xsd:string"
-                  }
-            }      
-          }
-        ]
-      }
-    ]
-  }
+	"@id":"http://UPMStudent.com/Ruben_Palomo",
+	"@type":"student",
+	"fullName":"Ruben Palomo Yuste",
+	"homeTown":"Fuenlabrada",
+	"age":23,
+	"materAlm": "Cristina",
+	"nameParents": ["MCarmen Yuste","Miguel Palomo"],
+	"subjects":[{
+			"subjectName":"Semantic Web, Linked Data and Knowledge Graphs",
+			"teachers":"oscar.corcho@upm.es",
+			"description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs"
+			},
+			{
+			"subjectName":"GPTI",
+			"teachers":"edmundo.tovar@upm.es",
+			"description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+			},{
+			"subjectName":"IS 2",
+			"teachers":"joseantonio.calvomanzano@upm.es",
+			"description":"La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectos aprendidos tanto en asignaturas previas del grado como en la propia asignatura."
+			},{
+			"subjectName":"Programming for mobile devices",
+			"teachers":"raul.alonso@upm.es",
+			"description":"El curso se centrará en la creación de interfaces gráficos de usuario sencillos (GUI) utilizando herramientas avanzadas de desarrollo que permitan crear aplicaciones funcionales y simples."
+			}
+		]
+}
