@@ -1,0 +1,14 @@
+@prefix ej:  <http://www.example.com/ej1b/>.
+@prefix elem: <http://www.example.com/ej1b/elements/> .
+@prefix prop: <http://www.example.com/ej1b/properties/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+ej:Class01 elem:includes ej:Sensor029; elem:includes ej:Computer101.
+
+ej:Sensor029 prop:hasMeasurement ej:Measurement8401.
+
+ej:Measurement8401 prop:hasTemperature "29"^^xsd:integer; prop:atTime "2010-06-12T12:00:12"^^xsd:DateTime.
+
+ej:Computer101 prop:hasOwner ej:User10A.
+
+ej:User10A prop:hasName: "Pedro".

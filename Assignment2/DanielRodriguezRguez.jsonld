@@ -1,0 +1,44 @@
+{
+  "@context":{
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
+    "clase": "http://www.ontologies.org/ontologies/Class#",
+    "includes":"clase:includes",
+    "hasOwner":"clase:hasOwner",
+    "hasMeasurement":"clase:hasMeasuremet",
+    "hasTemperature":"clase:hasTemperature",
+    "atTime":"clase:atTime",
+    "hasName":"clase:hasName"
+     },
+    "@id":"clase:Class01",
+    "@type":"clase:Class",
+  	"includes":[
+      {
+          "@id":"clase:Sensor029",
+          "@type":"clase:Sensor",
+          "hasMeasurement":{
+          	"@id":"Measurement8401",
+            "@type":"clase:Measurement",
+            "hasTemperature":{
+              "@type":"xsd:long",
+              "@value":"29"
+            },
+            "atTime":{
+              "@type":"xsd:dateTime",
+              "@value":"2010-06-12T12:00:12"
+            }
+           }
+      },
+      {
+      "@id":"clase:Computer101",
+      "@type":"clase:Computer",
+        "hasOwner":{
+        "@id":"User10A",
+        "@type":"clase:User",
+          "hasName":{
+            "@type":"xsd:string",
+            "@value":"Pedro"
+          }
+        }  
+      }
+  ]
+}
