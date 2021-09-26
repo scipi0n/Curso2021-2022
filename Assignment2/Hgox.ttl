@@ -1,0 +1,14 @@
+@base  <http://www.oeg-upm.net/ontologies/assigment2/> 
+@prefix v <http://www.ontologies.org/ontologies/assigment2#> 
+
+:Class01 v:includes :Sensor029;
+         v:includes :Computer101.
+
+:Sensor029 v:hasMeasurement :Measurement8401.
+
+:Measurement8401 v:hasTemperature "29"^^xsd:integer; 
+                 v:atTime "2010-06-12T12:00:12"^^xsd:dateTime;.
+
+:Computer101 v:hasOwner :User10A.
+
+:User10A v:hasName :"Pedro".

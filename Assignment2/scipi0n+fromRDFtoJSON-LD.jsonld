@@ -1,0 +1,22 @@
+[
+  {"@id":"http://www.ontogrid.net/Tarea1#Class01","http://www.ontogrid.net/Tarea1#includes":[
+           {"@id":"http://www.ontogrid.net/Tarea1#Sensor029"},
+           {"@id":"http://www.ontogrid.net/Tarea1#Computer101"}]
+  },
+  {"@id":"http://www.ontogrid.net/Tarea1#Computer101",
+   "http://www.ontogrid.net/Tarea1#hasOwner":[
+     {"@id":"http://www.ontogrid.net/Tarea1#User10A"}]
+  },
+  {"@id":"http://www.ontogrid.net/Tarea1#Measurement8401",
+   "http://www.ontogrid.net/Tarea1#hasTemperatura":[{"@value":29}],
+   "http://www.ontogrid.net/Tarea1#atTime":[
+     {"@value":"2010-06-12T12:00:12","@type":"http://www.w3.org/2001/XMLSchema#dateTime"}]
+  },
+  {"@id":"http://www.ontogrid.net/Tarea1#Pedro"},
+  {"@id":"http://www.ontogrid.net/Tarea1#Sensor029","http://www.ontogrid.net/Tarea1#hasMeasurement":[
+    {"@id":"http://www.ontogrid.net/Tarea1#Measurement8401"}]
+  },
+  {"@id":"http://www.ontogrid.net/Tarea1#User10A","http://www.ontogrid.net/Tarea1#hasName":[
+    {"@id":"http://www.ontogrid.net/Tarea1#Pedro"}]
+  }
+]

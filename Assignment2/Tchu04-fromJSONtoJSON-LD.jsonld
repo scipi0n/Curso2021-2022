@@ -1,0 +1,50 @@
+{
+	"@context":{
+      "person":"http://people.org/person",
+      "name": "person:name",
+      "city": "name:city",
+      "age": "name:age",
+      "school":"name:school",
+      "f_name":"name:f_name",
+      "m_name":"name:m_name",
+      "subjects": "name:subjects",
+      "action":"http://people.org/action",
+      "type":"http://people.org/datatype"
+	},
+  "@id": "person:TianceHu",
+  "@type": "type:person",
+  "action:hasName":{
+    "@id":"name:TianceHu",
+    "@type":"type:name"
+  },
+  "action:hascity":{
+    "@id":"city:WenZhou",
+    "@type":"type:city"
+  },
+  "action:hasAge":{
+    "@id":"Age:22",
+    "@type":"type:Age"
+  },
+  "action:hasSchool":{
+    "@id":"School:IES_Pedro_Salinas",
+    "@type":"type:School"
+  },
+  "action:Mother_name":{
+    "@id":"name:XiaoweiYin",
+    "@type":"type:name"
+  },
+  "action:Father_name":{
+    "@id":"name:ShiwuHu",
+    "@type":"type:name"
+  },
+  "action:hasSubjects":{
+    "@id":"subjects:WebSemantic",
+    "@type":"type:subjects",
+    "action:teacherName":{
+      "@id":"name:Oscar",
+      "@type":"type:name"      
+    },
+    "action:Description":"LinkedData"
+  }
+  
+}
