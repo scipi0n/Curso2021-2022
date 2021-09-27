@@ -1,0 +1,23 @@
+@base    <http://www.ontologies.org/ontologies/tarea2/>.
+@prefix  cla: <http://www.ontologies.org/ontologies/class#>.
+@prefix  sen: <http://www.ontologies.org/ontologies/sensor#>.
+@prefix  com: <http://www.ontologies.org/ontologies/computer#>.
+@prefix  use: <http://www.ontologies.org/ontologies/user#>.
+@prefix  mea: <http://www.ontologies.org/ontologies/measurement#>.
+
+cla:Class01 
+	 cla:includes sen:Sensor029;
+         cla:includes com:Computer101.
+
+sen:Sensor029 
+	sen:hasMeasurement mea:Measurement8401.
+
+com:Computer101 
+	com:hasOwner use:User10A.
+
+use:User10A 
+	use:hasName "Pedro"^^xsd:string.
+
+mea:Measurement8401 
+	mea:hasTemperature "29"^^xsd:integer;
+        mea:atTime "2010-06-12T12:00:12"^^xsd:dateTime.

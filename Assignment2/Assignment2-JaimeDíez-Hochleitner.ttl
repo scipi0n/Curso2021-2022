@@ -1,0 +1,11 @@
+@base <http://assignment2.org/>.
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://assignment2.org/resource/Class01>.
+
+<Class01> dbo:includes _:Sensor029, _:Computer01.
+Sensor029 dbo:hasMeasurement _:Measurement8401.
+Computer101 dbo:hasOwner _:User10A.
+Measurement8401 dbo:hasTemperature "29"^^xsd:integer,
+                dbo:atTime "2010-06-12T12:00:12"^^xsd:date.
+User10A dbo:hasName "Pedro"^^xsd:string.

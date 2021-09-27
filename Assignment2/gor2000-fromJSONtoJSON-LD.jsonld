@@ -1,0 +1,33 @@
+{
+	"@context":{
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"upm": "http://www.upm.es/2021#"
+		"fullName": "rdfs:label",
+		"homeTown": "rdfs:label",
+		"age": : "rdfs:label",
+    	"almaMater": "rdfs:label",
+		"parentsName": "rdfs:label",
+		"subjects" : "upm:subjects"
+	},
+	"fullName": "Jorge Garcia Martin",
+	"homeTown": "Madrid",
+	"age": : {
+        "@value": "21",
+        "@type": "xsd:int"
+      },
+    "almaMater": "UPM",
+	"parentsName": "Joaquin & Cristina",
+	"subjects" : [
+		{
+			"name":		   "EPAC",
+			"teachers":    ["Elena Montiel","Hanane Benali"],
+			"description": "English subject" 
+		},
+		{
+			"name":		   "Administracion de Sistemas Informaticos",
+			"teachers":    ["Gabriel Cebrian","Fernando Pérez Costoya"],
+			"description": "Sysadmin subject" 
+		}		
+	]
+}

@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "age": "23",
+      "name": "Arturo Andres Silva Sanguino",
+      "almaMater": "UPM",
+      "hometown": "San Cristobal, Tachira, Venezuela",
+  "parents": [
+    "Soledad",
+    "Arturo"
+  ],
+	    "subjects" : { 
+          "Reconocimiento de Formas": {
+            "@type": "Class",
+            "Teachers": [
+              "Peter",
+              "Francisco"
+            ],
+            "Description": [
+              "Machine Learning Algorithms"
+            ]
+          },
+          "Trabajo de Fin de Grado": {
+            "@type": "Class",
+            "Teachers": [
+              "Arminda",
+              "Alvaro"
+            ],
+            "Description": [
+              "Building an app for an e-commerce store"
+            ]
+            
+          },
+          "Semantic Web": {
+            "@type": "Class",
+            "Teachers": [
+              "Ocorcho",
+              "David"
+            ],
+            "Description": [
+              "How does linked data work in the web"
+            ]
+            
+          }
+}
+    }
