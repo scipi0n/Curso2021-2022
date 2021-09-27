@@ -1,0 +1,9 @@
+@prefix pr: <http://ex.org/#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+pr:Class01 pr:includes pr:Computer101;
+pr:includes pr:Sensor029.
+pr:Sensor029 pr:hasMeasurement pr:Measurement8401.
+pr:Measurement8401 pr:hasTemperature "29"^^xsd:integer;
+pr:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+pr:Computer101 pr:hasOwner pr:User10A.
+pr:User10A pr:hasName "Pedro"^^xsd:string.
