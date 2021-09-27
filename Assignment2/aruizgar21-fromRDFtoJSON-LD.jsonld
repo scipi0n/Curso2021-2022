@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "pr": "http://ex.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pr:hasTemperature": {
+      "@type": "xsd:integer"
+    },
+    "pr:atTime": {
+      "@type": "xsd:dateTime"
+    },
+    "pr:hasName": {
+      "@type": "xsd:string"
+    },
+    "pr:Class01": "http://ex.org/#Class01",
+    "pr:Computer101": "http://ex.org/#Computer101",
+    "pr:Measurement8401": "http://ex.org/#Measurement8401",
+    "pr:Sensor029": "http://ex.org/#Sensor029",
+    "pr:User10A": "http://ex.org/#User10A",
+    "pr:includes": "http://ex.org/#includes",
+    "pr:hasOwner": "http://ex.org/#hasOwner",
+    "pr:hasMeasurement": "http://ex.org/#hasMeasurement"
+  },
+  "@id": "class01",
+  "@type": "class",
+  "@includes": [
+    {
+      "@id": "Sensor029",
+      "@type": "sensor",
+      "hasMeasurement": [
+        {
+          "@id": "Measurement8401",
+          "@type": "measurement",
+          "atTime": [{ "@id": "2010-06-12T12:00:12", "@type": "time" }],
+          "hasTemperature": [{ "@type": "temperature", "@id": "29" }]
+        }
+      ]
+    },
+    {
+      "@type": "computer",
+      "@id": "Computer101",
+      "hasOwner": [
+        { "@type": "user", "@id": "User10A", "hasName": [{ "@id": "Pedro" }] }
+      ]
+    }
+  ]
+}

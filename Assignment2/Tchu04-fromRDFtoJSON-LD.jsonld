@@ -1,0 +1,37 @@
+{
+	"@context":{ 
+		"person": "http://rdfscheme.org/person",
+		"material": "http://rdfscheme.org/material",
+		"side": "http://rdfscheme.org/side",
+		"action": "http://rdfscheme.org/action"
+	},
+  "@id": "side:Class01",
+  "@type": "side",
+  "action:includes":[
+    {"@id":"material:Sensor029",
+     "@type":"material",
+     "action:hasMeasurement":
+       {"@id":"person:Measurement8401",
+       "@type": "person",
+       "action:hasTemperature":
+        {"@id": "action:hasTemperature/29",
+         "@type": "http://rdfscheme.org/datatype/integer"},
+        "action:atTime":
+        {"@id":"action:atTime/2010-06-12T12:00:12",
+         "@type":"http://rdfscheme.org/datatype/dataTime"}
+     }
+    },
+    {
+      "@id":"material:Computer101",
+     "@type":"material",
+      "action:hasOwner":{
+        "@id":"person:User10A",
+        "@type":"person",
+        "action:hasName":{
+          "@id":"action:hasName/Pedro",
+         "@type":"http://rdfscheme.org/datatype/string"
+        }
+      }
+    }
+  ]
+}
