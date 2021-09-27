@@ -34,6 +34,7 @@ for s, p, o in g:
 
 # TO DO
 # Visualize the results
+
 ns = Namespace("http://somewhere#")
 g.add((ns.University,RDF.type,RDFS.Class))
 for s, p, o in g:

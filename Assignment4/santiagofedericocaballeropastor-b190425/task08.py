@@ -20,6 +20,7 @@ g2.parse(github_storage+"/rdf/data02.rdf", format="xml")
 
 """Tarea: lista todos los elementos de la clase Person en el primer grafo (data01.rdf) y completa los campos (given name, family name y email) que puedan faltar con los datos del segundo grafo (data02.rdf). Puedes usar consultas SPARQL o iterar el grafo, o ambas cosas."""
 
+
 from rdflib.plugins.sparql import prepareQuery
 from rdflib.namespace import RDF, RDFS
 ns=Namespace("http://data.org#")

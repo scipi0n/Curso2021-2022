@@ -25,6 +25,7 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 # TO DO
 # Visualize the results
+
 from rdflib.plugins.sparql import prepareQuery
 ns=Namespace("http://somewhere#")
 
