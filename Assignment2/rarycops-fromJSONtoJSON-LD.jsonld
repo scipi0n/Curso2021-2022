@@ -1,0 +1,53 @@
+{
+    "@context":
+    {
+        "rdfs":"http://www.w3.org/2000/01/rdfs-schema#",
+        "name":"http://xmlns.com/foaf/0.1/name",
+        "person":"http://xmlns.com/foaf/0.1/Person",
+        "homepage":"http://xmlns.com/foaf/0.1/homepage",
+        "subject":"rdfs:label",
+        "description":"rdf:label",
+        "alma_mater":"rdf:label",
+        "age":"rdf:label",
+        "hometown":"rdf:label"
+    },
+    
+    "@id":"full_name:Miguel_Jorge",
+    "@type":"person",
+    "person:firstName":"Miguel",
+    "person:lastName":"Jorge",
+    "hometown":"https://hoxe.vigo.org/",
+    "age":"21",
+    "alma_mater":"N/a",
+    "mother_name":
+    {
+        "name":"Monica Garcia-Munoz"
+    },
+    "father_name":
+    {
+        "name":"Jose Ignacio Jorge"
+    },
+    "subjects":
+    [
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=689",
+            "@type":"homepage",
+            "subject":
+            {
+                "name":"Semantic Web"
+            },
+            "name":"Oscar Corcho",
+            "description":"~~~~~~"
+        },
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=1564",
+            "@type":"homepage",
+            "subject":
+            {
+                "name":"Administracion de Sistemas"
+            },
+            "name":"Gabriel Cebrian",
+            "description":"~~~~~"
+        }
+    ]
+}

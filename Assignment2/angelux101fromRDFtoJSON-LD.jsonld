@@ -1,0 +1,45 @@
+{
+	"@context":{
+	"class":"http://www.oeg-upm.net/class/",
+	"xsd": "http://www.w3.org/2001/XMLSchema#",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ob":"http://www.oeg-upm.net/",
+	"voc":"http://www.oeg-upm.net/T1/Vocab",
+	"hasTemperature":{
+		"@id":"voc:hasTemperature"
+		"@type":"xsd:integer"
+	},                   
+	"hasName":"rdfs:label",
+	"atTime":{
+		"@id":"voc:atTime"
+		"@type":"xsd:dateTime"		
+	},
+	"includes":{
+		"@id":"voc:includes"
+	}
+	}
+	
+	"@id":"class:Class01",
+	"@type": "class",
+	"voc:includes":[
+		{
+			"@id":"ob:Sensor029",
+			"@type": "ob",
+			"voc:hasMeasurement":{
+				"@id":"ob:Measurement8401",
+				"@type": "ob",
+				"hasTemperature":"29",
+				"atTime":"2010-06-12T12"
+			}
+		}
+		{
+			"@id":"ob:Computer101"
+			"@type": "ob",
+			"voc:hasOwner":{
+				"@id":"ob:User10A"
+				"@type": "ob",
+				"hasName":"Pedro"
+			}
+		}
+	]
+}
