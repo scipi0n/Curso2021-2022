@@ -1,0 +1,13 @@
+@base <http://www.oeg-upm.net/>.
+@prefix class: <http://www.oeg-upm.net/class#/>.
+@prefix component: <http://www.oeg-upm.net/component/>.
+@prefix measurement: <http://www.oeg-upm.net/measurement/>.
+@prefix user: <http://www.oeg-upm.net/user/>.
+
+:Class01		class:includes: Sensor029;
+			class:includes: Computer101.
+:Sensor029		component:hasMeasurement: Measurement8401.
+:Computer101		component:hasOwner: User10A.
+:Measurement8401	measurement:hasTemperature "29"^^xsd:integer;
+			measurement:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:User10A		user:hasName "Pedro".

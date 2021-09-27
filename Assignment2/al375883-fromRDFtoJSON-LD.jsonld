@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "x": "http://www.ontogrid.net/StickyNote#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xs": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://www.ontogrid.net/StickyNote/Sensor029",
+      "x:hasMeasurement": {
+        "@id": "http://www.ontogrid.net/StickyNote/Measurement8401"
+      }
+    },
+    {
+      "@id": "http://www.ontogrid.net/StickyNote/Measurement8401",
+      "x:atTime": {
+        "@type": "xs:date",
+        "@value": "2010-06-12T12:00:12"
+      },
+      "x:hasTemperature": {
+        "@type": "xs:integer",
+        "@value": "29"
+      }
+    },
+    {
+      "@id": "http://www.ontogrid.net/StickyNote/Class01",
+      "x:includes": [
+        {
+          "@id": "http://www.ontogrid.net/StickyNote/Sensor029"
+        },
+        {
+          "@id": "http://www.ontogrid.net/StickyNote/Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ontogrid.net/StickyNote/Computer101",
+      "x:hasOwner": {
+        "@id": "http://www.ontogrid.net/StickyNote/User10A"
+      }
+    },
+    {
+      "@id": "http://www.ontogrid.net/StickyNote/User10A",
+      "x:hasName": {
+          "@type": "xs:string",
+          "@value": "Pedro"
+         }
+    }
+  ]
+}
