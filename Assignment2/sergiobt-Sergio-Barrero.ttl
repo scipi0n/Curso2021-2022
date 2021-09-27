@@ -1,0 +1,15 @@
+@base <http://www.assignment2a.com> .
+@prefix vocabulary: <http://www.assignment2a.com/vocabulary#> .
+
+:Class01 vocabulary:includes :Sensor029 ;
+         vocabulary:includes : Computer101 .
+
+:Sensor029 vocabulary:hasMeasurement :Measurement8401 .
+
+:Measurement8401 vocabulary:hasTemperature 29^^xsd:integer ;
+                 vocabulary:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+:Computer101 vocabulary:hasOwner :User10A .
+
+:User10A vocabulary:hasName "Pedro"^^xsd:string .
+

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "base": "http://example.org/assignment2a#",
+        "vocab": "http://example.org/assignment2a/vocab#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "http://example.org/assignment2a/Class01",
+    "@type": "base:Class",
+    "vocab:includes": [
+        {
+            "@id": "http://example.org/assignment2a/Sensor029",
+            "@type": "base:Sensor",
+            "vocab:hasMeasurement": [
+                {
+                    "@id": "http://example.org/assignment2a/Measurement8401",
+                    "@type": "base:Measurement",
+                    "vocab:hasTemperature": {
+                        "@type": "xsd:Integer",
+                        "@value": "29"
+                    },
+                    "vocab:atTime": {
+                        "@type": "xsd:DateTime",
+                        "@value": "2010-06-12T12:00:12"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "http://example.org/assignment2a/Computer101",
+            "@type": "base:Computer",
+            "vocab:hasOwner": [
+                {
+                    "@id": "http://example.org/assignment2a/User10A",
+                    "@type": "base:User",
+                    "vocab:hasName": {
+                        "@type": "xsd:String",
+                        "@value": "Pedro"
+                    }
+                }
+            ]
+        }
+    ]
+}
