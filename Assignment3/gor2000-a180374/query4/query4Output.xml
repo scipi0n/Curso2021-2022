@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="value"/>
+  <variable name="property"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="value"><literal xml:lang="en">Balogun Yakub Abiodun</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balozi Harvey</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balraj Madhok</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balraj Pasi</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balram Das</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balram Das Tandon</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="ca">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="es">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="it">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="pl">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="ru">Джакхар, Балрам</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="sv">Balram Jakhar</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balram Naik</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Balram Singh Rai</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="ar">محمد باشا البلطجي</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="ca">Baltadji Mehmed Paixà</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="de">Baltaji Mehmed Pascha</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="en">Baltacı Mehmet Pasha</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="value"><literal xml:lang="fr">Baltacı Mehmed Pacha</literal></binding>
+   <binding name="property"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+ </results>
+</sparql>

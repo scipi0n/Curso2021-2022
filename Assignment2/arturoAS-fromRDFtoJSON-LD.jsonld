@@ -1,0 +1,19 @@
+{ "@context": "https://schema.org",
+ "name": "Class01",
+ "@type": "Place",
+    "Sensor029":{
+      "@type": "Includes",
+      "Measurement8401": {
+        "@type": "Measurement",
+        "temperature": "29",
+        "time": "2010-06-12T12:00:12"
+    }
+    },
+    "Computer101":{
+      "@type": "Includes",
+      "User10A": {
+        "@type": "User",
+      "name": "Pedro"
+    }
+    }
+ }

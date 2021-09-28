@@ -1,0 +1,117 @@
+{
+    "@context": {
+        "person": "http://www.ontogrid.net/person/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "name": "rdfs:label",
+        "hometown": "rdfs:label",
+        "age": "rdfs:label",
+        "description":"rdfs:label",
+        "alma mater": "rdfs:label",
+        "parents": "http://www.ontogrid.net/parents#",
+        "subjects": "http://www.ontogrid.net/subject#",
+        "teachers": "http://www.ontogrid.net/teacher#"
+    },
+    "@id": "http://www.ontogrid.net/person/IFU",
+    "@type": "person",
+    "name": "Iker Fernández Ubierna",
+    "hometown": "San Agustín del Guadalix",
+    "age": 25,
+    "alma mater": "Universidad Politécnica de Madrid",
+    "parents": 
+  	[
+        {
+          	"@id":"person:JFV",
+            "@type": "person",
+            "name":"Juan Fernández Vázquez"
+        },
+        {
+          	 "@id":"person:SUP",
+             "@type": "person",
+             "name": "Sonia Ubierna Plaza"
+        }
+   	],
+    "subjects": [
+        {
+            "@id": "105000057",
+            "@type": "subject",
+            "name": "Semantic Web",
+            "teachers": [
+                {
+                  	"@id":"person:OC",
+                    "@type": "teacher",
+                    "name":"Oscar Corcho"
+                },
+                {
+                  	"@id":"person:RG",
+                    "@type": "teacher",
+                    "name": "Raul García"
+                }
+              ],
+            "description": "The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs"
+        },
+       {
+            "@id": "105000059",
+            "@type": "subject",
+            "name": "reconocimiento de formas",
+            "teachers": [
+                {
+                  	"@id":"person:LB",
+                    "@type": "teacher",
+                    "name":"Luis Baumela"
+                },
+                {
+                  	"@id":"person:DM",
+                    "@type": "teacher",
+                    "name": "Darío Maravall"
+                }
+              ],
+            "description": "El temario de esta asignatura comprende los siguientes grandes bloques:1. Reconocimiento supervisado determinístico y estadístico. 2.- Reconocimiento no supervisado o técnicas de clustering. 3. Preprocesamiento de datos y´transformaciones reductoras de la dimensionalidad de las variables discriminantes. 4. Estimación del rendimiento de un reconocedor mediante validación cruzada. 5. Reconocimiento basado en el aprendizaje."
+       },
+       {
+            "@id": "105000010",
+            "@type": "subject",
+            "name": "Gestion de procesos de tecnologias de la informacion",
+            "teachers": [
+                {
+                  	"@id":"person:OD",
+                    "@type": "teacher",
+                    "name":"Oscar Dieste"
+                },
+                {
+                  	"@id":"person:ET",
+                    "@type": "teacher",
+                    "name": "Edmundo Tovar"
+                },
+                {
+                  	"@id":"person:SVH",
+                    "@type": "teacher",
+                    "name": "Sira Vegas Hernandez"
+                },
+                {
+                  	"@id":"person:JRS",
+                    "@type": "teacher",
+                    "name": "Jose Ramon Sanchez"
+                }
+              ],
+              "description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+       },
+       {
+            "@id": "105000395",
+            "@type": "subject",
+            "name": "Introduction to bioinformatics and biocomputing",
+            "teachers": [
+                {
+                  	"@id":"person:PA",
+                    "@type": "teacher",
+                    "name":"Paul Andrei"
+                },
+                {
+                  	"@id":"person:AVR",
+                    "@type": "teacher",
+                    "name": "Alfonso Vicente Rodriguez-Paton"
+                }
+              ],
+            "description": "This is a first Bioinformatics course for Computer Science audience mostly. The course will be addressed to the students interested in Bioinformatics and research, the students will be exposed both to the basics of the Bioinformatics field and also to recent results in the area and closely related areas (Systems Biology, Biostatistics, etc.). "
+       }
+    ]
+}
