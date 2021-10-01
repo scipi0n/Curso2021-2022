@@ -1,4 +1,4 @@
-Group 01
+HandsOn: Group 01
 ==================
 
 ## Group members:
