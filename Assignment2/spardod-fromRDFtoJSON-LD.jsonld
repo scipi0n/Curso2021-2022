@@ -1,0 +1,47 @@
+{
+	"@context":{
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+		"user":"http://one-web.com/users",
+		"computer":"http://one-web.com/computers",
+		"class":"http://one-web.com/classes",
+		"sensor":"http://one-web.com/sensors",
+		"measurement":"http://one-web.com/measurements",
+		"includes":"rdfs:label",
+		"hasMeasurement":"rdfs:label",
+		"hasOwner:"rdfs:label",
+		"name":"rdfs:label",
+		"time":"dateTime",
+		"temperature:"rdfs:label",
+		"dateTime":http://www.w3.org/2001/XMLSchema#dateTime",
+		"atTime":"rdfs:label"
+		
+	
+	},
+	"@id":"http://one-web.com/classes/class01",
+	"@type":"class",
+	"includes[
+		{
+			"@id":"http://one-web.com/sensors/sensor029",
+			"@type":"sensor",
+			"hasMeasurement":{
+				"@id":"http://one-web.com/measurements/measurement8401",
+				"@type":"measurement",
+				"temperature":29,
+				"atTime":{
+					"@id":http://www.w3.org/2001/XMLSchema#dateTime/2010-06-12T12:00:12",
+					"@type:"time",
+					"time:"2010-06-12T12:00:12"
+				}
+			}	
+		},
+		{
+			"@id":"http://one-web.com/computers/computer101",,
+			"@type":"computer",
+			"hasOwner":{
+				"@id":"http://one-web.com/users/user10A",
+				"@type":"user",
+				"name":"Pedro"
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "ppl": "https://oeg.fi.upm.es/ontologies/people/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "name": "rdfs:label",
+        "hometown": "rdfs:Literal",
+        "age": "rdfs:Literal",
+        "almaMater": "rdfs:Literal",
+        "father": "rdfs:Literal",
+        "mother": "rdfs:Literal",
+        "sub": "https://oeg.fi.upm.es/ontologies/subjects/",
+        "teacher": "rdfs:Literal",
+        "description": "rdfs:comment"
+    },
+    "@id": "https://oeg.fi.upm.es/ontologies/people/alumnos/Javier",
+    "@type": "ppl:alumnos/",
+    "name": "Javier Sierra Rodríguez",
+    "hometown": "Coslada",
+    "age": 23,
+    "almaMater": "Universidad Politécnica de Madrid",
+    "father": "Amador",
+    "mother": "Nieves",
+    "subjects": [
+        {
+            "@id": "https://oeg.fi.upm.es/ontologies/subjects/nanotecnologia",
+            "@type": "sub",
+            "name": "Nanotecnología",
+            "teacher": "Estibaliz",
+            "description": "Los objetivos que se pretenden en la impartición de esta asignatura son además de evaluar las aplicaciones en el mundo de la Informática de la Nanotecnología y los límites de su aplicación, explicar cuáles son los límites y fronteras de los fundamentos científicos de la informática, y la base de las nanotendencias."
+        },
+        {
+            "@id": "https://oeg.fi.upm.es/ontologies/subjects/semantic-web",
+            "@type": "sub",
+            "name": "Semantic Web and Linked Data",
+            "teacher": "Óscar",
+            "description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+        }
+    ]
+}

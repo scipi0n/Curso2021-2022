@@ -1,0 +1,18 @@
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#>.
+@prefix as2:<http://oeg.fi.upm.es/Assignment2>.
+
+as2:Class01
+    as2:includes as2:Sensor029, as2:Computer101.
+
+as2:Sensor029
+    as2:hasMeasurement as2:Measurement8401.
+
+as2:Computer101
+    as2:hasOwner as2:User10A.
+
+as2:Measurement8401
+    as2:hasTemperature "29"^^xsd:integer;
+    as2:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+as2:User10A
+    as2:hasName as2:Pedro.
