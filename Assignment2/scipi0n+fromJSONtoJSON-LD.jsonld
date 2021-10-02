@@ -1,0 +1,27 @@
+{
+	"@context": {
+		"gg": "http://www.gonzaloguerra.es/api/catalogo",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"rdf": "http://www.w3.org/2000/01/rdf-schema#",	
+		"fullName": "rdfs:label",
+		"hometown": "rdfs:comment",
+		"age": "rdf:value",
+		"almaMater":  "rdfs:comment",
+		"parentsNames": "rdf:List",
+		"mother": "rdfs:label",
+		"father": "rdfs:label",
+		"semantic_web": "rdf:List",
+		"bioinformatics": "rdf:List"
+	},
+	"@id": "http://www.gonzaloguerra.es/api/recurso/persona",
+	"@type": "gg:persona",
+	"fullName":"Gonzalo Guerra Herrero",
+	"hometown":"Madrid",
+	"age":21,
+	"almaMater":"Universidad Politécnica de Madrid",
+	"parentsNames":{
+		"mother":"Almudena",
+		"father":"David"
+	},
+	"semantic-web":["Semantic Web, Linked Data and Knowledge Graphs","Oscar Corcho"]
+}
