@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "persona": "https://assignment2/personas#",
+        "asignatura": "persona:estudios"
+    },
+    "@id": "Victor",
+    "@type": "persona",
+    "fullName": [
+        {
+            "@id": "Victor Morcuende Castell",
+            "@type": "persona"
+        }
+    ],
+    "hometown": "Madrid", 
+    "age": "21",
+    "almaMater": "UPM",
+    "parentsName": [
+        {
+            "@id": "Miguel Angel",
+            "@type": "persona"
+        },
+        {
+            "@id": "Esther",
+            "@type": "persona"
+        }
+    ],
+    "subjects": [
+        {
+            "@id": "GPTI",
+            "@type": "asignatura",
+            "teacher": "Edmundo Tovar",
+            "description": "4th year subject"
+        },
+        {
+            "@id": "IS2",
+            "@type": "asignatura",
+            "teacher": "Tomas San Feliu",
+            "description": "4th year subject"
+        }
+    ]
+}

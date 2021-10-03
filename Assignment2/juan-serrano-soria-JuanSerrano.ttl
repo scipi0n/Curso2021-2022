@@ -1,0 +1,14 @@
+@base <example.org/assignment2a/>
+@prefix v: <example.org/assignment2a#>
+
+:Class01 v:includes :Sensor029M;
+         v:includes :Computer101.
+
+:Sensor029 v:hasMeasurement :Measurement8401.   
+
+:Measurement8401 v:hasTemperature "29"^^xsd:integer;
+                 v:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+:Computer101 v:hasOwner :User10A.
+
+:User10A v:hasName "Pedro".

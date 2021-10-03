@@ -1,0 +1,43 @@
+{
+  "@context": 
+  {
+    "base": "http://oeg.fi.upm.es/",
+	"a2": "http://oeg.fi.upm.es/2A#",
+    "atTime":
+    {
+      "@id":"a2:atTime",
+      "@type":"xsd:dateTime"
+    },
+    "hasTemperature":
+    {
+      "@id":"a2:hasTemperature",
+      "@type":"xsd:integer"
+    },
+    "hasName":
+    {
+      "@id":"a2:hasName"
+    },
+	"xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "base:Class01",
+  "a2:includes":
+  [
+    {
+      "@id":"base:Sensor029",
+      "a2:hasMeasurement" : 
+      {
+        "@id":"base:Measurement8401",
+        "hasTemperature":"29",
+        "atTime":"2010-06-12T12"
+      }
+    },
+    {
+     "@id":"base:Computer101",
+      "a2:hasOwner":
+      {
+        "@id":"base:User10A",
+        "hasName":"Pedro"
+      }
+    }
+  ]
+}
