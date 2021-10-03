@@ -8,12 +8,12 @@
 
 **The "csv" directory:**
 
-- [] Contains at least one CSV file 
-- [] The CSV files belong to one of the selected domains
+- [*] Contains at least one CSV file 
+- [*] The CSV files belong to one of the selected domains
 
 **The "datasetRequirements.html" file:**
 
-- [] Identifies the licenses of all the selected datasets
+- [*] Identifies the licenses of all the selected datasets
 - [] Identifies those entities in the selected datasets that can be linked with entities in other datasets
 - [] Identifies those entities in other datasets that can be linked with entities in the selected datasets 
 
