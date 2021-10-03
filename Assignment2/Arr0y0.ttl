@@ -1,0 +1,14 @@
+@prefix t1:  <http://oeg.fi.upm.es/Tarea1/>.
+@prefix voc: <http://oeg.fi.upm.es/Tarea1/vocab/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+t1:Class voc:includes t1:Sensor029;
+       voc:includes t1:Computer101.
+
+t1:Computer101 voc:hasOwner t1:User10A.
+
+t1:User10A voc:hasName "Pedro".
+
+t1:Sensor029 voc:hasMeasurement t1:Measurement8401.
+t1:Measurement8401 voc:hasTemperature "29"^^xsd:integer;
+		voc:atTime "2010-06-12T12:00:12"^^xsd:DateTime.

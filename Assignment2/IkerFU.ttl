@@ -1,0 +1,15 @@
+@prefix :  <http://oeg.fi.upm.es/>.
+@prefix a2: <http://oeg.fi.upm.es/2A#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:Class01         a2:includes       :Sensor029;
+                 a2:includes       :Computer101.
+
+:Computer101     a2:hasOwner       :User10A.
+
+:User10A         a2:hasName        "Pedro".
+
+:Sensor029       a2:hasMeasurement :Measurement8401.
+
+:Measurement8401 a2:hasTemperature "29"^^xsd:integer;
+		 a2:atTime         "2010-06-12T12:00:12"^^xsd:DateTime.
