@@ -1,0 +1,66 @@
+{
+	"@context": {
+	"name": "http://xmlns.com/foaf/0.1/name",
+	"xsd": "http://www.w3.org/2001/XMLSchema#",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"hometown":"rdfs:label",
+	"age":"rdfs:label",
+	"almaMater":"rdfs:label",
+    "subject": "http://www.w3.org/subject/",
+	"person": "http://xmlns.com/foaf/0.1/person"
+	}
+	"@id": "person:Angel",
+    "@type": "person",
+	"name":"Angel David Collados Ontaneda",
+	"hometown":"Madrid",
+	"age":"21",
+	"almaMater":"UPM"
+	"parents":[
+		{
+			"@type":"person",
+			"name":"Rosana"
+		},
+		{
+			"@type":"person",
+			"name":"Angel"
+		}
+	],
+	"subjects":[
+		{
+            "@id": "subject:nanotecnologia",
+            "@type": "subject",
+			"name":"SemanticWeb",
+			"teachers":[
+				{
+					"@id": "person:Osacar",
+					"@type":"person",
+					"name":"Oscar Corcho"
+				},
+				{
+					"@id": "person:Raul",
+					"@type":"person",
+					"name":"Raul Garcia"				
+				}
+			
+			],
+			"briefDescription":"json,json-ld"
+		},
+		{
+			"name":"GPTI",
+			"teachers":[
+				{
+					"@id": "person:OscarD",
+					"@type":"person",
+					"name":"Oscar Dieste"
+				},
+				{
+					"@id": "person:Edmundo",
+					"@type":"person",
+					"name":"Edmundo Tovar"				
+				}
+			
+			],
+			"briefDescription":"manage"		
+		}
+	]
+}
