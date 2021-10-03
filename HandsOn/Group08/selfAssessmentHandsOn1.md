@@ -23,3 +23,4 @@
 
 ## Comments on the self-assessment
 _(If required)_
+We are still missing a member. However, someone wrote me today to join out group, but I still dont know his full name or Github user.
