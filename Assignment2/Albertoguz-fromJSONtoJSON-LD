@@ -1,0 +1,66 @@
+{
+	"@context": {
+	"name": "http://xmlns.com/foaf/0.1/name",
+	"xsd": "http://www.w3.org/2001/XMLSchema#",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"hometown":"rdfs:label",
+	"age":"rdfs:label",
+	"almaMater":"rdfs:label",
+    "subject": "http://www.w3.org/subject/",
+	"person": "http://xmlns.com/foaf/0.1/person"
+	}
+	"@id": "person:Alberto",
+    "@type": "person",
+	"name":"Alberto Guzman Serrano",
+	"hometown":"Madrid",
+	"age":"26",
+	"almaMater":"UPM"
+	"parents":[
+		{
+			"@type":"person",
+			"name":"Mayte"
+		},
+		{
+			"@type":"person",
+			"name":"Alberto"
+		}
+	],
+	"subjects":[
+		{
+            "@id": "subject:nanotecnologia",
+            "@type": "subject",
+			"name":"Semantic Web, Linked Data and Knowledge Graphs",
+			"teachers":[
+				{
+					"@id": "person:Oscar",
+					"@type":"person",
+					"name":"Oscar Corcho"
+				},
+				{
+					"@id": "person:Raul",
+					"@type":"person",
+					"name":"Raul Garcia"				
+				}
+			
+			],
+			"briefDescription":"Linked data"
+		},
+		{
+			"name":"GPTI",
+			"teachers":[
+				{
+					"@id": "person:Edmundo",
+					"@type":"person",
+					"name":"Edmundo Tovar"
+				},
+				{
+					"@id": "person:Oscar",
+					"@type":"person",
+					"name":"Oscar Dieste"				
+				}
+			
+			],
+			"briefDescription":"Buenas prácticas de las empresas"		
+		}
+	]
+}
