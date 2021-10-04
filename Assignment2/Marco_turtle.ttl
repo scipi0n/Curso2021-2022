@@ -1,0 +1,15 @@
+@prefix rec: <http://www.oeg-upm.net/Tarea01/Recursos/>.
+@prefix voc: <http://www.oeg-upm.net/Tarea01/Vocab/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+rec:Class01 voc:includes rec:Sensor029;
+         voc:includes rec:Computer101.
+
+rec:Sensor029 voc:hasMeasurement rec:Measurement8401.
+
+rec:Measurement8401 voc:hasTemperature "29"^^xsd:integer;
+                 voc:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+rec:Computer101 voc:hasOwner rec:User10A.
+
+rec:User10A voc:hasName "Pedro"^^xsd:string.
