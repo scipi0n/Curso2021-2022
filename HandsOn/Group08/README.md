@@ -8,3 +8,6 @@
 ## Integrante 3
     Nombre: Gabriela Córdova Ortiz
     GitHub: gsco2907
+## Integrante 4
+    Nombre: Alvaro Casadejus Sevilla
+    Github: Casadejus
