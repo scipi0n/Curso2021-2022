@@ -29,8 +29,55 @@
                     <h2 class="card-title text-center">The analyses performed over the data source</h2>
                     <p class="card-text">
                         Los datos que hemos recogido constan de 2 CSV.<br>
-                        En primer lugar tenemos los datos de Centros Educativos de Madrid
+                        En primer lugar tenemos los datos de <b>Centros Educativos de Madrid:</b>
                     </p>
+                        <ul>
+                            <li>
+                                Identificador: valor numérico de 8 cifras, empieza por 28
+                            </li>
+                            <li>
+                                Nombre: valor de tipo String
+                            </li>
+                            <li>
+                                Tipo: valor String, pueden ser [PRIVADO, PRIVADO CONCERTADO, PÚBLICO, PÚBLICO-TITULARIDAD PRIVADA]
+                            </li>
+                            <li>
+                                Dirección: valor String, pueden ser [CALLE, AVDA, CTRA, PASEO,PLAZA, RONDA, SECT, CMNO]
+                            </li>
+                            <li>
+                                Código Postal: valor numérico de 5 cifras empieza por 28
+                            </li>
+                            <li>
+                                Municipio: valor numérico de [001-183]
+                            </li>
+                            <li>
+                                Coordenada_X: valor numérico de 6 cifras
+                            </li>
+                            <li>
+                                Coordenada_Y: valor numérico de 7 cifras
+                            </li>
+                        </ul>
+                    <p class="card-text">
+                        Por último tenemos los datos de los <b>Los Residentes de la Comunidad de Madrid por Edades:</b>
+                    </p>
+                    <ul>
+                            <li>
+                                Identificador: valor String de [001-183]
+                            </li>
+                            <li>
+                                Nombre: valor String
+                            </li>
+                            <li>
+                                Sexo: valor String, puede ser [Mujer, Hombre]
+                            </li>
+                            <li>
+                                Rango Edad: valor String, puede ser "De X a Y años", habiendo una diferencia de 4 años entre X e Y.
+                            </li>
+                            <li>
+                                Población: valor String, de [0-98949]
+                            </li>
+                        </ul>
+
                 </div>
             </div>
         </div>
@@ -69,10 +116,5 @@
     </div> <!-- /container -->
 
 </main>
-
-<footer class="container">
-    <p>Realizado por
-        <a href="https://github.com/gor2000">@gor2000</a></p>
-</footer>
 </body>
 </html>
