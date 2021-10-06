@@ -22,12 +22,17 @@ g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.
 
 # Lo he hecho en local ya que no me dejaba acceder al archivo remoto.
 
-g.parse("../rdf/example6.rdf", format="xml")
+g.parse("../course_materials/rdf/example6.rdf", format="xml")
 print("**TASK 7.1: List all subclasses of \"Person\" with RDFLib and SPARQL**")
 """**TASK 7.1: List all subclasses of "Person" with RDFLib and SPARQL**"""
 from rdflib.plugins.sparql import prepareQuery
 
 ns = Namespace("http://somewhere#")
+print("USANDO RDFLib:")
+
+for subclase, propiedad, valor in g.triples((None, RDFS.subClassOf, ns.Person)):
+    print(subclase)
+print("USANDO SPARQL:")
 q1 = prepareQuery("""
     SELECT ?subclase WHERE{
     ?subclase rdfs:subClassOf ns:Person.
@@ -41,7 +46,15 @@ for r in g.query(q1):
 
 print("**TASK 7.2: List all individuals of \"Person\" with RDFLib and SPARQL (remember the subClasses)**")
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**"""
+print("USANDO RDFLib:")
+for persona, propiedad, valor in g.triples((None, RDF.type, ns.Person)):
+    print(persona)
+for subclase, propiedad, valor in g.triples((None, RDFS.subClassOf, ns.Person)):
+    for persona,propiedad,valor in g.triples((None,RDF.type,subclase)):
+        print(persona)
 
+
+print("USANDO SPARQL:")
 q2 = prepareQuery("""
     SELECT DISTINCT ?persona WHERE{
     {?persona rdf:type ns:Person.}
@@ -59,13 +72,24 @@ for r in g.query(q2):
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 """
 
+print("USANDO RDFLib:")
+for persona, propiedad, valor in g.triples((None, RDF.type, ns.Person)):
+   for persona2, propiedad2, valor2 in g.triples((persona,None,None)):
+       print(persona2,propiedad2)
+for subclase, propiedad, valor in g.triples((None, RDFS.subClassOf, ns.Person)):
+    for persona,propiedad,valor in g.triples((None,RDF.type,subclase)):
+        for persona2, propiedad2, valor2 in g.triples((persona, None, None)):
+            print(persona2, propiedad2)
 
+print("USANDO SPARQL:")
 q3 = prepareQuery("""
     SELECT ?persona ?prop WHERE{
-    {?persona ?prop ?valor.}
+    {?persona ?prop ?valor.
+    ?persona rdf:type ns:Person}
     UNION
     {?valor rdfs:subClassOf ns:Person.
-    ?persona ?prop ?valor.}
+    ?persona rdf:type ?valor.
+    ?persona ?prop ?otrovalor}
     }
 
 """, initNs={"ns":ns})
