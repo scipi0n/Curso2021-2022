@@ -13,19 +13,19 @@
 #    Object Properties
 #################################################################
 
-###  http://www.colegiosapp.org#hasAddress
+###  urn:absolute:www.colegiosapp.org#hasAddress
 :hasAddress rdf:type owl:ObjectProperty ;
             rdfs:domain <https://dbpedia.org/ontology/School> ;
             rdfs:range <https://dbpedia.org/ontology/address> .
 
 
-###  http://www.colegiosapp.org#liveIn
+###  urn:absolute:www.colegiosapp.org#liveIn
 :liveIn rdf:type owl:ObjectProperty ;
         rdfs:domain :Grupo_Residentes ;
         rdfs:range <https://dbpedia.org/ontology/Municipality> .
 
 
-###  http://www.colegiosapp.org#ownMunicipality
+###  urn:absolute:www.colegiosapp.org#ownMunicipality
 :ownMunicipality rdf:type owl:ObjectProperty ;
                  rdfs:domain <https://dbpedia.org/ontology/School> ;
                  rdfs:range <https://dbpedia.org/ontology/Municipality> .
@@ -35,69 +35,79 @@
 #    Data properties
 #################################################################
 
-###  http://www.colegiosapp.org#hasGender
+###  http://www.colegiosapp.org#hasNameAddress
+:hasNameAddress rdf:type owl:DatatypeProperty ;
+                rdfs:domain <https://dbpedia.org/ontology/address> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.colegiosapp.org#hasNameMunicipality
+:hasNameMunicipality rdf:type owl:DatatypeProperty ;
+                     rdfs:domain <https://dbpedia.org/ontology/Municipality> ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.colegiosapp.org#hasTypeAddress
+:hasTypeAddress rdf:type owl:DatatypeProperty ;
+                rdfs:domain <https://dbpedia.org/ontology/address> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.colegiosapp.org#hasTypeSchool
+:hasTypeSchool rdf:type owl:DatatypeProperty ;
+               rdfs:domain <https://dbpedia.org/ontology/School> ;
+               rdfs:range xsd:string .
+
+
+###  urn:absolute:www.colegiosapp.org#hasGender
 :hasGender rdf:type owl:DatatypeProperty ;
            rdfs:domain :Grupo_Residentes ;
            rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#hasName
-:hasName rdf:type owl:DatatypeProperty ;
-         rdfs:domain <https://dbpedia.org/ontology/Municipality> ,
-                     <https://dbpedia.org/ontology/address> ;
-         rdfs:range xsd:string .
-
-
-###  http://www.colegiosapp.org#hasNumber
+###  urn:absolute:www.colegiosapp.org#hasNumber
 :hasNumber rdf:type owl:DatatypeProperty ;
            rdfs:domain <https://dbpedia.org/ontology/address> ;
            rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#hasPostalCode
+###  urn:absolute:www.colegiosapp.org#hasPostalCode
 :hasPostalCode rdf:type owl:DatatypeProperty ;
                rdfs:domain <https://dbpedia.org/ontology/address> ;
                rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#hasType
-:hasType rdf:type owl:DatatypeProperty ;
-         rdfs:domain <https://dbpedia.org/ontology/School> ,
-                     <https://dbpedia.org/ontology/address> ;
-         rdfs:range xsd:string .
-
-
-###  http://www.colegiosapp.org#maxAge
+###  urn:absolute:www.colegiosapp.org#maxAge
 :maxAge rdf:type owl:DatatypeProperty ;
         rdfs:domain :Grupo_Residentes ;
         rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#minAge
+###  urn:absolute:www.colegiosapp.org#minAge
 :minAge rdf:type owl:DatatypeProperty ;
         rdfs:domain :Grupo_Residentes ;
         rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#numPeople
+###  urn:absolute:www.colegiosapp.org#numPeople
 :numPeople rdf:type owl:DatatypeProperty ;
            rdfs:domain :Grupo_Residentes ;
            rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#ownership
+###  urn:absolute:www.colegiosapp.org#ownership
 :ownership rdf:type owl:DatatypeProperty ;
            rdfs:domain <https://dbpedia.org/ontology/School> ;
            rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#xCoordinate
+###  urn:absolute:www.colegiosapp.org#xCoordinate
 :xCoordinate rdf:type owl:DatatypeProperty ;
              rdfs:domain <https://dbpedia.org/ontology/School> ;
              rdfs:range xsd:float .
 
 
-###  http://www.colegiosapp.org#yCoordinate
+###  urn:absolute:www.colegiosapp.org#yCoordinate
 :yCoordinate rdf:type owl:DatatypeProperty ;
              rdfs:domain <https://dbpedia.org/ontology/School> ;
              rdfs:range xsd:float .
@@ -106,10 +116,6 @@
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.colegiosapp.org#Grupo_Residentes
-:Grupo_Residentes rdf:type owl:Class .
-
 
 ###  https://dbpedia.org/ontology/Municipality
 <https://dbpedia.org/ontology/Municipality> rdf:type owl:Class .
@@ -121,6 +127,10 @@
 
 ###  https://dbpedia.org/ontology/address
 <https://dbpedia.org/ontology/address> rdf:type owl:Class .
+
+
+###  urn:absolute:www.colegiosapp.org#Grupo_Residentes
+:Grupo_Residentes rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
