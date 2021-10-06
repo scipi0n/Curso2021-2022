@@ -1,0 +1,42 @@
+{
+	"@context":{
+	
+		"people":"https://oeg.fi.upm.es/ontologies/people/",
+        "class":"https://oeg.fi.upm.es/ontologies/classes/",
+        "items":"https://oeg.fi.upm.es/ontologies/items/",
+        "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+        "xsd":"http://www.w3.org/2001/XMLSchema#",
+        "actions":"https://oeg.fi.upm.es/ontologies/actions/",
+        "temperature":"xsd:float",
+        "time":"xsd:dateTime",
+        "name":"rdfs:label"
+		
+	
+	},
+	"@id":"class:/class01",
+	"@type":"class",
+	"includes":[
+		{
+			"@id":"items:Sensor029",
+			"@type":"items",
+			"hasMeasurement":{
+				"@id":"measurement:/measurement8401",
+				"@type":"measurement",
+				"temperature":29,
+				"atTime":{
+					"@type:"time",
+					"time:"2010-06-12T12:00:12"
+				}
+			}	
+		},
+		{
+			"@id":"items:/computer101",
+			"@type":"items",
+			"hasOwner":{
+				"@id":"people:User10A",
+				"@type":"people",
+				"name":"Pedro"
+			}
+		}
+	]
+}
