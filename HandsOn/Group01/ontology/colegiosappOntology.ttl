@@ -117,11 +117,11 @@
 #    Classes
 #################################################################
 
-###  http://www.colegiosapp.org#Address
+###  http://www.colegiosapp.org/ontology#Address
 :Address rdf:type owl:Class .
 
 
-###  http://www.colegiosapp.org#ResidentGroup
+###  http://www.colegiosapp.org/ontology#ResidentGroup
 :ResidentGroup rdf:type owl:Class .
 
 
