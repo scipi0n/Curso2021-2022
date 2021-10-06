@@ -1,33 +1,61 @@
 {
-    "name": "Jessica García Pérez",
-    "hometown": "Madrid",
-    "age": "24",
-    "almaMater": "Universidad Politécnica de Madrid",
-    "parents": {
-        "mother": "Libia",
-        "father": "Miguel Ángel"
+    "@context": {
+        "base": "http://example.org/assignment2b#",
+        "subject": "http://example.org/assignment2b/subject#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
-    "subjects": [
+    "@id": "http://example.org/assignment2b/JessicaGP",
+    "@type": "base:Person",
+    "base:name": "Jessica García Pérez",
+    "base:hometown": "Madrid",
+    "base:age": {
+        "@type": "xsd:Integer",
+        "@value": "24"
+    },
+    "base:almaMater": "Universidad Politécnica de Madrid",
+    "base:parents": [
         {
-            "name": "Semantic Web, Linked Data and Knowledge Graphs",
-            "teachers": [
+            "@id": "http://example.org/assignment2b/LibiaPF",
+            "@type": "base:Person",
+            "base:name": "Libia Pérez Feltrero"
+        },
+        {
+            "@id": "http://example.org/assignment2b/MiguelAngelGM",
+            "@type": "base:Person",
+            "base:name": "Miguel Ángel García Monedero"
+        }
+    ],
+    "base:subjects": [
+        {
+            "@id": "http://example.org/assignment2b/subject/SemanticWeb",
+            "@type": "base:Subject",
+            "subject:name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "subject:teachers": [
                 {
+                    "@id": "http://example.org/assignment2b/OscarC",
+                    "@type": "base:Person",
                     "name": "Oscar Corcho"
                 },
                 {
-                    "name": "Raul Garcia"
+                    "@id": "http://example.org/assignment2b/RaulG",
+                    "@type": "base:Person",
+                    "base:name": "Raul Garcia"
                 }
             ],
-            "description": "Linked Data"
+            "subject:description": "Linked Data"
         },
         {
-            "name": "Ecuaciones Diferenciales",
-            "teachers": [
+            "@id": "http://example.org/assignment2b/subject/EcuacionesDiferenciales",
+            "@type": "base:Subject",
+            "subject:name": "Ecuaciones Diferenciales",
+            "subject:teachers": [
                 {
-                    "name": "Miguel Reyes"
+                    "@id": "http://example.org/assignment2b/MiguelR",
+                    "@type": "base:Person",
+                    "base:name": "Miguel Reyes"
                 }
             ],
-            "description": "Maths"
+            "subject:description": "Maths"
         }
     ]
 }
