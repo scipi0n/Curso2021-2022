@@ -1,4 +1,4 @@
-@prefix base: <httpbase:> .
+@prefix base: <http://www.ontologies.org/ontologies/Group06/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -18,87 +18,87 @@ dc:description "Ontology code created by Chowlk" ;
 dc:title "BiciSem Ontology" ;
 owl:versionInfo "0.0.1" .
 
-<httpbase:AparcaBicis> a owl:Class ;
+base:AparcaBicis a owl:Class ;
 rdfs:label "Aparca Bicis" .
 
-<httpbase:Barrio> a owl:Class ;
+base:Barrio a owl:Class ;
 rdfs:label "Barrio" .
 
-<httpbase:Ciudad> a owl:Class ;
+base:Ciudad a owl:Class ;
 rdfs:label "Ciudad" .
 
-<httpbase:Cruce> a owl:Class ;
+base:Cruce a owl:Class ;
 rdfs:label "Cruce" .
 
-<httpbase:Direccion> a owl:Class ;
+base:Direccion a owl:Class ;
 rdfs:label "Direccion" .
 
-<httpbase:Distrito> a owl:Class ;
+base:Distrito a owl:Class ;
 rdfs:label "Distrito" .
 
-<httpbase:Semaforo> a owl:Class ;
+base:Semaforo a owl:Class ;
 rdfs:label "Semaforo" .
 
-<httpbase:aparcaBicisEn> a owl:ObjectProperty ;
+base:aparcaBicisEn a owl:ObjectProperty ;
 rdfs:label "aparca bicis en" .
 
-<httpbase:baseBiciMad> a owl:Class ;
+base:baseBiciMad a owl:Class ;
 rdfs:label "base Bici Mad" .
 
-<httpbase:biciMadEn> a owl:ObjectProperty ;
+base:biciMadEn a owl:ObjectProperty ;
 rdfs:label "bici mad en" .
 
-<httpbase:hasDescription> a owl:DatatypeProperty ;
+base:hasDescription a owl:DatatypeProperty ;
 rdfs:label "has description" ;
 rdfs:range xsd:string .
 
-<httpbase:hasIDaparcaBicis> a owl:DatatypeProperty ;
+base:hasIDaparcaBicis a owl:DatatypeProperty ;
 rdfs:label "has i daparca bicis" ;
 rdfs:range xsd:integer .
 
-<httpbase:hasIDbarrio> a owl:DatatypeProperty ;
+base:hasIDbarrio a owl:DatatypeProperty ;
 rdfs:label "has i dbarrio" ;
 rdfs:range xsd:integer .
 
-<httpbase:hasIDbiciMad> a owl:DatatypeProperty ;
+base:hasIDbiciMad a owl:DatatypeProperty ;
 rdfs:label "has i dbici mad" ;
 rdfs:range xsd:string .
 
-<httpbase:hasIDciudad> a owl:DatatypeProperty ;
+base:hasIDciudad a owl:DatatypeProperty ;
 rdfs:label "has i dciudad" ;
 rdfs:range xsd:integer .
 
-<httpbase:hasIDcruce> a owl:DatatypeProperty ;
+base:hasIDcruce a owl:DatatypeProperty ;
 rdfs:label "has i dcruce" ;
 rdfs:range xsd:integer .
 
-<httpbase:hasIDdistrito> a owl:DatatypeProperty ;
+base:hasIDdistrito a owl:DatatypeProperty ;
 rdfs:label "has i ddistrito" ;
 rdfs:range xsd:integer .
 
-<httpbase:hasIDsemaforo> a owl:DatatypeProperty ;
+base:hasIDsemaforo a owl:DatatypeProperty ;
 rdfs:label "has i dsemaforo" ;
 rdfs:range xsd:integer .
 
-<httpbase:installDate> a owl:DatatypeProperty ;
+base:installDate a owl:DatatypeProperty ;
 rdfs:label "install date" ;
 rdfs:range xsd:date .
 
-<httpbase:latitud> a owl:DatatypeProperty ;
+base:latitud a owl:DatatypeProperty ;
 rdfs:label "latitud" ;
 rdfs:range xsd:double .
 
-<httpbase:longitud> a owl:DatatypeProperty ;
+base:longitud a owl:DatatypeProperty ;
 rdfs:label "longitud" ;
 rdfs:range xsd:double .
 
-<httpbase:numPlazas> a owl:DatatypeProperty ;
+base:numPlazas a owl:DatatypeProperty ;
 rdfs:label "num plazas" ;
 rdfs:range xsd:integer .
 
-<httpbase:semaforoEn> a owl:ObjectProperty ;
+base:semaforoEn a owl:ObjectProperty ;
 rdfs:label "semaforo en" .
 
-<httpbase:state> a owl:DatatypeProperty ;
+base:state a owl:DatatypeProperty ;
 rdfs:label "state" ;
 rdfs:range xsd:boolean .
