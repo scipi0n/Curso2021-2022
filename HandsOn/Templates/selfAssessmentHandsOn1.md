@@ -20,3 +20,6 @@
 **The "applicationRequirements.html” file:**
 
 - [] Includes a description of the application user interface
+
+## Comments on the self-assessment
+_(If required)_
