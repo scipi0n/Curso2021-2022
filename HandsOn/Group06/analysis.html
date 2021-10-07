@@ -1,102 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analisis del Dataset Group06 - Aparca bicis 2021 en la Comunidad de Madrid.</title>
-
   <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+    }
+    h2 {
+      text-decoration: underline;
+    }
+    .li-title {
+      font-weight: bold;
+      font-style: italic;
+    }
     table {
-      font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 100%;
     }
-
+    a {
+      color: dodgerblue;
+    }
     td,
     th {
       border: 1px solid #dddddd;
       text-align: left;
       padding: 8px;
     }
-
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-  </style>
+    </style>
 </head>
 
 <body>
-  <p>Analisis de la licencia:</p>
+  <h1>Análisis</h1>
+
+  <h2>Análisis de la licencia</h2>
 
   <p>La licencia de este dataset permite la reutilizacion de los documentos y datos sometidos a ellas para fines comerciales y no comerciales, entenidendo que la reutilizacion de los mismos no constituya una actividad administrativa publica. La
-    licencia se encuentra en el siguiente enlace: <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Link</a>
+    licencia se encuentra en el siguiente <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">enlace</a>.
+  </p>
+  <p>
     Esta licencia es publicada por el Ayuntamiento de Madrid que ademas tiene los derechos de autor sobre la misma .
-    El conjunto de datos de nuestra aplicacion, tampoco tiene fines comerciales y podran usarse siempre que se nos acredite a nosotros asi como a la fuente de datos original.</p>
+    El conjunto de datos de nuestra aplicacion, tampoco tiene fines comerciales y podran usarse siempre que se nos acredite a nosotros asi como a la fuente de datos original.
+  </p>
 
-  <p>Analisis de los datos:</p>
+  <h2>Análisis de los datos</h2>
 
   <p>Para cada fuente tenemos los siguientes datos:</p>
 
   <table>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Comments</th>
-    </tr>
-    <tr>
-      <th>IdBici</th>
-      <th>String</th>
-      <th>Identificador de la bicicleta -- Length:10</th>
-    </tr>
-    <tr>
-      <th>DescAparBici</th>
-      <th>String</th>
-      <th>Descripcion del lugar donde esta apacada la bicicleta -- Length:150</th>
-    </tr>
-    <tr>
-      <th>IdDistrito</th>
-      <th>String</th>
-      <th>Id del distrito donde está la bicicleta, hay muchos valores duplicados. No hay elementos nulos o con error, tampoco vacíos -- Length:10 </th>
-    </tr>
-    <tr>
-      <th>Distrito</th>
-      <th>String</th>
-      <th>Nombre del distrito donde está la bicicleta, hay muchos valores duplicados. No hay elementos nulos o con error, tampoco vacíos -- Length:50 </th>
-    </tr>
-    <tr>
-      <th>Estado</th>
-      <th>String</th>
-      <th>Indican el estado del servicio, puede tomar los valores: "OPERATIVO" o "NO OPERATIVO". No hay elementos nulos o con error, tampoco vacíos -- Length:50 </th>
-    </tr>
-    <tr>
-      <th>TipoVia</th>
-      <th>String</th>
-      <th>Indica el tipo de la vía donde está situada al bicicleta, puede tomar los valores: "CALLE", "PASEO", "PASAJE", "RONDA", "PLAZA", "GLORIETA", "CARRETERA", "BULEBAR" o "AVENIDA".
-        No hay elementos nulos o con error, tampoco vacíos-- Length:15</th>
-    </tr>
-    <tr>
-      <th>NombreVia</th>
-      <th>String</th>
-      <th>Indica el nombre de la vía donde está situada al bicicleta. Hay valores duplicados, no hay elementos nulos o con error, tampoco vacíos-- Length:15</th>
+      <th>Campo</th>
+      <th>Tipo</th>
+      <th>Length</th>
+      <th>Comentarios</th>
     </tr>
 
+    <!-- Ciudad -->
+    <tr>
+      <th>hasIDciudad</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador de la ciudad</th>
+    </tr>
+
+    <!-- Distrito -->
+    <tr>
+      <th>hasIDdistrito</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador del distrito</th>
+    </tr>
+    
+    <!-- Barrio -->
+    <tr>
+      <th>hasIDbarrio</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador del barrio</th>
+    </tr>
+    
+    <!-- Cruce -->
+    <tr>
+      <th>hasIDcruce</th> <!-- Revisar nombre -->
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador del cruce</th>
+    </tr>
+
+    <!-- Direccion -->
+    <tr>
+      <th>address</th> <!-- Revisar nombre -->
+      <th>PostalAddress</th>
+      <th>200</th>
+      <th>Direccion postal</th>
+    </tr>
+
+    <!-- AparcaBicis -->
+    <tr>
+      <th>hasIDaparcaBicis</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador del estacionamiento de la bici</th>
+    </tr>
+    <tr>
+      <th>hasDescription</th>
+      <th>String</th>
+      <th>150</th>
+      <th>Descripcion del lugar donde esta aparcada la bicicleta</th>
+    </tr>
+    <tr>
+      <th>installDate</th>
+      <th>Date</th>
+      <th>50</th>
+      <th>Fecha de instauración de la bici</th>
+    </tr>
+    <tr>
+      <th>state</th>
+      <th>Boolean</th>
+      <th>20</th>
+      <th>Indica el estado del servicio, puede tomar los valores: "OPERATIVO" o "NO OPERATIVO"</th>
+    </tr>
+
+    <!-- baseBiciMad -->
+    <tr>
+      <th>hasIDbiciMad</th>
+      <th>String</th> <!-- TODO: Deberia ser Integer -->
+      <th>150</th> <!-- En caso de integer poner 3 -->
+      <th>Identificador del estacionamiento de la bici en BiciMad</th>
+    </tr>
+    <tr>
+      <th>numPlazas</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Numero de plazas para estacionar la bici</th>
+    </tr>
+    <tr>
+      <th>latitud</th>
+      <th>Double</th>
+      <th>20</th>
+      <th>Latitud de las coordenadas</th>
+    </tr>
+    <tr>
+      <th>longitud</th>
+      <th>Double</th>
+      <th>20</th>
+      <th>Longitud de las coordenadas</th>
+    </tr>
+
+    <!-- Semaforo -->
+    <tr>
+      <th>hasIDsemaforo</th>
+      <th>Integer</th>
+      <th>3</th>
+      <th>Identificador del semaforo</th>
+    </tr>
   </table>
 
-  <p>Resource Name Strategy:</p>
-
-  <p>&nbsp;&nbsp;El dominio ser�:&nbsp;&nbsp;&nbsp;&nbsp;
-    http://waterCH.es/Group03/ </p>
-
-  <p>&nbsp;&nbsp;Para definir el path de los individuos se utilizar�:&nbsp;&nbsp;&nbsp;&nbsp;
-    http://waterCH.es/Group03/ontology/resource </p>
-
-  <p>&nbsp;&nbsp;Para definir los terminos de la ontlolog�a se usar�: &nbsp;&nbsp;&nbsp;&nbsp;
-    http://waterCH.es/Group03/ontology</p>
-
-  <p>&nbsp;&nbsp;Para definir el patr�n de los individuos se utilizar�:&nbsp;&nbsp;&nbsp;&nbsp;
-    http://waterCH.es/Group03/ontology/resource/resource_type/resource_name</p>
-
-  <p>&nbsp;&nbsp;Para definir el patr�n de los terminos de la ontlolog�a se usar�: &nbsp;&nbsp;&nbsp;&nbsp;
-    http://waterCH.es/Group03/ontology#term_name</p>
+  <h2>Estrategia de los Nombres del Recurso</h2>
+  <div class="list">
+    <ul>
+      <li><span class="li-title">Dominio:</span> http://www.ontologies.org</li>
+      <li><span class="li-title">Definición de los terminos de la ontología:</span> http://www.ontologies.org/ontologies/Group06</li>
+      <li><span class="li-title">Definición del path de las clases:</span> http://www.ontologies.org/ontologies/Group06/[Clase]</li>
+      <li><span class="li-title">Definición del path de los individuos:</span> http://www.ontologies.org/ontologies/Group06/[Clase]/[IDindividuo]</li>
+      <li><span class="li-title">Definición del path de las propiedades:</span> http://www.ontologies.org/ontologies/Group06/[propiedad]</li>
+    </ul>
+  </div>
 
 </body>
 
