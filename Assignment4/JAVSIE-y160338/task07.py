@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -27,6 +27,7 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 # Visualize the results
 from rdflib.plugins.sparql import prepareQuery
 
+ns = Namespace("http://somewhere#")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
     ?Subject rdfs:subClassOf ns:Person
@@ -35,6 +36,13 @@ q1 = prepareQuery('''
   initNs = { "ns": Namespace("http://somewhere#"), "rdfs": RDFS}
 )
 
+# RDFLib
+print("RDFLib")
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+  print(s)
+
+print("\nSPARQL")
+# SPARQL
 for r in g.query(q1):
   print(r.Subject)
 
@@ -50,12 +58,21 @@ q1 = prepareQuery('''
     {?Subject rdf:type ns:Person. }
     UNION 
     {?s rdfs:subClassOf ns:Person.
-    ?Subject rdf:type ?x}
+    ?Subject rdf:type ?s}
   }
   ''',
   initNs = { "ns": Namespace("http://somewhere#"), "rdf": RDF}
 )
 
+# RDFLib
+print("RDFLib")
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
+  print(s)
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+  print(s)
+
+print("\nSPARQL")
+# SPARQL
 for r in g.query(q1):
   print(r.Subject)
 
@@ -68,15 +85,28 @@ for r in g.query(q1):
 q1 = prepareQuery('''
   SELECT DISTINCT ?Subject ?Property ?x WHERE { 
     {?Subject rdf:type ns:Person.
-     ?Subject ?Property ?x }
+     ?Subject ?Property ?x}
     UNION 
     {?s rdfs:subClassOf ns:Person.
     ?Subject rdf:type ?s.
     ?Subject ?Property ?x}
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#"), "rdf": RDF}
+  initNs = { "ns": Namespace("http://somewhere#"), "rdf": RDF, "rdfs": RDFS }
 )
 
+# RDFLib
+print("RDFLib")
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
+  for sub,prop,val in g.triples((s,None,None)):
+    print(s,prop,val)
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+  for sub,prop,val in g.triples((s,None,None)):
+    print(s,prop,val)
+
+print("\nSPARQL")
+# SPARQL
 for r in g.query(q1):
     print(r.Subject,r.Property,r.x)
+
+ 

@@ -9,7 +9,7 @@ Original file is located at
 **Task 08: Completing missing data**
 """
 
-!pip install rdflib
+#!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 from rdflib import Graph, Namespace, Literal, URIRef
@@ -48,9 +48,15 @@ for (s,p,o) in g1.triples((None,RDF.type,ns.Person)):
   initNs = { "vcard": VCARD}
   )
   for r in g2.query(q1,initBindings = { "s": s }):
-     g1.add((s,VCARD.Given,Literal(r.Given)))
-     g1.add((s,VCARD.EMAIL,Literal(r.EMAIL)))
-     g1.add((s,VCARD.Family,Literal(r.Family)))
+    print(r.Given)
+    print(r.EMAIL)
+    print(r.Family)
+    if r.Given is not None:
+      g1.add((s,VCARD.Given,Literal(r.Given)))
+    if r.EMAIL is not None:
+      g1.add((s,VCARD.EMAIL,Literal(r.EMAIL)))
+    if r.Family is not None:
+      g1.add((s,VCARD.Family,Literal(r.Family)))
 
 print("\n############################################### RESULT WE GOT ###############################################\nG1 :")
 for (s,p,o) in g1.triples((None,None,None)):
