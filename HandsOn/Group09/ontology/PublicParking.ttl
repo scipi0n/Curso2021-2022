@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
-:PublicParking rdf:type owl:Class.
+:PublicParking rdf:type  owl:Class.
 
 
 :hasPK rdf:type owl:ObjectProperty ;
@@ -100,8 +100,8 @@
 :hasTransport rdf:type owl:ObjectProperty ;
                rdfs:domain :PublicParking ;
             rdfs:range :transport.
-:transport rdf:type rdf:List.
-    
+:transport rdf:type  rdf:List.
+
 
 
 
