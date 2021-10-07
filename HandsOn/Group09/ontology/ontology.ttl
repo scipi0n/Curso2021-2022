@@ -1,0 +1,129 @@
+ @prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
+@prefix dc: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#> .
+@prefix ns: <http://www.example.org/TerrazasMadrid#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/#> .
+@prefix time: <https://www.w3.org/TR/owl-time/#time:#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+admingeo:Distric a owl:Class ;
+    rdfs:label "Distric" .
+
+admingeo:district a owl:ObjectProperty ;
+    rdfs:label "district" .
+
+ns: a owl:Ontology ;
+    owl:versionInfo "0.0.1" ;
+    dc:creator "Carlos Ferrero Manauta" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Template Ontology" .
+
+ns:desc_periodo_terraza a owl:DatatypeProperty ;
+    rdfs:label "desc_periodo_terraza" ;
+    rdfs:range xsd:string .
+
+ns:desc_situacion_terraza a owl:DatatypeProperty ;
+    rdfs:label "desc_situacion_terraza" ;
+    rdfs:range xsd:string .
+
+ns:desc_ubicacion_terraza a owl:DatatypeProperty ;
+    rdfs:label "desc_ubicacion_terraza" ;
+    rdfs:range xsd:string .
+
+ssn:Observation a owl:Class ;
+    rdfs:label "Observation" .
+
+ssn:Property a owl:Class ;
+    rdfs:label "Property" .
+
+ssn:featureOfInterest a owl:ObjectProperty ;
+    rdfs:label "feature of interest" .
+
+ssn:observationSamplingTime a owl:ObjectProperty ;
+    rdfs:label "observation sampling time" .
+
+ssn:observedProperty a owl:ObjectProperty ;
+    rdfs:label "observed property" .
+
+schema:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf schema:AdministrativeArea .
+
+schema:GeoCoordinates a owl:Class ;
+    rdfs:label "Geo Coordinates" .
+
+schema:LocalBusiness a owl:Class ;
+    rdfs:label "Local Business" ;
+    rdfs:subClassOf ssn:FeatureOfInterest,
+        schema:Organization .
+
+schema:PostalAddress a owl:Class ;
+    rdfs:label "Postal Address" .
+
+schema:addressRegion a owl:DatatypeProperty ;
+    rdfs:label "address region" ;
+    rdfs:range xsd:string .
+
+schema:adress a owl:ObjectProperty ;
+    rdfs:label "adress" .
+
+schema:containedIn a owl:ObjectProperty ;
+    rdfs:label "contained in" .
+
+schema:geo a owl:ObjectProperty ;
+    rdfs:label "geo" .
+
+schema:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:range xsd:string .
+
+schema:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:range xsd:string .
+
+schema:postalCode a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:range xsd:string .
+
+schema:status a owl:DatatypeProperty ;
+    rdfs:label "status" ;
+    rdfs:range xsd:string .
+
+schema:streetAdress a owl:DatatypeProperty ;
+    rdfs:label "street adress" ;
+    rdfs:range xsd:string .
+
+dc:title a owl:DatatypeProperty ;
+    rdfs:label "title" ;
+    rdfs:range xsd:string .
+
+time:Duration a owl:Class ;
+    rdfs:label "Duration" .
+
+time:GeneralDurationDescription a owl:Class ;
+    rdfs:label "General Duration Description" .
+
+time:Interval a owl:Class ;
+    rdfs:label "Interval" .
+
+time:hasDuration a owl:ObjectProperty ;
+    rdfs:label "has duration" .
+
+time:hasDurationDescription a owl:ObjectProperty ;
+    rdfs:label "has duration description" .
+
+ssn:FeatureOfInterest a owl:Class ;
+    rdfs:label "Feature Of Interest" .
+
+schema:AdministrativeArea a owl:Class ;
+    rdfs:label "Administrative Area" ;
+    rdfs:subClassOf schema:Place .
+
+schema:Organization a owl:Class ;
+    rdfs:label "Organization" .
+
+schema:Place a owl:Class ;
+    rdfs:label "Place" .
+
