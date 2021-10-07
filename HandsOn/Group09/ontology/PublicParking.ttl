@@ -102,6 +102,15 @@
             rdfs:range :transport.
 :transport rdf:type  rdf:List.
 
+:hasUrl rdf:type owl:ObjectProperty ;
+    rdfs:domain :PublicParking ;
+    rdfs:range xsd:string .
+:isPublic rdf:type owl:ObjectProperty ;
+          rdfs:domain :PublicParking ;
+          rdfs:range xsd:boolean .
+
+
+
 
 
 
