@@ -4,7 +4,7 @@
     GitHub Username: jessicagarciaperez
 ## Student 2
     Name: Sergio Fernández González
-    GitHub Username: sergiofg198
+    GitHub Username: sergiofg19
 ## Student 3
     Name: Laura Contreras Mármol
     GitHub Username: lauracontreeras
