@@ -36,3 +36,26 @@ padd:1 :hasPostalCode "28024"^^xsd:integer ;
     :hasNeighborhood "LAS AGUILAS"^^xsd:string ;
     :hasDistrict "LATINA"^^xsd:string.
 
+pp:2 :hasPk "11413620"^^xsd:integer;
+     :hasName "Aparcamiento disuasorio Pitis"^^xsd:string;
+     :hasSchedule "Abierto 24 horas"^^xsd:string;
+     :hasTransport "Autobuses:EMT:64, 82...."^^xsd:string ;
+     :hasDescripcion "Plazas:  para automóviles: 402 (de las cuales, 10 para coche eléctrico y 12 para coches adaptados PMR) para motocicletas: 34   Código del aparcamiento: 828"^^xsd:string ;
+     :hasAccesibility "true"^^xsd:boolean;
+     :hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1642e9887f9f9710VgnVCM2000001f4a900aRCRD%22%5E%5Exsd:string;
+        :hasLocation pl:2;
+    :isPublic "true"^^xsd:boolean.
+
+pl:2 :hasPostalAddress padd:2;
+     :hasGeographicCoordinates pgeocoord:2.
+
+
+pgeocoord:2 :hasLatitude "40.494192950973726"^^xsd:float ;
+            :hasLongitude "-3.727236000896534"^^xsd:float.
+
+padd:2 :hasPostalCode "28049"^^xsd:integer ;
+       :hasStreetNumber "V"^^xsd:integer ;
+       :hasStreetName "GLORIA FUERTES"^^xsd:string ;
+       :hasNeighborhood "FUENTELARREINA"^^xsd:string ;
+       :hasDistrict "FUENCARRAL-EL PARDO"^^xsd:string.
+
