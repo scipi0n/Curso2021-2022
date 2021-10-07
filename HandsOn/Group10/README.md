@@ -1,4 +1,4 @@
-# Grup 07
+# Group 10
 ## Student 1
     Name: Jéssica García Pérez
     GitHub Username: jessicagarciaperez
