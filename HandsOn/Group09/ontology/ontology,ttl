@@ -1,10 +1,9 @@
 @prefix : <https://publicparkingmad.com/>.
-@prefix dbp: <http://dbpedia.org/ontology/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix oc:<http://smartcity.linkeddata.es/transport/Ontology/>.
+
 
 :PublicParking rdf:type owl:Class.
 
@@ -46,7 +45,7 @@
                 rdfs:range  xsd:float .
 :hasPostalAddress rdf:type owl:ObjectProperty;
         rdfs:domain :location;
-        rdfs:range :postalAdress.
+        rdfs:range :postalAddress.
 
 :postalAddress rdf:type owl:Class.
 
@@ -100,7 +99,10 @@
            rdfs:range xsd:string.
 :hasTransport rdf:type owl:ObjectProperty ;
                rdfs:domain :PublicParking ;
-            rdfs:range
+            rdfs:range :transport.
+:transport rdf:type rdf:List.
+    
+
 
 
 
