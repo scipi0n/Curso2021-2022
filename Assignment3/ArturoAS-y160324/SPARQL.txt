@@ -1,0 +1,18 @@
+1. select distinct ?properties where { ?i a <http://dbpedia.org/ontology/Politician>. ?i ?properties ?o.} 
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fproperties+where+%7B+%3Fi+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.+%3Fi+%3Fproperties+%3Fo.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+2. select distinct ?properties where { ?i a <http://dbpedia.org/ontology/Politician>. ?i ?properties ?o. filter(?properties != rdf:type).} 
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fproperties+where+%7B+%3Fi+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.+%3Fi+%3Fproperties+%3Fo.+filter%28%3Fproperties+%21%3D+rdf%3Atype%29.%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+3. select distinct ?values where { ?i a <http://dbpedia.org/ontology/Politician>. ?i ?properties ?values. filter(?properties != rdf:type).} 
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fvalues+where+%7B+%3Fi+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.+%3Fi+%3Fproperties+%3Fvalues.+filter%28%3Fproperties+%21%3D+rdf%3Atype%29.%7D+%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+4. select distinct ?properties ?values where { ?i a <http://dbpedia.org/ontology/Politician>. ?i ?properties ?values. filter(?properties != rdf:type).} 
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fproperties+%3Fvalues+where+%7B+%3Fi+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.+%3Fi+%3Fproperties+%3Fvalues.+filter%28%3Fproperties+%21%3D+rdf%3Atype%29.%7D+&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+5. select distinct ?properties count(distinct ?values) where { ?i a <http://dbpedia.org/ontology/Politician>. ?i ?properties ?values. filter(?properties != rdf:type).} 
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=%0D%0Aselect+distinct+%3Fproperties+count%28distinct+%3Fvalues%29+where+%7B+%3Fi+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.+%3Fi+%3Fproperties+%3Fvalues.+filter%28%3Fproperties+%21%3D+rdf%3Atype%29.%7D+&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
