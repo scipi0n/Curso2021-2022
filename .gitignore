@@ -2,7 +2,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-.idea
+
 env/*
 env_3.9/*
 
