@@ -97,10 +97,11 @@
 :hasFax    rdf:type owl:ObjectProperty ;
            rdfs:domain :PublicParking ;
            rdfs:range xsd:string.
-:hasTransport rdf:type owl:ObjectProperty ;
+:hasMetroNear rdf:type owl:ObjectProperty ;
                rdfs:domain :PublicParking ;
-            rdfs:range :transport.
-:transport rdf:type  rdf:List.
+            rdfs:range xsd:string.
+
+#todo: rest of the transports (bus cercanias...)
 
 :hasUrl rdf:type owl:ObjectProperty ;
     rdfs:domain :PublicParking ;
