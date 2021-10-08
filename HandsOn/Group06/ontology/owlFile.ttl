@@ -1,0 +1,104 @@
+@prefix base: <http://www.ontologies.org/ontologies/Group06/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:address a owl:DatatypeProperty ;
+rdfs:label "address" ;
+rdfs:range xsd:postalAddress .
+
+schema:containsPlace a owl:ObjectProperty ;
+rdfs:label "contains place" .
+
+base: a owl:Ontology ;
+dc:creator "Group06" ;
+dc:description "Ontology code created by Chowlk" ;
+dc:title "BiciSem Ontology" ;
+owl:versionInfo "0.0.1" .
+
+base:AparcaBicis a owl:Class ;
+rdfs:label "Aparca Bicis" .
+
+base:Barrio a owl:Class ;
+rdfs:label "Barrio" .
+
+base:Ciudad a owl:Class ;
+rdfs:label "Ciudad" .
+
+base:Cruce a owl:Class ;
+rdfs:label "Cruce" .
+
+base:Direccion a owl:Class ;
+rdfs:label "Direccion" .
+
+base:Distrito a owl:Class ;
+rdfs:label "Distrito" .
+
+base:Semaforo a owl:Class ;
+rdfs:label "Semaforo" .
+
+base:aparcaBicisEn a owl:ObjectProperty ;
+rdfs:label "aparca bicis en" .
+
+base:baseBiciMad a owl:Class ;
+rdfs:label "base Bici Mad" .
+
+base:biciMadEn a owl:ObjectProperty ;
+rdfs:label "bici mad en" .
+
+base:hasDescription a owl:DatatypeProperty ;
+rdfs:label "has description" ;
+rdfs:range xsd:string .
+
+base:hasIDaparcaBicis a owl:DatatypeProperty ;
+rdfs:label "has i daparca bicis" ;
+rdfs:range xsd:integer .
+
+base:hasIDbarrio a owl:DatatypeProperty ;
+rdfs:label "has i dbarrio" ;
+rdfs:range xsd:integer .
+
+base:hasIDbiciMad a owl:DatatypeProperty ;
+rdfs:label "has i dbici mad" ;
+rdfs:range xsd:string .
+
+base:hasIDciudad a owl:DatatypeProperty ;
+rdfs:label "has i dciudad" ;
+rdfs:range xsd:integer .
+
+base:hasIDcruce a owl:DatatypeProperty ;
+rdfs:label "has i dcruce" ;
+rdfs:range xsd:integer .
+
+base:hasIDdistrito a owl:DatatypeProperty ;
+rdfs:label "has i ddistrito" ;
+rdfs:range xsd:integer .
+
+base:hasIDsemaforo a owl:DatatypeProperty ;
+rdfs:label "has i dsemaforo" ;
+rdfs:range xsd:integer .
+
+base:installDate a owl:DatatypeProperty ;
+rdfs:label "install date" ;
+rdfs:range xsd:date .
+
+base:latitud a owl:DatatypeProperty ;
+rdfs:label "latitud" ;
+rdfs:range xsd:double .
+
+base:longitud a owl:DatatypeProperty ;
+rdfs:label "longitud" ;
+rdfs:range xsd:double .
+
+base:numPlazas a owl:DatatypeProperty ;
+rdfs:label "num plazas" ;
+rdfs:range xsd:integer .
+
+base:semaforoEn a owl:ObjectProperty ;
+rdfs:label "semaforo en" .
+
+base:state a owl:DatatypeProperty ;
+rdfs:label "state" ;
+rdfs:range xsd:boolean .
