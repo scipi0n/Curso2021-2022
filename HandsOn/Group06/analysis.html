@@ -63,7 +63,7 @@
 
     <!-- Ciudad -->
     <tr>
-      <th>hasIDciudad</th>
+      <th>hasIdCity</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador de la ciudad</th>
@@ -71,7 +71,7 @@
 
     <!-- Distrito -->
     <tr>
-      <th>hasIDdistrito</th>
+      <th>hasIddistrict</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador del distrito</th>
@@ -79,7 +79,7 @@
     
     <!-- Barrio -->
     <tr>
-      <th>hasIDbarrio</th>
+      <th>hasIdNeighborhood</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador del barrio</th>
@@ -87,7 +87,7 @@
     
     <!-- Cruce -->
     <tr>
-      <th>hasIDcruce</th> <!-- Revisar nombre -->
+      <th>hasIdCross</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador del cruce</th>
@@ -95,7 +95,7 @@
 
     <!-- Direccion -->
     <tr>
-      <th>address</th> <!-- Revisar nombre -->
+      <th>address</th>
       <th>PostalAddress</th>
       <th>200</th>
       <th>Direccion postal</th>
@@ -103,13 +103,13 @@
 
     <!-- AparcaBicis -->
     <tr>
-      <th>hasIDaparcaBicis</th>
+      <th>hasIdBycicleParking</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador del estacionamiento de la bici</th>
     </tr>
     <tr>
-      <th>hasDescription</th>
+      <th>description</th>
       <th>String</th>
       <th>150</th>
       <th>Descripcion del lugar donde esta aparcada la bicicleta</th>
@@ -129,25 +129,25 @@
 
     <!-- baseBiciMad -->
     <tr>
-      <th>hasIDbiciMad</th>
+      <th>hasIdBiciMad</th>
       <th>String</th> <!-- TODO: Deberia ser Integer -->
       <th>150</th> <!-- En caso de integer poner 3 -->
       <th>Identificador del estacionamiento de la bici en BiciMad</th>
     </tr>
     <tr>
-      <th>numPlazas</th>
+      <th>numPlaces</th>
       <th>Integer</th>
       <th>3</th>
       <th>Numero de plazas para estacionar la bici</th>
     </tr>
     <tr>
-      <th>latitud</th>
+      <th>latitude</th>
       <th>Double</th>
       <th>20</th>
       <th>Latitud de las coordenadas</th>
     </tr>
     <tr>
-      <th>longitud</th>
+      <th>longitude</th>
       <th>Double</th>
       <th>20</th>
       <th>Longitud de las coordenadas</th>
@@ -155,7 +155,7 @@
 
     <!-- Semaforo -->
     <tr>
-      <th>hasIDsemaforo</th>
+      <th>hasIdTrafficLight</th>
       <th>Integer</th>
       <th>3</th>
       <th>Identificador del semaforo</th>
@@ -166,10 +166,10 @@
   <div class="list">
     <ul>
       <li><span class="li-title">Dominio:</span> http://www.ontologies.org</li>
-      <li><span class="li-title">Definición de los terminos de la ontología:</span> http://www.ontologies.org/ontologies/Group06</li>
-      <li><span class="li-title">Definición del path de las clases:</span> http://www.ontologies.org/ontologies/Group06/[Clase]</li>
-      <li><span class="li-title">Definición del path de los individuos:</span> http://www.ontologies.org/ontologies/Group06/[Clase]/[IDindividuo]</li>
-      <li><span class="li-title">Definición del path de las propiedades:</span> http://www.ontologies.org/ontologies/Group06/[propiedad]</li>
+      <li><span class="li-title">Definición de los terminos de la ontología:</span> http://www.ontologies.org/ontologies/Group06/ontology</li>
+      <li><span class="li-title">Definición del path de las clases:</span> http://www.ontologies.org/ontologies/Group06/ontology/[Clase]</li>
+      <li><span class="li-title">Definición del path de los individuos:</span> http://www.ontologies.org/ontologies/Group06/resource/[Clase]/[IDindividuo]</li>
+      <li><span class="li-title">Definición del path de las propiedades:</span> http://www.ontologies.org/ontologies/Group06/ontology/[propiedad]</li>
     </ul>
   </div>
 
