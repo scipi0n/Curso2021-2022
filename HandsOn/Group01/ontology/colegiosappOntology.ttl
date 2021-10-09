@@ -7,25 +7,25 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.colegiosapp.org> .
 
-<http://www.colegiosapp.org> rdf:type owl:Ontology .
+<http://www.colegiosapp.org/ontology#> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.colegiosapp.org#hasAddress
+###  http://www.colegiosapp.org/ontology#hasAddress
 :hasAddress rdf:type owl:ObjectProperty ;
             rdfs:domain dbo:School ;
             rdfs:range :Address .
 
 
-###  http://www.colegiosapp.org#liveIn
+###  http://www.colegiosapp.org/ontology#liveIn
 :liveIn rdf:type owl:ObjectProperty ;
         rdfs:domain :ResidentGroup ;
         rdfs:range dbo:Municipality .
 
 
-###  http://www.colegiosapp.org#ownMunicipality
+###  http://www.colegiosapp.org/ontology#ownMunicipality
 :ownMunicipality rdf:type owl:ObjectProperty ;
                  rdfs:domain dbo:School ;
                  rdfs:range dbo:Municipality .
@@ -35,79 +35,79 @@
 #    Data properties
 #################################################################
 
-###  http://www.colegiosapp.org#hasGender
+###  http://www.colegiosapp.org/ontology#hasGender
 :hasGender rdf:type owl:DatatypeProperty ;
            rdfs:domain :ResidentGroup ;
            rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#hasNameAddress
+###  http://www.colegiosapp.org/ontology#hasNameAddress
 :hasNameAddress rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Address ;
                 rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#hasNameMunicipality
+###  http://www.colegiosapp.org/ontology#hasNameMunicipality
 :hasNameMunicipality rdf:type owl:DatatypeProperty ;
                      rdfs:domain dbo:Municipality ;
                      rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#hasNumber
+###  http://www.colegiosapp.org/ontology#hasNumber
 :hasNumber rdf:type owl:DatatypeProperty ;
            rdfs:domain :Address ;
            rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#hasPostalCode
+###  http://www.colegiosapp.org/ontology#hasPostalCode
 :hasPostalCode rdf:type owl:DatatypeProperty ;
                rdfs:domain :Address ;
                rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#hasTypeAddress
+###  http://www.colegiosapp.org/ontology#hasTypeAddress
 :hasTypeAddress rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Address ;
                 rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#hasTypeSchool
+###  http://www.colegiosapp.org/ontology#hasTypeSchool
 :hasTypeSchool rdf:type owl:DatatypeProperty ;
                rdfs:domain dbo:School ;
                rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#maxAge
+###  http://www.colegiosapp.org/ontology#maxAge
 :maxAge rdf:type owl:DatatypeProperty ;
         rdfs:domain :ResidentGroup ;
         rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#minAge
+###  http://www.colegiosapp.org/ontology#minAge
 :minAge rdf:type owl:DatatypeProperty ;
         rdfs:domain :ResidentGroup ;
         rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#numPeople
+###  http://www.colegiosapp.org/ontology#numPeople
 :numPeople rdf:type owl:DatatypeProperty ;
            rdfs:domain :ResidentGroup ;
            rdfs:range xsd:int .
 
 
-###  http://www.colegiosapp.org#ownership
+###  http://www.colegiosapp.org/ontology#ownership
 :ownership rdf:type owl:DatatypeProperty ;
            rdfs:domain dbo:School ;
            rdfs:range xsd:string .
 
 
-###  http://www.colegiosapp.org#xCoordinate
+###  http://www.colegiosapp.org/ontology#xCoordinate
 :xCoordinate rdf:type owl:DatatypeProperty ;
              rdfs:domain dbo:School ;
              rdfs:range xsd:float .
 
 
-###  http://www.colegiosapp.org#yCoordinate
+###  http://www.colegiosapp.org/ontology#yCoordinate
 :yCoordinate rdf:type owl:DatatypeProperty ;
              rdfs:domain dbo:School ;
              rdfs:range xsd:float .
