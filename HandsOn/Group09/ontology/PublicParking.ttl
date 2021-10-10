@@ -109,6 +109,9 @@
 :hasCercaniasNear rdf:type owl:ObjectProperty ;
                rdfs:domain :PublicParking ;
             rdfs:range xsd:string.
+:hasTranviaNear rdf:type owl:ObjectProperty ;
+               rdfs:domain :PublicParking ;
+            rdfs:range xsd:string.
 
 
 
