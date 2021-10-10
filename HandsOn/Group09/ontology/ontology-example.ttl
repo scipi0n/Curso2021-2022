@@ -19,15 +19,19 @@ schema:LocalBusiness01
          schema:adress schema:PostalAddress01;
          dc:title "WAGABOO"^^xsd:string;
          schema:status "Abierta"^^xsd:string;
-         ns:desc_periodo_terraza "Anual"^^xsd:string;
-         ns:desc_situacion_terraza "Abierta"^^xsd:string;
-         ns:desc_ubicacion_terraza "Acera"^^xsd:string.
+         ns:seasonalTime "Anual"^^xsd:string;
+         ns:status "Abierta"^^xsd:string;
+         ns:terraceUbication "Acera"^^xsd:string;
+	 ns:tablesSeasonal  "8"^^xsd:string;
+         ns:tablesUnseasonal  "8"^^xsd:string.
 schema:PostalAddress01
          schema:streetAdress "14 CALLE AYALA "^^xsd:string;
          schema:postalCode "28001"^^xsd:string;
          schema:addressRegion "RECOLETOS"^^xsd:string.
 schema:Place01
 	schema:geo schema:GeoCoordinates01.
+schema:City01
+	admingeo:district "SALAMANCA"^^xsd:string.
 schema:GeoCoordinates01
         schema:latitude "441656,59"^^xsd:string;
         schema:longitude "4475470,52"^^xsd:string.
@@ -36,5 +40,30 @@ ssn:Observation01
         ssn:observedProperty ssn:Property01;
         ssn:observationSamplingTime time:Interval01.
 time:Interval01
-        time:hasDuration time:Duration01;
-        time:hasDurationDescription time:GeneralDurationDescription01.
+        time:inside time:Instant01.
+time:Instant01
+	time:inDateTtime time:GeneralDateTimeDescription01.
+ns:WeekdaySeasonalOpen01
+	time:hour "10"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekdaySeasonalClose01
+	time:hour "1"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekendSeasonalOpen01
+	time:hour "10"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekendSeasonalClose01
+	time:hour "2"^^xsd:string;
+	time: minute "30"^^xsd:string.
+ns:WeekdayUnseasonalOpen01
+	time:hour "10"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekdayUnseasonalClose01
+	time:hour "0"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekendUnseasonalOpen01
+	time:hour "10"^^xsd:string;
+	time: minute "0"^^xsd:string.
+ns:WeekendUnseasonalClose01
+	time:hour "0"^^xsd:string;
+	time: minute "0"^^xsd:string.
