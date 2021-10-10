@@ -101,7 +101,16 @@
                rdfs:domain :PublicParking ;
             rdfs:range xsd:string.
 
-#todo: rest of the transports (bus cercanias...)
+
+:hasBusNear rdf:type owl:ObjectProperty ;
+               rdfs:domain :PublicParking ;
+            rdfs:range xsd:string.
+
+:hasCercaniasNear rdf:type owl:ObjectProperty ;
+               rdfs:domain :PublicParking ;
+            rdfs:range xsd:string.
+
+
 
 :hasUrl rdf:type owl:ObjectProperty ;
     rdfs:domain :PublicParking ;
