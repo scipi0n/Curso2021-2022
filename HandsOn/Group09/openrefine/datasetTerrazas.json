@@ -523,5 +523,25 @@
       "op": "core/column-removal",
       "columnName": "hora_fin_VS_ra 3",
       "description": "Remove column hora_fin_VS_ra 3"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "mesas_aux_es",
+      "description": "Remove column mesas_aux_es"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "mesas_aux_ra",
+      "description": "Remove column mesas_aux_ra"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "sillas_es",
+      "description": "Remove column sillas_es"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "sillas_ra",
+      "description": "Remove column sillas_ra"
     }
   ]
