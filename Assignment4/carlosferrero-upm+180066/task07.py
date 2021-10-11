@@ -54,7 +54,7 @@ q2 = prepareQuery('''
      {?Subject org:subClassOf ns:Person.
      ?Instance ?X ?Subject.}
       UNION
-     {?Instance ?X ns:Person.} 
+     {?Instance rdf:type ns:Person.} 
   }  
   '''
     ,
@@ -77,7 +77,7 @@ q3 = prepareQuery('''
      {?Subject org:subClassOf ns:Person.
      ?Instance ?X ?Subject.}
       UNION
-     {?Instance ?X ns:Person.
+     {?Instance rdf:type ns:Person.
       ?Instance ?X ?Subject.} 
   }  
   '''
