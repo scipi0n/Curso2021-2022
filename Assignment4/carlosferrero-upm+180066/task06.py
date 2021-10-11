@@ -65,7 +65,7 @@ for s, p, o in g:
 
 g.add((ns.University,RDF.type,ns.UPM))
 #No tengo muy claro si la relacion Works es de sn
-g.add((ns.UPM,ns.Works,ns.JhonSmith))
+g.add((ns.UPM,ns.works,ns.JhonSmith))
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
