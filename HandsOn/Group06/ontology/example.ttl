@@ -1,41 +1,42 @@
-@prefix base: <http://www.ontologies.org/ontologies/Group06/> .
+@prefix base: <http://www.ontologies.org/ontologies/Group06/ontology> .
+@prefix res: <http://www.ontologies.org/ontologies/Group06/resources> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<base:AparcaBicis/123078>
-	base:hasIDaparcaBicis 123078;
-	base:hasDescription "SITUADO APARCABICICLETAS - COLEGIO PUBLICO LEGADO CRESPO";
-	base:aparcaBicisEn <base:Direccion/Dir1>;
+<res:BycicleParking/123078>
+	base:hasIdBycicleParking 123078;
+	schema:description "SITUADO APARCABICICLETAS - COLEGIO PUBLICO LEGADO CRESPO";
+	base:bycicleParkingAt <res:Direccion/Dir1>;
 	base:state true.
-<base:Direccion/Dir1>
+<res:Address/Dir1>
 	schema:address "Paseo Acacias 2".
-<base:Barrio/Acacias>
-        base:hasIDbarrio 22;
-	schema:containsPlace <base:Direccion/Dir2>;
-	schema:containsPlace <base:Direccion/Dir1>.
-<base:Distrito/Arganzuela>
-        base:hasIDdistrito 2;
-	schema:containsPlace <base:Cruce/Cruce4602>;
-	schema:containsPlace <base:Barrio/Acacias>.
-<base:Ciudad/Madrid>
-        base:hasIDciudad 123;
-	schema:containsPlace <base:Distrito/Arganzuela>.
-<base:Cruce/Cruce4602>
-	base:hasIDcruce 4602.
-<base:Semaforo/Sem56547>
-	base:hasIDsemaforo 56547;
-	base:semaforoEn <base:Cruce/Cruce4602>;
-	base:latitud 40.4042167905091;
-	base:longitud -3.71764340570418.
-<base:baseBiciMad/46>
-	base:hasIDbiciMad 46;
+<res:Neighborhood/Acacias>
+        base:hasIdNeighborhood 22;
+	schema:containsPlace <res:Address/Dir2>;
+	schema:containsPlace <res:Address/Dir1>.
+<schema:AdministrativeArea/Arganzuela>
+        base:hasIdDistrict 2;
+	schema:containsPlace <res:Cross/4602>;
+	schema:containsPlace <res:Barrio/Acacias>.
+<schema:City/Madrid>
+        base:hasIdCity 123;
+	schema:containsPlace <schema:AdministrativeArea/Arganzuela>.
+<res:Cross/4602>
+	base:hasIdCross 4602.
+<res:TrafficLight/56547>
+	base:hasIdTrafficLight 56547;
+	base:trafficLightAt <res:Cross/4602>;
+	schema:latitude 40.4042167905091;
+	schema:longitude -3.71764340570418.
+<res:BaseBiciMad/46>
+	base:hasIdbiciMad 46;
 	base:installDate 41813;
-	base:numPlazas 24;
-	base:latitud 40.4054496;
-	base:longitud -3.7071178.
-<base:Direccion/Dir2>
+	base:numPlaces 24;
+	schema:latitude 40.4054496;
+	schema:longitude -3.7071178.
+<res:Address/Dir2>
         schema:address "Calle de la Ribera de Curtidores 28".
 
