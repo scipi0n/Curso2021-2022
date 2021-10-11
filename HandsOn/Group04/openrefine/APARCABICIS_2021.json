@@ -284,5 +284,23 @@
     "oldColumnName": "INSTALLDAT,D",
     "newColumnName": "INSTALLDAT",
     "description": "Rename column INSTALLDAT,D to INSTALLDAT"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MINTNUMERO,C,25",
+    "newColumnName": "MINTNUMERO",
+    "description": "Rename column MINTNUMERO,C,25 to MINTNUMERO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MINTNDP,C,20",
+    "newColumnName": "MINTNDP",
+    "description": "Rename column MINTNDP,C,20 to MINTNDP"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MODELO,C,254",
+    "newColumnName": "MODELO",
+    "description": "Rename column MODELO,C,254 to MODELO"
   }
 ]
