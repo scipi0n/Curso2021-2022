@@ -9,7 +9,7 @@ Original file is located at
 **Task 06: Modifying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -65,7 +65,7 @@ for s, p, o in g:
 
 g.add((ns.University,RDF.type,ns.UPM))
 #No tengo muy claro si la relacion Works es de sn
-g.add((ns.UPM,ns.Works,ns.JhonSmith))
+g.add((ns.UPM,ns.works,ns.JhonSmith))
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
