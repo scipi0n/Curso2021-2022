@@ -25,44 +25,44 @@
 
 #Data
 ## Recycle Point
-:TIPO_DATO rdf:type owl:DataTypeProperty;
+:DATA_TYPE rdf:type owl:DataTypeProperty;
         rdfs:domain :RecyclePoint;
         rdfs:range xsd:string.
 
-:CENTRO rdf:type owl:DataTypeProperty;
+:CENTER rdf:type owl:DataTypeProperty;
         rdfs:domain :RecyclePoint;
         rdfs:range xsd:string.
 
-:HORARIO rdf:type owl:DataTypeProperty;
+:SCHEDULE rdf:type owl:DataTypeProperty;
         rdfs:domain :RecyclePoint;
         rdfs:range xsd:string.
 
-:RESIDUO rdf:type owl:DataTypeProperty;
+:WASTE rdf:type owl:DataTypeProperty;
         rdfs:domain :RecyclePoint;
         rdfs:range xsd:string.
 
 ## Address
-:CLASE_VIAL rdf:type owl:DataTypeProperty;
+:ROAD_CLASS rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:string.
 
-:NOMBRE_VIAL rdf:type owl:DataTypeProperty;
+:ROAD_NAME rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:string.
 
-:TIPO_NUMERO rdf:type owl:DataTypeProperty;
+:NUM_TYPE rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:string.
         
-:NUMERO rdf:type owl:DataTypeProperty;
+:NUM rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:integer.
 
-:COD_DISTRITO rdf:type owl:DataTypeProperty;
+:DISTRICT_CODE rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:integer.
 
-:DISTRITO rdf:type owl:DataTypeProperty;
+:DISTRICT rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:string.
 

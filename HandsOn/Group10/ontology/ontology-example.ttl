@@ -8,10 +8,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :"Punto Limpio Galileo 39" rdf:type class:RecyclePoint;
-    :TIPO_DATO "Punto Limpio de Proximidad";
-    :CENTRO "Centro Cultural Galileo";
-    :HORARIO "Lunes a Viernes 8:30 a 21:30. Sábados y Domingos 9:30 a 20:30.";
-    :RESIDUO "Aceite vegetal de cocina (5 Litros)\n
+    :DATA_TYPE "Punto Limpio de Proximidad";
+    :CENTER "Centro Cultural Galileo";
+    :SCHEDULE "Lunes a Viernes 8:30 a 21:30. Sábados y Domingos 9:30 a 20:30.";
+    :WASTE "Aceite vegetal de cocina (5 Litros)\n
         Ropa y calzado usado (producción doméstica)\n
         Cápsulas de café (producción doméstica)\n
         Radiografías (50 unidades)\n
@@ -26,12 +26,12 @@
     :hasCoordinates "(439737,14, 4476140,05)".
 
 :"Calle Galileo 39" rdf:type class:Address;
-    :CLASE_VIAL "Calle";
-    :NOMBRE_VIAL "Galileo";
-    :TIPO_NUMERO "numero"           
-    :NUMERO "39"^^xsd:integer;
-    :COD_DISTRITO "7"^^xsd:integer;
-    :DISTRITO "Chamberí".
+    :ROAD_CLASS "Calle";
+    :ROAD_NAME "Galileo";
+    :NUM_TYPE "numero"           
+    :NUM "39"^^xsd:integer;
+    :DISTRICT_CODE "7"^^xsd:integer;
+    :DISTRICT "Chamberí".
 
 :"(439737,14, 4476140,05)" rdf:type class:Coordinates;
     :UTMX "439737,14"^^xsd:float;
