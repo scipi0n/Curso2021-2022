@@ -11,11 +11,6 @@
 #    Object Properties
 #################################################################
 
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#locatedIn
-:locatedIn rdf:type owl:ObjectProperty;
-  rdfs:domain :Bin;
-  rdfs:range :Place .
-
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn
 :recycledIn rdf:type owl:ObjectProperty;
   rdfs:domain :Product;
@@ -38,13 +33,18 @@
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat
 :hasLat rdf:type owl:DatatypeProperty;
-  rdfs:domain :Place;
+  rdfs:domain :Bin;
   rdfs:range xsd:decimal .
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasLon
 :hasLon rdf:type owl:DatatypeProperty;
-  rdfs:domain :Place;
+  rdfs:domain :Bin;
   rdfs:range xsd:decimal .
+
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName
+:hasLocationName rdf:type owl:DatatypeProperty;
+  rdfs:domain :Bin;
+  rdfs:range xsd:string .
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes
 :levelOfFullnes rdf:type owl:FunctionalProperty,
@@ -72,14 +72,11 @@
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#Product
 :Product rdf:type owl:Class .
 
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#Place
-:Place rdf:type owl:Class .
-
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#WasteType
 :WasteType rdf:type owl:Class;
   rdfs:subClassOf :Product .
 
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#bin
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#Bin
 :Bin rdf:type owl:Class .
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#BinGeneral

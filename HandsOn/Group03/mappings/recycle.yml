@@ -1,0 +1,52 @@
+@prefixes :
+owl: <http://www.w3.org/2002/07/owl#> .
+rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+xsd: <http://www.w3.org/2001/XMLSchema#> .
+rr: <http://www.w3.org/ns/r2rml#>.
+rml: <http://semweb.mmlab.be/ns/rml#>.
+rc: <http://smartcity.smartbins.es/lcc/ontology/recycle#> .
+
+mappings:
+  TriplesMap1:
+    sources:
+      - [envases.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/Bin/BinPlastic/$(idPlas)
+    po:
+      - [a, rc:BinPlastic]
+      - p: rdfs:subClassOf
+        o:
+          - mapping: TriplesMap3
+            condition:
+              function: equal
+              parameters:
+                - [int, $(idPlas)]
+                - [int, $(id)]
+
+  TriplesMap2:
+    sources:
+      - [resto.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/Bin/BinGeneral/$(idGen)
+    po:
+      - [a, rc:BinGeneral]
+      - p: rdfs:subClassOf
+        o:
+          - mapping: TriplesMap3
+            condition:
+              function: equal
+              parameters:
+                - [int, $(idGen)]
+                - [int, $(id)]
+
+  TriplesMap3:
+    sources:
+      - [papeleras_madrid_update.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/Bin/$(id)
+    po:
+      - [a, rc:Bin]
+      - [rc:hasAlarm, $(alarm)]
+      - [rc:hasDate, $(date)]
+      - [rc:levelOfFullnes, $(levelOfFullnes)]
+      - [rc:hasLon, $(lon)]
+      - [rc:hasLat, $(lon)]
+      - [rc:hasLocationName, $(Place)]
