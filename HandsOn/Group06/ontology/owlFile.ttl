@@ -1,9 +1,15 @@
-@prefix base: <http://www.ontologies.org/ontologies/Group06/> .
+@prefix base: <http://www.ontologies.org/ontologies/Group06/ontology> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:AdministrativeArea a owl:Class ;
+rdfs:label "Administrative Area" .
+
+schema:City a owl:Class ;
+rdfs:label "City" .
 
 schema:address a owl:DatatypeProperty ;
 rdfs:label "address" ;
@@ -12,93 +18,87 @@ rdfs:range xsd:postalAddress .
 schema:containsPlace a owl:ObjectProperty ;
 rdfs:label "contains place" .
 
+schema:description a owl:DatatypeProperty ;
+rdfs:label "description" ;
+rdfs:range xsd:string .
+
+schema:latitude a owl:DatatypeProperty ;
+rdfs:label "latitude" ;
+rdfs:range xsd:double .
+
+schema:longitude a owl:DatatypeProperty ;
+rdfs:label "longitude" ;
+rdfs:range xsd:double .
+
 base: a owl:Ontology ;
 dc:creator "Group06" ;
 dc:description "Ontology code created by Chowlk" ;
 dc:title "BiciSem Ontology" ;
 owl:versionInfo "0.0.1" .
 
-base:AparcaBicis a owl:Class ;
-rdfs:label "Aparca Bicis" .
+base:Address a owl:Class ;
+rdfs:label "Address" .
 
-base:Barrio a owl:Class ;
-rdfs:label "Barrio" .
+base:BaseBiciMad a owl:Class ;
+rdfs:label "Base Bici Mad" .
 
-base:Ciudad a owl:Class ;
-rdfs:label "Ciudad" .
+base:BycicleParking a owl:Class ;
+rdfs:label "Bycicle Parking" .
 
-base:Cruce a owl:Class ;
-rdfs:label "Cruce" .
+base:Cross a owl:Class ;
+rdfs:label "Cross" .
 
-base:Direccion a owl:Class ;
-rdfs:label "Direccion" .
+base:Neighborhood a owl:Class ;
+rdfs:label "Neighborhood" .
 
-base:Distrito a owl:Class ;
-rdfs:label "Distrito" .
+base:TrafficLight a owl:Class ;
+rdfs:label "Traffic Light" .
 
-base:Semaforo a owl:Class ;
-rdfs:label "Semaforo" .
+base:biciMadAt a owl:ObjectProperty ;
+rdfs:label "bici mad at" .
 
-base:aparcaBicisEn a owl:ObjectProperty ;
-rdfs:label "aparca bicis en" .
+base:bycicleParkingAt a owl:ObjectProperty ;
+rdfs:label "bycicle parking at" .
 
-base:baseBiciMad a owl:Class ;
-rdfs:label "base Bici Mad" .
-
-base:biciMadEn a owl:ObjectProperty ;
-rdfs:label "bici mad en" .
-
-base:hasDescription a owl:DatatypeProperty ;
-rdfs:label "has description" ;
+base:hasIdBiciMad a owl:DatatypeProperty ;
+rdfs:label "has id bici mad" ;
 rdfs:range xsd:string .
 
-base:hasIDaparcaBicis a owl:DatatypeProperty ;
-rdfs:label "has i daparca bicis" ;
+base:hasIdBycicleParking a owl:DatatypeProperty ;
+rdfs:label "has id bycicle parking" ;
 rdfs:range xsd:integer .
 
-base:hasIDbarrio a owl:DatatypeProperty ;
-rdfs:label "has i dbarrio" ;
+base:hasIdCity a owl:DatatypeProperty ;
+rdfs:label "has id city" ;
 rdfs:range xsd:integer .
 
-base:hasIDbiciMad a owl:DatatypeProperty ;
-rdfs:label "has i dbici mad" ;
-rdfs:range xsd:string .
-
-base:hasIDciudad a owl:DatatypeProperty ;
-rdfs:label "has i dciudad" ;
+base:hasIdCross a owl:DatatypeProperty ;
+rdfs:label "has id cross" ;
 rdfs:range xsd:integer .
 
-base:hasIDcruce a owl:DatatypeProperty ;
-rdfs:label "has i dcruce" ;
+base:hasIdDistrict a owl:DatatypeProperty ;
+rdfs:label "has id district" ;
 rdfs:range xsd:integer .
 
-base:hasIDdistrito a owl:DatatypeProperty ;
-rdfs:label "has i ddistrito" ;
+base:hasIdNeighborhood a owl:DatatypeProperty ;
+rdfs:label "has id neighborhood" ;
 rdfs:range xsd:integer .
 
-base:hasIDsemaforo a owl:DatatypeProperty ;
-rdfs:label "has i dsemaforo" ;
+base:hasIdTrafficLight a owl:DatatypeProperty ;
+rdfs:label "has id traffic light" ;
 rdfs:range xsd:integer .
 
 base:installDate a owl:DatatypeProperty ;
 rdfs:label "install date" ;
 rdfs:range xsd:date .
 
-base:latitud a owl:DatatypeProperty ;
-rdfs:label "latitud" ;
-rdfs:range xsd:double .
-
-base:longitud a owl:DatatypeProperty ;
-rdfs:label "longitud" ;
-rdfs:range xsd:double .
-
-base:numPlazas a owl:DatatypeProperty ;
-rdfs:label "num plazas" ;
+base:numPlaces a owl:DatatypeProperty ;
+rdfs:label "num places" ;
 rdfs:range xsd:integer .
-
-base:semaforoEn a owl:ObjectProperty ;
-rdfs:label "semaforo en" .
 
 base:state a owl:DatatypeProperty ;
 rdfs:label "state" ;
 rdfs:range xsd:boolean .
+
+base:trafficLightAt a owl:ObjectProperty ;
+rdfs:label "traffic light at" .
