@@ -26,7 +26,7 @@
     :hasCoordinates "(439737,14, 4476140,05)".
 
 :"Calle Galileo 39" rdf:type class:Address;
-    :ROAD_CLASS "Calle";
+    :ROAD_TYPE "Calle";
     :ROAD_NAME "Galileo";
     :NUM_TYPE "numero"           
     :NUM "39"^^xsd:integer;

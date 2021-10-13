@@ -42,7 +42,7 @@
         rdfs:range xsd:string.
 
 ## Address
-:ROAD_CLASS rdf:type owl:DataTypeProperty;
+:ROAD_TYPE rdf:type owl:DataTypeProperty;
         rdfs:domain :Address;
         rdfs:range xsd:string.
 
