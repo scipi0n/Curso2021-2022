@@ -15,22 +15,22 @@ map:map_Address_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "Address";
     rr:subjectMap map:s_003;
-    rr:predicateObjectMap map:pom_028, map:pom_029, map:pom_030, map:pom_031.
+    rr:predicateObjectMap map:pom_026, map:pom_027, map:pom_028, map:pom_029.
 map:map_District_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
     rdfs:label "District";
     rr:subjectMap map:s_001;
-    rr:predicateObjectMap map:pom_020, map:pom_021, map:pom_022, map:pom_023.
+    rr:predicateObjectMap map:pom_019, map:pom_020, map:pom_021.
 map:map_GeoCoordinates_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
     rdfs:label "GeoCoordinates";
     rr:subjectMap map:s_002;
-    rr:predicateObjectMap map:pom_024, map:pom_025, map:pom_026, map:pom_027.
+    rr:predicateObjectMap map:pom_022, map:pom_023, map:pom_024, map:pom_025.
 map:map_LocalBusiness_000 rml:logicalSource map:source_000;
     a rr:TriplesMap;
     rdfs:label "LocalBusiness";
     rr:subjectMap map:s_000;
-    rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019.
+    rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018.
 map:om_000 a rr:ObjectMap;
     rr:constant "http://schema.org/LocalBusiness";
     rr:termType rr:IRI.
@@ -47,105 +47,98 @@ map:om_003 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_004 a rr:ObjectMap;
-    rml:reference "desc_situacion_local";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_005 a rr:ObjectMap;
     rml:reference "desc_ubicacion_terraza";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_006 a rr:ObjectMap;
+map:om_005 a rr:ObjectMap;
     rml:reference "mesas_es";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_007 a rr:ObjectMap;
+map:om_006 a rr:ObjectMap;
     rml:reference "mesas_ra";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_008 a rr:ObjectMap;
+map:om_007 a rr:ObjectMap;
     rml:reference "hora_ini_LJ_es";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_009 a rr:ObjectMap;
+map:om_008 a rr:ObjectMap;
     rml:reference "hora_fin_LJ_es";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_010 a rr:ObjectMap;
+map:om_009 a rr:ObjectMap;
     rml:reference "hora_ini_VS_es";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_011 a rr:ObjectMap;
+map:om_010 a rr:ObjectMap;
     rml:reference "hora_fin_VS_es";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_012 a rr:ObjectMap;
+map:om_011 a rr:ObjectMap;
     rml:reference "hora_ini_LJ_ra";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_013 a rr:ObjectMap;
+map:om_012 a rr:ObjectMap;
     rml:reference "hora_fin_LJ_ra";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_014 a rr:ObjectMap;
+map:om_013 a rr:ObjectMap;
     rml:reference "hora_ini_VS_ra";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_015 a rr:ObjectMap;
+map:om_014 a rr:ObjectMap;
     rml:reference "hora_fin_VS_ra";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_016 a rr:ObjectMap;
+map:om_015 a rr:ObjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza#{id_local}";
     rr:termType rr:IRI.
-map:om_017 a rr:ObjectMap;
+map:om_016 a rr:ObjectMap;
     rr:parentTriplesMap map:map_GeoCoordinates_000;
     rr:joinCondition map:jc_000.
-map:om_018 a rr:ObjectMap;
+map:om_017 a rr:ObjectMap;
     rr:parentTriplesMap map:map_District_000;
     rr:joinCondition map:jc_001.
-map:om_019 a rr:ObjectMap;
+map:om_018 a rr:ObjectMap;
     rr:parentTriplesMap map:map_Address_000;
     rr:joinCondition map:jc_002.
-map:om_020 a rr:ObjectMap;
+map:om_019 a rr:ObjectMap;
     rr:constant "http://data.ordnancesurvey.co.uk/ontology/admingeo/District";
     rr:termType rr:IRI.
-map:om_021 a rr:ObjectMap;
+map:om_020 a rr:ObjectMap;
     rml:reference "desc_distrito_local";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_022 a rr:ObjectMap;
-    rml:reference "wikidata:desc_distrito_local";
-    rr:termType rr:IRI.
-map:om_023 a rr:ObjectMap;
+map:om_021 a rr:ObjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid#{desc_distrito_local}";
     rr:termType rr:IRI.
-map:om_024 a rr:ObjectMap;
+map:om_022 a rr:ObjectMap;
     rr:constant "http://schema.org/GeoCoordinates";
     rr:termType rr:IRI.
-map:om_025 a rr:ObjectMap;
+map:om_023 a rr:ObjectMap;
     rml:reference "id_coordenadas";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_026 a rr:ObjectMap;
+map:om_024 a rr:ObjectMap;
     rml:reference "coordenada_x_local";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_027 a rr:ObjectMap;
+map:om_025 a rr:ObjectMap;
     rml:reference "coordenada_y_local";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_028 a rr:ObjectMap;
+map:om_026 a rr:ObjectMap;
     rr:constant "http://schema.org/PostalAddress";
     rr:termType rr:IRI.
-map:om_029 a rr:ObjectMap;
+map:om_027 a rr:ObjectMap;
     rml:reference "direccion";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_030 a rr:ObjectMap;
+map:om_028 a rr:ObjectMap;
     rml:reference "Cod_Postal";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_031 a rr:ObjectMap;
+map:om_029 a rr:ObjectMap;
     rml:reference "desc_barrio_local";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
@@ -158,60 +151,56 @@ map:pm_002 a rr:PredicateMap;
 map:pm_003 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#status>.
 map:pm_004 a rr:PredicateMap;
-    rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#seasonalTime>.
-map:pm_005 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#terraceUbication>.
-map:pm_006 a rr:PredicateMap;
+map:pm_005 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#tablesSeasonal>.
-map:pm_007 a rr:PredicateMap;
+map:pm_006 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#tablesUnseasonal>.
-map:pm_008 a rr:PredicateMap;
+map:pm_007 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdaySeasonalOpen>.
-map:pm_009 a rr:PredicateMap;
+map:pm_008 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdaySeasonalClose>.
-map:pm_010 a rr:PredicateMap;
+map:pm_009 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekendSeasonalOpen>.
-map:pm_011 a rr:PredicateMap;
+map:pm_010 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekendSeasonalClose>.
-map:pm_012 a rr:PredicateMap;
+map:pm_011 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdayUnseasonalOpen>.
+map:pm_012 a rr:PredicateMap;
+    rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdayUnseasonalClose>.
 map:pm_013 a rr:PredicateMap;
-    rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdayUnseasonalClose>.
-map:pm_014 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekendUnseasonalOpen>.
-map:pm_015 a rr:PredicateMap;
+map:pm_014 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#WeekdayUnseasonalClose>.
-map:pm_016 a rr:PredicateMap;
+map:pm_015 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#LocalBusiness>.
-map:pm_017 a rr:PredicateMap;
+map:pm_016 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#hasLocation>.
-map:pm_018 a rr:PredicateMap;
+map:pm_017 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#containedIn>.
-map:pm_019 a rr:PredicateMap;
+map:pm_018 a rr:PredicateMap;
     rr:constant <http://schema.org/adress>.
+map:pm_019 a rr:PredicateMap;
+    rr:constant rdf:type.
 map:pm_020 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_021 a rr:PredicateMap;
     rr:constant rdf:label.
-map:pm_022 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_023 a rr:PredicateMap;
+map:pm_021 a rr:PredicateMap;
     rr:constant <http://data.ordnancesurvey.co.uk/ontology/admingeo/District>.
-map:pm_024 a rr:PredicateMap;
+map:pm_022 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_025 a rr:PredicateMap;
+map:pm_023 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#GeoCoordinatesID>.
-map:pm_026 a rr:PredicateMap;
+map:pm_024 a rr:PredicateMap;
     rr:constant <http://schema.org/longitude>.
-map:pm_027 a rr:PredicateMap;
+map:pm_025 a rr:PredicateMap;
     rr:constant <http://schema.org/latitude>.
-map:pm_028 a rr:PredicateMap;
+map:pm_026 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_029 a rr:PredicateMap;
+map:pm_027 a rr:PredicateMap;
     rr:constant <http://schema.org/streetAddress>.
-map:pm_030 a rr:PredicateMap;
+map:pm_028 a rr:PredicateMap;
     rr:constant <http://schema.org/postalCode>.
-map:pm_031 a rr:PredicateMap;
+map:pm_029 a rr:PredicateMap;
     rr:constant <http://schema.org/addressRegion>.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
@@ -303,12 +292,6 @@ map:pom_028 a rr:PredicateObjectMap;
 map:pom_029 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_029;
     rr:objectMap map:om_029.
-map:pom_030 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_030;
-    rr:objectMap map:om_030.
-map:pom_031 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_031;
-    rr:objectMap map:om_031.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
     <http://rdfs.org/ns/void#exampleResource> map:map_LocalBusiness_000, map:map_District_000, map:map_GeoCoordinates_000, map:map_Address_000.
 map:s_000 a rr:SubjectMap;
@@ -320,14 +303,14 @@ map:s_002 a rr:SubjectMap;
 map:s_003 a rr:SubjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/{id_direccion}".
 map:source_000 a rml:LogicalSource;
-    rml:source "dataset-Terrazas.update2-csv.csv";
+    rml:source "csvUpdate3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "dataset-Terrazas.update2-csv.csv";
+    rml:source "csvUpdate3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "dataset-Terrazas.update2-csv.csv";
+    rml:source "csvUpdate3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_003 a rml:LogicalSource;
-    rml:source "dataset-Terrazas.update2-csv.csv";
+    rml:source "csvUpdate3.csv";
     rml:referenceFormulation ql:CSV.

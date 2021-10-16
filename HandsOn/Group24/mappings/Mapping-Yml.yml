@@ -13,14 +13,13 @@ prefixes:
 mappings:
   LocalBusiness:
     sources:
-      - [dataset-Terrazas.update2-csv.csv~csv]
+      - [csvUpdate3.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza/$(id_local)
     po:
       - [a, schema:LocalBusiness]
       - [ns:hasID,$(id_local), xsd:integer]
-      - [dc:title, $(rotulo), xsd:string] 
+      - [dc:title, $(rotulo), xsd:string]
       - [ns:status, $(desc_situacion_local), xsd:string]
-      - [ns:seasonalTime, $(desc_situacion_local), xsd:string]
       - [ns:terraceUbication, $(desc_ubicacion_terraza), xsd:string]
       - [ns:tablesSeasonal, $(mesas_es), xsd:string]
       - [ns:tablesUnseasonal, $(mesas_ra), xsd:string]
@@ -63,17 +62,16 @@ mappings:
 
   District:
     sources:
-      - [dataset-Terrazas.update2-csv.csv~csv]
+      - [csvUpdate3.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/$(desc_distrito_local)
     po:
       - [a, admingeo:District]
       - [rdf:label, $(desc_distrito_local), xsd:string]
-      - [owl:sameAs, $(wikidata:desc_distrito_local)~iri]
       - [admingeo:District, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_distrito_local)~iri]
 
   GeoCoordinates:
     sources:
-      - [dataset-Terrazas.update2-csv.csv~csv]
+      - [csvUpdate3.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Geocoordinates/$(id_coordenadas)
     po:
       - [a, schema:GeoCoordinates]
@@ -83,7 +81,7 @@ mappings:
 
   Address:
     sources:
-    - [dataset-Terrazas.update2-csv.csv~csv]
+    - [csvUpdate3.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/$(id_direccion)
     po:
     - [a, schema:PostalAddress]
