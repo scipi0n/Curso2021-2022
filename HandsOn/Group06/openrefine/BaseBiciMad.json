@@ -148,11 +148,11 @@
       "mode": "row-based"
     },
     "columnName": "Direccion",
-    "expression": "grel:value.substring(value.indexOf(\",\")+1,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\")) + value.substring(value.lastIndexOf(\",\"),1000)",
+    "expression": "grel:value.substring(value.indexOf(\",\")+2,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\"))",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column Direccion using expression grel:value.substring(value.indexOf(\",\")+1,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\")) + value.substring(value.lastIndexOf(\",\"),1000)"
+    "description": "Text transform on cells in column Direccion using expression grel:value.substring(value.indexOf(\",\")+2,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\"))"
   },
   {
     "op": "core/text-transform",
@@ -161,16 +161,94 @@
       "mode": "row-based"
     },
     "columnName": "Direccion",
-    "expression": "grel:value.replace(\",\",\" \")",
+    "expression": "grel:value.substring(0,value.indexOf(\",\")) + value.substring(value.indexOf(\",\")+4,1000)",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\",\",\" \")"
+    "description": "Text transform on cells in column Direccion using expression grel:value.substring(0,value.indexOf(\",\")) + value.substring(value.indexOf(\",\")+4,1000)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"AVENIDAL\",\"AVENIDA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"AVENIDAL\",\"AVENIDA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"CALLEL\",\"CALLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"CALLEL\",\"CALLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"GLORIETAL\",\"GLORIETA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"GLORIETAL\",\"GLORIETA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"PASEOL\",\"PASEO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"PASEOL\",\"PASEO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"PLAZAL\",\"PLAZA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"PLAZAL\",\"PLAZA\")"
   },
   {
     "op": "core/column-rename",
     "oldColumnName": "Direccion",
     "newColumnName": "PostalAddress",
     "description": "Rename column Direccion to PostalAddress"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PostalAddress",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PostalAddress using expression value.toString()"
   }
 ]
