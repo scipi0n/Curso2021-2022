@@ -3,7 +3,7 @@
         {
           "id" : "RDF file",
           "handler" : {"type" : "RDFHandler", "format" : "RDF"},
-          "provider"  : { "type" : "FileProvider", "file" : "./mappings/data/mappingl"}
+          "provider"  : { "type" : "FileProvider", "file" : "./mappings/data/mapping.rml"}
         }
     ],
     "resource_rules" : [
