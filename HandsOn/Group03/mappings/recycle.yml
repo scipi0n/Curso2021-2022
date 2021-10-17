@@ -1,4 +1,4 @@
-@prefixes :
+prefixes:
 owl: <http://www.w3.org/2002/07/owl#> .
 rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -17,11 +17,6 @@ mappings:
       - p: rdfs:subClassOf
         o:
           - mapping: TriplesMap3
-            condition:
-              function: equal
-              parameters:
-                - [int, $(idPlas)]
-                - [int, $(id)]
 
   TriplesMap2:
     sources:
@@ -32,11 +27,6 @@ mappings:
       - p: rdfs:subClassOf
         o:
           - mapping: TriplesMap3
-            condition:
-              function: equal
-              parameters:
-                - [int, $(idGen)]
-                - [int, $(id)]
 
   TriplesMap3:
     sources:
@@ -50,3 +40,30 @@ mappings:
       - [rc:hasLon, $(lon)]
       - [rc:hasLat, $(lon)]
       - [rc:hasLocationName, $(Place)]
+
+  TriplesMap4:
+    sources:
+      - [plastic.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/WasteType/Plastic/$(idPlast)
+    po:
+      - [a, rc:Plastic]
+      - p: rdfs:subClassOf
+        o:
+          - mapping: TriplesMap6
+
+  TriplesMap5:
+    sources:
+      - [general.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/WasteType/General/$(idGen)
+    po:
+      - [a, rc:General]
+      - p: rdfs:subClassOf
+        o:
+          - mapping: TriplesMap6
+
+  TriplesMap6:
+    sources:
+      - [products.csv~csv]
+    s: http://smartcity.smartbins.es/lcc/resource/WasteType/$(id)
+    po:
+      - [a, rc:WasteType]

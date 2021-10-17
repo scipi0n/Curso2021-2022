@@ -1,0 +1,1965 @@
+idPlast,Product,WasteType
+1,Glass bottle,Plastic
+4,Clear plastic bottle,Plastic
+5,Plastic bottle cap,Plastic
+6,Clear plastic bottle,Plastic
+7,Clear plastic bottle,Plastic
+8,Plastic bottle cap,Plastic
+13,Other plastic bottle,Plastic
+14,Plastic bottle cap,Plastic
+18,Clear plastic bottle,Plastic
+19,Plastic bottle cap,Plastic
+20,Clear plastic bottle,Plastic
+24,Glass bottle,Plastic
+25,Other plastic wrapper,Plastic
+29,Plastic film,Plastic
+31,Other plastic,Plastic
+32,Other plastic bottle,Plastic
+33,Clear plastic bottle,Plastic
+34,Glass bottle,Plastic
+37,Plastic bottle cap,Plastic
+38,Plastic bottle cap,Plastic
+39,Plastic bottle cap,Plastic
+40,Plastic bottle cap,Plastic
+41,Metal bottle cap,Plastic
+42,Clear plastic bottle,Plastic
+43,Plastic bottle cap,Plastic
+44,Plastic film,Plastic
+45,Disposable food container,Plastic
+46,Other plastic bottle,Plastic
+47,Other plastic bottle,Plastic
+48,Other plastic bottle,Plastic
+49,Plastic bottle cap,Plastic
+65,Other plastic bottle,Plastic
+66,Other plastic bottle,Plastic
+67,Plastic bottle cap,Plastic
+69,Glass bottle,Plastic
+70,Other plastic wrapper,Plastic
+71,Glass bottle,Plastic
+72,Other plastic wrapper,Plastic
+73,Clear plastic bottle,Plastic
+79,Plastic bottle cap,Plastic
+82,Clear plastic bottle,Plastic
+84,Disposable food container,Plastic
+92,Single-use carrier bag,Plastic
+97,Clear plastic bottle,Plastic
+98,Glass bottle,Plastic
+99,Plastic film,Plastic
+100,Crisp packet,Plastic
+101,Glass bottle,Plastic
+102,Glass bottle,Plastic
+107,Other plastic bottle,Plastic
+108,Other plastic bottle,Plastic
+137,Crisp packet,Plastic
+144,Clear plastic bottle,Plastic
+145,Plastic bottle cap,Plastic
+146,Crisp packet,Plastic
+156,Plastic utensils,Plastic
+165,Metal bottle cap,Plastic
+167,Spread tub,Plastic
+168,Other plastic wrapper,Plastic
+169,Spread tub,Plastic
+170,Plastic film,Plastic
+172,Single-use carrier bag,Plastic
+175,Garbage bag,Plastic
+178,Clear plastic bottle,Plastic
+180,Other plastic wrapper,Plastic
+181,Other plastic wrapper,Plastic
+182,Plastic film,Plastic
+183,Plastic film,Plastic
+184,Plastic film,Plastic
+188,Plastic bottle cap,Plastic
+189,Clear plastic bottle,Plastic
+190,Other plastic wrapper,Plastic
+191,Metal bottle cap,Plastic
+192,Plastic bottle cap,Plastic
+194,Six pack rings,Plastic
+209,Plastic bottle cap,Plastic
+210,Plastic bottle cap,Plastic
+213,Plastic film,Plastic
+217,Other plastic bottle,Plastic
+218,Other plastic bottle,Plastic
+219,Plastic bottle cap,Plastic
+221,Garbage bag,Plastic
+222,Garbage bag,Plastic
+223,Garbage bag,Plastic
+226,Other plastic wrapper,Plastic
+230,Disposable food container,Plastic
+232,Clear plastic bottle,Plastic
+233,Plastic bottle cap,Plastic
+235,Disposable food container,Plastic
+243,Crisp packet,Plastic
+245,Plastic film,Plastic
+246,Plastic bottle cap,Plastic
+247,Metal bottle cap,Plastic
+248,Metal bottle cap,Plastic
+255,Plastic film,Plastic
+256,Plastic film,Plastic
+257,Garbage bag,Plastic
+260,Disposable food container,Plastic
+261,Spread tub,Plastic
+271,Other plastic bottle,Plastic
+272,Plastic bottle cap,Plastic
+273,Plastic film,Plastic
+309,Clear plastic bottle,Plastic
+310,Other plastic bottle,Plastic
+311,Plastic bottle cap,Plastic
+317,Clear plastic bottle,Plastic
+324,Other plastic,Plastic
+325,Clear plastic bottle,Plastic
+326,Plastic bottle cap,Plastic
+328,Plastic film,Plastic
+329,Plastic film,Plastic
+330,Clear plastic bottle,Plastic
+331,Clear plastic bottle,Plastic
+332,Plastic film,Plastic
+333,Plastic film,Plastic
+334,Other plastic wrapper,Plastic
+337,Single-use carrier bag,Plastic
+338,Plastic film,Plastic
+339,Plastic film,Plastic
+343,Single-use carrier bag,Plastic
+344,Plastic film,Plastic
+347,Plastic film,Plastic
+352,Plastic film,Plastic
+354,Other plastic container,Plastic
+355,Disposable food container,Plastic
+356,Plastic film,Plastic
+357,Clear plastic bottle,Plastic
+358,Plastic film,Plastic
+359,Plastic film,Plastic
+360,Other plastic wrapper,Plastic
+361,Other plastic,Plastic
+363,Single-use carrier bag,Plastic
+364,Single-use carrier bag,Plastic
+365,Other plastic,Plastic
+367,Other plastic container,Plastic
+369,Plastic film,Plastic
+370,Plastic film,Plastic
+371,Plastic film,Plastic
+372,Single-use carrier bag,Plastic
+375,Clear plastic bottle,Plastic
+376,Glass bottle,Plastic
+377,Crisp packet,Plastic
+378,Metal bottle cap,Plastic
+379,Metal bottle cap,Plastic
+382,Glass bottle,Plastic
+384,Glass bottle,Plastic
+385,Glass bottle,Plastic
+387,Plastic film,Plastic
+390,Clear plastic bottle,Plastic
+391,Glass bottle,Plastic
+392,Glass bottle,Plastic
+393,Glass bottle,Plastic
+398,Glass bottle,Plastic
+399,Clear plastic bottle,Plastic
+401,Plastic film,Plastic
+405,Plastic film,Plastic
+416,Glass bottle,Plastic
+423,Plastic film,Plastic
+426,Other plastic wrapper,Plastic
+427,Clear plastic bottle,Plastic
+432,Polypropylene bag,Plastic
+436,Other plastic,Plastic
+437,Other plastic,Plastic
+438,Clear plastic bottle,Plastic
+445,Other plastic wrapper,Plastic
+469,Other plastic wrapper,Plastic
+486,Plastic film,Plastic
+511,Plastic bottle cap,Plastic
+513,Plastic film,Plastic
+515,Plastic film,Plastic
+516,Plastic film,Plastic
+517,Plastic film,Plastic
+518,Plastic film,Plastic
+519,Plastic film,Plastic
+520,Plastic film,Plastic
+521,Other plastic wrapper,Plastic
+525,Plastic film,Plastic
+526,Plastic film,Plastic
+527,Plastic film,Plastic
+528,Plastic film,Plastic
+530,Plastic bottle cap,Plastic
+532,Clear plastic bottle,Plastic
+540,Plastic film,Plastic
+541,Plastic film,Plastic
+542,Other plastic wrapper,Plastic
+544,Plastic film,Plastic
+548,Plastic film,Plastic
+549,Plastic film,Plastic
+552,Plastic film,Plastic
+553,Plastic film,Plastic
+556,Plastic film,Plastic
+557,Plastic film,Plastic
+559,Plastic film,Plastic
+560,Plastic film,Plastic
+561,Plastic film,Plastic
+562,Other plastic,Plastic
+563,Plastic film,Plastic
+564,Plastic film,Plastic
+565,Other plastic,Plastic
+566,Plastic film,Plastic
+568,Plastic film,Plastic
+570,Plastic film,Plastic
+571,Plastic film,Plastic
+572,Plastic film,Plastic
+574,Plastic film,Plastic
+575,Plastic film,Plastic
+576,Plastic film,Plastic
+577,Plastic film,Plastic
+581,Other plastic,Plastic
+583,Other plastic,Plastic
+585,Plastic film,Plastic
+586,Other plastic,Plastic
+587,Clear plastic bottle,Plastic
+588,Clear plastic bottle,Plastic
+590,Plastic film,Plastic
+595,Plastic film,Plastic
+596,Other plastic,Plastic
+600,Clear plastic bottle,Plastic
+604,Other plastic,Plastic
+610,Garbage bag,Plastic
+611,Other plastic,Plastic
+613,Garbage bag,Plastic
+617,Plastic film,Plastic
+618,Other plastic wrapper,Plastic
+622,Metal bottle cap,Plastic
+625,Other plastic wrapper,Plastic
+626,Glass bottle,Plastic
+631,Clear plastic bottle,Plastic
+641,Plastic film,Plastic
+646,Glass bottle,Plastic
+649,Plastic film,Plastic
+650,Plastic film,Plastic
+652,Glass bottle,Plastic
+653,Other plastic wrapper,Plastic
+657,Glass bottle,Plastic
+664,Plastic film,Plastic
+667,Metal bottle cap,Plastic
+680,Clear plastic bottle,Plastic
+681,Plastic bottle cap,Plastic
+685,Other plastic wrapper,Plastic
+710,Garbage bag,Plastic
+734,Plastic film,Plastic
+741,Other plastic bottle,Plastic
+742,Plastic bottle cap,Plastic
+746,Other plastic bottle,Plastic
+747,Spread tub,Plastic
+748,Plastic bottle cap,Plastic
+749,Plastic bottle cap,Plastic
+751,Clear plastic bottle,Plastic
+752,Plastic bottle cap,Plastic
+754,Plastic glooves,Plastic
+756,Other plastic,Plastic
+758,Single-use carrier bag,Plastic
+759,Single-use carrier bag,Plastic
+760,Single-use carrier bag,Plastic
+761,Single-use carrier bag,Plastic
+762,Single-use carrier bag,Plastic
+763,Single-use carrier bag,Plastic
+764,Single-use carrier bag,Plastic
+765,Other plastic bottle,Plastic
+766,Other plastic,Plastic
+767,Other plastic,Plastic
+768,Plastic film,Plastic
+770,Plastic film,Plastic
+772,Other plastic bottle,Plastic
+774,Other plastic bottle,Plastic
+781,Other plastic wrapper,Plastic
+786,Other plastic wrapper,Plastic
+787,Garbage bag,Plastic
+788,Plastic film,Plastic
+789,Plastic film,Plastic
+790,Other plastic wrapper,Plastic
+792,Other plastic wrapper,Plastic
+793,Other plastic wrapper,Plastic
+797,Plastic film,Plastic
+798,Other plastic wrapper,Plastic
+802,Plastic film,Plastic
+807,Plastic bottle cap,Plastic
+811,Plastic film,Plastic
+812,Polypropylene bag,Plastic
+813,Other plastic,Plastic
+814,Plastic film,Plastic
+817,Single-use carrier bag,Plastic
+818,Plastic film,Plastic
+819,Plastic film,Plastic
+820,Plastic film,Plastic
+822,Plastic film,Plastic
+823,Single-use carrier bag,Plastic
+824,Plastic film,Plastic
+828,Plastic film,Plastic
+830,Clear plastic bottle,Plastic
+831,Plastic bottle cap,Plastic
+832,Plastic film,Plastic
+833,Plastic film,Plastic
+835,Plastic film,Plastic
+836,Plastic film,Plastic
+837,Plastic film,Plastic
+838,Plastic film,Plastic
+839,Other plastic wrapper,Plastic
+840,Plastic film,Plastic
+843,Plastic film,Plastic
+844,Plastic film,Plastic
+846,Plastic film,Plastic
+847,Plastic film,Plastic
+848,Plastic film,Plastic
+849,Plastic film,Plastic
+850,Other plastic,Plastic
+852,Clear plastic bottle,Plastic
+853,Plastic bottle cap,Plastic
+854,Plastic film,Plastic
+857,Plastic film,Plastic
+861,Plastic film,Plastic
+862,Other plastic,Plastic
+863,Other plastic,Plastic
+864,Other plastic,Plastic
+865,Other plastic,Plastic
+866,Other plastic,Plastic
+867,Other plastic,Plastic
+868,Other plastic,Plastic
+870,Plastic film,Plastic
+871,Garbage bag,Plastic
+873,Other plastic wrapper,Plastic
+874,Other plastic wrapper,Plastic
+875,Plastic film,Plastic
+876,Plastic film,Plastic
+877,Plastic film,Plastic
+878,Plastic bottle cap,Plastic
+879,Other plastic wrapper,Plastic
+880,Plastic film,Plastic
+885,Clear plastic bottle,Plastic
+888,Other plastic wrapper,Plastic
+889,Other plastic wrapper,Plastic
+890,Plastic bottle cap,Plastic
+891,Clear plastic bottle,Plastic
+893,Clear plastic bottle,Plastic
+894,Plastic bottle cap,Plastic
+895,Other plastic,Plastic
+896,Plastic film,Plastic
+908,Other plastic container,Plastic
+917,Glass bottle,Plastic
+919,Clear plastic bottle,Plastic
+920,Plastic bottle cap,Plastic
+921,Clear plastic bottle,Plastic
+922,Plastic bottle cap,Plastic
+923,Other plastic wrapper,Plastic
+926,Other plastic,Plastic
+929,Plastic bottle cap,Plastic
+932,Plastic film,Plastic
+933,Plastic film,Plastic
+934,Plastic bottle cap,Plastic
+935,Crisp packet,Plastic
+936,Other plastic wrapper,Plastic
+938,Other plastic wrapper,Plastic
+941,Plastic film,Plastic
+942,Plastic film,Plastic
+943,Plastic film,Plastic
+944,Other plastic wrapper,Plastic
+945,Other plastic wrapper,Plastic
+947,Clear plastic bottle,Plastic
+948,Clear plastic bottle,Plastic
+949,Plastic bottle cap,Plastic
+950,Plastic bottle cap,Plastic
+952,Plastic bottle cap,Plastic
+954,Disposable food container,Plastic
+956,Crisp packet,Plastic
+959,Plastic film,Plastic
+961,Plastic utensils,Plastic
+962,Plastic utensils,Plastic
+963,Plastic utensils,Plastic
+964,Clear plastic bottle,Plastic
+965,Plastic bottle cap,Plastic
+966,Disposable food container,Plastic
+970,Clear plastic bottle,Plastic
+971,Other plastic,Plastic
+975,Other plastic,Plastic
+976,Clear plastic bottle,Plastic
+1002,Metal bottle cap,Plastic
+1004,Other plastic,Plastic
+1005,Other plastic,Plastic
+1006,Other plastic,Plastic
+1007,Other plastic,Plastic
+1008,Other plastic,Plastic
+1009,Other plastic,Plastic
+1010,Other plastic,Plastic
+1011,Other plastic,Plastic
+1012,Other plastic,Plastic
+1013,Other plastic,Plastic
+1014,Other plastic,Plastic
+1015,Other plastic,Plastic
+1016,Other plastic,Plastic
+1017,Other plastic,Plastic
+1018,Other plastic,Plastic
+1019,Other plastic,Plastic
+1020,Other plastic,Plastic
+1021,Other plastic,Plastic
+1022,Other plastic,Plastic
+1023,Other plastic,Plastic
+1024,Other plastic,Plastic
+1025,Other plastic,Plastic
+1026,Other plastic,Plastic
+1027,Other plastic,Plastic
+1054,Other plastic,Plastic
+1057,Other plastic wrapper,Plastic
+1058,Other plastic wrapper,Plastic
+1066,Clear plastic bottle,Plastic
+1067,Plastic bottle cap,Plastic
+1074,Other plastic wrapper,Plastic
+1075,Other plastic wrapper,Plastic
+1076,Other plastic wrapper,Plastic
+1077,Other plastic wrapper,Plastic
+1078,Other plastic wrapper,Plastic
+1079,Other plastic wrapper,Plastic
+1080,Garbage bag,Plastic
+1083,Other plastic wrapper,Plastic
+1085,Other plastic wrapper,Plastic
+1087,Other plastic wrapper,Plastic
+1089,Other plastic wrapper,Plastic
+1090,Other plastic wrapper,Plastic
+1093,Plastic film,Plastic
+1094,Other plastic bottle,Plastic
+1095,Plastic bottle cap,Plastic
+1096,Other plastic,Plastic
+1097,Other plastic wrapper,Plastic
+1098,Other plastic,Plastic
+1100,Clear plastic bottle,Plastic
+1101,Plastic bottle cap,Plastic
+1102,Other plastic wrapper,Plastic
+1103,Other plastic wrapper,Plastic
+1106,Plastic film,Plastic
+1114,Plastic film,Plastic
+1115,Plastic film,Plastic
+1116,Plastic film,Plastic
+1117,Clear plastic bottle,Plastic
+1121,Other plastic wrapper,Plastic
+1122,Single-use carrier bag,Plastic
+1123,Plastic film,Plastic
+1124,Plastic bottle cap,Plastic
+1126,Plastic bottle cap,Plastic
+1130,Single-use carrier bag,Plastic
+1131,Plastic film,Plastic
+1133,Clear plastic bottle,Plastic
+1134,Plastic bottle cap,Plastic
+1136,Clear plastic bottle,Plastic
+1148,Clear plastic bottle,Plastic
+1149,Plastic bottle cap,Plastic
+1150,Plastic bottle cap,Plastic
+1151,Plastic bottle cap,Plastic
+1152,Clear plastic bottle,Plastic
+1154,Other plastic wrapper,Plastic
+1155,Plastic film,Plastic
+1157,Other plastic,Plastic
+1170,Plastic bottle cap,Plastic
+1171,Other plastic,Plastic
+1172,Other plastic,Plastic
+1177,Other plastic,Plastic
+1181,Other plastic,Plastic
+1182,Other plastic,Plastic
+1183,Other plastic,Plastic
+1184,Other plastic,Plastic
+1185,Other plastic,Plastic
+1186,Other plastic,Plastic
+1187,Other plastic,Plastic
+1188,Other plastic,Plastic
+1193,Other plastic,Plastic
+1197,Other plastic wrapper,Plastic
+1198,Crisp packet,Plastic
+1199,Other plastic wrapper,Plastic
+1200,Other plastic wrapper,Plastic
+1201,Crisp packet,Plastic
+1202,Plastic film,Plastic
+1205,Glass bottle,Plastic
+1207,Plastic film,Plastic
+1209,Plastic film,Plastic
+1210,Single-use carrier bag,Plastic
+1212,Other plastic wrapper,Plastic
+1213,Other plastic wrapper,Plastic
+1217,Clear plastic bottle,Plastic
+1218,Other plastic wrapper,Plastic
+1219,Other plastic wrapper,Plastic
+1220,Plastic bottle cap,Plastic
+1221,Other plastic wrapper,Plastic
+1222,Other plastic wrapper,Plastic
+1223,Other plastic wrapper,Plastic
+1224,Other plastic wrapper,Plastic
+1225,Other plastic wrapper,Plastic
+1226,Other plastic wrapper,Plastic
+1227,Plastic film,Plastic
+1228,Other plastic wrapper,Plastic
+1229,Other plastic wrapper,Plastic
+1230,Other plastic wrapper,Plastic
+1231,Other plastic wrapper,Plastic
+1232,Other plastic wrapper,Plastic
+1233,Other plastic wrapper,Plastic
+1234,Plastic film,Plastic
+1235,Plastic film,Plastic
+1236,Plastic film,Plastic
+1237,Plastic film,Plastic
+1238,Plastic film,Plastic
+1239,Plastic film,Plastic
+1240,Plastic film,Plastic
+1241,Plastic film,Plastic
+1242,Plastic film,Plastic
+1244,Crisp packet,Plastic
+1245,Crisp packet,Plastic
+1246,Other plastic wrapper,Plastic
+1247,Other plastic wrapper,Plastic
+1248,Other plastic wrapper,Plastic
+1249,Other plastic wrapper,Plastic
+1250,Other plastic wrapper,Plastic
+1251,Plastic film,Plastic
+1252,Other plastic wrapper,Plastic
+1253,Other plastic wrapper,Plastic
+1254,Other plastic bottle,Plastic
+1255,Other plastic wrapper,Plastic
+1256,Other plastic wrapper,Plastic
+1257,Other plastic wrapper,Plastic
+1258,Other plastic wrapper,Plastic
+1259,Other plastic wrapper,Plastic
+1260,Other plastic wrapper,Plastic
+1261,Other plastic wrapper,Plastic
+1262,Plastic film,Plastic
+1264,Other plastic wrapper,Plastic
+1265,Plastic film,Plastic
+1266,Plastic film,Plastic
+1267,Plastic film,Plastic
+1268,Plastic film,Plastic
+1270,Other plastic wrapper,Plastic
+1271,Other plastic wrapper,Plastic
+1272,Other plastic wrapper,Plastic
+1274,Other plastic wrapper,Plastic
+1278,Plastic film,Plastic
+1279,Plastic film,Plastic
+1280,Plastic film,Plastic
+1281,Plastic film,Plastic
+1286,Other plastic container,Plastic
+1287,Plastic film,Plastic
+1288,Plastic film,Plastic
+1289,Plastic film,Plastic
+1290,Plastic film,Plastic
+1291,Other plastic wrapper,Plastic
+1295,Other plastic wrapper,Plastic
+1300,Plastic film,Plastic
+1301,Plastic film,Plastic
+1302,Plastic film,Plastic
+1304,Other plastic wrapper,Plastic
+1309,Glass bottle,Plastic
+1310,Single-use carrier bag,Plastic
+1311,Plastic film,Plastic
+1312,Single-use carrier bag,Plastic
+1314,Plastic film,Plastic
+1319,Other plastic wrapper,Plastic
+1329,Other plastic wrapper,Plastic
+1330,Clear plastic bottle,Plastic
+1331,Plastic bottle cap,Plastic
+1333,Other plastic wrapper,Plastic
+1334,Other plastic wrapper,Plastic
+1335,Plastic film,Plastic
+1338,Single-use carrier bag,Plastic
+1339,Clear plastic bottle,Plastic
+1340,Single-use carrier bag,Plastic
+1341,Plastic film,Plastic
+1342,Plastic film,Plastic
+1343,Plastic film,Plastic
+1344,Plastic film,Plastic
+1346,Plastic film,Plastic
+1347,Plastic film,Plastic
+1348,Plastic film,Plastic
+1349,Plastic film,Plastic
+1350,Plastic film,Plastic
+1351,Plastic film,Plastic
+1352,Plastic film,Plastic
+1353,Plastic film,Plastic
+1355,Other plastic,Plastic
+1356,Plastic film,Plastic
+1357,Plastic film,Plastic
+1359,Plastic film,Plastic
+1360,Plastic film,Plastic
+1361,Single-use carrier bag,Plastic
+1363,Plastic film,Plastic
+1364,Plastic film,Plastic
+1366,Single-use carrier bag,Plastic
+1367,Clear plastic bottle,Plastic
+1368,Plastic bottle cap,Plastic
+1369,Plastic bottle cap,Plastic
+1371,Plastic film,Plastic
+1372,Plastic film,Plastic
+1373,Plastic film,Plastic
+1376,Other plastic wrapper,Plastic
+1378,Other plastic wrapper,Plastic
+1379,Foam food container,Plastic
+1380,Plastic film,Plastic
+1381,Plastic film,Plastic
+1383,Plastic film,Plastic
+1384,Plastic film,Plastic
+1386,Plastic film,Plastic
+1387,Plastic film,Plastic
+1388,Other plastic wrapper,Plastic
+1389,Other plastic wrapper,Plastic
+1390,Plastic bottle cap,Plastic
+1391,Clear plastic bottle,Plastic
+1392,Plastic bottle cap,Plastic
+1397,Plastic film,Plastic
+1401,Plastic film,Plastic
+1402,Plastic film,Plastic
+1403,Plastic film,Plastic
+1404,Other plastic wrapper,Plastic
+1406,Other plastic wrapper,Plastic
+1408,Clear plastic bottle,Plastic
+1409,Other plastic,Plastic
+1410,Plastic film,Plastic
+1413,Plastic bottle cap,Plastic
+1414,Clear plastic bottle,Plastic
+1418,Foam food container,Plastic
+1419,Foam food container,Plastic
+1420,Single-use carrier bag,Plastic
+1421,Plastic film,Plastic
+1425,Plastic film,Plastic
+1427,Plastic utensils,Plastic
+1429,Single-use carrier bag,Plastic
+1435,Other plastic wrapper,Plastic
+1436,Other plastic wrapper,Plastic
+1437,Plastic film,Plastic
+1440,Other plastic wrapper,Plastic
+1441,Other plastic wrapper,Plastic
+1447,Plastic film,Plastic
+1448,Other plastic wrapper,Plastic
+1449,Plastic film,Plastic
+1450,Other plastic wrapper,Plastic
+1452,Clear plastic bottle,Plastic
+1453,Plastic bottle cap,Plastic
+1458,Single-use carrier bag,Plastic
+1459,Plastic bottle cap,Plastic
+1460,Other plastic wrapper,Plastic
+1461,Other plastic bottle,Plastic
+1470,Other plastic wrapper,Plastic
+1472,Other plastic,Plastic
+1475,Plastic utensils,Plastic
+1477,Other plastic wrapper,Plastic
+1483,Other plastic wrapper,Plastic
+1485,Other plastic,Plastic
+1488,Plastic film,Plastic
+1490,Plastic film,Plastic
+1491,Plastic film,Plastic
+1493,Plastic film,Plastic
+1494,Plastic film,Plastic
+1500,Plastic film,Plastic
+1502,Other plastic,Plastic
+1503,Other plastic,Plastic
+1504,Other plastic wrapper,Plastic
+1505,Plastic film,Plastic
+1530,Plastic film,Plastic
+1531,Plastic film,Plastic
+1533,Plastic film,Plastic
+1534,Plastic film,Plastic
+1535,Other plastic wrapper,Plastic
+1537,Plastic film,Plastic
+1538,Plastic film,Plastic
+1539,Plastic film,Plastic
+1541,Other plastic,Plastic
+1544,Plastic bottle cap,Plastic
+1545,Other plastic bottle,Plastic
+1548,Plastic bottle cap,Plastic
+1549,Clear plastic bottle,Plastic
+1552,Plastic film,Plastic
+1553,Other plastic,Plastic
+1554,Plastic film,Plastic
+1557,Other plastic bottle,Plastic
+1558,Other plastic bottle,Plastic
+1559,Other plastic wrapper,Plastic
+1560,Other plastic,Plastic
+1561,Plastic bottle cap,Plastic
+1562,Clear plastic bottle,Plastic
+1563,Plastic bottle cap,Plastic
+1565,Plastic film,Plastic
+1566,Clear plastic bottle,Plastic
+1567,Plastic bottle cap,Plastic
+1568,Other plastic wrapper,Plastic
+1570,Plastic film,Plastic
+1571,Clear plastic bottle,Plastic
+1572,Clear plastic bottle,Plastic
+1573,Plastic bottle cap,Plastic
+1574,Plastic utensils,Plastic
+1575,Other plastic wrapper,Plastic
+1581,Plastic film,Plastic
+1582,Plastic utensils,Plastic
+1590,Other plastic wrapper,Plastic
+1592,Other plastic,Plastic
+1625,Other plastic wrapper,Plastic
+1626,Plastic film,Plastic
+1629,Glass bottle,Plastic
+1635,Disposable food container,Plastic
+1638,Plastic utensils,Plastic
+1639,Other plastic wrapper,Plastic
+1642,Tupperware,Plastic
+1643,Plastic film,Plastic
+1644,Metal bottle cap,Plastic
+1645,Glass bottle,Plastic
+1646,Other plastic,Plastic
+1650,Other plastic,Plastic
+1651,Plastic bottle cap,Plastic
+1652,Plastic film,Plastic
+1653,Other plastic,Plastic
+1654,Plastic film,Plastic
+1655,Metal bottle cap,Plastic
+1657,Plastic film,Plastic
+1658,Metal bottle cap,Plastic
+1659,Single-use carrier bag,Plastic
+1661,Metal bottle cap,Plastic
+1663,Other plastic wrapper,Plastic
+1664,Plastic film,Plastic
+1667,Metal bottle cap,Plastic
+1668,Metal bottle cap,Plastic
+1669,Metal bottle cap,Plastic
+1670,Metal bottle cap,Plastic
+1671,Metal bottle cap,Plastic
+1672,Metal bottle cap,Plastic
+1673,Metal bottle cap,Plastic
+1674,Metal bottle cap,Plastic
+1675,Metal bottle cap,Plastic
+1676,Plastic film,Plastic
+1677,Clear plastic bottle,Plastic
+1680,Other plastic,Plastic
+1684,Metal bottle cap,Plastic
+1685,Metal bottle cap,Plastic
+1687,Clear plastic bottle,Plastic
+1688,Plastic bottle cap,Plastic
+1689,Clear plastic bottle,Plastic
+1692,Clear plastic bottle,Plastic
+1693,Clear plastic bottle,Plastic
+1694,Plastic bottle cap,Plastic
+1695,Other plastic,Plastic
+1696,Other plastic,Plastic
+1697,Other plastic,Plastic
+1698,Disposable food container,Plastic
+1699,Plastic film,Plastic
+1700,Other plastic wrapper,Plastic
+1704,Plastic film,Plastic
+1706,Other plastic wrapper,Plastic
+1708,Other plastic bottle,Plastic
+1709,Plastic bottle cap,Plastic
+1710,Other plastic bottle,Plastic
+1711,Plastic bottle cap,Plastic
+1712,Metal bottle cap,Plastic
+1713,Other plastic,Plastic
+1715,Plastic film,Plastic
+1717,Plastic film,Plastic
+1718,Clear plastic bottle,Plastic
+1719,Plastic bottle cap,Plastic
+1721,Plastic utensils,Plastic
+1722,Clear plastic bottle,Plastic
+1726,Plastic film,Plastic
+1727,Clear plastic bottle,Plastic
+1728,Plastic bottle cap,Plastic
+1731,Other plastic bottle,Plastic
+1739,Clear plastic bottle,Plastic
+1740,Plastic bottle cap,Plastic
+1742,Clear plastic bottle,Plastic
+1743,Plastic bottle cap,Plastic
+1744,Plastic film,Plastic
+1745,Plastic film,Plastic
+1746,Plastic film,Plastic
+1747,Plastic bottle cap,Plastic
+1748,Plastic bottle cap,Plastic
+1753,Plastic film,Plastic
+1754,Other plastic wrapper,Plastic
+1757,Clear plastic bottle,Plastic
+1758,Plastic bottle cap,Plastic
+1760,Glass bottle,Plastic
+1761,Glass bottle,Plastic
+1762,Metal bottle cap,Plastic
+1764,Other plastic bottle,Plastic
+1765,Plastic bottle cap,Plastic
+1766,Metal bottle cap,Plastic
+1769,Metal bottle cap,Plastic
+1777,Clear plastic bottle,Plastic
+1778,Plastic film,Plastic
+1781,Plastic bottle cap,Plastic
+1784,Other plastic,Plastic
+1785,Other plastic,Plastic
+1787,Plastic bottle cap,Plastic
+1788,Plastic film,Plastic
+1791,Other plastic,Plastic
+1793,Plastic film,Plastic
+1796,Plastic film,Plastic
+1797,Other plastic wrapper,Plastic
+1799,Other plastic wrapper,Plastic
+1800,Plastic film,Plastic
+1801,Plastic film,Plastic
+1802,Other plastic wrapper,Plastic
+1805,Other plastic,Plastic
+1809,Other plastic,Plastic
+1811,Metal bottle cap,Plastic
+1813,Other plastic bottle,Plastic
+1814,Plastic bottle cap,Plastic
+1815,Plastic bottle cap,Plastic
+1816,Clear plastic bottle,Plastic
+1819,Other plastic,Plastic
+1820,Other plastic,Plastic
+1821,Glass bottle,Plastic
+1822,Glass bottle,Plastic
+1823,Glass bottle,Plastic
+1828,Other plastic wrapper,Plastic
+1830,Other plastic wrapper,Plastic
+1831,Other plastic wrapper,Plastic
+1832,Plastic film,Plastic
+1833,Other plastic wrapper,Plastic
+1835,Other plastic,Plastic
+1838,Other plastic wrapper,Plastic
+1839,Other plastic wrapper,Plastic
+1840,Plastic bottle cap,Plastic
+1842,Other plastic,Plastic
+1843,Other plastic wrapper,Plastic
+1845,Other plastic bottle,Plastic
+1846,Plastic bottle cap,Plastic
+1850,Glass bottle,Plastic
+1888,Plastic bottle cap,Plastic
+1892,Other plastic bottle,Plastic
+1893,Glass bottle,Plastic
+1894,Other plastic,Plastic
+1895,Single-use carrier bag,Plastic
+1901,Plastic film,Plastic
+1903,Other plastic,Plastic
+1908,Other plastic,Plastic
+1912,Other plastic,Plastic
+1913,Other plastic,Plastic
+1914,Other plastic,Plastic
+1915,Other plastic,Plastic
+1916,Other plastic,Plastic
+1918,Other plastic,Plastic
+1920,Plastic film,Plastic
+1923,Other plastic wrapper,Plastic
+1926,Plastic bottle cap,Plastic
+1929,Disposable food container,Plastic
+1931,Plastic utensils,Plastic
+1932,Glass bottle,Plastic
+1934,Clear plastic bottle,Plastic
+1936,Clear plastic bottle,Plastic
+1937,Plastic bottle cap,Plastic
+1938,Clear plastic bottle,Plastic
+1940,Plastic film,Plastic
+1948,Clear plastic bottle,Plastic
+1949,Plastic bottle cap,Plastic
+1952,Glass bottle,Plastic
+1956,Clear plastic bottle,Plastic
+1958,Clear plastic bottle,Plastic
+1961,Clear plastic bottle,Plastic
+1962,Plastic utensils,Plastic
+1970,Other plastic wrapper,Plastic
+1971,Other plastic wrapper,Plastic
+1972,Plastic film,Plastic
+1974,Other plastic wrapper,Plastic
+1975,Other plastic wrapper,Plastic
+1976,Other plastic wrapper,Plastic
+1977,Other plastic wrapper,Plastic
+1989,Other plastic,Plastic
+1991,Other plastic,Plastic
+2003,Plastic film,Plastic
+2004,Other plastic,Plastic
+2007,Plastic bottle cap,Plastic
+2010,Other plastic,Plastic
+2011,Other plastic wrapper,Plastic
+2015,Other plastic,Plastic
+2020,Plastic film,Plastic
+2021,Plastic bottle cap,Plastic
+2022,Plastic film,Plastic
+2026,Plastic utensils,Plastic
+2027,Plastic utensils,Plastic
+2028,Plastic utensils,Plastic
+2029,Other plastic wrapper,Plastic
+2030,Disposable food container,Plastic
+2032,Other plastic wrapper,Plastic
+2033,Plastic film,Plastic
+2034,Other plastic wrapper,Plastic
+2035,Plastic film,Plastic
+2041,Plastic film,Plastic
+2052,Plastic film,Plastic
+2058,Plastic film,Plastic
+2081,Plastic utensils,Plastic
+2082,Other plastic,Plastic
+2083,Metal bottle cap,Plastic
+2084,Other plastic wrapper,Plastic
+2089,Other plastic,Plastic
+2090,Metal bottle cap,Plastic
+2092,Other plastic,Plastic
+2093,Other plastic wrapper,Plastic
+2094,Metal bottle cap,Plastic
+2099,Clear plastic bottle,Plastic
+2100,Plastic bottle cap,Plastic
+2103,Glass bottle,Plastic
+2104,Plastic utensils,Plastic
+2106,Other plastic wrapper,Plastic
+2107,Other plastic wrapper,Plastic
+2111,Other plastic wrapper,Plastic
+2112,Plastic film,Plastic
+2114,Plastic bottle cap,Plastic
+2115,Clear plastic bottle,Plastic
+2116,Plastic bottle cap,Plastic
+2117,Crisp packet,Plastic
+2119,Clear plastic bottle,Plastic
+2121,Plastic film,Plastic
+2122,Other plastic wrapper,Plastic
+2123,Other plastic,Plastic
+2124,Clear plastic bottle,Plastic
+2125,Plastic bottle cap,Plastic
+2127,Plastic film,Plastic
+2130,Plastic utensils,Plastic
+2131,Clear plastic bottle,Plastic
+2132,Plastic film,Plastic
+2134,Metal bottle cap,Plastic
+2135,Other plastic,Plastic
+2136,Foam food container,Plastic
+2137,Other plastic,Plastic
+2141,Other plastic,Plastic
+2143,Other plastic,Plastic
+2147,Other plastic,Plastic
+2148,Plastic utensils,Plastic
+2149,Other plastic,Plastic
+2155,Other plastic,Plastic
+2156,Metal bottle cap,Plastic
+2157,Metal bottle cap,Plastic
+2160,Clear plastic bottle,Plastic
+2161,Plastic bottle cap,Plastic
+2164,Clear plastic bottle,Plastic
+2165,Clear plastic bottle,Plastic
+2167,Garbage bag,Plastic
+2168,Garbage bag,Plastic
+2169,Other plastic wrapper,Plastic
+2170,Plastic film,Plastic
+2171,Plastic film,Plastic
+2172,Plastic film,Plastic
+2183,Other plastic bottle,Plastic
+2187,Other plastic wrapper,Plastic
+2191,Other plastic wrapper,Plastic
+2194,Glass bottle,Plastic
+2195,Glass bottle,Plastic
+2198,Other plastic bottle,Plastic
+2199,Plastic bottle cap,Plastic
+2200,Glass bottle,Plastic
+2201,Glass bottle,Plastic
+2202,Other plastic wrapper,Plastic
+2203,Disposable food container,Plastic
+2204,Other plastic wrapper,Plastic
+2205,Crisp packet,Plastic
+2206,Other plastic wrapper,Plastic
+2207,Garbage bag,Plastic
+2211,Plastic film,Plastic
+2212,Crisp packet,Plastic
+2222,Disposable food container,Plastic
+2223,Plastic film,Plastic
+2226,Other plastic wrapper,Plastic
+2228,Crisp packet,Plastic
+2230,Clear plastic bottle,Plastic
+2231,Clear plastic bottle,Plastic
+2232,Other plastic wrapper,Plastic
+2236,Plastic bottle cap,Plastic
+2240,Crisp packet,Plastic
+2241,Crisp packet,Plastic
+2242,Garbage bag,Plastic
+2243,Metal bottle cap,Plastic
+2244,Metal bottle cap,Plastic
+2245,Glass bottle,Plastic
+2246,Glass bottle,Plastic
+2247,Glass bottle,Plastic
+2254,Crisp packet,Plastic
+2262,Foam food container,Plastic
+2263,Foam food container,Plastic
+2267,Glass bottle,Plastic
+2270,Other plastic wrapper,Plastic
+2271,Plastic film,Plastic
+2273,Clear plastic bottle,Plastic
+2274,Clear plastic bottle,Plastic
+2277,Other plastic,Plastic
+2286,Clear plastic bottle,Plastic
+2287,Plastic bottle cap,Plastic
+2297,Clear plastic bottle,Plastic
+2298,Plastic bottle cap,Plastic
+2302,Metal bottle cap,Plastic
+2303,Metal bottle cap,Plastic
+2304,Six pack rings,Plastic
+2305,Six pack rings,Plastic
+2307,Plastic film,Plastic
+2308,Plastic film,Plastic
+2309,Plastic film,Plastic
+2314,Crisp packet,Plastic
+2315,Other plastic wrapper,Plastic
+2316,Other plastic wrapper,Plastic
+2319,Other plastic,Plastic
+2322,Other plastic,Plastic
+2323,Metal bottle cap,Plastic
+2324,Metal bottle cap,Plastic
+2326,Plastic film,Plastic
+2327,Other plastic wrapper,Plastic
+2332,Crisp packet,Plastic
+2334,Plastic bottle cap,Plastic
+2336,Plastic film,Plastic
+2337,Other plastic wrapper,Plastic
+2338,Glass bottle,Plastic
+2342,Clear plastic bottle,Plastic
+2343,Metal bottle cap,Plastic
+2347,Other plastic bottle,Plastic
+2351,Crisp packet,Plastic
+2352,Glass bottle,Plastic
+2353,Glass bottle,Plastic
+2354,Glass bottle,Plastic
+2358,Plastic film,Plastic
+2363,Other plastic wrapper,Plastic
+2364,Foam food container,Plastic
+2365,Plastic film,Plastic
+2370,Clear plastic bottle,Plastic
+2371,Clear plastic bottle,Plastic
+2372,Glass bottle,Plastic
+2376,Clear plastic bottle,Plastic
+2377,Plastic bottle cap,Plastic
+2378,Plastic film,Plastic
+2379,Plastic film,Plastic
+2380,Other plastic wrapper,Plastic
+2381,Other plastic wrapper,Plastic
+2382,Plastic bottle cap,Plastic
+2383,Crisp packet,Plastic
+2384,Crisp packet,Plastic
+2386,Plastic film,Plastic
+2389,Single-use carrier bag,Plastic
+2390,Other plastic wrapper,Plastic
+2490,Other plastic wrapper,Plastic
+2491,Clear plastic bottle,Plastic
+2492,Plastic bottle cap,Plastic
+2494,Glass bottle,Plastic
+2496,Clear plastic bottle,Plastic
+2497,Plastic bottle cap,Plastic
+2503,Plastic utensils,Plastic
+2505,Plastic utensils,Plastic
+2508,Clear plastic bottle,Plastic
+2511,Crisp packet,Plastic
+2512,Crisp packet,Plastic
+2513,Glass bottle,Plastic
+2514,Clear plastic bottle,Plastic
+2517,Other plastic wrapper,Plastic
+2522,Other plastic wrapper,Plastic
+2523,Plastic film,Plastic
+2528,Other plastic bottle,Plastic
+2529,Clear plastic bottle,Plastic
+2530,Plastic bottle cap,Plastic
+2543,Disposable food container,Plastic
+2547,Plastic film,Plastic
+2548,Plastic film,Plastic
+2549,Plastic film,Plastic
+2550,Plastic film,Plastic
+2551,Crisp packet,Plastic
+2556,Plastic bottle cap,Plastic
+2558,Plastic film,Plastic
+2561,Plastic film,Plastic
+2562,Plastic film,Plastic
+2566,Disposable food container,Plastic
+2567,Plastic film,Plastic
+2569,Plastic film,Plastic
+2571,Plastic film,Plastic
+2572,Spread tub,Plastic
+2573,Other plastic,Plastic
+2579,Plastic film,Plastic
+2581,Clear plastic bottle,Plastic
+2583,Other plastic wrapper,Plastic
+2584,Plastic film,Plastic
+2585,Plastic film,Plastic
+2586,Plastic film,Plastic
+2587,Plastic film,Plastic
+2588,Single-use carrier bag,Plastic
+2589,Other plastic wrapper,Plastic
+2592,Disposable food container,Plastic
+2593,Plastic film,Plastic
+2594,Plastic film,Plastic
+2597,Disposable food container,Plastic
+2598,Plastic film,Plastic
+2599,Single-use carrier bag,Plastic
+2608,Metal bottle cap,Plastic
+2609,Other plastic bottle,Plastic
+2610,Disposable food container,Plastic
+2612,Metal bottle cap,Plastic
+2616,Foam food container,Plastic
+2617,Foam food container,Plastic
+2621,Disposable food container,Plastic
+2622,Plastic film,Plastic
+2624,Plastic utensils,Plastic
+2626,Clear plastic bottle,Plastic
+2635,Clear plastic bottle,Plastic
+2636,Glass bottle,Plastic
+2637,Clear plastic bottle,Plastic
+2638,Other plastic,Plastic
+2639,Other plastic,Plastic
+2650,Other plastic wrapper,Plastic
+2654,Plastic utensils,Plastic
+2655,Plastic utensils,Plastic
+2656,Plastic utensils,Plastic
+2657,Clear plastic bottle,Plastic
+2658,Plastic film,Plastic
+2659,Single-use carrier bag,Plastic
+2660,Plastic film,Plastic
+2661,Other plastic,Plastic
+2665,Other plastic,Plastic
+2667,Clear plastic bottle,Plastic
+2668,Clear plastic bottle,Plastic
+2669,Clear plastic bottle,Plastic
+2670,Glass bottle,Plastic
+2678,Other plastic wrapper,Plastic
+2680,Plastic bottle cap,Plastic
+2681,Plastic film,Plastic
+2683,Plastic film,Plastic
+2686,Plastic film,Plastic
+2688,Clear plastic bottle,Plastic
+2689,Clear plastic bottle,Plastic
+2691,Metal bottle cap,Plastic
+2692,Metal bottle cap,Plastic
+2693,Plastic bottle cap,Plastic
+2694,Plastic bottle cap,Plastic
+2695,Metal bottle cap,Plastic
+2696,Plastic utensils,Plastic
+2698,Other plastic wrapper,Plastic
+2702,Other plastic,Plastic
+2704,Plastic film,Plastic
+2706,Garbage bag,Plastic
+2710,Disposable food container,Plastic
+2711,Other plastic wrapper,Plastic
+2712,Other plastic container,Plastic
+2713,Tupperware,Plastic
+2714,Other plastic wrapper,Plastic
+2718,Plastic film,Plastic
+2762,Plastic bottle cap,Plastic
+2763,Clear plastic bottle,Plastic
+2766,Other plastic,Plastic
+2767,Other plastic,Plastic
+2768,Other plastic,Plastic
+2769,Other plastic,Plastic
+2770,Plastic film,Plastic
+2771,Plastic bottle cap,Plastic
+2774,Plastic film,Plastic
+2776,Plastic bottle cap,Plastic
+2781,Other plastic,Plastic
+2782,Plastic film,Plastic
+2784,Other plastic,Plastic
+2785,Other plastic,Plastic
+2786,Other plastic,Plastic
+2787,Other plastic,Plastic
+2788,Other plastic,Plastic
+2789,Other plastic,Plastic
+2791,Other plastic,Plastic
+2792,Plastic bottle cap,Plastic
+2793,Other plastic,Plastic
+2794,Plastic bottle cap,Plastic
+2795,Plastic film,Plastic
+2796,Other plastic,Plastic
+2797,Other plastic,Plastic
+2798,Other plastic,Plastic
+2799,Plastic film,Plastic
+2800,Other plastic,Plastic
+2801,Other plastic,Plastic
+2802,Plastic bottle cap,Plastic
+2803,Plastic film,Plastic
+2805,Other plastic,Plastic
+2806,Other plastic,Plastic
+2807,Other plastic,Plastic
+2808,Plastic film,Plastic
+2809,Plastic film,Plastic
+2810,Other plastic,Plastic
+2811,Other plastic,Plastic
+2812,Plastic film,Plastic
+2813,Plastic film,Plastic
+2816,Other plastic,Plastic
+2824,Plastic film,Plastic
+2825,Plastic film,Plastic
+2829,Plastic film,Plastic
+2830,Other plastic,Plastic
+2833,Plastic film,Plastic
+2834,Plastic film,Plastic
+2836,Other plastic,Plastic
+2837,Other plastic,Plastic
+2838,Other plastic,Plastic
+2840,Other plastic,Plastic
+2841,Other plastic,Plastic
+2842,Single-use carrier bag,Plastic
+2844,Other plastic,Plastic
+2845,Other plastic,Plastic
+2846,Plastic bottle cap,Plastic
+2847,Plastic bottle cap,Plastic
+2848,Plastic film,Plastic
+2850,Other plastic,Plastic
+2851,Other plastic,Plastic
+2852,Other plastic,Plastic
+2853,Metal bottle cap,Plastic
+2854,Metal bottle cap,Plastic
+2858,Other plastic,Plastic
+2859,Plastic bottle cap,Plastic
+2860,Plastic film,Plastic
+2861,Plastic film,Plastic
+2862,Plastic film,Plastic
+2863,Plastic bottle cap,Plastic
+2864,Other plastic,Plastic
+2868,Plastic film,Plastic
+2870,Disposable food container,Plastic
+2873,Plastic film,Plastic
+2874,Plastic film,Plastic
+2876,Plastic film,Plastic
+2877,Plastic film,Plastic
+2880,Other plastic wrapper,Plastic
+2882,Other plastic wrapper,Plastic
+2883,Plastic film,Plastic
+2884,Other plastic,Plastic
+2885,Plastic bottle cap,Plastic
+2886,Plastic bottle cap,Plastic
+2888,Other plastic bottle,Plastic
+2890,Other plastic wrapper,Plastic
+2891,Other plastic,Plastic
+2892,Other plastic,Plastic
+2893,Other plastic,Plastic
+2894,Other plastic,Plastic
+2895,Other plastic,Plastic
+2896,Plastic film,Plastic
+2897,Disposable food container,Plastic
+2926,Clear plastic bottle,Plastic
+2927,Other plastic,Plastic
+2928,Other plastic,Plastic
+2929,Clear plastic bottle,Plastic
+2932,Metal bottle cap,Plastic
+2937,Other plastic,Plastic
+2938,Plastic film,Plastic
+2940,Plastic film,Plastic
+2941,Clear plastic bottle,Plastic
+2942,Plastic bottle cap,Plastic
+2944,Clear plastic bottle,Plastic
+2945,Plastic bottle cap,Plastic
+2947,Plastic film,Plastic
+2949,Other plastic,Plastic
+2950,Disposable food container,Plastic
+2951,Plastic bottle cap,Plastic
+2953,Plastic bottle cap,Plastic
+2959,Other plastic,Plastic
+2962,Plastic bottle cap,Plastic
+2967,Disposable food container,Plastic
+2968,Plastic film,Plastic
+2970,Other plastic,Plastic
+2971,Garbage bag,Plastic
+2975,Other plastic bottle,Plastic
+2976,Other plastic,Plastic
+2977,Clear plastic bottle,Plastic
+2979,Other plastic,Plastic
+2983,Other plastic wrapper,Plastic
+2985,Clear plastic bottle,Plastic
+2986,Glass bottle,Plastic
+2990,Plastic film,Plastic
+2996,Other plastic,Plastic
+2999,Plastic film,Plastic
+3000,Plastic film,Plastic
+3001,Plastic film,Plastic
+3006,Glass bottle,Plastic
+3007,Glass bottle,Plastic
+3010,Plastic film,Plastic
+3011,Glass bottle,Plastic
+3012,Plastic bottle cap,Plastic
+3014,Plastic film,Plastic
+3016,Plastic film,Plastic
+3018,Plastic film,Plastic
+3019,Disposable food container,Plastic
+3020,Disposable food container,Plastic
+3021,Clear plastic bottle,Plastic
+3022,Plastic bottle cap,Plastic
+3024,Plastic film,Plastic
+3026,Plastic film,Plastic
+3032,Clear plastic bottle,Plastic
+3033,Plastic bottle cap,Plastic
+3036,Other plastic wrapper,Plastic
+3043,Metal bottle cap,Plastic
+3044,Clear plastic bottle,Plastic
+3045,Other plastic wrapper,Plastic
+3046,Other plastic wrapper,Plastic
+3048,Clear plastic bottle,Plastic
+3052,Six pack rings,Plastic
+3057,Other plastic wrapper,Plastic
+3058,Other plastic wrapper,Plastic
+3073,Other plastic,Plastic
+3074,Other plastic,Plastic
+3084,Plastic glooves,Plastic
+3090,Plastic film,Plastic
+3091,Crisp packet,Plastic
+3093,Plastic film,Plastic
+3094,Single-use carrier bag,Plastic
+3095,Other plastic wrapper,Plastic
+3096,Plastic film,Plastic
+3099,Plastic film,Plastic
+3103,Glass bottle,Plastic
+3104,Glass bottle,Plastic
+3105,Glass bottle,Plastic
+3106,Clear plastic bottle,Plastic
+3111,Other plastic wrapper,Plastic
+3112,Other plastic,Plastic
+3116,Other plastic wrapper,Plastic
+3122,Plastic film,Plastic
+3123,Plastic film,Plastic
+3128,Plastic glooves,Plastic
+3131,Plastic film,Plastic
+3134,Metal bottle cap,Plastic
+3139,Other plastic,Plastic
+3140,Crisp packet,Plastic
+3141,Disposable food container,Plastic
+3142,Other plastic,Plastic
+3143,Other plastic,Plastic
+3144,Plastic film,Plastic
+3145,Plastic film,Plastic
+3149,Other plastic,Plastic
+3151,Clear plastic bottle,Plastic
+3165,Plastic film,Plastic
+3168,Clear plastic bottle,Plastic
+3169,Foam food container,Plastic
+3176,Spread tub,Plastic
+3177,Single-use carrier bag,Plastic
+3178,Crisp packet,Plastic
+3179,Crisp packet,Plastic
+3182,Plastic film,Plastic
+3230,Clear plastic bottle,Plastic
+3232,Clear plastic bottle,Plastic
+3233,Plastic bottle cap,Plastic
+3238,Clear plastic bottle,Plastic
+3239,Single-use carrier bag,Plastic
+3241,Plastic film,Plastic
+3242,Clear plastic bottle,Plastic
+3243,Other plastic wrapper,Plastic
+3244,Clear plastic bottle,Plastic
+3245,Clear plastic bottle,Plastic
+3246,Clear plastic bottle,Plastic
+3247,Clear plastic bottle,Plastic
+3248,Clear plastic bottle,Plastic
+3252,Clear plastic bottle,Plastic
+3253,Clear plastic bottle,Plastic
+3254,Plastic bottle cap,Plastic
+3255,Plastic bottle cap,Plastic
+3256,Crisp packet,Plastic
+3257,Other plastic wrapper,Plastic
+3260,Other plastic wrapper,Plastic
+3261,Plastic film,Plastic
+3262,Clear plastic bottle,Plastic
+3263,Plastic bottle cap,Plastic
+3264,Other plastic,Plastic
+3268,Clear plastic bottle,Plastic
+3269,Disposable food container,Plastic
+3271,Clear plastic bottle,Plastic
+3272,Clear plastic bottle,Plastic
+3273,Other plastic wrapper,Plastic
+3275,Clear plastic bottle,Plastic
+3276,Clear plastic bottle,Plastic
+3277,Other plastic,Plastic
+3279,Plastic film,Plastic
+3280,Clear plastic bottle,Plastic
+3281,Plastic bottle cap,Plastic
+3284,Glass bottle,Plastic
+3285,Clear plastic bottle,Plastic
+3286,Clear plastic bottle,Plastic
+3287,Glass bottle,Plastic
+3288,Glass bottle,Plastic
+3290,Clear plastic bottle,Plastic
+3291,Glass bottle,Plastic
+3294,Other plastic bottle,Plastic
+3296,Clear plastic bottle,Plastic
+3297,Plastic bottle cap,Plastic
+3299,Clear plastic bottle,Plastic
+3300,Clear plastic bottle,Plastic
+3301,Clear plastic bottle,Plastic
+3302,Clear plastic bottle,Plastic
+3303,Clear plastic bottle,Plastic
+3304,Clear plastic bottle,Plastic
+3305,Clear plastic bottle,Plastic
+3306,Other plastic bottle,Plastic
+3310,Other plastic,Plastic
+3336,Other plastic,Plastic
+3341,Other plastic,Plastic
+3343,Other plastic,Plastic
+3363,Other plastic wrapper,Plastic
+3364,Plastic film,Plastic
+3365,Other plastic wrapper,Plastic
+3366,Other plastic wrapper,Plastic
+3367,Other plastic wrapper,Plastic
+3368,Plastic film,Plastic
+3369,Other plastic wrapper,Plastic
+3370,Other plastic wrapper,Plastic
+3371,Plastic film,Plastic
+3382,Plastic bottle cap,Plastic
+3383,Plastic bottle cap,Plastic
+3384,Plastic bottle cap,Plastic
+3385,Plastic bottle cap,Plastic
+3386,Plastic bottle cap,Plastic
+3387,Plastic bottle cap,Plastic
+3388,Plastic bottle cap,Plastic
+3389,Plastic bottle cap,Plastic
+3390,Tupperware,Plastic
+3391,Clear plastic bottle,Plastic
+3392,Clear plastic bottle,Plastic
+3393,Plastic utensils,Plastic
+3394,Plastic utensils,Plastic
+3397,Plastic film,Plastic
+3398,Other plastic wrapper,Plastic
+3399,Other plastic wrapper,Plastic
+3401,Clear plastic bottle,Plastic
+3402,Clear plastic bottle,Plastic
+3403,Clear plastic bottle,Plastic
+3404,Clear plastic bottle,Plastic
+3405,Plastic bottle cap,Plastic
+3406,Single-use carrier bag,Plastic
+3407,Tupperware,Plastic
+3408,Plastic bottle cap,Plastic
+3412,Foam food container,Plastic
+3413,Plastic film,Plastic
+3415,Disposable food container,Plastic
+3416,Clear plastic bottle,Plastic
+3420,Clear plastic bottle,Plastic
+3421,Clear plastic bottle,Plastic
+3426,Clear plastic bottle,Plastic
+3427,Clear plastic bottle,Plastic
+3430,Clear plastic bottle,Plastic
+3431,Glass bottle,Plastic
+3432,Other plastic wrapper,Plastic
+3433,Other plastic wrapper,Plastic
+3446,Clear plastic bottle,Plastic
+3447,Single-use carrier bag,Plastic
+3456,Foam food container,Plastic
+3459,Clear plastic bottle,Plastic
+3460,Other plastic,Plastic
+3461,Single-use carrier bag,Plastic
+3463,Disposable food container,Plastic
+3464,Clear plastic bottle,Plastic
+3465,Plastic bottle cap,Plastic
+3466,Clear plastic bottle,Plastic
+3467,Clear plastic bottle,Plastic
+3468,Plastic bottle cap,Plastic
+3469,Plastic film,Plastic
+3470,Other plastic wrapper,Plastic
+3471,Foam food container,Plastic
+3479,Clear plastic bottle,Plastic
+3480,Clear plastic bottle,Plastic
+3481,Plastic film,Plastic
+3483,Clear plastic bottle,Plastic
+3484,Clear plastic bottle,Plastic
+3485,Crisp packet,Plastic
+3486,Other plastic wrapper,Plastic
+3487,Crisp packet,Plastic
+3490,Other plastic,Plastic
+3492,Other plastic,Plastic
+3493,Other plastic,Plastic
+3496,Clear plastic bottle,Plastic
+3497,Clear plastic bottle,Plastic
+3498,Clear plastic bottle,Plastic
+3505,Clear plastic bottle,Plastic
+3506,Clear plastic bottle,Plastic
+3509,Clear plastic bottle,Plastic
+3510,Clear plastic bottle,Plastic
+3513,Other plastic,Plastic
+3520,Clear plastic bottle,Plastic
+3521,Clear plastic bottle,Plastic
+3522,Plastic bottle cap,Plastic
+3523,Crisp packet,Plastic
+3528,Plastic film,Plastic
+3535,Clear plastic bottle,Plastic
+3537,Plastic bottle cap,Plastic
+3545,Clear plastic bottle,Plastic
+3546,Other plastic wrapper,Plastic
+3547,Clear plastic bottle,Plastic
+3548,Plastic bottle cap,Plastic
+3549,Foam food container,Plastic
+3552,Clear plastic bottle,Plastic
+3553,Clear plastic bottle,Plastic
+3557,Clear plastic bottle,Plastic
+3558,Glass bottle,Plastic
+3559,Clear plastic bottle,Plastic
+3561,Crisp packet,Plastic
+3562,Crisp packet,Plastic
+3563,Plastic utensils,Plastic
+3564,Clear plastic bottle,Plastic
+3567,Plastic film,Plastic
+3568,Plastic bottle cap,Plastic
+3569,Plastic bottle cap,Plastic
+3570,Clear plastic bottle,Plastic
+3572,Other plastic wrapper,Plastic
+3573,Plastic utensils,Plastic
+3576,Other plastic wrapper,Plastic
+3577,Other plastic wrapper,Plastic
+3578,Plastic film,Plastic
+3580,Plastic utensils,Plastic
+3636,Other plastic wrapper,Plastic
+3638,Other plastic,Plastic
+3639,Other plastic,Plastic
+3640,Plastic bottle cap,Plastic
+3642,Other plastic,Plastic
+3644,Metal bottle cap,Plastic
+3645,Other plastic wrapper,Plastic
+3646,Other plastic,Plastic
+3647,Plastic film,Plastic
+3648,Other plastic,Plastic
+3650,Plastic utensils,Plastic
+3651,Clear plastic bottle,Plastic
+3652,Plastic bottle cap,Plastic
+3653,Plastic bottle cap,Plastic
+3655,Plastic film,Plastic
+3661,Clear plastic bottle,Plastic
+3662,Clear plastic bottle,Plastic
+3668,Disposable food container,Plastic
+3674,Other plastic,Plastic
+3675,Other plastic,Plastic
+3676,Other plastic,Plastic
+3677,Other plastic,Plastic
+3678,Other plastic,Plastic
+3679,Other plastic,Plastic
+3680,Other plastic,Plastic
+3683,Clear plastic bottle,Plastic
+3684,Clear plastic bottle,Plastic
+3688,Plastic film,Plastic
+3702,Metal bottle cap,Plastic
+3703,Crisp packet,Plastic
+3704,Garbage bag,Plastic
+3706,Other plastic,Plastic
+3710,Single-use carrier bag,Plastic
+3711,Single-use carrier bag,Plastic
+3712,Plastic film,Plastic
+3714,Other plastic,Plastic
+3718,Foam food container,Plastic
+3721,Other plastic wrapper,Plastic
+3722,Plastic film,Plastic
+3725,Other plastic,Plastic
+3726,Other plastic,Plastic
+3730,Clear plastic bottle,Plastic
+3731,Plastic film,Plastic
+3732,Plastic film,Plastic
+3737,Glass bottle,Plastic
+3738,Glass bottle,Plastic
+3741,Metal bottle cap,Plastic
+3745,Single-use carrier bag,Plastic
+3746,Plastic film,Plastic
+3747,Other plastic wrapper,Plastic
+3748,Other plastic wrapper,Plastic
+3749,Plastic film,Plastic
+3750,Plastic utensils,Plastic
+3751,Clear plastic bottle,Plastic
+3752,Spread tub,Plastic
+3763,Other plastic,Plastic
+3765,Other plastic,Plastic
+3768,Plastic bottle cap,Plastic
+3769,Plastic utensils,Plastic
+3770,Plastic utensils,Plastic
+3775,Single-use carrier bag,Plastic
+3776,Single-use carrier bag,Plastic
+3777,Plastic film,Plastic
+3782,Other plastic,Plastic
+3784,Plastic utensils,Plastic
+3785,Single-use carrier bag,Plastic
+3786,Other plastic,Plastic
+3787,Plastic film,Plastic
+3788,Spread tub,Plastic
+3790,Clear plastic bottle,Plastic
+3792,Other plastic wrapper,Plastic
+3793,Clear plastic bottle,Plastic
+3794,Plastic bottle cap,Plastic
+3795,Plastic film,Plastic
+3796,Other plastic wrapper,Plastic
+3797,Other plastic wrapper,Plastic
+3798,Other plastic wrapper,Plastic
+3799,Plastic film,Plastic
+3804,Plastic film,Plastic
+3807,Other plastic wrapper,Plastic
+3808,Plastic film,Plastic
+3809,Plastic film,Plastic
+3810,Single-use carrier bag,Plastic
+3811,Clear plastic bottle,Plastic
+3812,Plastic bottle cap,Plastic
+3815,Disposable food container,Plastic
+3816,Plastic film,Plastic
+3817,Plastic film,Plastic
+3818,Other plastic,Plastic
+3819,Other plastic wrapper,Plastic
+3820,Plastic film,Plastic
+3821,Plastic utensils,Plastic
+3823,Other plastic,Plastic
+3824,Single-use carrier bag,Plastic
+3825,Clear plastic bottle,Plastic
+3826,Other plastic bottle,Plastic
+3829,Plastic bottle cap,Plastic
+3830,Glass bottle,Plastic
+3834,Clear plastic bottle,Plastic
+3835,Garbage bag,Plastic
+3836,Garbage bag,Plastic
+3837,Garbage bag,Plastic
+3838,Garbage bag,Plastic
+3839,Single-use carrier bag,Plastic
+3840,Plastic film,Plastic
+3841,Crisp packet,Plastic
+3842,Single-use carrier bag,Plastic
+3853,Clear plastic bottle,Plastic
+3854,Plastic bottle cap,Plastic
+3855,Clear plastic bottle,Plastic
+3856,Clear plastic bottle,Plastic
+3860,Plastic film,Plastic
+3861,Plastic film,Plastic
+3863,Clear plastic bottle,Plastic
+3864,Plastic bottle cap,Plastic
+3868,Garbage bag,Plastic
+3869,Clear plastic bottle,Plastic
+3870,Plastic film,Plastic
+3874,Clear plastic bottle,Plastic
+3875,Clear plastic bottle,Plastic
+3876,Clear plastic bottle,Plastic
+3877,Clear plastic bottle,Plastic
+3878,Clear plastic bottle,Plastic
+3879,Clear plastic bottle,Plastic
+3880,Clear plastic bottle,Plastic
+3881,Clear plastic bottle,Plastic
+3882,Clear plastic bottle,Plastic
+3883,Clear plastic bottle,Plastic
+3884,Other plastic wrapper,Plastic
+3885,Other plastic wrapper,Plastic
+3886,Plastic bottle cap,Plastic
+3887,Plastic bottle cap,Plastic
+3894,Metal bottle cap,Plastic
+3896,Plastic bottle cap,Plastic
+3897,Plastic bottle cap,Plastic
+3901,Clear plastic bottle,Plastic
+3902,Single-use carrier bag,Plastic
+3905,Clear plastic bottle,Plastic
+3906,Clear plastic bottle,Plastic
+3907,Clear plastic bottle,Plastic
+3908,Plastic bottle cap,Plastic
+3909,Clear plastic bottle,Plastic
+3910,Plastic bottle cap,Plastic
+3919,Glass bottle,Plastic
+3921,Plastic film,Plastic
+3923,Other plastic,Plastic
+3924,Other plastic,Plastic
+3925,Other plastic,Plastic
+3926,Other plastic,Plastic
+3927,Plastic film,Plastic
+3928,Plastic film,Plastic
+3929,Other plastic,Plastic
+3931,Plastic film,Plastic
+3932,Clear plastic bottle,Plastic
+3933,Plastic bottle cap,Plastic
+3935,Other plastic bottle,Plastic
+3936,Plastic bottle cap,Plastic
+3938,Clear plastic bottle,Plastic
+3939,Plastic bottle cap,Plastic
+3940,Clear plastic bottle,Plastic
+3941,Plastic bottle cap,Plastic
+3949,Glass bottle,Plastic
+3950,Other plastic,Plastic
+3951,Other plastic,Plastic
+3952,Other plastic,Plastic
+3954,Plastic film,Plastic
+3955,Plastic film,Plastic
+3956,Other plastic,Plastic
+3958,Other plastic,Plastic
+3959,Other plastic,Plastic
+3960,Other plastic,Plastic
+3961,Other plastic,Plastic
+3963,Other plastic wrapper,Plastic
+3964,Clear plastic bottle,Plastic
+3969,Plastic bottle cap,Plastic
+3971,Other plastic,Plastic
+3972,Other plastic,Plastic
+3973,Plastic film,Plastic
+3974,Other plastic wrapper,Plastic
+3976,Plastic bottle cap,Plastic
+3977,Plastic bottle cap,Plastic
+3978,Other plastic,Plastic
+3979,Other plastic,Plastic
+3980,Other plastic,Plastic
+3981,Plastic bottle cap,Plastic
+3982,Single-use carrier bag,Plastic
+3983,Other plastic wrapper,Plastic
+3984,Other plastic,Plastic
+3986,Other plastic,Plastic
+3987,Clear plastic bottle,Plastic
+3990,Other plastic,Plastic
+3991,Other plastic,Plastic
+3992,Other plastic,Plastic
+3993,Plastic bottle cap,Plastic
+3994,Other plastic,Plastic
+3995,Other plastic,Plastic
+3996,Other plastic,Plastic
+3997,Other plastic,Plastic
+3998,Other plastic,Plastic
+3999,Other plastic,Plastic
+4000,Plastic bottle cap,Plastic
+4001,Other plastic wrapper,Plastic
+4046,Other plastic wrapper,Plastic
+4047,Clear plastic bottle,Plastic
+4049,Other plastic wrapper,Plastic
+4052,Clear plastic bottle,Plastic
+4053,Clear plastic bottle,Plastic
+4054,Clear plastic bottle,Plastic
+4055,Clear plastic bottle,Plastic
+4056,Clear plastic bottle,Plastic
+4057,Plastic bottle cap,Plastic
+4058,Clear plastic bottle,Plastic
+4068,Glass bottle,Plastic
+4070,Clear plastic bottle,Plastic
+4071,Plastic bottle cap,Plastic
+4073,Clear plastic bottle,Plastic
+4074,Plastic bottle cap,Plastic
+4076,Plastic bottle cap,Plastic
+4077,Clear plastic bottle,Plastic
+4078,Plastic bottle cap,Plastic
+4087,Clear plastic bottle,Plastic
+4103,Plastic bottle cap,Plastic
+4107,Clear plastic bottle,Plastic
+4110,Plastic bottle cap,Plastic
+4115,Disposable food container,Plastic
+4117,Glass bottle,Plastic
+4119,Glass bottle,Plastic
+4120,Glass bottle,Plastic
+4174,Single-use carrier bag,Plastic
+4175,Glass bottle,Plastic
+4176,Glass bottle,Plastic
+4177,Glass bottle,Plastic
+4178,Other plastic wrapper,Plastic
+4184,Metal bottle cap,Plastic
+4185,Metal bottle cap,Plastic
+4186,Metal bottle cap,Plastic
+4187,Metal bottle cap,Plastic
+4188,Metal bottle cap,Plastic
+4189,Metal bottle cap,Plastic
+4200,Clear plastic bottle,Plastic
+4201,Other plastic,Plastic
+4205,Clear plastic bottle,Plastic
+4206,Plastic bottle cap,Plastic
+4218,Metal bottle cap,Plastic
+4222,Metal bottle cap,Plastic
+4224,Metal bottle cap,Plastic
+4226,Clear plastic bottle,Plastic
+4227,Plastic bottle cap,Plastic
+4228,Other plastic bottle,Plastic
+4229,Plastic bottle cap,Plastic
+4239,Clear plastic bottle,Plastic
+4242,Other plastic,Plastic
+4251,Other plastic,Plastic
+4254,Glass bottle,Plastic
+4255,Glass bottle,Plastic
+4256,Glass bottle,Plastic
+4257,Glass bottle,Plastic
+4258,Glass bottle,Plastic
+4259,Glass bottle,Plastic
+4260,Metal bottle cap,Plastic
+4261,Metal bottle cap,Plastic
+4262,Metal bottle cap,Plastic
+4264,Glass bottle,Plastic
+4265,Metal bottle cap,Plastic
+4266,Glass bottle,Plastic
+4267,Metal bottle cap,Plastic
+4269,Glass bottle,Plastic
+4270,Metal bottle cap,Plastic
+4271,Glass bottle,Plastic
+4272,Glass bottle,Plastic
+4273,Metal bottle cap,Plastic
+4274,Glass bottle,Plastic
+4275,Clear plastic bottle,Plastic
+4276,Plastic bottle cap,Plastic
+4277,Glass bottle,Plastic
+4279,Clear plastic bottle,Plastic
+4280,Clear plastic bottle,Plastic
+4281,Clear plastic bottle,Plastic
+4282,Other plastic wrapper,Plastic
+4284,Clear plastic bottle,Plastic
+4287,Other plastic wrapper,Plastic
+4290,Other plastic bottle,Plastic
+4292,Clear plastic bottle,Plastic
+4295,Other plastic bottle,Plastic
+4298,Clear plastic bottle,Plastic
+4299,Plastic bottle cap,Plastic
+4300,Plastic film,Plastic
+4303,Clear plastic bottle,Plastic
+4306,Other plastic bottle,Plastic
+4313,Garbage bag,Plastic
+4314,Clear plastic bottle,Plastic
+4316,Other plastic,Plastic
+4317,Other plastic,Plastic
+4325,Other plastic,Plastic
+4328,Other plastic container,Plastic
+4335,Garbage bag,Plastic
+4336,Garbage bag,Plastic
+4337,Garbage bag,Plastic
+4338,Garbage bag,Plastic
+4339,Garbage bag,Plastic
+4340,Single-use carrier bag,Plastic
+4341,Single-use carrier bag,Plastic
+4342,Single-use carrier bag,Plastic
+4343,Garbage bag,Plastic
+4347,Plastic film,Plastic
+4351,Other plastic wrapper,Plastic
+4354,Other plastic wrapper,Plastic
+4355,Plastic film,Plastic
+4356,Clear plastic bottle,Plastic
+4359,Polypropylene bag,Plastic
+4362,Other plastic,Plastic
+4363,Other plastic,Plastic
+4394,Plastic film,Plastic
+4396,Plastic film,Plastic
+4397,Crisp packet,Plastic
+4398,Other plastic wrapper,Plastic
+4399,Clear plastic bottle,Plastic
+4400,Plastic bottle cap,Plastic
+4401,Other plastic wrapper,Plastic
+4402,Six pack rings,Plastic
+4410,Glass bottle,Plastic
+4426,Plastic film,Plastic
+4428,Clear plastic bottle,Plastic
+4429,Plastic bottle cap,Plastic
+4432,Clear plastic bottle,Plastic
+4433,Plastic bottle cap,Plastic
+4440,Plastic glooves,Plastic
+4442,Other plastic bottle,Plastic
+4446,Clear plastic bottle,Plastic
+4447,Plastic bottle cap,Plastic
+4448,Plastic film,Plastic
+4450,Clear plastic bottle,Plastic
+4452,Glass bottle,Plastic
+4453,Disposable food container,Plastic
+4454,Plastic film,Plastic
+4458,Other plastic,Plastic
+4460,Other plastic wrapper,Plastic
+4469,Plastic film,Plastic
+4472,Disposable food container,Plastic
+4473,Spread tub,Plastic
+4475,Plastic film,Plastic
+4478,Plastic film,Plastic
+4479,Other plastic wrapper,Plastic
+4480,Other plastic wrapper,Plastic
+4481,Plastic film,Plastic
+4483,Plastic film,Plastic
+4485,Clear plastic bottle,Plastic
+4487,Clear plastic bottle,Plastic
+4488,Plastic film,Plastic
+4491,Disposable food container,Plastic
+4492,Other plastic wrapper,Plastic
+4493,Other plastic bottle,Plastic
+4494,Plastic bottle cap,Plastic
+4495,Garbage bag,Plastic
+4498,Clear plastic bottle,Plastic
+4499,Clear plastic bottle,Plastic
+4500,Plastic bottle cap,Plastic
+4501,Clear plastic bottle,Plastic
+4502,Disposable food container,Plastic
+4503,Metal bottle cap,Plastic
+4505,Other plastic,Plastic
+4509,Plastic film,Plastic
+4510,Plastic film,Plastic
+4513,Plastic film,Plastic
+4514,Plastic film,Plastic
+4517,Other plastic wrapper,Plastic
+4518,Other plastic wrapper,Plastic
+4519,Other plastic,Plastic
+4520,Other plastic wrapper,Plastic
+4523,Single-use carrier bag,Plastic
+4524,Plastic film,Plastic
+4525,Plastic film,Plastic
+4527,Single-use carrier bag,Plastic
+4528,Plastic film,Plastic
+4529,Plastic film,Plastic
+4530,Plastic film,Plastic
+4532,Other plastic,Plastic
+4534,Other plastic,Plastic
+4535,Other plastic,Plastic
+4536,Plastic film,Plastic
+4537,Other plastic wrapper,Plastic
+4538,Other plastic wrapper,Plastic
+4539,Plastic film,Plastic
+4540,Plastic bottle cap,Plastic
+4542,Metal bottle cap,Plastic
+4544,Plastic film,Plastic
+4545,Plastic film,Plastic
+4548,Plastic film,Plastic
+4549,Plastic film,Plastic
+4556,Other plastic,Plastic
+4562,Plastic film,Plastic
+4563,Plastic film,Plastic
+4564,Plastic film,Plastic
+4566,Plastic film,Plastic
+4568,Other plastic wrapper,Plastic
+4569,Plastic film,Plastic
+4571,Plastic film,Plastic
+4572,Plastic film,Plastic
+4573,Plastic bottle cap,Plastic
+4574,Plastic film,Plastic
+4576,Other plastic,Plastic
+4582,Plastic film,Plastic
+4583,Plastic film,Plastic
+4584,Plastic film,Plastic
+4585,Plastic film,Plastic
+4586,Plastic film,Plastic
+4587,Plastic film,Plastic
+4588,Plastic film,Plastic
+4589,Plastic film,Plastic
+4590,Plastic film,Plastic
+4591,Other plastic,Plastic
+4599,Glass bottle,Plastic
+4610,Plastic film,Plastic
+4617,Metal bottle cap,Plastic
+4624,Metal bottle cap,Plastic
+4628,Other plastic wrapper,Plastic
+4629,Other plastic,Plastic
+4631,Plastic film,Plastic
+4633,Plastic film,Plastic
+4635,Plastic film,Plastic
+4637,Other plastic wrapper,Plastic
+4638,Plastic film,Plastic
+4640,Other plastic wrapper,Plastic
+4647,Plastic film,Plastic
+4648,Plastic film,Plastic
+4650,Plastic film,Plastic
+4658,Clear plastic bottle,Plastic
+4659,Plastic bottle cap,Plastic
+4662,Other plastic wrapper,Plastic
+4664,Clear plastic bottle,Plastic
+4666,Clear plastic bottle,Plastic
+4667,Plastic bottle cap,Plastic
+4669,Plastic film,Plastic
+4671,Single-use carrier bag,Plastic
+4672,Clear plastic bottle,Plastic
+4673,Plastic film,Plastic
+4674,Other plastic,Plastic
+4676,Plastic film,Plastic
+4678,Glass bottle,Plastic
+4679,Glass bottle,Plastic
+4680,Clear plastic bottle,Plastic
+4682,Clear plastic bottle,Plastic
+4683,Glass bottle,Plastic
+4684,Glass bottle,Plastic
+4685,Other plastic wrapper,Plastic
+4686,Glass bottle,Plastic
+4688,Plastic bottle cap,Plastic
+4689,Single-use carrier bag,Plastic
+4692,Plastic bottle cap,Plastic
+4693,Clear plastic bottle,Plastic
+4698,Plastic film,Plastic
+4699,Plastic film,Plastic
+4700,Metal bottle cap,Plastic
+4709,Other plastic,Plastic
+4710,Other plastic wrapper,Plastic
+4711,Other plastic wrapper,Plastic
+4713,Clear plastic bottle,Plastic
+4714,Clear plastic bottle,Plastic
+4715,Plastic bottle cap,Plastic
+4731,Other plastic wrapper,Plastic
+4738,Other plastic,Plastic
+4750,Metal bottle cap,Plastic
+4751,Other plastic bottle,Plastic
+4754,Plastic film,Plastic
+4756,Clear plastic bottle,Plastic
+4757,Plastic bottle cap,Plastic
+4758,Clear plastic bottle,Plastic
+4759,Clear plastic bottle,Plastic
+4760,Glass bottle,Plastic
+4761,Other plastic bottle,Plastic
+4762,Plastic bottle cap,Plastic
+4763,Clear plastic bottle,Plastic
+4764,Plastic film,Plastic
+4765,Glass bottle,Plastic
+4771,Other plastic wrapper,Plastic
+4772,Other plastic wrapper,Plastic
+4776,Glass bottle,Plastic
+4777,Glass bottle,Plastic
+4778,Metal bottle cap,Plastic
+4780,Plastic bottle cap,Plastic
+4781,Other plastic wrapper,Plastic
+4783,Glass bottle,Plastic
