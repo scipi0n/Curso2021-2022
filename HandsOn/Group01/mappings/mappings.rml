@@ -5,7 +5,9 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:jc_000 rr:child "municipio_codigo";
+map:jc_000 rr:child "centro_codigo";
+    rr:parent "centro_codigo".
+map:jc_001 rr:child "municipio_codigo";
     rr:parent "municipio_codigo".
 map:map_address_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
@@ -104,10 +106,11 @@ map:om_019 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_020 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_address_000.
+    rr:parentTriplesMap map:map_address_000;
+    rr:joinCondition map:jc_000.
 map:om_021 a rr:ObjectMap;
     rr:parentTriplesMap map:map_municipality_000;
-    rr:joinCondition map:jc_000.
+    rr:joinCondition map:jc_001.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
@@ -229,14 +232,14 @@ map:s_002 a rr:SubjectMap;
 map:s_003 a rr:SubjectMap;
     rr:template "http://dbpedia.org/ontology/School/{centro_codigo}".
 map:source_000 a rml:LogicalSource;
-    rml:source "poblacion_distritos_update.csv";
+    rml:source "./CSV/poblacion_distritos_update.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "poblacion_distritos_update.csv";
+    rml:source "./CSV/poblacion_distritos_update.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "centros_educativos_update.csv";
+    rml:source "./CSV/centros_educativos_update.csv";
     rml:referenceFormulation ql:CSV.
 map:source_003 a rml:LogicalSource;
-    rml:source "centros_educativos_update.csv";
+    rml:source "./CSV/centros_educativos_update.csv";
     rml:referenceFormulation ql:CSV.

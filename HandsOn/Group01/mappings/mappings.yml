@@ -7,7 +7,7 @@ mappings:
 
     municipality:
       source:
-        - [poblacion_distritos_update.csv~csv]
+        - [./CSV/poblacion_distritos_update.csv~csv]
       s: http://dbpedia.org/ontology/Municipality/$(municipio_nombre)
       po:
         - [a, dbo:Municipality]
@@ -16,7 +16,7 @@ mappings:
 
     residentGroup:
         source:
-        - [poblacion_distritos_update.csv~csv]
+        - [./CSV/poblacion_distritos_update.csv~csv]
         s: http://www.colegiosapp.org/ontology/ResidentGroup/$(municipio_nombre)_$(sexo)_$(min_edad)_$(max_edad)
         po:
             - [a, cap:ResidentGroup]
@@ -35,7 +35,7 @@ mappings:
 
     address:
         source:
-          - [centros_educativos_update.csv~csv]
+          - [./CSV/centros_educativos_update.csv~csv]
         s: http://www.colegiosapp.org/ontology/Address/$(direccion_via_tipo)_$(direccion_via_nombre)_$(direccion_numero)_$(direccion_codigo_postal)
         po:
           - [a, cap:Address]
@@ -46,7 +46,7 @@ mappings:
 
     school:
       source:
-        - [centros_educativos_update.csv~csv ]
+        - [./CSV/centros_educativos_update.csv~csv ]
       s: http://dbpedia.org/ontology/School/$(centro_codigo)
       po:
         - [ a, dbo:ResidentGroup ]
@@ -59,6 +59,11 @@ mappings:
         - p: cap:hasAddress
           o:
           - mapping: address
+            condition:
+              function: equal
+              parameters:
+                - [ str1, $(centro_codigo) ]
+                - [ str2, $(centro_codigo) ]
 
         - p: cap:ownMunicipality
           o:
@@ -68,4 +73,3 @@ mappings:
               parameters:
                 - [ str1, $(municipio_codigo) ]
                 - [ str2, $(municipio_codigo) ]
-
