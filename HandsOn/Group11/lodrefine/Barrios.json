@@ -1762,5 +1762,26 @@
             }
         ],
         "description": "Mass edit cells in column BARRIO_MT"
-    }
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "COD_DIS_TX",
+        "description": "Remove column COD_DIS_TX"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "COD_DISBAR",
+        "description": "Remove column COD_DISBAR"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "BARRIO_MT",
+        "description": "Remove column BARRIO_MT"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "BARRIO_MAY",
+        "newColumnName": "BARRIO",
+        "description": "Rename column BARRIO_MAY to BARRIO"
+      }
 ]
