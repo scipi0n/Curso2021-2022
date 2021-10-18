@@ -29,8 +29,8 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#Ubicacion
-:Ubicacion rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasUbicacion
+:hasUbicacion rdf:type owl:DatatypeProperty ;
            rdfs:domain :Ayuntamiento ;
            rdfs:range xsd:string .
 
