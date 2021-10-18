@@ -59,12 +59,6 @@
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:trafficLightAt; rr:termType rr:IRI ];
     rr:objectMap [ rml:reference "IdCross"; rr:termType rr:Literal]
-  ];
-  rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant schema3:sameInstallDate; rr:termType rr:IRI ];
-    rr:objectMap [ rr:parentTriplesMap <#TriplesMap1>; 
-                   rr:joinCondition [ rr:child "installDate"; rr:parent "installDate"; ];
-  		 ]
   ].
 
 <#TriplesMap3> a rr:TriplesMap;
@@ -91,10 +85,4 @@
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:biciMadAt; rr:termType rr:IRI ];
     rr:objectMap [ rml:reference "PostalAddress"; rr:termType rr:Literal]
-  ];
-  rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant schema3:sameAddress; rr:termType rr:IRI ];
-    rr:objectMap [ rr:parentTriplesMap <#TriplesMap1>; 
-                   rr:joinCondition [ rr:child "PostalAddress"; rr:parent "PostalAddress"; ];
-  		 ]
   ].
