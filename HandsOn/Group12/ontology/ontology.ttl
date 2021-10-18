@@ -29,57 +29,57 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasUbicacion
-:hasUbicacion rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneUbicacion
+:tieneUbicacion rdf:type owl:DatatypeProperty ;
            rdfs:domain :Ayuntamiento ;
            rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasCodigoAyuntamiento
-:hasCodigoAyuntamiento rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneCodigoAyuntamiento
+:tieneCodigoAyuntamiento rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain :Ayuntamiento ;
                        rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasCodigoProvincia
-:hasCodigoProvincia rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneCodigoProvincia
+:tieneCodigoProvincia rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Provincia ;
                     rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasInfo
-:hasInfo rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneInfo
+:tieneInfo rdf:type owl:DatatypeProperty ;
          rdfs:domain :Playa ;
          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasLatitude
-:hasLatitude rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneLatitud
+:tieneLatitud rdf:type owl:DatatypeProperty ;
              rdfs:domain :Playa ;
              rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasLogitude
-:hasLogitude rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneLogitud
+:tieneLogitud rdf:type owl:DatatypeProperty ;
              rdfs:domain :Playa ;
              rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasLongitudPlaya
-:hasLongitudPlaya rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneLongitudPlaya
+:tieneLongitudPlaya rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Playa ;
                   rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasTipoArena
-:hasTipoArena rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneTipoArena
+:tieneTipoArena rdf:type owl:DatatypeProperty ;
               rdfs:domain :Playa ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#hasTipoPlaya
-:hasTipoPlaya rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/migue/ontologies/2021/9/BanderaAzul#tieneTipoPlaya
+:tieneTipoPlaya rdf:type owl:DatatypeProperty ;
               rdfs:domain :Playa ;
               rdfs:range xsd:int .
 
