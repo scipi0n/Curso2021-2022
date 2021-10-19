@@ -38,6 +38,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasLongitude;
     rr:objectMap [
       rml:reference "LONGITUD";
+      rr:datatype xsd:float
     ]
   ];
 
@@ -45,6 +46,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasLatitude;
     rr:objectMap [
       rml:reference "LATITUD";
+      rr:datatype xsd:float
     ]
   ];
 
