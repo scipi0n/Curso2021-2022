@@ -6,13 +6,12 @@ El dataset se ha obtenido de la pagina datos.org.es, dentro del cual se han esta
 de los siguientes terminos y sus conceptos asociados que nos han permitido construirla ontologia:
 Termino       | Concepto
 
-Sitio         | schema:Place
-Ciudad        | schema:City
 Organización  | schema:Organization
 Distrito      | admingeo:District
 Terraza/Local | schema:LocalBusiness
-Horarios      | time:Duration & time:GeneralDurationDescription
 Coordenadas   | schema:GeoCoordinates
+Dirección     | schema:PostalAddress
+Barrio        | ns:Neighborhood
 
 Este dataset esta bajo los terminos de la https://datos.madrid.es/egob/catalogo/aviso-legal
 
@@ -34,9 +33,13 @@ pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenc
 
 
 Resource Naming Strategy
-Para la identificacion de las clases y propiedadesde nuestra ontologia se utilizara la siguiente URI:
-- http://smartcity.linkeddata.es/ontology/TerrazasMadrid#
+Para la identificacion de las clases de nuestra ontologia se utilizara la siguiente URI:
+- http://smartcity.linkeddata.es/ontology/TerrazasMadrid/*
+Para la identificacion de las propiedadesde nuestra ontologia se utilizara la siguiente URI:
+- http://smartcity.linkeddata.es/ontology/TerrazasMadrid#*
 Para la identificacion de los recursos de nuestra ontologia se utilizara la siguiente URI:
-- http://smartcity.linkeddata.es/resource/[className]#
+- http://smartcity.linkeddata.es/ontology/TerrazasMadrid/[className]/*
 Algun ejemplo que representa este tipo de notacion:
-- http://smartcity.linkeddata.es/resource/LocalBusiness#WAGABOO
+- http://smartcity.linkeddata.es/resource/TerrazasMadrid/Terraza/270071068
+
+El * representa un valor del tipo asociado.
