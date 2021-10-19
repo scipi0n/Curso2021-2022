@@ -508,7 +508,7 @@ rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District
   
 <#TriplesMap14> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source ".\data\calles_tranquilas-updated.csv" ;
+    rml:source "./data/calles_tranquilas-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
