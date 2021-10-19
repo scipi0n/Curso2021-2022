@@ -447,7 +447,7 @@
     "newColumnName": "ANYO INSTALACION",
     "description": "Rename column AÑO INSTALACIÓN to ANYO INSTALACION"
   },
-    {
+  {
     "op": "core/mass-edit",
     "engineConfig": {
       "facets": [],
@@ -847,7 +847,7 @@
     ],
     "description": "Mass edit cells in column POTENCIA"
   },
-   {
+  {
     "op": "core/mass-edit",
     "engineConfig": {
       "facets": [],
@@ -1007,7 +1007,7 @@
     ],
     "description": "Mass edit cells in column Direccion"
   },
-    {
+  {
     "op": "core/mass-edit",
     "engineConfig": {
       "facets": [],
@@ -1087,7 +1087,7 @@
     ],
     "description": "Mass edit cells in column Direccion"
   },
-    {
+  {
     "op": "core/column-removal",
     "columnName": "Column",
     "description": "Remove column Column"
@@ -1471,7 +1471,7 @@
     },
     "description": "Remove rows"
   },
-    {
+  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
@@ -1504,12 +1504,171 @@
     "description": "Text transform on cells in column id using expression value.toString()"
   },
   {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"C/ \",\"Calle \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"C/ \",\"Calle \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"Calle de \", \"Calle \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"Calle de \", \"Calle \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"Calle \", \"Calle de \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"Calle \", \"Calle de \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"Pz.\", \"Plaza\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"Pz.\", \"Plaza\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"P \", \"Paseo \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"P \", \"Paseo \")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Plaza Sta M Soledad Torres Acosta, 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plaza Santa Maria Soledad Torres Acosta, 2"
+      }
+    ],
+    "description": "Mass edit cells in column Direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ctra. Canillas, 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carretera. Canillas, 2"
+      }
+    ],
+    "description": "Mass edit cells in column Direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calle de Ctra. del barrio de la Fortuna, 33"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carretera del barrio de la Fortuna, 33"
+      }
+    ],
+    "description": "Mass edit cells in column Direccion"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"Avda.\", \"Avenida\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"Avda.\", \"Avenida\")"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "DISTRITO",
+    "columnName": "﻿DISTRITO",
     "config": {
       "mode": "standard-service",
       "service": "https://wdreconcile.toolforge.org/en/api",
@@ -1523,7 +1682,7 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+    "description": "Reconcile cells in column ﻿DISTRITO to type Q3032114"
   },
   {
     "op": "core/column-addition",
@@ -1531,806 +1690,12 @@
       "facets": [],
       "mode": "row-based"
     },
-    "baseColumnName": "DISTRITO",
+    "baseColumnName": "﻿DISTRITO",
     "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "same_as_wikidata_distrito",
     "columnInsertIndex": 3,
-    "description": "Create column same_as_wikidata_distrito at index 3 based on column DISTRITO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q4830453",
-        "name": "business"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column CONECTORES to type Q4830453"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes manguera",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes manguera\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Yazaki con manguera",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1926640",
-      "name": "Yazaki Corporation",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Yazaki Corporation (Q1926640) for cells containing \"Yazaki con manguera\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes Manguera",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes Manguera\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes con manguera",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes con manguera\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Schuko",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1123613",
-      "name": "Schuko",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Schuko (Q1123613) for cells containing \"Schuko\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Sucko",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1123613",
-      "name": "Schuko",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Schuko (Q1123613) for cells containing \"Sucko\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "mennekes Hembra/Schuko",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"mennekes Hembra/Schuko\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes/Schuko",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes/Schuko\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "mennekes Hembra",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"mennekes Hembra\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes conector hembra sin manguera",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes conector hembra sin manguera\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Chademo - COMBO",
-    "judgment": "matched",
-    "match": {
-      "id": "Q66024981",
-      "name": "CHAdeMO connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CHAdeMO connector (Q66024981) for cells containing \"Chademo - COMBO\" in column CONECTORES"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "CONECTORES",
-    "similarValue": "Mennekes / Schuco",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2335519",
-      "name": "Type 2 connector",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Type 2 connector (Q2335519) for cells containing \"Mennekes / Schuco\" in column CONECTORES"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "baseColumnName": "CONECTORES",
-    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "same_as_wikidata_conectores",
-    "columnInsertIndex": 10,
-    "description": "Create column same_as_wikidata_conectores at index 10 based on column CONECTORES using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "grel:value.replace(\"C/\",\"Calle\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"C/\",\"Calle\")"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "grel:value.replace(\"P Chopera\",\"Paseo Chopera\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"P Chopera\",\"Paseo Chopera\")"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "grel:value.replace(\"Avda.\",\"Avenida\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"Avda.\",\"Avenida\")"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Carr. de Carabanchel a Villaverde, 105"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Carretera de Carabanchel a Villaverde, 105"
-      }
-    ],
-    "description": "Mass edit cells in column Direccion"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Ctra. Canillas, 2"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Carretera Canillas, 2"
-      }
-    ],
-    "description": "Mass edit cells in column Direccion"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Pz. Moncloa, 1 (Calle Isaac Peral)"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Plaza Moncloa, 1 (Calle Isaac Peral)"
-      }
-    ],
-    "description": "Mass edit cells in column Direccion"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "CONECTORES: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "CONECTORES",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Direccion",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Pz. Sta M Soledad Torres Acosta, 2"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Plaza Santa Maria Soledad Torres Acosta, 2"
-      }
-    ],
-    "description": "Mass edit cells in column Direccion"
+    "description": "Create column same_as_wikidata_distrito at index 3 based on column ﻿DISTRITO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
   },
   {
     "op": "core/column-addition",
@@ -2357,11 +1722,15 @@
       "service": "https://wdreconcile.toolforge.org/en/api",
       "identifierSpace": "http://www.wikidata.org/entity/",
       "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q24036896",
+        "name": "Street in Madrid."
+      },
       "autoMatch": true,
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column Aux to type null"
+    "description": "Reconcile cells in column Aux to type Q24036896"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2370,7 +1739,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Bustamante 16",
+    "similarValue": "Calle de Bustamante 16",
     "judgment": "matched",
     "match": {
       "id": "Q27430098",
@@ -2381,7 +1750,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Bustamante, Madrid (Q27430098) for cells containing \"Calle Bustamante 16\" in column Aux"
+    "description": "Match item Calle de Bustamante, Madrid (Q27430098) for cells containing \"Calle de Bustamante 16\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2610,8 +1979,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Acuario 27",
-    "description": "Clear recon data for cells containing \"Calle Acuario 27\" in column Aux"
+    "similarValue": "Calle de Acuario 27",
+    "description": "Clear recon data for cells containing \"Calle de Acuario 27\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -2640,8 +2009,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Ribera del Sena 21",
-    "description": "Clear recon data for cells containing \"Calle Ribera del Sena 21\" in column Aux"
+    "similarValue": "Calle de Ribera del Sena 21",
+    "description": "Clear recon data for cells containing \"Calle de Ribera del Sena 21\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -2670,8 +2039,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Trespaderne, 16",
-    "description": "Clear recon data for cells containing \"Calle Trespaderne, 16\" in column Aux"
+    "similarValue": "Calle de Trespaderne, 16",
+    "description": "Clear recon data for cells containing \"Calle de Trespaderne, 16\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -2700,8 +2069,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Albox, 8",
-    "description": "Clear recon data for cells containing \"Calle Albox, 8\" in column Aux"
+    "similarValue": "Calle de Albox, 8",
+    "description": "Clear recon data for cells containing \"Calle de Albox, 8\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2730,7 +2099,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Alcala 45",
+    "similarValue": "Calle de Alcala 45",
     "judgment": "matched",
     "match": {
       "id": "Q2424746",
@@ -2741,7 +2110,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Alcalá Street (Q2424746) for cells containing \"Calle Alcala 45\" in column Aux"
+    "description": "Match item Alcalá Street (Q2424746) for cells containing \"Calle de Alcala 45\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2770,7 +2139,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Barquillo 17a",
+    "similarValue": "Calle de Barquillo 17a",
     "judgment": "matched",
     "match": {
       "id": "Q5740983",
@@ -2781,7 +2150,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle del Barquillo (Q5740983) for cells containing \"Calle Barquillo 17a\" in column Aux"
+    "description": "Match item Calle del Barquillo (Q5740983) for cells containing \"Calle de Barquillo 17a\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2810,7 +2179,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Sacramento 4",
+    "similarValue": "Calle de Sacramento 4",
     "judgment": "matched",
     "match": {
       "id": "Q26913064",
@@ -2821,7 +2190,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle del Sacramento (Q26913064) for cells containing \"Calle Sacramento 4\" in column Aux"
+    "description": "Match item Calle del Sacramento (Q26913064) for cells containing \"Calle de Sacramento 4\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2864,7 +2233,7 @@
     "description": "Match item Plaza del Carmen (Q6080406) for cells containing \"Plaza del Carmen\" in column Aux"
   },
   {
-    "op": "core/recon-judge-similar-cells",
+    "op": "core/recon-clear-similar-cells",
     "engineConfig": {
       "facets": [
         {
@@ -2891,17 +2260,7 @@
     },
     "columnName": "Aux",
     "similarValue": "Plaza Santa Maria Soledad Torres Acosta, 2",
-    "judgment": "matched",
-    "match": {
-      "id": "Q6080095",
-      "name": "Plaza de Santa María de Soledad Torres Acosta",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Plaza de Santa María de Soledad Torres Acosta (Q6080095) for cells containing \"Plaza Santa Maria Soledad Torres Acosta, 2\" in column Aux"
+    "description": "Clear recon data for cells containing \"Plaza Santa Maria Soledad Torres Acosta, 2\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2930,7 +2289,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Principe de Vergara 142",
+    "similarValue": "Calle de Principe de Vergara 142",
     "judgment": "matched",
     "match": {
       "id": "Q5741020",
@@ -2941,7 +2300,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item calle del Príncipe de Vergara (Q5741020) for cells containing \"Calle Principe de Vergara 142\" in column Aux"
+    "description": "Match item calle del Príncipe de Vergara (Q5741020) for cells containing \"Calle de Principe de Vergara 142\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3000,7 +2359,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Raimundo Fernandez Villaverde 8",
+    "similarValue": "Calle de Raimundo Fernandez Villaverde 8",
     "judgment": "matched",
     "match": {
       "id": "Q26741180",
@@ -3011,7 +2370,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Raimundo Fernández Villaverde (Q26741180) for cells containing \"Calle Raimundo Fernandez Villaverde 8\" in column Aux"
+    "description": "Match item Calle de Raimundo Fernández Villaverde (Q26741180) for cells containing \"Calle de Raimundo Fernandez Villaverde 8\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3040,7 +2399,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Palafox 4",
+    "similarValue": "Calle de Palafox 4",
     "judgment": "matched",
     "match": {
       "id": "Q28733295",
@@ -3051,7 +2410,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Palafox, Madrid (Q28733295) for cells containing \"Calle Palafox 4\" in column Aux"
+    "description": "Match item Calle de Palafox, Madrid (Q28733295) for cells containing \"Calle de Palafox 4\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3084,7 +2443,7 @@
     "description": "Clear recon data for cells containing \"Avenida de las Trece Rosas\" in column Aux"
   },
   {
-    "op": "core/recon-judge-similar-cells",
+    "op": "core/recon-clear-similar-cells",
     "engineConfig": {
       "facets": [
         {
@@ -3110,18 +2469,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Hermanos Garcia Noblejas, 16",
-    "judgment": "matched",
-    "match": {
-      "id": "Q5740959",
-      "name": "Avenida de la Institución Libre de Enseñanza, Madrid",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Avenida de la Institución Libre de Enseñanza, Madrid (Q5740959) for cells containing \"Calle Hermanos Garcia Noblejas, 16\" in column Aux"
+    "similarValue": "Calle de Hermanos Garcia Noblejas, 16",
+    "description": "Clear recon data for cells containing \"Calle de Hermanos Garcia Noblejas, 16\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3260,8 +2609,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Emigrantes 20 / c/ AREQUIPA",
-    "description": "Clear recon data for cells containing \"Calle Emigrantes 20 / c/ AREQUIPA\" in column Aux"
+    "similarValue": "Calle de Emigrantes 20 / c/ AREQUIPA",
+    "description": "Clear recon data for cells containing \"Calle de Emigrantes 20 / c/ AREQUIPA\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3290,7 +2639,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Carretera Canillas, 2",
+    "similarValue": "Carretera. Canillas, 2",
     "judgment": "matched",
     "match": {
       "id": "Q28973490",
@@ -3301,7 +2650,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Carretera de Canillas, Madrid (Q28973490) for cells containing \"Carretera Canillas, 2\" in column Aux"
+    "description": "Match item Carretera de Canillas, Madrid (Q28973490) for cells containing \"Carretera. Canillas, 2\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3374,7 +2723,7 @@
     "description": "Clear recon data for cells containing \"Avenida Angel Sanz Briz\" in column Aux"
   },
   {
-    "op": "core/mass-edit",
+    "op": "core/recon-clear-similar-cells",
     "engineConfig": {
       "facets": [
         {
@@ -3399,19 +2748,9 @@
       ],
       "mode": "row-based"
     },
-    "columnName": "Direccion",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Calle Ctra. del barrio de la Fortuna, 33"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Carretera del barrio de la Fortuna, 33"
-      }
-    ],
-    "description": "Mass edit cells in column Direccion"
+    "columnName": "Aux",
+    "similarValue": "Carretera del barrio de la Fortuna, 33",
+    "description": "Clear recon data for cells containing \"Carretera del barrio de la Fortuna, 33\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3440,8 +2779,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Ctra. del barrio de la Fortuna, 33",
-    "description": "Clear recon data for cells containing \"Calle Ctra. del barrio de la Fortuna, 33\" in column Aux"
+    "similarValue": "Calle de Rodrigo de Arana n 50",
+    "description": "Clear recon data for cells containing \"Calle de Rodrigo de Arana n 50\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3470,38 +2809,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Rodrigo de Arana n 50",
-    "description": "Clear recon data for cells containing \"Calle Rodrigo de Arana n 50\" in column Aux"
-  },
-  {
-    "op": "core/recon-clear-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Aux: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "Aux",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Aux",
-    "similarValue": "Calle Sepulveda 153",
-    "description": "Clear recon data for cells containing \"Calle Sepulveda 153\" in column Aux"
+    "similarValue": "Calle de Sepulveda 153",
+    "description": "Clear recon data for cells containing \"Calle de Sepulveda 153\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3600,8 +2909,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Dehesa de la Villa c/v Franco Rodriguez s/n",
-    "description": "Clear recon data for cells containing \"Calle Dehesa de la Villa c/v Franco Rodriguez s/n\" in column Aux"
+    "similarValue": "Calle de Dehesa de la Villa c/v Franco Rodriguez s/n",
+    "description": "Clear recon data for cells containing \"Calle de Dehesa de la Villa c/v Franco Rodriguez s/n\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3630,8 +2939,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Ganaderia 3",
-    "description": "Clear recon data for cells containing \"Calle Ganaderia 3\" in column Aux"
+    "similarValue": "Calle de Ganaderia 3",
+    "description": "Clear recon data for cells containing \"Calle de Ganaderia 3\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3660,8 +2969,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Pista, 4 pabellon de Mayorales",
-    "description": "Clear recon data for cells containing \"Calle Pista, 4 pabellon de Mayorales\" in column Aux"
+    "similarValue": "Calle de Pista, 4 pabellon de Mayorales",
+    "description": "Clear recon data for cells containing \"Calle de Pista, 4 pabellon de Mayorales\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3723,45 +3032,15 @@
     "similarValue": "Paseo Viejo 4 (Casa de Campo)",
     "judgment": "matched",
     "match": {
-      "id": "Q568579",
-      "name": "Casa de Campo",
+      "id": "Q1046524",
+      "name": "Casa de Campo Park",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Casa de Campo (Q568579) for cells containing \"Paseo Viejo 4 (Casa de Campo)\" in column Aux"
-  },
-  {
-    "op": "core/recon-clear-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Aux: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "Aux",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Aux",
-    "similarValue": "P Camoens, s/n PALACETE FERROVIARIOS",
-    "description": "Clear recon data for cells containing \"P Camoens, s/n PALACETE FERROVIARIOS\" in column Aux"
+    "description": "Match item Casa de Campo Park (Q1046524) for cells containing \"Paseo Viejo 4 (Casa de Campo)\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3790,18 +3069,58 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Plaza Moncloa, 1 (Calle Isaac Peral)",
+    "similarValue": "Paseo Camoens, s/n PALACETE FERROVIARIOS",
     "judgment": "matched",
     "match": {
-      "id": "Q26791245",
-      "name": "calle de Isaac Peral",
+      "id": "Q42251452",
+      "name": "Paseo de Camoens",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item calle de Isaac Peral (Q26791245) for cells containing \"Plaza Moncloa, 1 (Calle Isaac Peral)\" in column Aux"
+    "description": "Match item Paseo de Camoens (Q42251452) for cells containing \"Paseo Camoens, s/n PALACETE FERROVIARIOS\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Plaza Moncloa, 1 (Calle de Isaac Peral)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080211",
+      "name": "plaza de la Moncloa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de la Moncloa (Q6080211) for cells containing \"Plaza Moncloa, 1 (Calle de Isaac Peral)\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3900,7 +3219,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Fuente Carrantona, 6",
+    "similarValue": "Calle de Fuente Carrantona, 6",
     "judgment": "matched",
     "match": {
       "id": "Q28936137",
@@ -3911,7 +3230,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de la Fuente Carrantona, Madrid (Q28936137) for cells containing \"Calle Fuente Carrantona, 6\" in column Aux"
+    "description": "Match item Calle de la Fuente Carrantona, Madrid (Q28936137) for cells containing \"Calle de Fuente Carrantona, 6\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3940,7 +3259,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Fuente de Carrantona, 8",
+    "similarValue": "Calle de Fuente de Carrantona, 8",
     "judgment": "matched",
     "match": {
       "id": "Q28936137",
@@ -3951,7 +3270,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de la Fuente Carrantona, Madrid (Q28936137) for cells containing \"Calle Fuente de Carrantona, 8\" in column Aux"
+    "description": "Match item Calle de la Fuente Carrantona, Madrid (Q28936137) for cells containing \"Calle de Fuente de Carrantona, 8\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -3980,8 +3299,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": " Calle Puerto de Cardoso, 3",
-    "description": "Clear recon data for cells containing \" Calle Puerto de Cardoso, 3\" in column Aux"
+    "similarValue": " Calle de Puerto de Cardoso, 3",
+    "description": "Clear recon data for cells containing \" Calle de Puerto de Cardoso, 3\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4110,7 +3429,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Montalban 1",
+    "similarValue": "Calle de Montalban 1",
     "judgment": "matched",
     "match": {
       "id": "Q29903983",
@@ -4121,7 +3440,37 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Montalbán, Madrid (Q29903983) for cells containing \"Calle Montalban 1\" in column Aux"
+    "description": "Match item Calle de Montalbán, Madrid (Q29903983) for cells containing \"Calle de Montalban 1\" in column Aux"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Calle de General Diaz Poltier, Canton",
+    "description": "Clear recon data for cells containing \"Calle de General Diaz Poltier, Canton\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -4150,58 +3499,18 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle General Diaz Poltier, Canton",
-    "judgment": "matched",
-    "match": {
-      "id": "Q28065262",
-      "name": "General Díaz Porlier Street",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item General Díaz Porlier Street (Q28065262) for cells containing \"Calle General Diaz Poltier, Canton\" in column Aux"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Aux: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "Aux",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Aux",
-    "similarValue": "Calle Montesa 22",
+    "similarValue": "Calle de Montesa 22",
     "judgment": "matched",
     "match": {
       "id": "Q28070795",
-      "name": "calle Montesa",
+      "name": "calle de Montesa",
       "types": [
         ""
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item calle Montesa (Q28070795) for cells containing \"Calle Montesa 22\" in column Aux"
+    "description": "Match item calle de Montesa (Q28070795) for cells containing \"Calle de Montesa 22\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4230,8 +3539,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Pedro Heredia n 36",
-    "description": "Clear recon data for cells containing \"Calle Pedro Heredia n 36\" in column Aux"
+    "similarValue": "Calle de Pedro Heredia n 36",
+    "description": "Clear recon data for cells containing \"Calle de Pedro Heredia n 36\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4260,8 +3569,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Rufino Blanco, 2",
-    "description": "Clear recon data for cells containing \"Calle Rufino Blanco, 2\" in column Aux"
+    "similarValue": "Calle de Rufino Blanco, 2",
+    "description": "Clear recon data for cells containing \"Calle de Rufino Blanco, 2\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -4330,8 +3639,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Albarracin 33",
-    "description": "Clear recon data for cells containing \"Calle Albarracin 33\" in column Aux"
+    "similarValue": "Calle de Albarracin 33",
+    "description": "Clear recon data for cells containing \"Calle de Albarracin 33\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -4360,7 +3669,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Estocolmo, 91",
+    "similarValue": "Calle de Estocolmo, 91",
     "judgment": "matched",
     "match": {
       "id": "Q28972118",
@@ -4371,7 +3680,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Estocolmo (Q28972118) for cells containing \"Calle Estocolmo, 91\" in column Aux"
+    "description": "Match item Calle de Estocolmo (Q28972118) for cells containing \"Calle de Estocolmo, 91\" in column Aux"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -4440,7 +3749,7 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Bravo Murillo, 357",
+    "similarValue": "Calle de Bravo Murillo, 357",
     "judgment": "matched",
     "match": {
       "id": "Q5740815",
@@ -4451,7 +3760,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Calle de Bravo Murillo (Q5740815) for cells containing \"Calle Bravo Murillo, 357\" in column Aux"
+    "description": "Match item Calle de Bravo Murillo (Q5740815) for cells containing \"Calle de Bravo Murillo, 357\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4510,8 +3819,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle del Dr. Tolosa Latour, 7",
-    "description": "Clear recon data for cells containing \"Calle del Dr. Tolosa Latour, 7\" in column Aux"
+    "similarValue": "Calle de del Dr. Tolosa Latour, 7",
+    "description": "Clear recon data for cells containing \"Calle de del Dr. Tolosa Latour, 7\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4600,8 +3909,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Real de Arganda, 64",
-    "description": "Clear recon data for cells containing \"Calle Real de Arganda, 64\" in column Aux"
+    "similarValue": "Calle de Real de Arganda, 64",
+    "description": "Clear recon data for cells containing \"Calle de Real de Arganda, 64\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4630,8 +3939,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Camino de Hormigueras 133",
-    "description": "Clear recon data for cells containing \"Calle Camino de Hormigueras 133\" in column Aux"
+    "similarValue": "Calle de Camino de Hormigueras 133",
+    "description": "Clear recon data for cells containing \"Calle de Camino de Hormigueras 133\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4660,8 +3969,48 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Federico Garcia Lorca 12",
-    "description": "Clear recon data for cells containing \"Calle Federico Garcia Lorca 12\" in column Aux"
+    "similarValue": "Calle de Federico Garcia Lorca 12",
+    "description": "Clear recon data for cells containing \"Calle de Federico Garcia Lorca 12\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "VALDEMINGOMEZ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6158730",
+      "name": "Valdemingómez",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valdemingómez (Q6158730) for cells containing \"VALDEMINGOMEZ\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4690,8 +4039,8 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Calle Arroyo Bueno 53",
-    "description": "Clear recon data for cells containing \"Calle Arroyo Bueno 53\" in column Aux"
+    "similarValue": "Calle de Arroyo Bueno 53",
+    "description": "Clear recon data for cells containing \"Calle de Arroyo Bueno 53\" in column Aux"
   },
   {
     "op": "core/recon-clear-similar-cells",
@@ -4720,8 +4069,601 @@
       "mode": "row-based"
     },
     "columnName": "Aux",
-    "similarValue": "Carretera de Carabanchel a Villaverde, 105",
-    "description": "Clear recon data for cells containing \"Carretera de Carabanchel a Villaverde, 105\" in column Aux"
+    "similarValue": "Carr. de Carabanchel a Villaverde, 105",
+    "description": "Clear recon data for cells containing \"Carr. de Carabanchel a Villaverde, 105\" in column Aux"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Aux",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_Direccion",
+    "columnInsertIndex": 7,
+    "description": "Create column same_as_wikidata_Direccion at index 7 based on column Aux using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Aux",
+    "description": "Remove column Aux"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CONECTORES",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Aux",
+    "columnInsertIndex": 11,
+    "description": "Create column Aux at index 11 based on column CONECTORES using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q167270",
+        "name": "trademark"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Aux to type Q167270"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes manguera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes manguera\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "mennekes Hembra",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"mennekes Hembra\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes conector hembra sin manguera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes conector hembra sin manguera\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Yazaki con manguera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1926640",
+      "name": "Yazaki Corporation",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yazaki Corporation (Q1926640) for cells containing \"Yazaki con manguera\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes Manguera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes Manguera\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes/Schuko",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes/Schuko\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes con manguera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes con manguera\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Sucko",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1123613",
+      "name": "Schuko",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Schuko (Q1123613) for cells containing \"Sucko\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "mennekes Hembra/Schuko",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"mennekes Hembra/Schuko\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Chademo - COMBO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q66024981",
+      "name": "CHAdeMO connector",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item CHAdeMO connector (Q66024981) for cells containing \"Chademo - COMBO\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "Mennekes / Schuco",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1262665",
+      "name": "Mennekes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mennekes (Q1262665) for cells containing \"Mennekes / Schuco\" in column Aux"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Aux",
+    "similarValue": "yazaki",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1926640",
+      "name": "Yazaki Corporation",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yazaki Corporation (Q1926640) for cells containing \"yazaki\" in column Aux"
   },
   {
     "op": "core/column-addition",
@@ -4752,13 +4694,111 @@
     "baseColumnName": "Aux",
     "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "same_as_wikidata_Direccion",
-    "columnInsertIndex": 7,
-    "description": "Create column same_as_wikidata_Direccion at index 7 based on column Aux using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    "newColumnName": "same_as_wikidata_CONECTORES",
+    "columnInsertIndex": 12,
+    "description": "Create column same_as_wikidata_CONECTORES at index 12 based on column Aux using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
   },
   {
     "op": "core/column-removal",
     "columnName": "Aux",
     "description": "Remove column Aux"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Aux: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Aux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "﻿DISTRITO",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ﻿DISTRITO using expression grel:value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column EDIFICIO using expression grel:value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONECTORES",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONECTORES using expression grel:value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "POTENCIA",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column POTENCIA using expression grel:value.replace(\" \",\"_\")"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DISTRITO using expression grel:value.replace(\" \",\"_\")"
   }
 ]
