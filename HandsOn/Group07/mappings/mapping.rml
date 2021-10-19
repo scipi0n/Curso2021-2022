@@ -38,7 +38,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasLongitude;
     rr:objectMap [
       rml:reference "LONGITUD";
-      rr:datatype xsd:float
+        rr:datatype xsd:float
     ]
   ];
 
@@ -46,7 +46,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasLatitude;
     rr:objectMap [
       rml:reference "LATITUD";
-      rr:datatype xsd:float
+        rr:datatype xsd:float
     ]
   ];
 
@@ -70,13 +70,13 @@ rr:predicateObjectMap [
 
   rr:subjectMap [ 
     rr:template "http://dist.example.com/district/{distrito_ind}";
-    rr:class vocab:District
+      rr:class vocab:District
   ];
 
   rr:predicateObjectMap [
     rr:predicate vocab:numHabitantes;
     rr:objectMap [
       rml:reference "numHabitantes" ;
-      rr:datatype xsd:float
+        rr:datatype xsd:float
     ]
   ].
