@@ -30,6 +30,12 @@
             rdfs:range :Address .
 
 
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasCoordinates
+:hasCoordinates rdf:type owl:ObjectProperty ;
+                rdfs:domain :Crossing ;
+                rdfs:range :Geometry .
+
+
 ###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasGeo
 :hasGeo rdf:type owl:ObjectProperty ;
         rdfs:domain :TrafficLight ;
@@ -134,6 +140,18 @@
 :hasWeather rdf:type owl:DatatypeProperty ;
             rdfs:domain :Accident ;
             rdfs:range xsd:string .
+
+
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#installedIn
+:installedIn rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Crossing ;
+             rdfs:range xsd:dateTime .
+
+
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#typeAddress
+:typeAddress rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Address ;
+             rdfs:range rdfs:Literal .
 
 
 ###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#typeBicycle
