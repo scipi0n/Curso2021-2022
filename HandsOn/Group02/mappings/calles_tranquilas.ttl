@@ -7,13 +7,13 @@
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
-<#TriplesMap14> a rr:TriplesMap;
+<#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "calles_tranquilas-updated.csv" ;
+    rml:source ".\data\calles_tranquilas-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
     rr:termType rr:IRI;
 	rr:class vocab:Address
   ];

@@ -9,7 +9,7 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cabezas_semaforo_bici-updated.csv" ;
+    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -44,7 +44,7 @@
   
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cabezas_semaforo_bici-updated.csv" ;
+    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -96,7 +96,7 @@
   
   <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cabezas_semaforo_bici-updated.csv" ;
+    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -123,7 +123,7 @@
   
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cabezas_semaforo_bici-updated.csv" ;
+    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -152,7 +152,7 @@
   
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "distritos-updated.csv" ;
+    rml:source "./data/distritos-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [

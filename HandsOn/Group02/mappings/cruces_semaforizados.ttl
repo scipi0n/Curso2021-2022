@@ -10,7 +10,7 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cruces_semaforizados-updated.csv" ;
+    rml:source "./data/cruces_semaforizados-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -57,7 +57,7 @@
   
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cruces_semaforizados-updated.csv" ;
+    rml:source "./data/cruces_semaforizados-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -79,7 +79,7 @@
   
 <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cruces_semaforizados-updated.csv" ;
+    rml:source "./data/cruces_semaforizados-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -102,7 +102,7 @@ rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District
   
  <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "cruces_semaforizados-updated.csv" ;
+    rml:source "./data/cruces_semaforizados-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -131,7 +131,7 @@ rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District
   
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "distritos-updated.csv" ;
+    rml:source "./data/distritos-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
