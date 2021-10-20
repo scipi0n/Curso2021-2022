@@ -15,7 +15,12 @@ map:map_Address_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "Address";
     rr:subjectMap map:s_003;
-    rr:predicateObjectMap map:pom_026, map:pom_027, map:pom_028, map:pom_029.
+    rr:predicateObjectMap map:pom_026, map:pom_027, map:pom_028.
+map:map_Barrio_000 rml:logicalSource map:source_004;
+    a rr:TriplesMap;
+    rdfs:label "Barrio";
+    rr:subjectMap map:s_004;
+    rr:predicateObjectMap map:pom_029, map:pom_030, map:pom_031.
 map:map_District_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
     rdfs:label "District";
@@ -139,9 +144,15 @@ map:om_028 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_029 a rr:ObjectMap;
+    rr:constant "http://smartcity.linkeddata.es/ontology/TerrazasMadrid#Neighborhood";
+    rr:termType rr:IRI.
+map:om_030 a rr:ObjectMap;
     rml:reference "desc_barrio_local";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_031 a rr:ObjectMap;
+    rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid#{desc_barrio_local}";
+    rr:termType rr:IRI.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
@@ -201,7 +212,11 @@ map:pm_027 a rr:PredicateMap;
 map:pm_028 a rr:PredicateMap;
     rr:constant <http://schema.org/postalCode>.
 map:pm_029 a rr:PredicateMap;
-    rr:constant <http://schema.org/addressRegion>.
+    rr:constant rdf:type.
+map:pm_030 a rr:PredicateMap;
+    rr:constant rdf:label.
+map:pm_031 a rr:PredicateMap;
+    rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#Neighborhood>.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
     rr:objectMap map:om_000.
@@ -292,8 +307,14 @@ map:pom_028 a rr:PredicateObjectMap;
 map:pom_029 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_029;
     rr:objectMap map:om_029.
+map:pom_030 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_030;
+    rr:objectMap map:om_030.
+map:pom_031 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_031;
+    rr:objectMap map:om_031.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
-    <http://rdfs.org/ns/void#exampleResource> map:map_LocalBusiness_000, map:map_District_000, map:map_GeoCoordinates_000, map:map_Address_000.
+    <http://rdfs.org/ns/void#exampleResource> map:map_LocalBusiness_000, map:map_District_000, map:map_GeoCoordinates_000, map:map_Address_000, map:map_Barrio_000.
 map:s_000 a rr:SubjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza/{id_local}".
 map:s_001 a rr:SubjectMap;
@@ -302,15 +323,20 @@ map:s_002 a rr:SubjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Geocoordinates/{id_coordenadas}".
 map:s_003 a rr:SubjectMap;
     rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/{id_direccion}".
+map:s_004 a rr:SubjectMap;
+    rr:template "http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Barrio/{desc_barrio_local}".
 map:source_000 a rml:LogicalSource;
-    rml:source "csvUpdate3.csv";
+    rml:source "csv-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "csvUpdate3.csv";
+    rml:source "csv-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "csvUpdate3.csv";
+    rml:source "csv-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_003 a rml:LogicalSource;
-    rml:source "csvUpdate3.csv";
+    rml:source "csv-updated.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_004 a rml:LogicalSource;
+    rml:source "csv-updated.csv";
     rml:referenceFormulation ql:CSV.

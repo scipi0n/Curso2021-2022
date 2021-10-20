@@ -13,7 +13,7 @@ prefixes:
 mappings:
   LocalBusiness:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [csv-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza/$(id_local)
     po:
       - [a, schema:LocalBusiness]
@@ -58,11 +58,12 @@ mappings:
             parameters:
                 - [str1, $(id_direccion)]
                 - [str2, $(id_direccion)]
+
     
 
   District:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [csv-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/$(desc_distrito_local)
     po:
       - [a, admingeo:District]
@@ -71,7 +72,7 @@ mappings:
 
   GeoCoordinates:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [csv-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Geocoordinates/$(id_coordenadas)
     po:
       - [a, schema:GeoCoordinates]
@@ -81,11 +82,27 @@ mappings:
 
   Address:
     sources:
-    - [csvUpdate3.csv~csv]
+    - [csv-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/$(id_direccion)
     po:
     - [a, schema:PostalAddress]
     - [schema:streetAddress, $(direccion), xsd:string]
     - [schema:postalCode, $(Cod_Postal), xsd:string]
-    - [schema:addressRegion, $(desc_barrio_local), xsd:string]
 
+  Barrio:
+    sources:
+      - [csv-updated.csv~csv]
+    s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Barrio/$(desc_barrio_local)
+    po:
+      - [a, ns:Neighborhood]
+      - [rdf:label, $(desc_barrio_local), xsd:string]
+      - [ns:Neighborhood, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_barrio_local)~iri]
+
+      - p: ns:locatedIn
+          o:
+          - mapping: District
+            condition: 
+              function: equal
+              parameters:
+                  - [str1, $(desc_distrito_local)]
+                  - [str2, $(desc_distrito_local)]
