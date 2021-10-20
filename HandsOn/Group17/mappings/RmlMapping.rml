@@ -9,7 +9,7 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./csv/bases_bicimad.csv" ;
+    rml:source "./csv/bases_bicimad-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -96,7 +96,7 @@
   
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./csv/reserva_paradas_taxis.csv";
+    rml:source "./csv/reserva_paradas_taxis-updated.csv";
     rml:referenceFormulation ql:CSV 
   ];
   
@@ -186,7 +186,7 @@
   
  <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./csv/listado-estaciones-cercanias-madrid.csv" ;
+    rml:source "./csv/listado-estaciones-cercanias-madrid-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
