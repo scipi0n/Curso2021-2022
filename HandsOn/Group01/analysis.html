@@ -31,63 +31,79 @@
                         Los datos que hemos analizado han sido obtenidos de 2 CSV.<br>
                         En primer lugar tenemos los datos de <b>Centros Educativos de Madrid:</b>
                     </p>
-                        <ul>
-                            <li>
-                                Identificador: valor numérico de 8 cifras, empieza por 28
-                            </li>
-                            <li>
-                                Nombre: valor de tipo String
-                            </li>
-                            <li>
-                                Tipo: valor String, los distintos tipos que tenemos en este apartado son
-                                centros privados, públicos o concertados que pueden tener formación Infantil, Primaria,
-                                Secundaria o Bachillerato.
-                            </li>
-                            <li>
-                                Titularidad: valor String, pueden ser [PRIVADO, PRIVADO CONCERTADO, PÚBLICO, PÚBLICO-TITULARIDAD PRIVADA]
-                            </li>
-                            <li>
-                                Dirección: valor String, pueden ser [CALLE, AVDA, CTRA, PASEO,PLAZA, RONDA, SECT, CMNO]
-                            </li>
-                            <li>
-                                Código Postal: valor numérico de 5 cifras empieza por 28
-                            </li>
-                            <li>
-                                Municipio: valor numérico de [001-183]
-                            </li>
-                            <li>
-                                Coordenada_X: valor numérico de 6 cifras
-                            </li>
-                            <li>
-                                Coordenada_Y: valor numérico de 7 cifras
-                            </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            Identificador: valor String de 8 cifras, empieza por 28
+                        </li>
+                        <li>
+                            Nombre: valor de tipo String
+                        </li>
+                        <li>
+                            Tipo: valor String, los distintos tipos que tenemos en este apartado son
+                            centros privados, públicos o concertados que pueden tener formación Infantil, Primaria,
+                            Secundaria o Bachillerato.
+                        </li>
+                        <li>
+                            Titularidad: valor String, pueden ser [PRIVADO, PRIVADO CONCERTADO, PÚBLICO,
+                            PÚBLICO-TITULARIDAD PRIVADA]
+                        </li>
+
+                        <li>
+                            Municipio: valor String de [001-183]
+                        </li>
+                        <li>
+                            Coordenada_X: valor String de 6 cifras
+                        </li>
+                        <li>
+                            Coordenada_Y: valor String de 7 cifras
+                        </li>
+                        <li>
+                            Página Web: valor anyURI. Ejemplo: "http://www.w3.org/TR/xmlschema-0"
+                        </li>
+                        <li> Dirección:
+                            <ul>
+                                <li>
+                                    Nombre: valor String
+                                </li>
+                                <li>
+                                    Número: valor String. En el caso de que no tenga número toma el valor de "s/n"
+                                </li>
+                                <li>
+                                    Código Postal: valor String que empieza por 28
+                                </li>
+                                <li>
+                                    Tipo de vía: valor String
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
                     <p class="card-text">
-                        Por último tenemos los datos de los <b>Los Residentes de la Comunidad de Madrid por Edades:</b>
+                        Por último, tenemos los datos de los <b>Los Residentes de la Comunidad de Madrid por Edades:</b>
                     </p>
                     <ul>
                         <li>
-                            Identificador: valor String de [001-183]
+                            Identificador: valor String de [001-183]. Es el del municipio al que pertenecen
                         </li>
                         <li>
-                            Nombre: valor String
+                            Nombre: valor String. Es el del municipio al que pertenecen
                         </li>
                         <li>
                             Sexo: valor String, puede ser [Mujer, Hombre]
                         </li>
                         <li>
-                            Rango Edad: valor String, puede ser "De X a Y años", habiendo una diferencia de 4 años entre
-                            X e Y.
+                            Edad mínima: valor numérico entero siendo el mínimo valor el 0
                         </li>
                         <li>
-                            Población: valor String, de [0-98949]
+                            Edad máxima: valor numérico entero siendo el máximo valor el 199
+                        </li>
+                        <li>
+                            Población: valor numérico entero, de [0-98949]
                         </li>
                     </ul>
-
                 </div>
             </div>
-        </div>
-        <div class="col">
+            <br/>
             <div class="row-md-4 card w-100">
                 <div class="card-body">
                     <h2 class="card-title text-center">The licensing of the data source and the potential license</h2>
@@ -108,19 +124,33 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="col">
+            <br/>
             <div class="row-md-4 card w-100">
-                <div class="card-body text-center">
-                    <h2 class="card-title">The resource naming strategy defined</h2>
+                <div class="card-body">
+                    <h2 class="card-title text-center">Resource naming strategy</h2>
+                    <p class="card-text">
+                        Para elegir el nombre apropiado de las URIs que manejaremos en nuestra app hemos seguido las
+                        recomendaciones y pautas vistas en clase.
+                        TODO: Revisar estrategia URIs en clase
+                    </p>
+                    <ul>
+                        <li>
+                            <p>Dominio:
+                                <a href="http://www.colegiosapp.org">http://www.colegiosapp.org</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>Class Path:
+                                <a href="http://www.colegiosapp.org/ontology#[className]">http://www.colegiosapp.org/ontology#[className]</a>
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <br/>
+            <br/>
         </div>
-
-        <hr>
-
     </div> <!-- /container -->
-
 </main>
 </body>
 </html>
