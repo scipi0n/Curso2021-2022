@@ -11,20 +11,21 @@ mappings:
         - [./CSV/poblacion_distritos-with-links.csv~csv]
       s: http://dbpedia.org/ontology/Municipality/$(municipio_nombre)
       po:
-        - [a, dbo:Municipality]
-        - [cap:hasNameMunicipality, $(municipio_nombre), xsd:string]
-        - [cap:idMunicipality, $(municipio_codigo), xsd:string]
+        - [ a, dbo:Municipality]
+        - [ cap:hasNameMunicipality, $(municipio_nombre), xsd:string]
+        - [ cap:idMunicipality, $(municipio_codigo), xsd:string]
+        - [ owl:sameAs, $(municipio_wikidata)~iri]
 
     residentGroup:
         source:
         - [./CSV/poblacion_distritos-with-links.csv~csv]
         s: http://www.colegiosapp.org/ontology/ResidentGroup/$(municipio_nombre)_$(sexo)_$(min_edad)_$(max_edad)
         po:
-            - [a, cap:ResidentGroup]
-            - [cap:hasGender, $(sexo), xsd:string]
-            - [cap:maxAge, $(min_edad), xsd:int]
-            - [cap:minAge, $(max_edad), xsd:int]
-            - [cap:numPeople, $(poblacion_empadronada), xsd:int]
+            - [ a, cap:ResidentGroup]
+            - [ cap:hasGender, $(sexo), xsd:string]
+            - [ cap:maxAge, $(min_edad), xsd:int]
+            - [ cap:minAge, $(max_edad), xsd:int]
+            - [ cap:numPeople, $(poblacion_empadronada), xsd:int]
             - p: cap:liveIn
               o:
             - mapping: municipality
@@ -39,11 +40,11 @@ mappings:
           - [./CSV/centros_educativos-with-links.csv~csv]
         s: http://www.colegiosapp.org/ontology/Address/$(direccion_via_tipo)_$(direccion_via_nombre)_$(direccion_numero)_$(direccion_codigo_postal)
         po:
-          - [a, cap:Address]
-          - [cap:hasNameAddress, $(direccion_via_nombre), xsd:string]
-          - [cap:hasNumber, $(direccion_numero), xsd:string]
-          - [cap:hasPostalCode, $(direccion_codigo_postal), xsd:string]
-          - [cap:hasType, $(direccion_via_tipo), xsd:string]
+          - [ a, cap:Address]
+          - [ cap:hasNameAddress, $(direccion_via_nombre), xsd:string]
+          - [ cap:hasNumber, $(direccion_numero), xsd:string]
+          - [ cap:hasPostalCode, $(direccion_codigo_postal), xsd:string]
+          - [ cap:hasType, $(direccion_via_tipo), xsd:string]
 
     school:
       source:
@@ -57,7 +58,6 @@ mappings:
         - [ cap:urlSchool, $(url_colegio), xsd:anyURI ]
         - [ cap:xCoordinate, $(direccion_coor_x), xsd:string ]
         - [ cap:yCoordinate, $(direccion_coor_y), xsd:string ]
-        - [ owl:sameAs, $(municipio_wikidata)~iri]
         - p: cap:hasAddress
           o:
           - mapping: address
