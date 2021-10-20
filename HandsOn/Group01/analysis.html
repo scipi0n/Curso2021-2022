@@ -31,53 +31,52 @@
                         Los datos que hemos analizado han sido obtenidos de 2 CSV.<br>
                         En primer lugar tenemos los datos de <b>Centros Educativos de Madrid:</b>
                     </p>
-                    <ul>
-                        <li>
-                            Identificador: valor String de 8 cifras, empieza por 28
-                        </li>
-                        <li>
-                            Nombre: valor de tipo String
-                        </li>
-                        <li>
-                            Tipo: valor String, los distintos tipos que tenemos en este apartado son
-                            centros privados, públicos o concertados que pueden tener formación Infantil, Primaria,
-                            Secundaria o Bachillerato.
-                        </li>
-                        <li>
-                            Titularidad: valor String, pueden ser [PRIVADO, PRIVADO CONCERTADO, PÚBLICO,
-                            PÚBLICO-TITULARIDAD PRIVADA]
-                        </li>
+                        <ul>
+                            <li>
+                                Identificador: valor String de 8 cifras, empieza por 28
+                            </li>
+                            <li>
+                                Nombre: valor de tipo String
+                            </li>
+                            <li>
+                                Tipo: valor String, los distintos tipos que tenemos en este apartado son
+                                centros privados, públicos o concertados que pueden tener formación Infantil, Primaria,
+                                Secundaria o Bachillerato.
+                            </li>
+                            <li>
+                                Titularidad: valor String, pueden ser [PRIVADO, PRIVADO CONCERTADO, PÚBLICO, PÚBLICO-TITULARIDAD PRIVADA]
+                            </li>
 
+                            <li>
+                                Municipio: valor String de [001-183]
+                            </li>
+                            <li>
+                                Coordenada_X: valor String de 6 cifras
+                            </li>
+                            <li>
+                                Coordenada_Y: valor String de 7 cifras
+                            </li>
+                            <li>
+                                Página Web: valor anyURI. Ejemplo: "http://www.w3.org/TR/xmlschema-0"
+                            </li>
+                            <li> Dirección:
+                                <ul>
                         <li>
-                            Municipio: valor String de [001-183]
+                            Nombre: valor String
                         </li>
                         <li>
-                            Coordenada_X: valor String de 6 cifras
+                             Número: valor String. En el caso de que no tenga número toma el valor de "s/n"
                         </li>
+                       <li>
+                           Código Postal: valor String que empieza por 28
+                       </li>
                         <li>
-                            Coordenada_Y: valor String de 7 cifras
+                            Tipo de vía: valor String
                         </li>
-                        <li>
-                            Página Web: valor anyURI. Ejemplo: "http://www.w3.org/TR/xmlschema-0"
-                        </li>
-                        <li> Dirección:
-                            <ul>
-                                <li>
-                                    Nombre: valor String
-                                </li>
-                                <li>
-                                    Número: valor String. En el caso de que no tenga número toma el valor de "s/n"
-                                </li>
-                                <li>
-                                    Código Postal: valor String que empieza por 28
-                                </li>
-                                <li>
-                                    Tipo de vía: valor String
-                                </li>
-                            </ul>
-                        </li>
-
                     </ul>
+                            </li>
+
+                        </ul>
                     <p class="card-text">
                         Por último, tenemos los datos de los <b>Los Residentes de la Comunidad de Madrid por Edades:</b>
                     </p>
@@ -146,6 +145,18 @@
                         </li>
                     </ul>
                 </div>
+                <ul>
+                        <li>
+                            <p>Dominio:
+                                <a href="http://www.colegiosapp.org">http://www.colegiosapp.org</a>
+                            </p>
+                        </li>
+                        <li>
+                             <p>Class Path:
+                                 <a href="http://www.colegiosapp.org/ontology#[className]">http://www.colegiosapp.org/ontology#[className]</a>
+                             </p>
+                        </li>
+                    </ul>
             </div>
             <br/>
             <br/>

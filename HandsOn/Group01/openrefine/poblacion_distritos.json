@@ -1,0 +1,172 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "a",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column rango_edad by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "De ",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column rango_edad 1 by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rango_edad 1 1",
+    "description": "Remove column rango_edad 1 1"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " años",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column rango_edad 2 by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rango_edad 2 2",
+    "description": "Remove column rango_edad 2 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rango_edad 1 2",
+    "newColumnName": "min_edad",
+    "description": "Rename column rango_edad 1 2 to min_edad"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rango_edad 2 1",
+    "newColumnName": "max_edad",
+    "description": "Rename column rango_edad 2 1 to max_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "min_edad",
+          "columnName": "min_edad",
+          "query": "100",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "min_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "100 y más "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "100"
+      }
+    ],
+    "description": "Mass edit cells in column min_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "min_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "100"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 100
+      }
+    ],
+    "description": "Mass edit cells in column min_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "max_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ños"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "199"
+      }
+    ],
+    "description": "Mass edit cells in column max_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "max_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "199"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 199
+      }
+    ],
+    "description": "Mass edit cells in column max_edad"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "poblacion_empadronada",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column poblacion_empadronada using expression grel:value.toNumber()"
+  }
+]
