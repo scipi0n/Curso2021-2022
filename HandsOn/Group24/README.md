@@ -5,4 +5,3 @@ Names and GitHub users
  - Alberto Almeida Rivera, alb433
  - Paloma López de Carrizosa, @palolc
  - Carlos Ferrero Manauta, carlosferrero-upm
-=======
