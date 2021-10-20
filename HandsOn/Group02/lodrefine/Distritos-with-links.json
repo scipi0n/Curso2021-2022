@@ -30,8 +30,8 @@
     "baseColumnName": "NOMBRE",
     "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "Same_as_Wikidata",
+    "newColumnName": "same_as_Wikidata",
     "columnInsertIndex": 2,
-    "description": "Create column Same_as_Wikidata at index 2 based on column NOMBRE using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+    "description": "Create column same_as_Wikidata at index 2 based on column NOMBRE using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
   }
 ]
