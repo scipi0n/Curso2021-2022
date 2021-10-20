@@ -308,5 +308,105 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column DISTRITO using expression grel:value.replaceChars(\"ÁÉÍÓÚáéíóú\", \"AEIOUaeiou\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"CALL\",\"CALLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"CALL\",\"CALLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"AVDA\",\"AVENIDA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"AVDA\",\"AVENIDA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"PQUE\",\"PARQUE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"PQUE\",\"PARQUE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"CMNO\",\"CAMINO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"CMNO\",\"CAMINO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"CTRA\",\"CARRETERA\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"CTRA\",\"CARRETERA\"))"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EXPEDIENTE",
+    "description": "Fill down cells in column EXPEDIENTE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replace(value,\"GTA\",\"GLORIETA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replace(value,\"GTA\",\"GLORIETA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:replaceChars(value,\"0123456789\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:replaceChars(value,\"0123456789\",\"\")"
   }
 ]
