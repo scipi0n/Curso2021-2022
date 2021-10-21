@@ -1,7 +1,7 @@
 from rdflib import Graph, Namespace, Literal, RDF, RDFS, XSD
 from rdflib.plugins.sparql import prepareQuery
 
-file = "https://github.com/MarcoAS99/Curso2021-2022/blob/4bb88f30f9e66c04039836384d54a02262ca663f/HandsOn/Group03/rdf/recycle_triples.nt"
+file = "https://github.com/MarcoAS99/Curso2021-2022/blob/cdfb4345002cf47e67cd5fcf71487ca4fcfa93f4/HandsOn/Group03/rdf/recycle_triples.nt"
 out = []
 
 g = Graph()
