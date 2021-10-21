@@ -5,46 +5,51 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:map_TriplesMap1_000 rml:logicalSource map:source_000;
+map:map_Bin_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
-    rdfs:label "TriplesMap1";
-    rr:subjectMap map:s_000;
-    rr:predicateObjectMap map:pom_000, map:pom_001.
-map:map_TriplesMap2_000 rml:logicalSource map:source_001;
-    a rr:TriplesMap;
-    rdfs:label "TriplesMap2";
-    rr:subjectMap map:s_001;
-    rr:predicateObjectMap map:pom_002, map:pom_003.
-map:map_TriplesMap3_000 rml:logicalSource map:source_002;
-    a rr:TriplesMap;
-    rdfs:label "TriplesMap3";
+    rdfs:label "Bin";
     rr:subjectMap map:s_002;
     rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010.
-map:map_TriplesMap4_000 rml:logicalSource map:source_003;
+map:map_BinGeneral_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
-    rdfs:label "TriplesMap4";
-    rr:subjectMap map:s_003;
-    rr:predicateObjectMap map:pom_011, map:pom_012.
-map:map_TriplesMap5_000 rml:logicalSource map:source_004;
+    rdfs:label "BinGeneral";
+    rr:subjectMap map:s_001;
+    rr:predicateObjectMap map:pom_002, map:pom_003.
+map:map_BinPlastic_000 rml:logicalSource map:source_000;
     a rr:TriplesMap;
-    rdfs:label "TriplesMap5";
+    rdfs:label "BinPlastic";
+    rr:subjectMap map:s_000;
+    rr:predicateObjectMap map:pom_000, map:pom_001.
+map:map_General_000 rml:logicalSource map:source_004;
+    a rr:TriplesMap;
+    rdfs:label "General";
     rr:subjectMap map:s_004;
-    rr:predicateObjectMap map:pom_013, map:pom_014.
-map:map_TriplesMap6_000 rml:logicalSource map:source_005;
+    rr:predicateObjectMap map:pom_014, map:pom_015, map:pom_016.
+map:map_Plastic_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
-    rdfs:label "TriplesMap6";
+    rdfs:label "Plastic";
+    rr:subjectMap map:s_003;
+    rr:predicateObjectMap map:pom_011, map:pom_012, map:pom_013.
+map:map_Product_000 rml:logicalSource map:source_006;
+    a rr:TriplesMap;
+    rdfs:label "Product";
+    rr:subjectMap map:s_006;
+    rr:predicateObjectMap map:pom_019.
+map:map_WasteType_000 rml:logicalSource map:source_005;
+    a rr:TriplesMap;
+    rdfs:label "WasteType";
     rr:subjectMap map:s_005;
-    rr:predicateObjectMap map:pom_015.
+    rr:predicateObjectMap map:pom_017, map:pom_018.
 map:om_000 a rr:ObjectMap;
     rr:constant "rc:BinPlastic";
     rr:termType rr:IRI.
 map:om_001 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap3_000.
+    rr:parentTriplesMap map:map_Bin_000.
 map:om_002 a rr:ObjectMap;
     rr:constant "rc:BinGeneral";
     rr:termType rr:IRI.
 map:om_003 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap3_000.
+    rr:parentTriplesMap map:map_Bin_000.
 map:om_004 a rr:ObjectMap;
     rr:constant "rc:Bin";
     rr:termType rr:IRI.
@@ -70,14 +75,23 @@ map:om_011 a rr:ObjectMap;
     rr:constant "rc:Plastic";
     rr:termType rr:IRI.
 map:om_012 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap6_000.
+    rr:parentTriplesMap map:map_WasteType_000.
 map:om_013 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Bin_000.
+map:om_014 a rr:ObjectMap;
     rr:constant "rc:General";
     rr:termType rr:IRI.
-map:om_014 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap6_000.
 map:om_015 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_WasteType_000.
+map:om_016 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Bin_000.
+map:om_017 a rr:ObjectMap;
     rr:constant "rc:WasteType";
+    rr:termType rr:IRI.
+map:om_018 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Product_000.
+map:om_019 a rr:ObjectMap;
+    rr:constant "http://www.w3.org/2002/07/owl#Class";
     rr:termType rr:IRI.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
@@ -106,10 +120,18 @@ map:pm_011 a rr:PredicateMap;
 map:pm_012 a rr:PredicateMap;
     rr:constant rdfs:subClassOf.
 map:pm_013 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <rc:recycledIn>.
 map:pm_014 a rr:PredicateMap;
-    rr:constant rdfs:subClassOf.
+    rr:constant rdf:type.
 map:pm_015 a rr:PredicateMap;
+    rr:constant rdfs:subClassOf.
+map:pm_016 a rr:PredicateMap;
+    rr:constant <rc:recycledIn>.
+map:pm_017 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_018 a rr:PredicateMap;
+    rr:constant rdfs:subClassOf.
+map:pm_019 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
@@ -159,8 +181,20 @@ map:pom_014 a rr:PredicateObjectMap;
 map:pom_015 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_015;
     rr:objectMap map:om_015.
+map:pom_016 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_016;
+    rr:objectMap map:om_016.
+map:pom_017 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_017;
+    rr:objectMap map:om_017.
+map:pom_018 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_018;
+    rr:objectMap map:om_018.
+map:pom_019 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_019;
+    rr:objectMap map:om_019.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
-    <http://rdfs.org/ns/void#exampleResource> map:map_TriplesMap1_000, map:map_TriplesMap2_000, map:map_TriplesMap3_000, map:map_TriplesMap4_000, map:map_TriplesMap5_000, map:map_TriplesMap6_000.
+    <http://rdfs.org/ns/void#exampleResource> map:map_BinPlastic_000, map:map_BinGeneral_000, map:map_Bin_000, map:map_Plastic_000, map:map_General_000, map:map_WasteType_000, map:map_Product_000.
 map:s_000 a rr:SubjectMap;
     rr:template "http://smartcity.smartbins.es/lcc/resource/Bin/BinPlastic/{idPlas}".
 map:s_001 a rr:SubjectMap;
@@ -168,26 +202,31 @@ map:s_001 a rr:SubjectMap;
 map:s_002 a rr:SubjectMap;
     rr:template "http://smartcity.smartbins.es/lcc/resource/Bin/{id}".
 map:s_003 a rr:SubjectMap;
-    rr:template "http://smartcity.smartbins.es/lcc/resource/WasteType/Plastic/{idPlast}".
+    rr:template "http://smartcity.smartbins.es/lcc/resource/Product/WasteType/Plastic/{idPlast}".
 map:s_004 a rr:SubjectMap;
-    rr:template "http://smartcity.smartbins.es/lcc/resource/WasteType/General/{idGen}".
+    rr:template "http://smartcity.smartbins.es/lcc/resource/Product/WasteType/General/{idGen}".
 map:s_005 a rr:SubjectMap;
-    rr:template "http://smartcity.smartbins.es/lcc/resource/WasteType/{id}".
+    rr:template "http://smartcity.smartbins.es/lcc/resource/Product/WasteType/{id}".
+map:s_006 a rr:SubjectMap;
+    rr:template "http://smartcity.smartbins.es/lcc/resource/Product/{id}".
 map:source_000 a rml:LogicalSource;
-    rml:source "envases.csv";
+    rml:source "data/envases.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "resto.csv";
+    rml:source "data/resto.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "papeleras_madrid_update.csv";
+    rml:source "data/papeleras_madrid_update.csv";
     rml:referenceFormulation ql:CSV.
 map:source_003 a rml:LogicalSource;
-    rml:source "plastic.csv";
+    rml:source "data/plastic.csv";
     rml:referenceFormulation ql:CSV.
 map:source_004 a rml:LogicalSource;
-    rml:source "general.csv";
+    rml:source "data/general.csv";
     rml:referenceFormulation ql:CSV.
 map:source_005 a rml:LogicalSource;
-    rml:source "products.csv";
+    rml:source "data/products.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_006 a rml:LogicalSource;
+    rml:source "data/products.csv";
     rml:referenceFormulation ql:CSV.

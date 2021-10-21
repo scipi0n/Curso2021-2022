@@ -8,62 +8,28 @@ rml: <http://semweb.mmlab.be/ns/rml#>.
 rc: <http://smartcity.smartbins.es/lcc/ontology/recycle#> .
 
 mappings:
-  TriplesMap1:
-    sources:
-      - [envases.csv~csv]
-    s: http://smartcity.smartbins.es/lcc/resource/Bin/BinPlastic/$(idPlas)
-    po:
-      - [a, rc:BinPlastic]
-      - p: rdfs:subClassOf
-        o:
-          - mapping: TriplesMap3
-
-  TriplesMap2:
-    sources:
-      - [resto.csv~csv]
-    s: http://smartcity.smartbins.es/lcc/resource/Bin/BinGeneral/$(idGen)
-    po:
-      - [a, rc:BinGeneral]
-      - p: rdfs:subClassOf
-        o:
-          - mapping: TriplesMap3
-
-  TriplesMap3:
+  Bin:
     sources:
       - [papeleras_madrid_update.csv~csv]
     s: http://smartcity.smartbins.es/lcc/resource/Bin/$(id)
     po:
       - [a, rc:Bin]
       - [rc:hasAlarm, $(alarm)]
+      - [rc:hasType, $(Bin)]
       - [rc:hasDate, $(date)]
       - [rc:levelOfFullnes, $(levelOfFullnes)]
       - [rc:hasLon, $(lon)]
-      - [rc:hasLat, $(lon)]
+      - [rc:hasLat, $(lat)]
       - [rc:hasLocationName, $(Place)]
 
-  TriplesMap4:
-    sources:
-      - [plastic.csv~csv]
-    s: http://smartcity.smartbins.es/lcc/resource/WasteType/Plastic/$(idPlast)
-    po:
-      - [a, rc:Plastic]
-      - p: rdfs:subClassOf
-        o:
-          - mapping: TriplesMap6
-
-  TriplesMap5:
-    sources:
-      - [general.csv~csv]
-    s: http://smartcity.smartbins.es/lcc/resource/WasteType/General/$(idGen)
-    po:
-      - [a, rc:General]
-      - p: rdfs:subClassOf
-        o:
-          - mapping: TriplesMap6
-
-  TriplesMap6:
+  Product:
     sources:
       - [products.csv~csv]
-    s: http://smartcity.smartbins.es/lcc/resource/WasteType/$(id)
+    s: http://smartcity.smartbins.es/lcc/resource/Product/$(id)
     po:
-      - [a, rc:WasteType]
+      - [a, rc:Product]
+      - [rc:hasType, $(Product)]
+      - [rc:hasName, $(WasteType)]
+      - p: rc:recycledIn
+        o:
+          mapping: Bin
