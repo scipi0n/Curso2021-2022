@@ -1,4 +1,4 @@
- @prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
 @prefix base: <http://www.example.org/TerrazasMadrid#> .
 @prefix dc: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#> .
 @prefix ns: <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/#> .
@@ -79,7 +79,7 @@ ns:Neighborhood rdfs:label "Neighborhood" ;
 
 base: rdf1:type owl:Ontology ;
     owl:versionInfo "0.0.1" ;
-    dc:creator "Carlos Ferrero Manauta" ;
+    dc:creator "Group 24" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Template Ontology" .
 

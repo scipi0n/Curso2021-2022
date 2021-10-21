@@ -13,7 +13,7 @@ prefixes:
 mappings:
   LocalBusiness:
     sources:
-      - [csv-updated.csv~csv]
+      - [terrazasMadrid-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza/$(id_local)
     po:
       - [a, schema:LocalBusiness]
@@ -63,7 +63,7 @@ mappings:
 
   District:
     sources:
-      - [csv-updated.csv~csv]
+      - [terrazasMadrid-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/$(desc_distrito_local)
     po:
       - [a, admingeo:District]
@@ -72,7 +72,7 @@ mappings:
 
   GeoCoordinates:
     sources:
-      - [csv-updated.csv~csv]
+      - [terrazasMadrid-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Geocoordinates/$(id_coordenadas)
     po:
       - [a, schema:GeoCoordinates]
@@ -82,7 +82,7 @@ mappings:
 
   Address:
     sources:
-    - [csv-updated.csv~csv]
+    - [terrazasMadrid-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/$(id_direccion)
     po:
     - [a, schema:PostalAddress]
@@ -91,7 +91,7 @@ mappings:
 
   Barrio:
     sources:
-      - [csv-updated.csv~csv]
+      - [terrazasMadrid-updated.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Barrio/$(desc_barrio_local)
     po:
       - [a, ns:Neighborhood]
