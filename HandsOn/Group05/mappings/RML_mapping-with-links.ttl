@@ -21,10 +21,11 @@
   ];
 
   rr:predicateObjectMap [
-	rr:predicate [ rr:constant owl:sameAs; rr:termType rr:IRI ];
+	rr:predicate vocab:tieneURIProvi; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "URI_provincia";
-      rr:termType rr:IRI ]
+      rr:template "{URI_provincia}";
+      rr:termType rr:Literal 
+	]
   ];
 
   rr:predicateObjectMap [
@@ -47,10 +48,11 @@
   ];
   
   rr:predicateObjectMap [
-	rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
-	rr:objectMap [
-	  rr:template "URI_municipio";
-	  rr:termType rr:IRI ]
+	rr:predicate vocab:tieneURIMuni; rr:termType rr:IRI;
+    rr:objectMap [
+      rr:template "{URI_municipio}";
+      rr:termType rr:Literal 
+	]
   ];
   
   rr:predicateObjectMap [
@@ -131,4 +133,28 @@
     rr:template "http://www.calidadAire.com/{ano}-{mes}-{dia}";
     rr:termType rr:IRI;
   rr:class vocab:Medicion
+  ].
+  
+<#TriplesMap7> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./calidad_aire_datos_mes-updated-csv-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  
+    rr:subjectMap [
+    rr:template "{URI_provincia}";
+    rr:termType rr:IRI;
+  rr:class vocab:URI_provincia
+  ].
+
+<#TriplesMap8> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./calidad_aire_datos_mes-updated-csv-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  
+    rr:subjectMap [
+    rr:template "{URI_municipio}";
+    rr:termType rr:IRI;
+  rr:class vocab:URI_municipio
   ].
