@@ -20,20 +20,20 @@
     rr:class bici:BikeStand
   ];
   rr:predicateObjectMap [
-    rr:predicate rdfs:subClassOf;
+    rr:predicateMap rdfs:subClassOf;
     rr:objectMap [
       rr:parentTriplesMap <#Location>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasDescription;
+    rr:predicateMap bici:hasDescription;
     rr:objectMap [
       rml:reference "Description" 
     ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicate bici:hasOperativeStatus;
+    rr:predicateMap bici:hasOperativeStatus;
     rr:objectMap [
       rml:reference "OperativeStatus" 
     ]
@@ -41,7 +41,7 @@
 
 <#Location>
   rml:logicalSource [
-    rml:source "./data/bases_bicimad-updated.csv" ;
+    rml:source "bases_bicimad-updated.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -49,13 +49,13 @@
     rr:class bici:Location
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasCoordinates;
+    rr:predicateMap bici:hasCoordinates;
     rr:objectMap [
       rr:parentTriplesMap <#Coordinates>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasGIS;
+    rr:predicateMap bici:hasGIS;
     rr:objectMap [
       rr:parentTriplesMap <#GIS>
     ]
@@ -63,7 +63,7 @@
 
  <#Address_BikeStand>
   rml:logicalSource [
-    rml:source "./data/APARCABICIS_2021-updated.csv" ;
+    rml:source "APARCABICIS_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -71,38 +71,38 @@
     rr:class bici:Address_BikeStand
   ];
   rr:predicateObjectMap [
-    rr:predicate rdfs:subClassOf;
+    rr:predicateMap rdfs:subClassOf;
     rr:objectMap [
       rr:parentTriplesMap <#Location>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasDistrictCode;
+    rr:predicateMap bici:hasDistrictCode;
     rr:objectMap [
       rml:reference "DistrictCode" 
     ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicate bici:hasDistrictName;
+    rr:predicateMap bici:hasDistrictName;
     rr:objectMap [
       rml:reference "DistrictName" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasNeighborhoodCode;
+    rr:predicateMap bici:hasNeighborhoodCode;
     rr:objectMap [
       rml:reference "NeighborhoodCode" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasNeighborhoodName;
+    rr:predicateMap bici:hasNeighborhoodName;
     rr:objectMap [
       rml:reference "NeighborhoodName" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasAddress;
+    rr:predicateMap bici:hasAddress;
     rr:objectMap [
       rml:reference "Address" 
     ]
@@ -118,38 +118,38 @@
     rr:class bici:Address_BasesBicimad
   ];
   rr:predicateObjectMap [
-    rr:predicate rdfs:subClassOf;
+    rr:predicateMap rdfs:subClassOf;
     rr:objectMap [
       rr:parentTriplesMap <#Location>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasDistrictCode;
+    rr:predicateMap bici:hasDistrictCode;
     rr:objectMap [
       rml:reference "DistrictCode" 
     ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicate bici:hasDistrictName;
+    rr:predicateMap bici:hasDistrictName;
     rr:objectMap [
       rml:reference "DistrictName" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasNeighborhoodCode;
+    rr:predicateMap bici:hasNeighborhoodCode;
     rr:objectMap [
       rml:reference "NeighborhoodCode" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasNeighborhoodName;
+    rr:predicateMap bici:hasNeighborhoodName;
     rr:objectMap [
       rml:reference "NeighborhoodName" 
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasAddress;
+    rr:predicateMap bici:hasAddress;
     rr:objectMap [
       rml:reference "Address" 
     ]
@@ -165,13 +165,13 @@
     rr:class bici:Bicimad_Stations
   ];
   rr:predicateObjectMap [
-    rr:predicate rdfs:subClassOf;
+    rr:predicateMap rdfs:subClassOf;
     rr:objectMap [
       rr:parentTriplesMap <#Location>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasCapacity;
+    rr:predicateMap bici:hasCapacity;
     rr:objectMap [
       rml:reference "Capacity";
       rr:datatype <http://www.w3.org/2001/XMLSchema#integer>
@@ -189,14 +189,14 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate bici:hasValue_X;
+    rr:predicateMap bici:hasValue_X;
     rr:objectMap [
       rml:reference "Gis_X";
       rr:datatype <http://www.w3.org/2001/XMLSchema#double>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasValue_Y;
+    rr:predicateMap bici:hasValue_Y;
     rr:objectMap [
       rml:reference "Gis_Y";
       rr:datatype <http://www.w3.org/2001/XMLSchema#double>
@@ -214,14 +214,14 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate bici:hasLongitude;
+    rr:predicateMap bici:hasLongitude;
     rr:objectMap [
       rml:reference "Longitude";
       rr:datatype <http://www.w3.org/2001/XMLSchema#double>
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate bici:hasLatitude;
+    rr:predicateMap bici:hasLatitude;
     rr:objectMap [
       rml:reference "Latitude";
       rr:datatype <http://www.w3.org/2001/XMLSchema#double>
