@@ -9,54 +9,44 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
+    rml:source "../data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id_cruce}";
     rr:termType rr:IRI;
     rr:class vocab:Crossing
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasTrafficLight; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap2>;
-	  rr:joinCondition [
-        rr:child "id"; rr:parent "id";
-      ]
-    ]
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/{id}";
+      rr:termType rr:Literal 
+	]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:crossIn; rr:termType rr:IRI
-	];
+    rr:predicate vocab:crossIn; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap3>;
-	  rr:joinCondition [
-        rr:child "distrito"; rr:parent "distrito";
-      ]
-    ]
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{distrito}";
+      rr:termType rr:Literal 
+	]
   ].
   
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
+    rml:source "../data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/{id_cruce}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/{id}";
     rr:termType rr:IRI;
     rr:class vocab:TrafficLight
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasIdTraffic; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasIdTraffic; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id"; rr:termtype rr:Literal
     ]
@@ -64,39 +54,31 @@
   
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:wasInstalled; rr:termType rr:IRI
-	];
+	rr:predicate vocab:wasInstalled; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "fecha_inst"; rr:termtype rr:Literal
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:typeTrafficLight; rr:termType rr:IRI
-	];
+	rr:predicate vocab:typeTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "tipo_elem"; rr:termtype rr:Literal
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:ubicatedIn; rr:termType rr:IRI
-	];
+	rr:predicate vocab:ubicatedIn; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap4>;
-	  rr:joinCondition [
-        rr:child "id_cruce"; rr:parent "id_cruce";
-      ]
-    ]
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}";
+      rr:termType rr:Literal 
+	]
   ].
   
   
   <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
+    rml:source "../data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -106,9 +88,7 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasCode; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rr:parentTriplesMap <#TriplesMap5>;
 	  	rr:joinCondition [
@@ -123,7 +103,7 @@
   
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/cabezas_semaforo_bici-updated.csv" ;
+    rml:source "../data/cabezas_semaforo_bici-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -133,26 +113,22 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasLat; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasLat; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "latitud"; rr:dataType <http://www.w3.org/2001/XMLSchema#float>
-      ]
+    ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasLong; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasLong; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "longitud"; rr:dataType <http://www.w3.org/2001/XMLSchema#float>
-      ]
+    ]
   ].
   
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "../data/distritos-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -162,18 +138,14 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasCode; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasDistrictName; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NOMBRE"; rr:termtype rr:Literal
     ]

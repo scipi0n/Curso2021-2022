@@ -9,31 +9,26 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/calles_tranquilas-updated.csv" ;
+    rml:source "../data/calles_tranquilas-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
     rr:termType rr:IRI;
 	rr:class vocab:Address
   ];
   
-  
   rr:predicateObjectMap [
-    rr:predicateMap [
-    rr:constant vocab:hasAddressName; rr:termType rr:IRI
-	];
-    rr:objectMap [
+    rr:predicate vocab:hasAddressName;
+  rr:objectMap [
       rml:reference "CALLE";
       rr:termType rr:Literal
     ]
   ];
   
-    rr:predicateObjectMap [
-    rr:predicateMap [
-    rr:constant vocab:typeAddress; rr:termType rr:IRI
-	];
-    rr:objectMap [
+  rr:predicateObjectMap [
+    rr:predicate vocab:typeAddress;
+  rr:objectMap [
       rml:reference "TIPOCALLE";
       rr:termType rr:Literal
     ]

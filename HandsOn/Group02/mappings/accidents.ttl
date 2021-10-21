@@ -9,65 +9,50 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Accident/{EXPEDIENTE}";
     rr:termType rr:IRI;
-	rr:class vocab:Accident
+  rr:class vocab:Accident
   ];
-  
-  
+
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasPlace; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasPlace; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap2>;
-	  rr:joinCondition [
-        rr:child "CALLE"; rr:parent "CALLE";
-      ]
-    ]
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
+      rr:termType rr:Literal 
+	]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasVictim; rr:termType rr:IRI
-	];
+	rr:predicate vocab:hasVictim; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap4>;
-	  rr:joinCondition [
-        rr:child "VICTIMA"; rr:parent "VICTIMA";
-      ]
-    ]
+	  rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima{VICTIMA}";
+      rr:termType rr:Literal 
+	]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasDate; rr:termType rr:IRI
-    ];
-	rr:objectMap [
+    rr:predicate vocab:hasDate; rr:termType rr:IRI;
+    rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-	  rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+    rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasWeather; rr:termType rr:IRI
-    ];
-	rr:objectMap [
+    rr:predicate vocab:hasWeather; rr:termType rr:IRI;
+    rr:objectMap [
       rml:reference "TIEMPO";
       rr:termType rr:Literal
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:typeBicycle; rr:termType rr:IRI
-	];
+    rr:predicate vocab:typeBicycle; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOVEHICULO";
       rr:termType rr:Literal
@@ -76,33 +61,26 @@
   
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:causedBy; rr:termType rr:IRI
-	];
+    rr:predicate vocab:causedBy; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOACCIDENTE";
       rr:termType rr:Literal
     ]
   ].
-  
-
 
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
-    rml:referenceFormulation ql:CSV 
+    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
     rr:termType rr:IRI;
-	rr:class vocab:Address
+  rr:class vocab:Address
   ];
   
-  
   rr:predicateObjectMap [
-    rr:predicateMap [
-    rr:constant vocab:hasAddressName; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasAddressName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "CALLE";
       rr:termType rr:Literal
@@ -110,9 +88,7 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasNumber; rr:termType rr:IRI
-	];
+      rr:predicate vocab:hasNumber; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NUMERO";
       rr:termType rr:Literal
@@ -120,38 +96,11 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:belongsTo; rr:termType rr:IRI
-	];
-    rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap3>;
-	  rr:joinCondition [
-        rr:child "DISTRITO"; rr:parent "DISTRITO";
-      ]
-    ]
-  ].
-
-
-  
-<#TriplesMap3> a rr:TriplesMap;
-  rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{DISTRITO}";
-    rr:termType rr:IRI;
-	rr:class vocab:District
-  ];
-  
-  rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasCode; rr:termType rr:IRI
-	];
+    rr:predicate vocab:belongsTo; rr:termType rr:IRI;
     rr:objectMap [
       rr:parentTriplesMap <#TriplesMap5>;
-	  	rr:joinCondition [
-        rr:child "DISTRITO"; rr:parent "ID_DISTRICT";
+    rr:joinCondition [
+        rr:child "DISTRITO"; rr:parent "NOMBRE";
       ]
     ]
   ].
@@ -159,29 +108,25 @@
   
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima{VICTIMA}";
     rr:termType rr:IRI;
-	rr:class vocab:Person
+  rr:class vocab:Person
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasGender; rr:termType rr:IRI
-    ];
-	rr:objectMap [
+    rr:predicate vocab:hasGender; rr:termType rr:IRI;
+    rr:objectMap [
       rml:reference "SEXO";
       rr:termType rr:Literal
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasRangeAge; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasRangeAge; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "RANGOEDAD";
       rr:termType rr:Literal
@@ -189,53 +134,45 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:hasRole; rr:termType rr:IRI
-    ];
-	rr:objectMap [
+    rr:predicate vocab:hasRole; rr:termType rr:IRI;
+    rr:objectMap [
       rml:reference "TIPOPERSONA";
       rr:termType rr:Literal
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [
-      rr:constant vocab:gradeOfInjury; rr:termType rr:IRI
-	];
+    rr:predicate vocab:gradeOfInjury; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "LESIVIDAD";
-	  rr:dataType xsd:int
+    rr:dataType xsd:int
     ]
   ].
-  
-
-
 
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "../data/distritos-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{ID_DISTRICT}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{NOMBRE}";
     rr:termType rr:IRI;
     rr:class vocab:District
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasCode; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap [
-	  rr:constant vocab:hasDistrictName; rr:termType rr:IRI
-	];
+    rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NOMBRE"; rr:termtype rr:Literal
     ]
   ].
+
+
+  
