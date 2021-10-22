@@ -19,9 +19,9 @@ mappings:
       - [a, bici:BikeStand]
       - [bici:hasDescription,$(Description)]
       - [bici:hasOperativeStatus,$(OperativeStatus)]
-      - p: rdfs:subClassOf
+      - p: bici:hasCoordinates
         o:
-          mapping: Location
+          mapping: Coordinates
 
   Location:
     sources:
