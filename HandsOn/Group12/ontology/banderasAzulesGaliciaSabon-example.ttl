@@ -1,0 +1,169 @@
+@prefix : <http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia> .
+
+<http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#pertenece
+:pertenece rdf:type owl:ObjectProperty ;
+           rdfs:domain :ayuntamiento ;
+           rdfs:range :provincia .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#seencuentra
+:seencuentra rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :ubicacion ;
+             rdfs:range :ayuntamiento .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#ubicadaEn
+:ubicadaEn rdf:type owl:ObjectProperty ;
+           rdfs:domain :playa ;
+           rdfs:range :ubicacion .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#longitudPlaya
+:longitudPlaya rdf:type owl:DatatypeProperty ;
+               rdfs:domain :playa ;
+               rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#masInfo
+:masInfo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :playa .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#nombreAyuntamiento
+:nombreAyuntamiento rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :ayuntamiento ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#nombreProvincia
+:nombreProvincia rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :provincia ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#codigoAyuntamiento
+:codigoAyuntamiento rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :ayuntamiento ;
+                    rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#codigoProvincia
+:codigoProvincia rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :provincia ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#latitud
+:latitud rdf:type owl:DatatypeProperty ;
+         rdfs:domain :playa ;
+         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#longitud
+:longitud rdf:type owl:DatatypeProperty ;
+          rdfs:domain :playa ;
+          rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#nombrePlaya
+:nombrePlaya rdf:type owl:DatatypeProperty ;
+             rdfs:domain :playa ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#nombreUbicacion
+:nombreUbicacion rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :ubicacion ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#tipoArena
+:tipoArena rdf:type owl:DatatypeProperty ;
+           rdfs:domain :playa ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#tipoPlaya
+:tipoPlaya rdf:type owl:DatatypeProperty ;
+           rdfs:domain :playa ;
+           rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#ayuntamiento
+:ayuntamiento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#playa
+:playa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#provincia
+:provincia rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#ubicacion
+:ubicacion rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#A_Coruna
+:A_Coruna rdf:type owl:NamedIndividual ,
+                   :provincia ;
+          :codigoProvincia "15"^^xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#Arteixo
+:Arteixo rdf:type owl:NamedIndividual ,
+                  :ayuntamiento ;
+         :codigoAyuntamiento "15005"^^xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#Sabon
+:Sabon rdf:type owl:NamedIndividual ,
+                :playa ;
+       :longitudPlaya "900"^^xsd:int ;
+       :masInfo "http://www.turismo.gal/ficha-recurso?cod_rec=9859"^^xsd:string ;
+       :nombreAyuntamiento "Arteixo"^^xsd:string ;
+       :nombreProvincia "A_Coruna"^^xsd:string ;
+       :codigoAyuntamiento "15005"^^xsd:int ;
+       :codigoProvincia "15"^^xsd:int ;
+       :latitud "43.327694"^^xsd:float ;
+       :longitud "-8.508833"^^xsd:float ;
+       :nombrePlaya "Sabon"^^xsd:string ;
+       :nombreUbicacion "Sabón - Oseiro (San Tirso)"^^xsd:string ;
+       :tipoArena "fina"^^xsd:string ;
+       :tipoPlaya "abierta"^^xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#Sabon_Oseiro_San_Tirso
+:Sabon_Oseiro_San_Tirso rdf:type owl:NamedIndividual ,
+                                 :ubicacion ;
+                        :nombreUbicacion "Sabón - Oseiro (San Tirso)"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

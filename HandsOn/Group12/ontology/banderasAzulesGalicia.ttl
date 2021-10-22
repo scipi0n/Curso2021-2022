@@ -12,13 +12,13 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#pertenece
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#pertenece
 :pertenece rdf:type owl:ObjectProperty ;
            rdfs:domain :ayuntamiento ;
            rdfs:range :provincia .
 
 
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#seencuentra
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#seencuentra
 :seencuentra rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :ubicacion ;
@@ -35,28 +35,39 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#codigoAyuntamiento
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#longitudPlaya
+:longitudPlaya rdf:type owl:DatatypeProperty ;
+               rdfs:domain :playa ;
+               rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#masInfo
+:masInfo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :playa .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#nombreAyuntamiento
+:nombreAyuntamiento rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :ayuntamiento ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#nombreProvincia
+:nombreProvincia rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :provincia ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#codigoAyuntamiento
 :codigoAyuntamiento rdf:type owl:DatatypeProperty ;
                     rdfs:domain :ayuntamiento ;
                     rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#codigoProvincia
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#codigoProvincia
 :codigoProvincia rdf:type owl:DatatypeProperty ;
                  rdfs:domain :provincia ;
                  rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#codigoUbicacion
-:codigoUbicacion rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :ubicacion ;
-                 rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/danie/ontologies/2021/9/banderasAzulesGalicia#nombrePlaya
-:nombrePlaya rdf:type owl:DatatypeProperty ;
-             rdfs:domain :playa ;
-             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#latitud
@@ -69,6 +80,19 @@
 :longitud rdf:type owl:DatatypeProperty ;
           rdfs:domain :playa ;
           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#nombrePlaya
+:nombrePlaya rdf:type owl:DatatypeProperty ;
+             rdfs:domain :playa ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#nombreUbicacion
+:nombreUbicacion rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :ubicacion ;
+                 rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/danie/ontologies/2021/9/untitled-ontology-4#tipoArena
