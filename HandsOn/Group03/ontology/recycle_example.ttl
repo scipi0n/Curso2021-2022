@@ -6,7 +6,7 @@
 
 <http://smartcity.smartbins.es/lcc/ontology/recycle> rdf:type owl:Ontology .
 
-:Bin_25425 rdf:type owl:Bin;
+<http://smartcity.smartbins.es/lcc/resource/Bin/2545> rdf:type :Bin;
     :hasAlarm "Full"^^xsd:string;
     :hasType "General"^^xsd:string;
     :levelOfFullnes "8"^^xsd:integer;
@@ -16,6 +16,5 @@
     :hasLocationName "Puerta_del_Angel"^^xsd:string .
 
 
-<http://smartcity.smartbins.es/lcc/ontology/recycle/Product#202125425> rdf:type owl:Product;
-                                                               :recycledIn :Bin_25425 .
-
+<http://smartcity.smartbins.es/lcc/resource/Product/20> rdf:type :Product;
+                                                               :recycledIn  <http://smartcity.smartbins.es/lcc/resource/Bin/2545>.
