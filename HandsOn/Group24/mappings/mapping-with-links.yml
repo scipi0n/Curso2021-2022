@@ -9,11 +9,12 @@ prefixes:
   time: https://www.w3.org/TR/owl-time/#time:#
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
   
 mappings:
   LocalBusiness:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [terrazasMadrid-with-links.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza/$(id_local)
     po:
       - [a, schema:LocalBusiness]
@@ -58,20 +59,22 @@ mappings:
             parameters:
                 - [str1, $(id_direccion)]
                 - [str2, $(id_direccion)]
+
     
 
   District:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [terrazasMadrid-with-links.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/$(desc_distrito_local)
     po:
       - [a, admingeo:District]
       - [rdf:label, $(desc_distrito_local), xsd:string]
+      - [owl:sameAs, $(distritos_wikidata)~iri]
       - [admingeo:District, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_distrito_local)~iri]
 
   GeoCoordinates:
     sources:
-      - [csvUpdate3.csv~csv]
+      - [terrazasMadrid-with-links.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Geocoordinates/$(id_coordenadas)
     po:
       - [a, schema:GeoCoordinates]
@@ -81,11 +84,28 @@ mappings:
 
   Address:
     sources:
-    - [csvUpdate3.csv~csv]
+    - [terrazasMadrid-with-links.csv~csv]
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Address/$(id_direccion)
     po:
     - [a, schema:PostalAddress]
     - [schema:streetAddress, $(direccion), xsd:string]
     - [schema:postalCode, $(Cod_Postal), xsd:string]
-    - [schema:addressRegion, $(desc_barrio_local), xsd:string]
+
+  Barrio:
+    sources:
+      - [terrazasMadrid-with-links.csv~csv]
+    s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Barrio/$(desc_barrio_local)
+    po:
+      - [a, ns:Neighborhood]
+      - [rdf:label, $(desc_barrio_local), xsd:string]
+      - [owl:sameAs, $(barrios_wikidata)~iri]
+      - [ns:Neighborhood, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_barrio_local)~iri]
+      - p: ns:locatedIn
+        o:
+        - mapping: District
+          condition: 
+            function: equal
+            parameters:
+                - [str1, $(desc_distrito_local)]
+                - [str2, $(desc_distrito_local)]
 
