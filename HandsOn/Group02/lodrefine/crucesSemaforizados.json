@@ -151,5 +151,32 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column descripcion using expression grel:value.replaceChars(\"??????????\", \"AEIOUaeiou\")"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "descripcion",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column descripcion by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "descripcion 1",
+    "newColumnName": "calle_1",
+    "description": "Rename column descripcion 1 to calle_1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "descripcion 2",
+    "newColumnName": "calle_2",
+    "description": "Rename column descripcion 2 to calle_2"
   }
 ]

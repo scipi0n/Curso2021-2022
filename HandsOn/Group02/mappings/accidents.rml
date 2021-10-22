@@ -7,9 +7,10 @@
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
+
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -39,7 +40,7 @@
     rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-    rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+      rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
     ]
   ];
   
@@ -59,7 +60,6 @@
     ]
   ];
   
-  
   rr:predicateObjectMap [
     rr:predicate vocab:causedBy; rr:termType rr:IRI;
     rr:objectMap [
@@ -68,9 +68,10 @@
     ]
   ].
 
+
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -88,7 +89,7 @@
   ];
   
   rr:predicateObjectMap [
-      rr:predicate vocab:hasNumber; rr:termType rr:IRI;
+    rr:predicate vocab:hasNumber; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NUMERO";
       rr:termType rr:Literal
@@ -98,17 +99,18 @@
   rr:predicateObjectMap [
     rr:predicate vocab:belongsTo; rr:termType rr:IRI;
     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap5>;
-    rr:joinCondition [
+      rr:parentTriplesMap <#TriplesMap4>;
+      rr:joinCondition [
         rr:child "DISTRITO"; rr:parent "NOMBRE";
       ]
     ]
   ].
   
   
-<#TriplesMap4> a rr:TriplesMap;
+  
+<#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -145,13 +147,14 @@
     rr:predicate vocab:gradeOfInjury; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "LESIVIDAD";
-    rr:dataType xsd:int
+      rr:dataType xsd:int
     ]
   ].
 
-<#TriplesMap5> a rr:TriplesMap;
+
+<#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../data/distritos-updated.csv" ;
+    rml:source "./data/distritos-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -164,7 +167,7 @@
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
-      ]
+    ]
   ];
 
   rr:predicateObjectMap [

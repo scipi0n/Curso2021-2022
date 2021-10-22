@@ -60,6 +60,12 @@
            rdfs:range :Person .
 
 
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#ubicatedIn
+:ubicatedIn rdf:type owl:ObjectProperty ;
+            rdfs:domain :TrafficLight ;
+            rdfs:range :Geometry .
+
+
 #################################################################
 #    Data properties
 #################################################################

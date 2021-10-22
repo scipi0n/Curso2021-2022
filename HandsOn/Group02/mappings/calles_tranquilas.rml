@@ -9,7 +9,7 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../data/calles_tranquilas-updated.csv" ;
+    rml:source "./data/calles_tranquilas-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -28,7 +28,7 @@
   
   rr:predicateObjectMap [
     rr:predicate vocab:typeAddress;
-  rr:objectMap [
+    rr:objectMap [
       rml:reference "TIPOCALLE";
       rr:termType rr:Literal
     ]
