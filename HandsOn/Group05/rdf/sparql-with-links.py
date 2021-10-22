@@ -28,13 +28,14 @@ q = prepareQuery('''
 )
 
 for s in g.query(q):
-    print(s) 
-
+    print(s)
+    
 print("------- Properties 2:")
+
 q = prepareQuery('''
-    SELECT DISTINCT ?estacion
+    SELECT DISTINCT ?uriProvincia
     WHERE {
-  		 ?municipio ns:tieneEstacion ?estacion.
+  		 ?provincia ns:tieneURIProvi ?uriProvincia.
     }
     ''',
     initNs = {"ns": ns}
@@ -42,12 +43,13 @@ q = prepareQuery('''
 
 for s in g.query(q):
     print(s)
+    
+print("------- Properties 3:")
 
-print("------- Properties 3:")   
 q = prepareQuery('''
-    SELECT ?puntoMuestreo
+    SELECT DISTINCT ?municipio ?uriMunicipio
     WHERE {
-  		 ?estacion ns:tienePuntoMuestreo ?puntoMuestreo.
+  		 ?municipio ns:tieneURIMuni ?uriMunicipio.
     }
     ''',
     initNs = {"ns": ns}
@@ -55,25 +57,14 @@ q = prepareQuery('''
 
 for s in g.query(q):
     print(s)
+    
+print("------- Properties 4:")
 
-print("------- Properties 4:")   
 q = prepareQuery('''
-    SELECT DISTINCT ?medicion
+    SELECT DISTINCT ?provincia ?municipio ?uriMunicipio 
     WHERE {
-  		 ?puntoMuestreo ns:tieneMedicion ?medicion.
-    }
-    ''',
-    initNs = {"ns": ns}
-)
-
-for s in g.query(q):
-    print(s)
-
-print("------- Properties 5:")   
-q = prepareQuery('''
-    SELECT DISTINCT ?magnitud
-    WHERE {
-  		 ?estacion ns:mide ?magnitud.
+        ?provincia ns:tieneURIProvi ?uriProvincia.
+  		?municipio ns:tieneURIMuni ?uriMunicipio.
     }
     ''',
     initNs = {"ns": ns}
