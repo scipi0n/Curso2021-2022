@@ -25,6 +25,21 @@
   rdfs:domain :Bin;
   rdfs:range xsd:string .
 
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasType
+:hasType rdf:type owl:DatatypeProperty;
+  rdfs:domain :Bin;
+  rdfs:range xsd:string.
+
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasType
+:hasType rdf:type owl:DatatypeProperty;
+  rdfs:domain :Product;
+  rdfs:range xsd:string.
+
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasName
+:hasName rdf:type owl:DatatypeProperty;
+  rdfs:domain :Product;
+  rdfs:range xsd:string.
+
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate
 :hasDate rdf:type owl:DatatypeProperty;
   rdfs:domain :Bin;
@@ -56,39 +71,13 @@
 #    Classes                                                    #
 #################################################################
 
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#General
-:General rdf:type owl:Class;
-  rdfs:subClassOf :WasteType;
+###  http://smartcity.smartbins.es/lcc/ontology/recycle#Product
+:Product rdf:type owl:Class;
   owl:equivalentClass [
     rdf:type owl:Restriction;
-    owl:allValuesFrom :BinGeneral;
+    owl:allValuesFrom :Bin;
     owl:onProperty :recycledIn
-  ] .
-
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#BinPlastic
-:BinPlastic rdf:type owl:Class;
-  rdfs:subClassOf :Bin .
-
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#Product
-:Product rdf:type owl:Class .
-
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#WasteType
-:WasteType rdf:type owl:Class;
-  rdfs:subClassOf :Product .
+  ].
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#Bin
-:Bin rdf:type owl:Class .
-
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#BinGeneral
-:BinGeneral rdf:type owl:Class;
-  rdfs:subClassOf :Bin .
-
-###  http://smartcity.smartbins.es/lcc/ontology/recycle#Plastic
-:Plastic rdf:type owl:Class;
-  rdfs:subClassOf :WasteType;
-  owl:disjointWith :General;
-  owl:equivalentClass [
-    rdf:type owl:Restriction;
-    owl:allValuesFrom :BinPlastic;
-    owl:onProperty :recycledIn
-  ] .
+:Bin rdf:type owl:Class.
