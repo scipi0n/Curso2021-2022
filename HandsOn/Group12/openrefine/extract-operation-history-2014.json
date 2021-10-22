@@ -1,0 +1,103 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column COORDENADAS by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADAS 1",
+    "newColumnName": "LATITUD",
+    "description": "Rename column COORDENADAS 1 to LATITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADAS 2",
+    "newColumnName": "LONGITUD",
+    "description": "Rename column COORDENADAS 2 to LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CONCELLO",
+    "newColumnName": "AYUNTAMIENTO",
+    "description": "Rename column CONCELLO to AYUNTAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO CONCELLO",
+    "newColumnName": "CÓDIGO AYUNTAMIENTO",
+    "description": "Rename column CÓDIGO CONCELLO to CÓDIGO AYUNTAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PRAIA",
+    "newColumnName": "PLAYA",
+    "description": "Rename column PRAIA to PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LUGAR E PARROQUIA",
+    "newColumnName": "UBICACIÓN",
+    "description": "Rename column LUGAR E PARROQUIA to UBICACIÓN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONXITUDE",
+    "newColumnName": "LONGITUD PLAYA",
+    "description": "Rename column LONXITUDE to LONGITUD PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO",
+    "newColumnName": "TIPO PLAYA",
+    "description": "Rename column TIPO to TIPO PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE AREA",
+    "newColumnName": "TIPO DE ARENA",
+    "description": "Rename column TIPO DE AREA to TIPO DE ARENA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MÁIS INFORMACIÓN EN TURGALICIA",
+    "newColumnName": "MÁS INFORMACIÓN",
+    "description": "Rename column MÁIS INFORMACIÓN EN TURGALICIA to MÁS INFORMACIÓN"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD PLAYA",
+    "expression": "grel:value.replace(\". \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD PLAYA using expression grel:value.replace(\". \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD PLAYA",
+    "expression": "grel:value.replace(\".\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD PLAYA using expression grel:value.replace(\".\", \"\")"
+  }
+]
