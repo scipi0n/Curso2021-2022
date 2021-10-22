@@ -2,7 +2,7 @@
   "datasources" : [
       {
         "id" : "RDF file",
-        "handler" : {"type" : "RDFHandler", "format" : "NTRIPLES"},
+        "handler" : {"type" : "RDFHandler", "format" : "N-TRIPLES"},
         "provider"  : { "type" : "FileProvider", "file" : "./rdf/Ntriples.nt"}
       }
   ],
