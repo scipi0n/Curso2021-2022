@@ -9,8 +9,8 @@ Original file is located at
 **Task 06: Modifying RDF(s)**
 """
 
-!pip install rdflib 
-github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
+"""!pip install rdflib """
+github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
@@ -19,7 +19,7 @@ from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
-g.parse(github_storage+"/resources/example5.rdf", format="xml")
+g.parse(github_storage+"/course_materials/rdf/example5.rdf", format="xml")
 
 """Create a new class named Researcher"""
 
