@@ -6,7 +6,7 @@ PROVINCIA,CODIGO-PROVINCIA,AYUNTAMIENTO,CODIGO-AYUNTAMIENTO,PLAYA,UBICACION,LONG
 "Coruna, A",15,Arteixo,15005,Areal de Barranan,Barranan - Barranan (San Xian),1200,Playa abierta,Fina,43.311556,-8.552,http://www.turismo.gal/ficha-recurso?cod_rec=9861
 "Coruna, A",15,Arteixo,15005,Areal do Reiro,,50,Playa abierta,Fina,43.311889,-8.559806,http://www.turismo.gal/ficha-recurso?cod_rec=11436
 "Coruna, A",15,Arteixo,15005,Sabon,Sabon - Oseiro (San Tirso),900,Playa abierta,Fina,43.327694,-8.508833,http://www.turismo.gal/ficha-recurso?cod_rec=9859
-"Coruna, A",15,Bergondo,15008,Gandario,Gandario – Ouces (San Xoan),800,Playa resguardada,Fina,43.342715,-8.2424927,http://www.turismo.gal/ficha-recurso?cod_rec=10120
+"Coruna, A",15,Bergondo,15008,Gandario,Gandario - Ouces (San Xoan),800,Playa resguardada,Fina,43.342715,-8.2424927,http://www.turismo.gal/ficha-recurso?cod_rec=10120
 "Coruna, A",15,Boiro,15011,Barrana,Boiro - Boiro (Santa Baia),3000,Playa resguardada,Fina,42.639611,-8.883889,http://www.turismo.gal/ficha-recurso?cod_rec=9904
 "Coruna, A",15,Boiro,15011,Barrana-Saltino,Boiro - Boiro (Santa Baia),620,Playa resguardada,Fina,42.639496,-8.884501,http://www.turismo.gal/ficha-recurso?cod_rec=276130117
 "Coruna, A",15,Boiro,15011,Carragueiros,"Pesqueira, A - Castro (Santa Maria)",1510,Playa resguardada,Gruesa,42.610361,-8.869833,http://www.turismo.gal/ficha-recurso?cod_rec=9900
@@ -36,8 +36,8 @@ PROVINCIA,CODIGO-PROVINCIA,AYUNTAMIENTO,CODIGO-AYUNTAMIENTO,PLAYA,UBICACION,LONG
 "Coruna, A",15,Ponteceso,15068,Ermida,Gondomil - Corme Aldea (Santo Adran),200,Playa resguardada,Fina,43.26389,-8.95,http://www.turismo.gal/recurso/-/detalle/10286/ermida
 "Coruna, A",15,Ponteceso,15068,Osmo,O Porto de Corme - Corme Porto (Nosa Senora dos Remedios),150,Playa resguardada,Fina,43.294167,-8.902778,http://www.turismo.gal/recurso/-/detalle/10284/osmo
 "Coruna, A",15,Ribeira,15073,Coroso,Santa Uxia de Ribeira,700,Playa resguardada,Fina,42.5675533,-8.9877643,http://www.turismo.gal/ficha-recurso?cod_rec=10401
-Lugo,27,Barreiros,27005,Acantilado-Remior,Remior – San Cosme de Barreiros,850,Playa abierta,Fina,43.565628,-7.2278317,http://www.turismo.gal/ficha-recurso?cod_rec=10158
-Lugo,27,Barreiros,27005,Coto,San Cosme – San Cosme de Barreiros,800,Playa abierta,Fina,43.564465,-7.2200447,http://www.turismo.gal/ficha-recurso?cod_rec=10157
+Lugo,27,Barreiros,27005,Acantilado-Remior,Remior - San Cosme de Barreiros,850,Playa abierta,Fina,43.565628,-7.2278317,http://www.turismo.gal/ficha-recurso?cod_rec=10158
+Lugo,27,Barreiros,27005,Coto,San Cosme - San Cosme de Barreiros,800,Playa abierta,Fina,43.564465,-7.2200447,http://www.turismo.gal/ficha-recurso?cod_rec=10157
 Lugo,27,Barreiros,27005,Fontela-Balea,,700,Playa abierta,Fina,43.561422,-7.1993807,http://www.turismo.gal/ficha-recurso?cod_rec=9830
 Lugo,27,Burela,27902,A Marosa,Burela (Santa Maria),300,Playa abierta,Fina,43.67486,-7.372333,http://www.turismo.gal/ficha-recurso?cod_rec=9841
 Lugo,27,Burela,27902,O Portelo,Burela (Santa Maria),700,Playa resguardada,Fina,43.664399,-7.3592247,http://www.turismo.gal/ficha-recurso?cod_rec=10169
@@ -79,7 +79,7 @@ Pontevedra,36,Poio,36041,Cabeceira,Campelo - Poio (San Xoan),200,Playa resguarda
 Pontevedra,36,Ponte Caldelas,36043,Praia fluvial da Calzada,Paseo de Manuel Gordo Boullosa - Ponte Caldelas (Santa Eulalia),,,,42.39131,-8.491745,http://www.turismo.gal/recurso?cod_rec=160512000048
 Pontevedra,36,Sanxenxo,36051,A Lanzada,,2300,Playa abierta,Fina,42.441258,-8.872075,http://www.turismo.gal/ficha-recurso?cod_rec=9739
 Pontevedra,36,Sanxenxo,36051,A Lapa,A Lanzada - Noalla (Santo Estevo),250,Playa abierta,Fina,42.434313,-8.8722694,http://www.turismo.gal/ficha-recurso?cod_rec=9743
-Pontevedra,36,Sanxenxo,36051,Area da Agra,Areas – Dorron (San Xoan),260,Playa resguardada,Fina,42.394619,-8.7702212,http://www.turismo.gal/ficha-recurso?cod_rec=9771
+Pontevedra,36,Sanxenxo,36051,Area da Agra,Areas - Dorron (San Xoan),260,Playa resguardada,Fina,42.394619,-8.7702212,http://www.turismo.gal/ficha-recurso?cod_rec=9771
 Pontevedra,36,Sanxenxo,36051,Areas,Areas - Bordons (San Pedro),350,Playa abierta,Fina,42.394638,-8.778805,http://www.turismo.gal/recurso?cod_rec=9767
 Pontevedra,36,Sanxenxo,36051,Areas Gordas,,250,Playa abierta,Fina,42.430972,-8.87261,http://www.turismo.gal/ficha-recurso?cod_rec=9746
 Pontevedra,36,Sanxenxo,36051,Baltar,Baltar - Adina (Santa Maria),600,Playa resguardada,Fina,42.398722,-8.822555,http://www.turismo.gal/ficha-recurso?cod_rec=9778
@@ -97,7 +97,7 @@ Pontevedra,36,Sanxenxo,36051,Silgar,Sanxenxo - Padrinan (San Xenxo),600,Playa ab
 Pontevedra,36,Vigo,36057,A Punta,,200,Playa resguardada,Fina,42.260028,-8.697027,http://www.turismo.gal/ficha-recurso?cod_rec=17431
 Pontevedra,36,Vigo,36057,Argazada,,410,Playa resguardada,Fina,42.215944,-8.776055,http://www.turismo.gal/ficha-recurso?cod_rec=30565
 Pontevedra,36,Vigo,36057,Canido,Canido - Oia (San Miguel),300,Playa resguardada,Fina,42.194139,-8.796805,http://www.turismo.gal/ficha-recurso?cod_rec=10127
-Pontevedra,36,Vigo,36057,Carril,A Igrexa – Alcabre (Santa Baia),600,Playa resguardada,Fina,42.223296,-8.7655534,http://www.turismo.gal/ficha-recurso?cod_rec=10502
+Pontevedra,36,Vigo,36057,Carril,A Igrexa - Alcabre (Santa Baia),600,Playa resguardada,Fina,42.223296,-8.7655534,http://www.turismo.gal/ficha-recurso?cod_rec=10502
 Pontevedra,36,Vigo,36057,Fontaina (A Sirenita),Breadouro - Coruxo (San Salvador),280,Playa resguardada,Fina,42.199555,-8.786416,http://www.turismo.gal/ficha-recurso?cod_rec=10508
 Pontevedra,36,Vigo,36057,O Vao,Fontela - Coruxo (San Salvador),800,Playa resguardada,Fina,42.197222,-8.792166,http://www.turismo.gal/ficha-recurso?cod_rec=10126
 Pontevedra,36,Vigo,36057,Os Muinos - Fortinon,A Corveira - Saians (San Xurxo),150,Playa resguardada,Fina,42.17461,-8.813806,http://www.turismo.gal/ficha-recurso?cod_rec=10514
@@ -105,4 +105,4 @@ Pontevedra,36,Vigo,36057,Rodas (Illas Cies),Illas Cies,1300,Playa abierta,Fina,4
 Pontevedra,36,Vigo,36057,Samil,Samil - Navia (San Paio),1700,Playa resguardada,Fina,42.21241,-8.77556,https://www.turismo.gal/recurso?cod_rec=10125
 Pontevedra,36,Vigo,36057,Tombo do Gato,,180,Playa resguardada,Fina,42.220083,-8.775749,http://www.turismo.gal/ficha-recurso?cod_rec=30566
 Pontevedra,36,Vilagarcia de Arousa,36060,Compostela,Vilagarcia (San Baia),2000,Playa resguardada,Fina,42.604798,-8.7695076,http://www.turismo.gal/ficha-recurso?cod_rec=10090
-Pontevedra,36,Vilagarcia de Arousa,36060,O Campanario,O Campanario – Bamio (San Xens),130,Playa resguardada,Fina,42.632789,-8.7626038,http://www.turismo.gal/ficha-recurso?cod_rec=11353
+Pontevedra,36,Vilagarcia de Arousa,36060,O Campanario,O Campanario - Bamio (San Xens),130,Playa resguardada,Fina,42.632789,-8.7626038,http://www.turismo.gal/ficha-recurso?cod_rec=11353

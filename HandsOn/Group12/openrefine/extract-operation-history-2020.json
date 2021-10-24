@@ -440,5 +440,18 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column TIPO-DE-ARENA using expression grel:value.replace(\"Grosa\", \"Gruesa\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"–\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"–\",\"-\")"
   }
 ]
