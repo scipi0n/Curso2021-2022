@@ -2,11 +2,15 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix vocab: <https://publicparkingmad.com/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
 @base <https://publicparkingmad.com/>.
 
 <#PublicParking> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./csv/202625-0-aparcamientos-publicos-updated.csv" ;
+    rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -114,7 +118,7 @@ rr:predicateObjectMap [
 
 <#Location> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./csv/202625-0-aparcamientos-publicos-updated.csv" ;
+    rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -155,7 +159,7 @@ rr:predicateObjectMap [
 ].
 <#Coordinates> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./csv/202625-0-aparcamientos-publicos-updated.csv";
+        rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv";
         rml:referenceFormulation ql:CSV
     ];
     rr:subjectMap [
@@ -179,7 +183,7 @@ rr:predicateObjectMap [
     ].
 <#GeographicCoordinates> a rr:TriplesMap;
                rml:logicalSource [
-                     rml:source "./csv/202625-0-aparcamientos-publicos-updated.csv";
+                     rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv";
                      rml:referenceFormulation ql:CSV
                  ];
                rr:subjectMap [
@@ -202,7 +206,7 @@ rr:predicateObjectMap [
                  ].
 <#PostalAddress> a rr:TriplesMap;
                  rml:logicalSource [
-                       rml:source "./csv/202625-0-aparcamientos-publicos-updated.csv";
+                       rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv";
                        rml:referenceFormulation ql:CSV
                    ];
                  rr:subjectMap [
@@ -241,14 +245,77 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasNeighborhood;
         rr:objectMap [
-            rr:datatype xsd:string;
-            rml:reference "Neighborhood"
+                         rr:parentTriplesMap <#Neighborhood>;
+                         rr:joinCondition [
+                                                 rr:parent "PK";
+                                                 rr:child "PK"
+                                             ];
         ]
     ];
+
     rr:predicateObjectMap [
         rr:predicate vocab:hasDistrict;
         rr:objectMap [
-            rr:datatype xsd:string;
-            rml:reference "District"
+                         rr:parentTriplesMap <#District>;
+                         rr:joinCondition [
+                                                 rr:parent "PK";
+                                                 rr:child "PK"
+                                             ];
 ]
 ].
+<#District> a rr:TriplesMap;
+                rml:logicalSource [
+                                      rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv";
+                                      rml:referenceFormulation ql:CSV
+                                  ];
+                rr:subjectMap [
+                                      rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/District";
+
+                                      rr:class vocab:postalAddress
+                                  ];
+
+                rr:predicateObjectMap [
+                                          rr:predicate owl:sameAs ;
+                                          rr:objectMap [
+                                                           rr:termType rr:IRI;
+                                                           rml:reference "same_as_wikidata_district"
+                                                       ]
+                                      ];
+                rr:predicateObjectMap [
+                                          rr:predicate rdfs:label ;
+                                          rr:objectMap [
+                                                           rr:dataType xsd:string ;
+                                                           rml:reference "District"
+                                                       ]
+                                      ].
+
+<#Neighborhood> a rr:TriplesMap;
+            rml:logicalSource [
+                  rml:source "csv/202625-0-aparcamientos-publicos-with-links.csv";
+                  rml:referenceFormulation ql:CSV
+              ];
+            rr:subjectMap [
+                  rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/Neighborhood";
+
+                  rr:class vocab:postalAddress
+              ];
+
+            rr:predicateObjectMap [
+                  rr:predicate owl:sameAs ;
+                  rr:objectMap [
+                                   rr:termType rr:IRI;
+                                   rml:reference "same_as_wikidata_neighborhood"
+                               ]
+              ];
+            rr:predicateObjectMap [
+                  rr:predicate rdfs:label ;
+                  rr:objectMap [
+                                   rr:dataType xsd:string ;
+                                   rml:reference "Neighborhood"
+                               ]
+              ].
+
+
+
+
+
