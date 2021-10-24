@@ -6,7 +6,8 @@
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix vocab: <http://transporteMad.example.org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@base <http://transporteMad.example.com/ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@base <http://transporteMad.example.org/ns#>.
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
@@ -112,10 +113,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_Distrito";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_Distrito"
       ]
   ].
   
@@ -136,10 +136,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ]; 
+    rr:predicate owl:sameAs; 
     rr:objectMap [
-        rr:template "SameAs_Wikidata_Barrio";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_Barrio"
       ]
   ].
   
@@ -160,10 +159,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_TipodeReserva";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_TipodeReserva"
       ]
   ].
   
@@ -274,10 +272,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_Distrito";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_Distrito"
       ]
   ].
   
@@ -298,10 +295,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ]; 
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_Barrio";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_Barrio"
       ]
   ].
   
@@ -380,10 +376,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_DESCRIPCION";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_DESCRIPCION"
       ]
   ].
   
@@ -404,10 +399,9 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ]; 
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_POBLACION";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_POBLACION"
       ]
   ].
   
@@ -428,9 +422,8 @@
   ];
   
   rr:predicateObjectMap [
-    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI; ];
+    rr:predicate owl:sameAs;
     rr:objectMap [
-        rr:template "SameAs_Wikidata_PROVINCIA";
-        rr:termType rr:IRI 
+        rml:reference "SameAs_Wikidata_PROVINCIA"
       ]
   ].
