@@ -14,7 +14,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
     rr:termType rr:IRI;
 	rr:class vocab:Address
   ];

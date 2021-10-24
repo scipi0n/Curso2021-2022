@@ -40,7 +40,7 @@
     rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-      rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+      rr:dataType xsd:dateTime
     ]
   ];
   
@@ -75,7 +75,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
     rr:termType rr:IRI;
   rr:class vocab:Address
   ];

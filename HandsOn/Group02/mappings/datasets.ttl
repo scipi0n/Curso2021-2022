@@ -40,7 +40,7 @@
     rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-      rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+      rr:dataType xsd:dateTime
     ]
   ];
   
@@ -75,7 +75,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
     rr:termType rr:IRI;
   rr:class vocab:Address
   ];
@@ -266,7 +266,7 @@
     rr:objectMap [
       rml:reference "fecha_inst"; 
 	  rr:termtype rr:Literal;
-	  rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+	  rr:dataType xsd:dateTime
     ]
   ];
   
@@ -302,7 +302,7 @@
 	rr:predicate vocab:hasLat; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "latitud"; 
-	  rr:dataType <http://www.w3.org/2001/XMLSchema#float>
+	  rr:termtype rr:Literal
     ]
   ];
   
@@ -310,7 +310,7 @@
 	rr:predicate vocab:hasLong; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "longitud"; 
-	  rr:dataType <http://www.w3.org/2001/XMLSchema#float>
+	  rr:termtype rr:Literal
     ]
   ].
   
@@ -320,7 +320,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
     rr:termType rr:IRI;
 	rr:class vocab:Address
   ];
