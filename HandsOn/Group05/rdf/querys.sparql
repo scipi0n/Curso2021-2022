@@ -1,0 +1,26 @@
+PREFIX ns: <http://www.calidadAire.com#>
+
+SELECT DISTINCT ?municipio
+    WHERE {
+  		 ?provincia ns:tieneMunicipio ?municipio.
+    }
+
+SELECT (count (DISTINCT ?municipio) as ?Contador_Municipios)
+    WHERE {
+  		 ?provincia ns:tieneMunicipio ?municipio.
+    }
+
+SELECT ?puntoMuestreo
+    WHERE {
+  		 ?estacion ns:tienePuntoMuestreo ?puntoMuestreo.
+    }
+
+SELECT DISTINCT ?medicion
+    WHERE {
+  		 ?puntoMuestreo ns:tieneMedicion ?medicion.
+    }
+	
+SELECT DISTINCT ?magnitud
+    WHERE {
+  		 ?estacion ns:mide ?magnitud.
+    }
