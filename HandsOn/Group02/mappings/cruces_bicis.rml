@@ -16,17 +16,17 @@ map:map_triplesmap2_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_001;
-    rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010.
+    rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008.
 map:map_triplesmap3_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
     rdfs:label "triplesmap3";
     rr:subjectMap map:s_002;
-    rr:predicateObjectMap map:pom_011, map:pom_012, map:pom_013.
+    rr:predicateObjectMap map:pom_009, map:pom_010, map:pom_011.
 map:map_triplesmap4_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "triplesmap4";
     rr:subjectMap map:s_003;
-    rr:predicateObjectMap map:pom_014, map:pom_015, map:pom_016.
+    rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014.
 map:om_000 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Crossing";
     rr:termType rr:IRI.
@@ -43,39 +43,33 @@ map:om_004 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#TrafficLight";
     rr:termType rr:IRI.
 map:om_005 a rr:ObjectMap;
-    rml:reference "id_cruce";
-    rr:termType rr:Literal.
-map:om_006 a rr:ObjectMap;
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/{id}";
-    rr:termType rr:IRI.
-map:om_007 a rr:ObjectMap;
     rml:reference "id";
     rr:termType rr:Literal.
-map:om_008 a rr:ObjectMap;
+map:om_006 a rr:ObjectMap;
     rml:reference "fecha_inst";
     rr:termType rr:Literal.
-map:om_009 a rr:ObjectMap;
+map:om_007 a rr:ObjectMap;
     rml:reference "tipo_elem";
     rr:termType rr:Literal.
-map:om_010 a rr:ObjectMap;
+map:om_008 a rr:ObjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}";
     rr:termType rr:IRI.
-map:om_011 a rr:ObjectMap;
+map:om_009 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Geometry";
     rr:termType rr:IRI.
-map:om_012 a rr:ObjectMap;
+map:om_010 a rr:ObjectMap;
     rml:reference "latitud";
     rr:termType rr:Literal.
-map:om_013 a rr:ObjectMap;
+map:om_011 a rr:ObjectMap;
     rml:reference "longitud";
     rr:termType rr:Literal.
-map:om_014 a rr:ObjectMap;
+map:om_012 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#District";
     rr:termType rr:IRI.
-map:om_015 a rr:ObjectMap;
+map:om_013 a rr:ObjectMap;
     rml:reference "ID_DISTRICT";
     rr:termType rr:Literal.
-map:om_016 a rr:ObjectMap;
+map:om_014 a rr:ObjectMap;
     rml:reference "NOMBRE";
     rr:termType rr:Literal.
 map:pm_000 a rr:PredicateMap;
@@ -89,28 +83,24 @@ map:pm_003 a rr:PredicateMap;
 map:pm_004 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_005 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdCrossing>.
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdTrafficLight>.
 map:pm_006 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasTrafficLigh>.
-map:pm_007 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdTraffic>.
-map:pm_008 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#wasInstalled>.
-map:pm_009 a rr:PredicateMap;
+map:pm_007 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#typeTrafficLigh>.
-map:pm_010 a rr:PredicateMap;
+map:pm_008 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#ubicatedin>.
-map:pm_011 a rr:PredicateMap;
+map:pm_009 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_012 a rr:PredicateMap;
+map:pm_010 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasLat>.
-map:pm_013 a rr:PredicateMap;
+map:pm_011 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasLong>.
-map:pm_014 a rr:PredicateMap;
+map:pm_012 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_015 a rr:PredicateMap;
+map:pm_013 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasCode>.
-map:pm_016 a rr:PredicateMap;
+map:pm_014 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasDistrictName>.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
@@ -157,12 +147,6 @@ map:pom_013 a rr:PredicateObjectMap;
 map:pom_014 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_014;
     rr:objectMap map:om_014.
-map:pom_015 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_015;
-    rr:objectMap map:om_015.
-map:pom_016 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_016;
-    rr:objectMap map:om_016.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
     <http://rdfs.org/ns/void#exampleResource> map:map_triplesmap1_000, map:map_triplesmap2_000, map:map_triplesmap3_000, map:map_triplesmap4_000.
 map:s_000 a rr:SubjectMap;

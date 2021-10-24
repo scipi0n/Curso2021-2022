@@ -19,6 +19,7 @@ mappings:
     s: http://www.preventbicyleaccidents-app.es/group02/resources/Accident/$(EXPEDIENTE)
     po:
       - [a, vocab:Accident]
+      - [vocab:hasIdAccident,$(EXPEDIENTE)]
       - [vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri]
       - [vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri]
       - [vocab:hasDate,$(DATETIME),xsd:dateTime]
@@ -49,6 +50,7 @@ mappings:
     s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)
     po:
       - [a, vocab:Person]
+      - [vocab:hasIdVictim,$(VICTIMA)]
       - [vocab:hasGender,$(SEXO)]
       - [vocab:hasRangeAge,$(RANGOEDAD)]
       - [vocab:hasRole,$(TIPOPERSONA)]

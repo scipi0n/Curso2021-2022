@@ -36,9 +36,7 @@ mappings:
     s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/$(id_cruce)~iri]
     po:
       - [a, vocab:TrafficLight]
-      - [vocab:hasIdCrossing,$(id_cruce)]
-      - [vocab:hasTrafficLigh,http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/$(id)~iri]
-      - [vocab:hasIdTraffic,$(id)]
+      - [vocab:hasIdTrafficLight,$(id)]
       - [vocab:wasInstalled,$(fecha_inst)]
       - [vocab:typeTrafficLigh,$(tipo_elem)]
       - [vocab:ubicatedin,http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight$(id)~iri]

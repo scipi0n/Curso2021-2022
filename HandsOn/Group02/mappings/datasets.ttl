@@ -20,6 +20,14 @@
   ];
 
   rr:predicateObjectMap [
+    rr:predicate vocab:hasIdAccident; rr:termType rr:IRI;
+    rr:objectMap [
+      rml:reference "EXPEDIENTE";
+      rr:termType rr:Literal;
+    ]
+  ];
+
+  rr:predicateObjectMap [
 	rr:predicate vocab:hasPlace; rr:termType rr:IRI;
     rr:objectMap [
       rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
@@ -117,6 +125,14 @@
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima{VICTIMA}";
     rr:termType rr:IRI;
   rr:class vocab:Person
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:hasIdVictim; rr:termType rr:IRI;
+    rr:objectMap [
+      rml:reference "VICTIMA";
+      rr:termType rr:Literal;
+    ]
   ];
   
   rr:predicateObjectMap [
@@ -254,7 +270,7 @@
   ];
   
   rr:predicateObjectMap [
-	rr:predicate vocab:hasIdTraffic; rr:termType rr:IRI;
+	rr:predicate vocab:hasIdTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id"; 
 	  rr:termtype rr:Literal
