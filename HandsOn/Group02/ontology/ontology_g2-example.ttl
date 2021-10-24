@@ -9,30 +9,42 @@
 <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident> rdf:type owl:Ontology .
 
 
-:CALL_SANTA_ENGRACIA rdf:type owl:NamedIndividual ,
-                              :Address ;
-                     :hasAddressName "CALL_SANTA_ENGRACIA"^^xsd:string ;
-                     :hasNumber "33"^^xsd:int .
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#CALLE_JOSE_BERGAMIN_-_CALLE_FLORENCIO_CANO_CRISTOBAL
+:CALLE_JOSE_BERGAMIN_-_CALLE_FLORENCIO_CANO_CRISTOBAL rdf:type owl:NamedIndividual ,
+                                                               :Accident ;
+                                                      :belongsTo :MORATALAZ ;
+                                                      :hasAddressName "CALLE_JOSE_BERGAMIN_-_CALLE_FLORENCIO_CANO_CRISTOBAL" ;
+                                                      :hasNumber 62 .
 
 
-:CHAMBERI rdf:type owl:NamedIndividual ,
-                   :District ;
-          :hasCode "07"^^xsd:int ;
-          :hasDistrictName "CHAMBERI"^^xsd:string .
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#MORATALAZ
+:MORATALAZ rdf:type owl:NamedIndividual ,
+                    :Accident ;
+           :hasCode 8 ;
+           :hasDistrictName "MORATALAZ" .
 
 
-:Conductor rdf:type owl:NamedIndividual ,
-                    :Person ;
-           :hasGender "Hombre"^^xsd:string ;
-           :hasRangeAge "21-24"^^xsd:string .
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#victima10001
+:victima10001 rdf:type owl:NamedIndividual ,
+                       :Accident ;
+              :gradeOfInjury 2 ;
+              :hasGender "Hombre" ;
+              :hasIdVictim 10001 ;
+              :hasRangeAge "De 45 a 49 años" ;
+              :hasRole "Conductor" .
 
 
-<http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#2021S000853> rdf:type owl:NamedIndividual ,
+###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#2021S000047
+<http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#2021S000047> rdf:type owl:NamedIndividual ,
                                                                                                         :Accident ;
-                                                                                               :hasAddress :CALL_SANTA_ENGRACIA ;
-                                                                                               :hasVictim :Conductor ;
-                                                                                               :gradeOfInjury 07 ;
-                                                                                               :hasDate "2021-01-21T22:00:00"^^xsd:dateTime ;
-                                                                                               :hasWeather "Nublado"^^xsd:string ;
-                                                                                               :typeBicycle "Bicicleta EPAC"^^xsd:string .
+                                                                                               :hasPlace :CALLE_JOSE_BERGAMIN_-_CALLE_FLORENCIO_CANO_CRISTOBAL ;
+                                                                                               :hasVictim :victima10001 ;
+                                                                                               :causedBy "Caída" ;
+                                                                                               :hasDate "2021-01-01T11:38:00Z" ;
+                                                                                               :hasWeather "Despejado" ;
+                                                                                               :typeBicycle "Bicicleta" .
 
