@@ -1,0 +1,81 @@
+ @prefix clase: <http://localizalocales.es/lcc/ontology/locales#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clase: a owl:Ontology ;
+    dc:creator "Grupo20" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "HandsOn 2" ;
+    owl:versionInfo "0.0.1" .
+
+clase:aforo a owl:DatatypeProperty ;
+    rdfs:label "aforo" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:string .
+
+clase:asociadaA a owl:ObjectProperty ;
+    rdfs:label "asociada a" ;
+    rdfs:domain clase:Licencia ;
+    rdfs:range clase:Local .
+
+clase:fechaInauguracion a owl:DatatypeProperty ;
+    rdfs:label "fecha inauguracion" ;
+    rdfs:domain clase:Licencia ;
+    rdfs:range xsd:dateTime .
+
+clase:fechaSolicitud a owl:DatatypeProperty ;
+    rdfs:label "fecha solicitud" ;
+    rdfs:domain clase:Licencia ;
+    rdfs:range xsd:dateTime .
+
+clase:identifier a owl:DatatypeProperty ;
+    rdfs:label "identifier" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:string .
+
+clase:numeroMesasAutorizzazdas a owl:DatatypeProperty ;
+    rdfs:label "numero mesas autorizzazdas" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:integer .
+
+clase:numeroSillasAutorizadas a owl:DatatypeProperty ;
+    rdfs:label "numero sillas autorizadas" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:integer .
+
+clase:perteneceALocal a owl:ObjectProperty ;
+    rdfs:label "pertenece a local" ;
+    rdfs:domain clase:Terraza .
+
+clase:rotulo a owl:DatatypeProperty ;
+    rdfs:label "rotulo" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:string .
+
+clase:superficie a owl:DatatypeProperty ;
+    rdfs:label "superficie" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:float .
+
+clase:tieneLicencia a owl:ObjectProperty ;
+    rdfs:label "tiene licencia" ;
+    rdfs:domain clase:Local,
+        clase:Terraza ;
+    rdfs:range clase:Licencia .
+
+clase:tieneTerraza a owl:ObjectProperty ;
+    rdfs:label "tiene terraza" ;
+    rdfs:domain clase:Local ;
+    rdfs:range clase:Terraza .
+
+clase:Licencia a owl:Class ;
+    rdfs:label "Licencia" .
+
+clase:Local a owl:Class ;
+    rdfs:label "Local" .
+
+clase:Terraza a owl:Class ;
+    rdfs:label "Terraza" .
+

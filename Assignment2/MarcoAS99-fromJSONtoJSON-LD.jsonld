@@ -1,0 +1,149 @@
+{
+    "@context": {
+        "p": "http://xmlns.com/foaf/0.1/Person/",
+        "geo": "http://www.w3.org/2003/01/geo/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "fi": "http://fi.upm.es/Courses/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "name": "rdfs:label",
+        "age": "rdfs:label",
+        "hometown": "rdfs:label",
+        "alma_mater": "rdfs:label",
+        "parents": "rdfs:label",
+        "subjects": "rdfs:label",
+        "teachers": "rdfs:label",
+        "brief_description": "rdfs:comment"
+    },
+    "@id": "p:Marco_Antonio_Da_Silva_Santucci",
+    "@type": "p",
+    "name": "Marco Antonio Da Silva Santucci",
+    "hometown": {
+        "@id": "geo:Funchal",
+        "@type": "geo",
+        "name": "Funchal",
+        "country": "Portugal",
+        "zip_code": {
+            "@value": 9000,
+            "@type": "xsd:integer"
+        }
+    },
+    "age": {
+        "@value": 22,
+        "@type": "xsd:integer"
+    },
+    "alma_mater": "UPM",
+    "parents": [
+        {
+            "@id": "p:Ricardo_Luigi_Henriques_Santucci",
+            "@type": "p",
+            "name": "Ricardo Luigi Henriques Santucci"
+        },
+        {
+            "@id": "p:Carla_Cristina_Ribeiro_Da_Silva_Santucci",
+            "@type": "p",
+            "name": "Carla Cristina Ribeiro Da Silva Santucci"
+        }
+    ],
+    "subjects": [
+        {
+            "@id": "fi:Semantic_Web",
+            "@type": "fi",
+            "name": "Sematic Web",
+            "teachers": [
+                {
+                    "@id": "p:Oscar_Ocho_Garcia",
+                    "@type": "p",
+                    "name": "Oscar Ocho Garcia"
+                },
+                {
+                    "@id": "p:Raul_Garcia_Castro",
+                    "@type": "p",
+                    "name": "Raul Garcia Castro"
+                }
+            ],
+            "brief_description": "Learn about semantic web and the use of linked data and knowledge graphs."
+        },
+        {
+            "@id": "fi:Reconocimiento_de_Formas",
+            "@type": "fi",
+            "name": "Reconocimiento de Formas",
+            "teachers": [
+                {
+                    "@id": "p:Luis_Baumela",
+                    "@type": "p",
+                    "name": "Luis Baumela"
+                },
+                {
+                    "@id": "p:Dario_Maravall",
+                    "@type": "p",
+                    "name": "Dario Maravall"
+                }
+            ],
+            "brief_description": "Intro to data analisis."
+        },
+        {
+            "@id": "fi:GPTI",
+            "@type": "fi",
+            "name": "GPTI",
+            "teachers": [
+                {
+                    "@id": "p:Edmundo_Tovar_Caro",
+                    "@type": "p",
+                    "name": "Edmundo Tovar Caro"
+                },
+                {
+                    "@id": "p:Oscar_Dieste_Tubio",
+                    "@type": "p",
+                    "name": "Oscar Dieste Tubio"
+                },
+                {
+                    "@id": "p:Maria_Pilar_Rodriguez_Gonzalez",
+                    "@type": "p",
+                    "name": "Maria Pilar Rodriguez Gonzalez"
+                }
+            ],
+            "brief_description": "Management."
+        },
+        {
+            "@id": "fi:Sistemas_de_Panificacion",
+            "@type": "fi",
+            "name": "Sistemas de Planificacion",
+            "teachers": [
+                {
+                    "@id": "p:Vicente_Martinez_Orga",
+                    "@type": "p",
+                    "name": "Vicente Martinez Orga"
+                },
+                {
+                    "@id": "p:Miguel_Garcia_Remesal",
+                    "@type": "p",
+                    "name": "Miguel Garcia Remesal"
+                }
+            ],
+            "brief_description": "Project."
+        },
+        {
+            "@id": "fi:IS2",
+            "@type": "fi",
+            "name": "IS2",
+            "teachers": [
+                {
+                    "@id": "p:Tomas_San_Feliu_Gilabert",
+                    "@type": "p",
+                    "name": "Tomas San Feliu Gilabert"
+                },
+                {
+                    "@id": "p:Jose_Antonio_Calvo-Manzano_Villalon",
+                    "@type": "p",
+                    "name": "Jose Antonio Calvo-Manzano Villalon"
+                },
+                {
+                    "@id": "p:Ana_Maria_Moreno_Sanchez-Capuchino",
+                    "@type": "p",
+                    "name": "Ana Maria Moreno Sanchez-Capuchino"
+                }
+            ],
+            "brief_description": "Project."
+        }
+    ]
+}

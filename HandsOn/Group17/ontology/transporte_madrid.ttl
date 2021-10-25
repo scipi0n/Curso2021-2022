@@ -1,0 +1,114 @@
+@prefix : <http://transporteMad.example.org/Ontology/#> .
+@prefix dbo: <http://dbpedia.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://transporteMad.example.org/ns#> .
+
+# Object properties
+
+:hasAddress rdf:type owl:ObjectProperty ;
+            rdfs:domain :TransportSpot ;
+            rdfs:range :Address .
+
+:hasGis rdf:type owl:ObjectProperty ;
+        rdfs:domain :TransportSpot ;
+        rdfs:range :Gis
+
+:hasCoordinates rdf:type owl:ObjectProperty ;
+                rdfs:domain :TransportSpot ;
+                rdfs:range :Coordinates
+
+:hasTipodeReserva   rdf:type owl:ObjectProperty ;
+                    rdfs:domain dbo:TransportSpot ;
+                    rdfs:range xsd:TipodeReserva .
+
+# Datatype properties
+
+:Gis_X 		rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Gis_X ;
+            rdfs:range xsd:int .
+
+
+:Gis_Y 		rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Gis_Y ;
+            rdfs:range xsd:int .
+
+:Latitud 	rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Latitud ;
+            rdfs:range xsd:int .
+
+:Barrio		rdf:type owl:ObjectProperty ;
+            rdfs:domain :Barrio ;
+            rdfs:range  xsd:string.
+
+:Longitud	rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Longitud ;
+            rdfs:range xsd:int .
+
+:Distrito	   rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Distrito ;
+               rdfs:range xsd:string .
+
+:Nfinca 	   rdf:type owl:DatatypeProperty ;
+               rdfs:domain :nFinca ;
+               rdfs:range xsd:string .
+
+:CodigoPostal  rdf:type owl:DatatypeProperty ;
+               rdfs:domain :CodigoPostal ;
+               rdfs:range xsd:int .
+
+:FechadeAlta	    rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :FechadeAlta ;
+                    rdfs:range xsd:int .
+
+:NumerodePlazas   rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :NumerodePlazas ;
+                    rdfs:range xsd:int .
+
+:Fichas             rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Fichas ;
+                    rdfs:range xsd:anyURI .
+
+:Codigo              rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Codigo ;
+                    rdfs:range xsd:int .
+
+:ID              	rdf:type owl:DatatypeProperty ;
+                    rdfs:domain dbo:TransportSpot ;
+                    rdfs:range xsd:int .
+
+:Poblacion	   rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Address ;
+               rdfs:range xsd:string .
+			   
+:LineaBateria   	rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :LineaBateria ;
+                    rdfs:range xsd:string .
+# Classes
+
+# http://transporteMad.example.org#Barrio
+:Barrio rdf:type owl:Class .
+
+# http://transporteMad.example.org#Distrito
+:Distrito rdf:type owl:Class .
+
+# http://transporteMad.example.org#TipodeReserva
+:Direccion rdf:type owl:Class .
+
+# http://transporteMad.example.org#EstacionBiciMad
+:EstacionBiciMad rdf:type owl:Class .
+
+# http://transporteMad.example.org#ParadaTaxi
+:ParadaTaxi rdf:type owl:Class .
+
+# http://transporteMad.example.org#EstacionCercanias
+:EstacionCercanias rdf:type owl:Class .
+
+# http://transporteMad.example.org#Poblacion
+:Poblacion rdf:type owl:Class .
+
+# http://transporteMad.example.org#Provincia
+:Provincia rdf:type owl:Class .

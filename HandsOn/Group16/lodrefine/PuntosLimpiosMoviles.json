@@ -1,0 +1,94 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DÍA SEMANA",
+    "expression": "join ([coalesce(cells['DÍA SEMANA'].value,''),coalesce(cells['TURNO'].value,''),coalesce(cells['HORA INICIO'].value,''),coalesce(cells['HORA FINAL'].value,'')],',')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DÍA SEMANA using expression join ([coalesce(cells['DÍA SEMANA'].value,''),coalesce(cells['TURNO'].value,''),coalesce(cells['HORA INICIO'].value,''),coalesce(cells['HORA FINAL'].value,'')],',')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TURNO",
+    "description": "Remove column TURNO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORA INICIO",
+    "description": "Remove column HORA INICIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORA FINAL",
+    "description": "Remove column HORA FINAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DÍA SEMANA",
+    "newColumnName": "Horario",
+    "description": "Rename column DÍA SEMANA to Horario"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UTMY",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UTMY using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UTMX",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UTMX using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO_NÚMERO",
+    "newColumnName": "TIPO_NUMERO",
+    "description": "Rename column TIPO_NÚMERO to TIPO_NUMERO"
+  }
+]

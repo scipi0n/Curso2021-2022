@@ -1,0 +1,103 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  bici: http://www.biciwhere-madrid.es/bwm/ontology#
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  
+mappings:
+  BikeStand:
+    sources:
+      - [data\APARCABICIS_2021-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(Identifier)
+    po:
+      - [a, bici:BikeStand]
+      - [bici:hasDescription,$(Description)]
+      - [bici:hasOperativeStatus,$(OperativeStatus)]
+
+  Address_BikeStand:
+    sources:
+      - [data\APARCABICIS_2021-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(AddressID)
+    po:
+      - [a, bici:Address_BikeStand]
+      - [bici:hasDistrictCode,$(DistrictCode)]
+      - [bici:hasDistrictName,$(DistrictName)]
+      - [bici:hasNeighborhoodCode,$(NeighborhoodCode)]
+      - [bici:hasNeighborhoodName,$(NeighborhoodName)]
+      - [bici:hasAddress,$(Address)]
+
+  Address_BasesBicimad:
+    sources:
+      - [data\bases_bicimad-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(AddressID)
+    po:
+      - [a, bici:Address_BasesBicimad]
+      - [bici:hasDistrictCode,$(DistrictCode)]
+      - [bici:hasDistrictName,$(DistrictName)]
+      - [bici:hasNeighborhoodCode,$(NeighborhoodCode)]
+      - [bici:hasNeighborhoodName,$(NeighborhoodName)]
+      - [bici:hasAddress,$(Address)]
+      - p: bici:hasCoordinates
+        o:
+          mapping: Coordinates
+          condition:
+            function: equal
+            parameters:
+                - [str1, $(AddressID)]
+                - [str2, $(CoordinatesID)]
+      - p: bici:hasGIS
+        o:
+          mapping: GIS
+          condition:
+            function: equal
+            parameters:
+                - [str1, $(AddressID)]
+                - [str2, $(GisID)]
+
+  BiciMad_Stations:
+    sources:
+      - [data\bases_bicimad-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(StationNumber)
+    po:
+      - [a, bici:Bicimad_Stations]
+      - [bici:hasCapacity,$(Capacity),xsd:integer]
+      - p: bici:hasCoordinates
+        o:
+          mapping: Coordinates
+          condition:
+            function: equal
+            parameters:
+                - [str1, $(StationNumber)]
+                - [str2, $(CoordinatesID)]
+      - p: bici:hasGIS
+        o:
+          mapping: GIS
+          condition:
+            function: equal
+            parameters:
+                - [str1, $(StationNumber)]
+                - [str2, $(GisID)]
+    
+  GIS:
+    sources:
+      - [data\bases_bicimad-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(GisID)
+    po:
+      - [a, bici:GIS]
+      - [bici:hasValue_X,$(Gis_X),xsd:double]
+      - [bici:hasValue_Y,$(Gis_Y),xsd:double]
+    
+  Coordinates:
+    sources:
+      - [data\bases_bicimad-updated.csv~csv]
+    s: http://www.biciwhere-madrid.es/bwm/resource/$(CoordinatesID)
+    po:
+      - [a, bici:Coordinates]
+      - [bici:hasLongitude,$(Longitude),xsd:double]
+      - [bici:hasLatitude,$(Latitude),xsd:double]
