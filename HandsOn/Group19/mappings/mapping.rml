@@ -25,6 +25,11 @@
   ];
 
   rr:predicateObjectMap[
+    rr:predicateMap[ rr:constant aq: ; rr:termType rr:IRI];
+    rr:objectMap[ rml:reference "PROVINCIA"; rr:dataType xsd:integer]
+  ];
+
+  rr:predicateObjectMap[
     rr:predicateMap[ rr:constant aq:municipio; rr:termType rr:IRI];
     rr:objectMap[ rml:reference "MUNICIPIO"; rr:dataType xsd:integer]
   ];
