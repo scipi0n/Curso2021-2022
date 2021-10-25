@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+    #!/usr/bin/env python
 # coding: utf-8
 
 # **Task 07: Querying RDF(s)**
@@ -53,19 +53,26 @@ for r in g.query(q1):
 
 # In[13]:
 
-
-for s,p,o in g.triples((None, None, ns.Person)):
+ns= Namespace("http://somewhere#")
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+  # print(s,p,o)
+  for s,p,o in g.triples((None,RDF.type,s)):
+    print(s,p,o)
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
   print(s,p,o)
-
+  
+ 
+from rdflib.plugins.sparql import prepareQuery 
 q2 = prepareQuery('''
-  SELECT ?Subject WHERE { 
-    ?Subject ?p ns:Person. 
+    SELECT ?s WHERE { 
+    ?x rdfs:subClassOf* ns:Person.
+    ?s rdf:type ?x.
   }
   ''',
-  initNs = { "ns": ns}
+  initNs = {"ns": ns, "rdfs": RDFS, "rdf": RDF}
 )
 for r in g.query(q2):
-  print(r)
+   print(r.s)
 # TO DO
 # Visualize the results
 
@@ -80,21 +87,16 @@ for s,p,o in g.triples((None, None, ns.Person)):
   print(s,p,o)
 
 q3 = prepareQuery('''
-  SELECT ?Subject WHERE { 
-    ?Subject ?p ns:Person. 
+   SELECT ?s ?p ?o WHERE { 
+    ?x rdfs:subClassOf* ns:Person.
+    ?s rdf:type ?x.
+    ?s ?p ?o
   }
   ''',
-  initNs = { "ns": ns}
+  initNs ={"rdfs":RDFS,"ns":ns,"rdf":RDF}
 )
 for r in g.query(q3):
-  print(r.Subject, r.p)
-
-# TO DO
-# Visualize the results
-
-
-# In[ ]:
-
+  print(r)
 
 
 
