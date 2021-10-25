@@ -11,3 +11,9 @@ WHERE{
 	?district rdf:type admingeo:District.
 }
 
+SELECT DISTINCT ?distrito ?nombre
+	WHERE{
+  ?distrito rdf:type admingeo:District.
+  ?distrito rdf:label ?nombre. 
+  FILTER (?nombre = "CHAMARTIN").
+}
