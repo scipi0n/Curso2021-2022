@@ -56,8 +56,8 @@ q1 = prepareQuery('''
     }
     UNION
     {
-      ?Subject rdfs:subClassOf ns:Person.
-      ?Subject rdf:type ?p
+      ?S rdfs:subClassOf ns:Person.
+      ?p rdf:type ?S
     }
   }
   ''',
