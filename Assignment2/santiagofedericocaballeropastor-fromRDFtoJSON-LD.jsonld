@@ -1,0 +1,51 @@
+{
+	"@context":{
+		"Class01":"http://schema.org/#",
+		"Sensor029":"http://schema.org/",
+		"Measurement8401":"http://schema.org/",
+		"Computer101":"http://schema.org/",
+		"User10A":"http://schema.org/",
+      	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "includes":"rdfs:includes",
+      	"includes2":"rdfs:includes",
+      	"hasMeasurement":"rdfs:hasMeasurement",
+      	"hasOwner":"rdfs:hasOwner",
+      	"atTime":"rdfs:atTime",
+      	"hasTemperature":{
+          		"@id":"https://json-ld.org/playground/hasTemperature",
+          		"@type":"xsd:integer"
+        	},
+      	"hasName":"rdfs:hasName",
+      	"atTime":{
+           	"@id":"https://json-ld.org/playground/atTime",
+        	"@type":"xsd:dateTime"
+			},
+		"xsd":"http://www.w3.org/2001/XMLSchema#"
+		
+	},
+  "@id":"http://schema.org/Objects",
+	"Class01":{
+      "@id":"Class01",
+		"includes":"Sensor029",
+		"includes2":"Computer101"
+	},
+	"Sensor029":{
+      "@id":"Sensor09",
+		"hasMeasurement":"Measurement8401"
+	},
+	"Computer101":{
+      	"@id":"Computer101",
+		"hasOwner":"User10A"
+	},
+	"Measurement8401":{
+      	"@id":"Measurement8401",
+		"hasTemperature":"29",
+        "atTime":"2010-06-12T12:00:12"
+
+	},
+	"User10A":{
+      	"@id":"User10A",
+		"hasName":"Pedro"
+	}
+  
+}

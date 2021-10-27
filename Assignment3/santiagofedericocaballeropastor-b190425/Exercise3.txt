@@ -1,0 +1,8 @@
+PREFIX onto:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?value
+WHERE
+{
+ ?value rdf:type onto:Politician.
+ ?value ?prop ?z
+ FILTER(?prop != rdf:type)
+}
