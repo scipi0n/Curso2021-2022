@@ -29,6 +29,10 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 from rdflib.plugins.sparql import prepareQuery
 ns=Namespace("http://somewhere#")
 
+for r in g.triples((None,RDFS.subClassOf,ns.Person)):
+  print(r)
+print("################")
+
 q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
     ?Subject rdfs:subClassOf ns:Person . 
@@ -48,6 +52,14 @@ for r in g.query(q1):
 # Visualize the results
 from rdflib.plugins.sparql import prepareQuery
 ns=Namespace("http://somewhere#")
+
+for r in g.triples((None,RDF.type,ns.Person)):
+  print(r)
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+    for r1 in g.triples((None,RDF.type,s)):
+      print(r1)
+  
+print("################")
 
 q1 = prepareQuery('''
   SELECT ?Subject ?p WHERE { 
@@ -75,6 +87,15 @@ for r in g.query(q1):
 # Visualize the results
 from rdflib.plugins.sparql import prepareQuery
 ns=Namespace("http://somewhere#")
+
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
+  for r in g.triples((s,None,None)):
+    print(r)
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+    for s1,p1,o1 in g.triples((None,RDF.type,s)):
+      for r1 in g.triples((s1,None,None)):
+       print(r1)
+print("#######################################")
 
 q1 = prepareQuery('''
   SELECT ?Subject ?p ?z  ?class WHERE { 
