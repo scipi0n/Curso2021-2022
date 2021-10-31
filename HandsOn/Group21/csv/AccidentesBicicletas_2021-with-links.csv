@@ -1,0 +1,436 @@
+ID,Date,Address1,Same_as_wikidata_address1,Address2,Same_as_wikidata_address2,Number,District,Same_as_wikidata_distrito,AccidentType,Weather,Lesividad
+b581e0be4929fc2fa1f536d578a57d57,1/1/21,CALLE-JOSE-BERGAMIN-,-,-CALLE-FLORENCIO-CANO-CRISTOBAL,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Despejado,2
+4d2888325875228de3fbd4bbdf914984,1/4/21,PARQUE-WANDA-METROPOLITANO-,-,-,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,14
+2b386ee1edada2ffb4d9bc988e731184,1/4/21,PARQUE-WANDA-METROPOLITANO-,-,-,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,14
+e6b85fd9289d1ee620a84cdf678e83db,1/4/21,PARQUE-WANDA-METROPOLITANO-,-,-,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,14
+89fddfded0a9defdf4b4bb8e839d341f,1/4/21,PARQUE-WANDA-METROPOLITANO-,-,-,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,6
+6989059143caaea1bd71fbd792bd9d1f,1/4/21,Paseo-del-Prado,https://wikidata.org/entity/Q2079615,-PLAZA-MURILLO,-,-,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,7
+2f10b761c70b63c0d5df66e21bdf4175,1/5/21,PLAZA-EMPERADOR-CARLOS-V,-,-,-,11,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,7
+32584becab1566c889c885bedc4a040e,1/11/21,Calle-de-Miguel-Servet,https://wikidata.org/entity/Q52158635,-,-,13,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,1
+b49b25867d59124b83c263fbc052ce48,1/11/21,CALLE-SAN-DALMACIO,-,-,-,39,Villaverde,https://wikidata.org/entity/Q919536,Choque contra obstáculo fijo,Despejado,1
+8bfac37fbab9c3b2938eba98de2120e2,16/1/21,Avenida-de-la-Ciudad-de-Barcelona,https://wikidata.org/entity/Q5714227,-,-,144,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,3
+a2636aac43154c3e89e919bf8988d7ad,17/1/21,Paseo-de-Santa-María-de-la-Cabeza,https://wikidata.org/entity/Q6065630,Paseo-de-la-Esperanza,https://wikidata.org/entity/Q55947011,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+c30ad292eee8e9bcbb5dff51255d037e,18/1/21,Ronda-de-Valencia,https://wikidata.org/entity/Q16626200,-,-,5,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,1
+da935ba559671a93f4435d3442ff6649,22/1/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,-,-,97,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,1
+b3ce0492d0017742f32c458880eb1636,23/1/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-,-,33,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Nublado,7
+0c7989ed4ca3d575653ccc12eaad06ce,23/1/21,Paseo-de-las-Yeserías,https://wikidata.org/entity/Q16616818,-CALLE-MELILLA,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,7
+143ce8a1a755e1c1525100e878837ddc,24/1/21,Calle-del-Almirante,https://wikidata.org/entity/Q28937422,Paseo-de-Recoletos,https://wikidata.org/entity/Q2550870,-,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,7
+c8cc68c80ca8a7193e70c539d1f37988,24/1/21,PLAZA-CANOVAS-DEL-CASTILLO,-,-,-,5,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,14
+fab4a91de162b22025af273c24a9aea4,24/1/21,PLAZA-CANOVAS-DEL-CASTILLO,-,-,-,5,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,7
+679c63294e12ec3d0e0aa2a6ac18ace2,25/1/21,Calle-de-Jorge-Juan,https://wikidata.org/entity/Q28070822,Castelló-Street,https://wikidata.org/entity/Q28058833,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Nublado,6
+ecca0402518a8f419fa88021a2139966,26/1/21,Gran-Vía,https://wikidata.org/entity/Q1324163,-,-,66,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,6
+57e77ebfa9959c28f26c66a994fc7522,26/1/21,calle-del-Arenal,https://wikidata.org/entity/Q5740980,Calle-de-los-Donados,https://wikidata.org/entity/Q28007290,-,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,1
+eb26ede03ded8beab42ea1255ecd0547,26/1/21,calle-del-Príncipe-de-Vergara,https://wikidata.org/entity/Q5741020,-,-,113,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,7
+bfd1b27d4d5f432355cadb0fe843c17e,26/1/21,GLORIETA-SANTA-MARIA-DE-LA-CABEZA-,-,-GLORIETA-EMBAJADORES,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Lluvia débil,6
+2605e7efd26903bac97bf0599fc9000c,27/1/21,Calle-de-Orense,https://wikidata.org/entity/Q26761687,Calle-de-Sor-Ángela-de-la-Cruz,https://wikidata.org/entity/Q21011321,-,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,Despejado,2
+e902fce0b6f484613684fb43c5649143,28/1/21,Calle-de-Juan-de-Urbieta,https://wikidata.org/entity/Q29051496,-,-,3,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,1
+9806ce613ffd7a540108f4b9615490b0,29/1/21,Calle-de-Villanueva,https://wikidata.org/entity/Q28921542,calle-de-Velázquez,https://wikidata.org/entity/Q20031523,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,2
+1a8df9d711bdde1f69e7fe33a190fd2c,29/1/21,calle-del-Príncipe-de-Vergara,https://wikidata.org/entity/Q5741020,-,-,24,Salamanca,https://wikidata.org/entity/Q1773521,Colisión frontal,Despejado,2
+265b00b14cc4724bada06ba796a249cd,29/1/21,Avenida-Complutense,https://wikidata.org/entity/Q63954356,-,-,14,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión frontal,Despejado,6
+4e14b4788936989c94bdcae77593ca9b,29/1/21,Avenida-Complutense,https://wikidata.org/entity/Q63954356,-,-,14,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión frontal,Despejado,14
+ce3fe1e3d044d3d8f5f02d79487b3290,29/1/21,PLAZA-LAVAPIES,-,-,-,1,Centro,https://wikidata.org/entity/Q1763376,Caída,Nublado,1
+38c4a6f254fdc63bdd868735cf9ed1ca,29/1/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,Santa-Juliana-Street,https://wikidata.org/entity/Q28974655,-,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Nublado,1
+a5e1e93e4f813a7e284e6337a678f2ab,30/1/21,Calle-del-Doctor-Esquerdo,https://wikidata.org/entity/Q5741005,-CALLE-PEZ-VOLADOR,-,-,Retiro,https://wikidata.org/entity/Q2002296,Caída,Nublado,14
+c1eaf453e3b54e7da1f43862d15bd38c,30/1/21,CALLE-CONCEJAL-FRANCISCO-JOSE-JIMENEZ-MARTIN,-,-,-,16,Latina,https://wikidata.org/entity/Q794954,Choque contra obstáculo fijo,Despejado,2
+cc79f5b0289d5f4361cc1dbdfd31be5b,30/1/21,Calle-de-Almagro,https://wikidata.org/entity/Q26844339,-,-,7,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,2
+34e689ecc00b4613cf6b9101af672342,31/1/21,Serrano-Street,https://wikidata.org/entity/Q5740879,-,-,102,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,6
+e903f0c4c807c71eb6d646232182a074,31/1/21,Avenida-de-Monforte-de-Lemos,https://wikidata.org/entity/Q52683954,-,-,32,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Alcance,Despejado,7
+8b025e2b948c3e9d679fc4f42ada2c9b,31/1/21,CALLE-ARROYO-FONTARRON-,-,-CALLE-ENCOMIENDA-DE-PALACIOS,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Lluvia débil,7
+b7298aef0e3ba47d6a69bbaa45c56bc3,31/1/21,PLAZA-CIBELES,-,-,-,1,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,7
+f7dad74751c9247d2d5ff44cb1369bfa,31/1/21,Calle-de-Hermosilla,https://wikidata.org/entity/Q28052826,-,-,59,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,2
+2e756b298f01f51c4f2bd3b5a8df20e7,31/1/21,CALLE-VILLAMANIN,-,-,-,35,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,2
+566da5cde131e54453900f510591356c,2/1/21,CALLE-ANDALUCES-DEL-POZO-,-,-CALLE-ANDALUCES-DEL-POZO,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,7
+d3490fb45bba823795c62e39e441cc54,2/1/21,PARQUE-MADRID-RIO,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+786688eb5dffb495d22deefbeb5ff732,2/2/21,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Nublado,2
+58afa935f63925fe08091d5211595ac6,2/3/21,CALLE-PLANETA-TIERRA,-,-,-,6,Arganzuela,https://wikidata.org/entity/Q2000929,Choque contra obstáculo fijo,Lluvia débil,7
+2e12b46cd49690da178ccf76e79fd6aa,2/4/21,PLAZA-MARQUES-DE-SALAMANCA-,-,Calle-de-José-Ortega-y-Gasset,https://wikidata.org/entity/Q16540548,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,2
+c65c5c9e3c10b720a230a8099a1ab07b,2/6/21,Serrano-Street,https://wikidata.org/entity/Q5740879,-,-,45,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,5
+7874ff403a737fecca3d8d59cf5bb33b,2/6/21,PLAZA-CORREGIDOR-SANCHO-DE-CORDOBA-,-,-CALLE-ARROYO-DE-LAS-PILILLAS,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión lateral,Despejado,5
+8d415b99fb16e70707a650c7c0151692,2/6/21,GLORIETA-ANTONIO-BONET-,-,-AVENIDA-FRANCISCO-JAVIER-SAENZ-DE-OIZA,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,1
+2eae576896f2d50aea38800d152ed7e2,2/7/21,AVENIDA-LUIS-ARAGONES-,-,-PLAZA-GRECIA,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,7
+2e5a4769cf1ad3d795ba7dd8a3835a66,2/7/21,GLORIETA-CARLOS-LLAMAS,-,-,-,0,San-Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,2
+55c03e5dd0934b15794177799968654d,2/7/21,GLORIETA-CARLOS-LLAMAS,-,-,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,14
+cb2c70c755039f8a68a53becafe83453,2/7/21,CALLE-DIAMANTE-,-,-CARRETERA-VILLAVERDE-A-VALLECAS,-,-,Villaverde,https://wikidata.org/entity/Q919536,Colisión fronto-lateral,Despejado,1
+fb83463bfb42bce292e86690748bf6ae,2/7/21,AVENIDA-FRANCISCO-JAVIER-SAENZ-DE-OIZA-,-,-CALLE-ALBERTO-DE-PALACIO,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,7
+572bb12d952b6fe544e20d1db9e98265,2/8/21,Avenida-de-la-Memoria,https://wikidata.org/entity/Q29794262,-PLAZA-CARDENAL-CISNEROS,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Lluvia débil,2
+a72c89d01b425d236e3c01282f0509ad,2/10/21,AVENIDA-LOS-ROSALES,-,-,-,131,Villaverde,https://wikidata.org/entity/Q919536,Alcance,Despejado,2
+1059f233759702c39e5ff7f1f3228bb6,2/10/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,-,48,Centro,https://wikidata.org/entity/Q1763376,Caída,Nublado,7
+56c2d46df1dbb0079d330f13ab864110,2/11/21,Calle-del-General-Ricardos,https://wikidata.org/entity/Q5740542,-,-,95,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,7
+640af3a3c3f0c0f9a3517a54403d831a,2/11/21,CALLE-VALCARLOS-,-,-CALLE-QUINTANAVIDES,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+58faea52412197e19ddf90fda7dd30eb,2/12/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,67,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,6
+beeeddbe9b605cf1411636aac8e19646,13/2/21,AVENIDA-MIGUEL-HERNANDEZ,-,-,-,116,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,1
+92338928df72b9ab56232211c5676ee9,13/2/21,AVENIDA-MIGUEL-HERNANDEZ,-,-,-,116,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,14
+e69238a901248ab338fc5f122ea2d3cd,13/2/21,CALLE-ANICETO-MARINAS,-,-,-,74,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,7
+0ae775dea5a426b552fbccc293f9eaaf,13/2/21,CALLE-ANICETO-MARINAS,-,-,-,74,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,14
+aba75eed12b4166a040827f5de7f66cc,13/2/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,243,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,7
+c9b7e28d7e25ea9bc8ec775ffb84ec0d,15/2/21,Calle-de-Alfonso-XII,https://wikidata.org/entity/Q5659170,-,-,18,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,1
+49d75497e508677399093c5f10bd91f3,15/2/21,GLORIETA-MARQUES-DE-VADILLO-,-,calle-de-Antonio-de-Leyva,https://wikidata.org/entity/Q42240205,-,Carabanchel,https://wikidata.org/entity/Q1001991,Alcance,Despejado,1
+bcfc1510236342107d7ea906a1546c68,15/2/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-CALLE-PADRE-FRANCISCO-PALAU-Y-QUER,-,-,Chamartín,https://wikidata.org/entity/Q1766348,Colisión lateral,Despejado,14
+ffae3c462755a459ba4e220914ba1eb0,16/2/21,CALLE-BEJAR-,-,-CALLE-AGUSTIN-DURAN,-,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,2
+90b5a142953e6e753cf2932619852d3e,16/2/21,CALLE-VALLE-DE-PINARES-LLANOS-,-,-CALLE-RISCOS-DE-POLANCO,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+2c3152e5ab785f159a631cf6afe71064,16/2/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,2,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,7
+66ab5f378ac711459e14007698f0e741,17/2/21,Avenida-del-Planetario,https://wikidata.org/entity/Q17622122,-,-,12,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,7
+b387bdd00e56d3251ef3c3948fd65522,18/2/21,Avenida-de-la-Institución-Libre-de-Enseñanza,https://wikidata.org/entity/Q5740959,-,-,41,San-Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,7
+12bad5e012f0ca7490d39ea7310fe491,18/2/21,GLORIETA-ANTONIO-PERPIÑA-,-,-AVENIDA-JUAN-ANTONIO-SAMARANCH,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,7
+c43548d5502f25794549df6edf352ce0,18/2/21,CALLE-SEDANO-,-,-CALLE-PRADO-ALEGRE,-,-,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,7
+e5db22ba1f478b4fff8d71e98d5ab576,18/2/21,Calle-de-Gutiérrez-Solana,https://wikidata.org/entity/Q28531457,Calle-de-Marceliano-Santa-María,https://wikidata.org/entity/Q28531054,-,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Despejado,3
+a6629081adc9d314258af027e2415268,19/2/21,CALLE-ALHAMBRA,-,-,-,30,Latina,https://wikidata.org/entity/Q794954,Colisión lateral,Despejado,3
+80b0c49180c962d23dd141a000e68c54,19/2/21,Calle-de-Nuestra-Señora-de-Valverde,https://wikidata.org/entity/Q56256719,-,-,138,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,14
+81ebc8c8e907be79c9063385fcba1bfa,19/2/21,Capitán-Blanco-Argibay-Street,https://wikidata.org/entity/Q27038685,-,-,210,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,7
+121d5e332ecf19d4e6e94aac64b59abe,19/2/21,CALLE-SANDALIA-NAVAS,-,-,-,17,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,2
+36a7c18a8793d75bc81b202184df1c9e,19/2/21,CALLE-MORALZARZAL,-,-,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,2
+a4a396c0b0abdaa2b08a6e32700af31d,19/2/21,avenida-de-los-Poblados,https://wikidata.org/entity/Q26795575,-AVENIDA-ABRANTES,-,-,Carabanchel,https://wikidata.org/entity/Q1001991,Choque contra obstáculo fijo,Despejado,2
+041c7a817c23b3e9ad91e300444085ad,20/2/21,Calle-de-Embajadores,https://wikidata.org/entity/Q5740826,Calle-de-Sebastián-Herrera,https://wikidata.org/entity/Q68987411,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,2
+d1d16bb6ac344897195ba94fd2a620d6,20/2/21,CALLE-SANCHIDRIAN,-,-,-,13A,Latina,https://wikidata.org/entity/Q794954,Colisión lateral,Despejado,7
+daaf7a533f1491df92589ab78e22692d,20/2/21,PLAZA-EMPERADOR-CARLOS-V,-,-,-,8,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+e85600f9e23def8bd1052a86c8926dfe,21/2/21,CALLE-ARROYO-FONTARRON,-,-,-,24,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Lluvia débil,2
+1d90a1088c5263f76a7e06352719d801,22/2/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,-,-,55,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,14
+9e0b33ae02e5830223df58a8eaf1bb72,22/2/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,-,-,55,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,5
+c0501303a864413435a061d086119801,22/2/21,PLAZA-EMPERADOR-CARLOS-V-,-,Calle-de-Atocha,https://wikidata.org/entity/Q5492657,-,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,6
+dd17ef393ff132dd63dfcea999991333,23/2/21,Serrano-Street,https://wikidata.org/entity/Q5740879,-,-,22,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,1
+927245643f03cbd5460874f22066b7be,24/2/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,-,-,175,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,1
+f5b3e8200cf5a1dfe238283cb7794983,24/2/21,Calle-de-José-Ortega-y-Gasset,https://wikidata.org/entity/Q16540548,Núñez-de-Balboa-Street,https://wikidata.org/entity/Q28065000,-,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,1
+b6380aee0f24da5db8d28dbcec2a4450,26/2/21,Paseo-de-las-Acacias,https://wikidata.org/entity/Q55947263,Calle-de-la-Ribera-de-Curtidores,https://wikidata.org/entity/Q5740938,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,7
+1a900b3ac9fa0188b0b0591bf8d2a2f7,26/2/21,calle-de-Hortaleza,https://wikidata.org/entity/Q5740911,-,-,100,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+7739e0c3008f2b8bf04338e4c7373bb5,26/2/21,Calle-de-la-Ribera-de-Curtidores,https://wikidata.org/entity/Q5740938,-,-,25,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,6
+db340d7b807d9c26d6bc9252c69c25d6,26/2/21,AVENIDA-ENTREVIAS-,-,Calle-de-Méndez-Álvaro,https://wikidata.org/entity/Q5553104,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Colisión lateral,Despejado,7
+fb215b82659be3ba8c2a0e2622ccd47a,26/2/21,Calle-del-General-Ricardos,https://wikidata.org/entity/Q5740542,-CALLE-FRANCISCO-ROMERO,-,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,5
+86de1cebdf432f9d4410c839b6b4ea18,27/2/21,CALLE-EDUARDO-BARREIROS,-,-,-,21,Usera,https://wikidata.org/entity/Q953368,Otro,Despejado,7
+0905a245cbab15b9c8c62ce272b6c42f,27/2/21,PASEO-EMBARCADERO,-,-,-,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+91f0ea8d97310dce0d4245b218ae2201,27/2/21,calle-de-Segovia,https://wikidata.org/entity/Q8255505,-,-,8,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,1
+1d9d0deeacee5d43dd169aef2a4f9bbb,28/2/21,Paseo-del-Prado,https://wikidata.org/entity/Q2079615,-,-,9,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,7
+d87ddc377112f7ffff2d86b29651756d,28/2/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,-,29,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+9dfe5394c9f1f88995376d6c0dd0e153,3/3/21,CALLE-BRUJAS-,-,-CALLE-ATENAS,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Atropello a persona,Despejado,14
+488b31f530d427d8e37ad43c216c79a5,3/3/21,CALLE-BRUJAS-,-,-CALLE-ATENAS,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Atropello a persona,Despejado,6
+d91194f1161ecbbfa1509ca191fa982d,3/4/21,PLAZA-BEATA-MARIA-ANA-DE-JESUS,-,-,-,1,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,1
+ec17a019f5d4febfee2d94a021ff8ea9,3/4/21,CALLE-FLORENCIO-CANO-CRISTOBAL-,-,-CALLE-JOSE-BERGAMIN,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,14
+231517da9d2aaeff05be3ced5a991298,3/4/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,-,-,145,Tetuán,https://wikidata.org/entity/Q1773540,Colisión múltiple,Despejado,2
+666e3e92062df0dd26b9058e1994cc11,3/4/21,AVENIDA-MARTIRES-MARISTAS,-,-,-,2E,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,3
+0998a452aacea990cca00d8d5a8f6636,3/5/21,calle-del-Torpedero-Tucumán,https://wikidata.org/entity/Q29397139,-,-,24,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,1
+707d8e9bb11f5856a7fbe0fa64b9f840,3/5/21,GLORIETA-RUBEN-DARIO-,-,Paseo-de-Eduardo-Dato,https://wikidata.org/entity/Q20890584,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,1
+b21ba7927d44900299cc2a5f9cb6210f,3/6/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-,-,71,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,2
+3a7eaf805607caf3be8d4fbd468d7e95,3/6/21,Calle-de-Juan-Bravo,https://wikidata.org/entity/Q28054647,Núñez-de-Balboa-Street,https://wikidata.org/entity/Q28065000,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,7
+2a2a2f43cabc9c638cf61f90674bd435,3/6/21,AVENIDA-BUENOS-AIRES-,-,-AVENIDA-MIGUEL-HERNANDEZ,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,6
+aaac5d669da2ce2daec333ab297dbada,3/6/21,Calle-de-Toledo,https://wikidata.org/entity/Q5740883,-,-,50,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Lluvia débil,1
+7d37279ad075e9c64f52e29349e0dbec,3/7/21,Calle-Olmo,https://wikidata.org/entity/Q104145457,-,-,24,Centro,https://wikidata.org/entity/Q1763376,Caída,Nublado,6
+aa8b2a6666e7eb3c347e2da1f0bc3afe,3/7/21,Gran-Vía,https://wikidata.org/entity/Q1324163,San-Bernardo-street,https://wikidata.org/entity/Q5740864,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,6
+2686698654fdf44f0b1e806680f950df,3/7/21,CAMINO-ARROYO-DE-VALDEBEBAS-,-,-AUTOVIA-M-40,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,7
+7f3b0af6ba78b9a8161537f64bb0a3d1,3/7/21,CAMINO-ARROYO-DE-VALDEBEBAS-,-,-AUTOVIA-M-40,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,7
+bfe670b35cf30c5ad2603c42da9c0183,3/7/21,CALLE-VALLE-DE-MENA,-,-,-,14,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+709d426d22aa6f0aa093d331cb9cfe5b,3/8/21,Paseo-de-la-Reina-Cristina,https://wikidata.org/entity/Q29051319,-,-,15,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Lluvia débil,2
+486df5560c79cc3ec4ce812968182abb,3/9/21,AVENIDA-MEDITERRANEO-,-,-CALLE-POZA-DE-LA-SAL,-,-,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Caída,Despejado,3
+cba46fa56d5a33ce948250e7df28a056,3/10/21,CALLE-PEÑARANDA-DE-BRACAMONTE-,-,-AVENIDA-CERRO-MILANO,-,-,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,6
+0e7f14ee4858833e127f142b59c35f38,3/10/21,calle-de-Pradillo,https://wikidata.org/entity/Q55868790,-,-,34,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,14
+9b089a71668d04319264ad382ac28625,3/10/21,Paseo-de-La-Habana,https://wikidata.org/entity/Q28059068,-,-,72,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,7
+c8ad06ee47f7847e32d3f284aac8097b,3/10/21,Calle-de-Mateo-Inurria,https://wikidata.org/entity/Q26821557,Paseo-de-La-Habana,https://wikidata.org/entity/Q28059068,-,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,7
+fab6ec94dad823afd86c719e8d23312b,3/10/21,Calle-de-Mateo-Inurria,https://wikidata.org/entity/Q26821557,Paseo-de-La-Habana,https://wikidata.org/entity/Q28059068,-,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,14
+29654be94e73cfb604e443eb9b56847f,3/11/21,Calle-de-Trafalgar,https://wikidata.org/entity/Q28024216,-,-,25,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,5
+c13f5462eb3936bc93e6d5f9f6d038a8,3/12/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,calle-de-la-Luna,https://wikidata.org/entity/Q5740922,-,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,14
+60782b4a712545a61b8ecdfbe9781db7,3/12/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,calle-de-la-Luna,https://wikidata.org/entity/Q5740922,-,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,7
+6f4e6cca9f35de38261d00a68de30ff3,13/3/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,calle-de-las-Azucenas,https://wikidata.org/entity/Q27150352,-,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,Despejado,7
+1c8da6e461530fe586871601d25f53bb,13/3/21,PARQUE-JUAN-CARLOS-I,-,-,-,1,Barajas,https://wikidata.org/entity/Q807230,Atropello a persona,Despejado,2
+79840a849b1e968ab806782ef440408f,13/3/21,PARQUE-JUAN-CARLOS-I,-,-,-,1,Barajas,https://wikidata.org/entity/Q807230,Atropello a persona,Despejado,2
+b8810fdc08abeaabbeac909cdeedb44c,14/3/21,Avenida-del-Doctor-García-Tapia,https://wikidata.org/entity/Q28935864,Calle-de-Marroquina,https://wikidata.org/entity/Q28935000,-,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,2
+4581bcf45711ad7c004610da8c9f2806,14/3/21,PASEO-TORRECILLA-,-,-PASEO-AZUL,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,7
+8ed6ebbeb12061db470730379e4791f8,14/3/21,PASEO-TORRECILLA-,-,-PASEO-AZUL,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,14
+d57badb1053e2fef70282fb94286ba8e,14/3/21,PASEO-AZUL-,-,-PASEO-EMBARCADERO,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,1
+9fe26c5030791e8f8be57f5ad79c7fc0,14/3/21,PASEO-AZUL-,-,-PASEO-EMBARCADERO,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,1
+db848daf11d5417e89e0e2b2eec50e08,14/3/21,CALLE-ARROYOFRESNO,-,-,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,7
+c487dc3554a89b952c71148ccd6a9302,15/3/21,calle-de-Galileo,https://wikidata.org/entity/Q27031392,-,-,86,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,7
+77d9d5488e1cac157df28dc9fd1e4a32,15/3/21,calle-de-Galileo,https://wikidata.org/entity/Q27031392,-,-,86,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,14
+48fb6d5d1eea192929318e4a38469bd6,16/3/21,PASEO-EMBARCADERO-,-,-PASEO-AZUL,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+ec25910d800b066d9fcb7e2b7d7fb07c,16/3/21,Gran-Vía,https://wikidata.org/entity/Q1324163,Calle-de-Isabel-la-Católica,https://wikidata.org/entity/Q27043900,-,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,7
+5ecd42580f5adcc0e0598cccc9cca79f,17/3/21,Paseo-de-la-Esperanza,https://wikidata.org/entity/Q55947011,Calle-de-la-Caoba,https://wikidata.org/entity/Q55946702,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+aae1eacaa33f7edf53ca3dc8b97783c1,17/3/21,CARRETERA-SOMONTES-AL-PALACIO-DE-LA-REAL-QUINTA,-,-,-,1,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,6
+6e3f6b0c8e969eda7d1b80b1bdd6b6ad,17/3/21,Paseo-del-Prado,https://wikidata.org/entity/Q2079615,-,-,11,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,7
+d8ac5b980ef0f0cafc642b7161752f56,18/3/21,calle-de-Barceló,https://wikidata.org/entity/Q27051120,-,-,3,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,5
+89bd76b7601da3405e79752c97d54b57,18/3/21,Claudio-Coello-Street,https://wikidata.org/entity/Q28059043,Calle-de-Padilla,https://wikidata.org/entity/Q28056135,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,7
+5392e27c884cb4960dc5a3a2b49f0904,18/3/21,CALLE-EVANGELIOS,-,-,-,1,Usera,https://wikidata.org/entity/Q953368,Colisión frontal,Despejado,6
+857380de791372f04ed23cd8a4788337,18/3/21,CALLE-JOSE-DE-CADALSO-,-,Calle-de-la-Maestra-Justa-Freire,https://wikidata.org/entity/Q29405104,-,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,1
+669ccb0fe34fae32c6ccc0312f2c3ef3,18/3/21,CALLE-JOSE-DE-CADALSO-,-,Calle-de-la-Maestra-Justa-Freire,https://wikidata.org/entity/Q29405104,-,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,14
+1b4a14254a391b816e6ada84b2cde500,19/3/21,Calle-del-Doctor-Esquerdo,https://wikidata.org/entity/Q5741005,-CALLE-ASTROS,-,-,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,2
+bdceecf034941a6597f5e60f069a047d,19/3/21,CALLE-VIA-DE-DUBLIN-,-,-AUTOVIA-M-11,-,-,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,7
+c73a2eca5674b3dbb39dc483bbfe51ae,20/3/21,Avenida-de-Guadalajara,https://wikidata.org/entity/Q52063521,-,-,69,San-Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,1
+47616dbd97c95f9cbb40aa94198a918f,20/3/21,ANILLO-VERDE-KM58-CAMINO-DE-LA-CAÑADA,-,-,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,6
+4760f6df7ecf3cc78bbd56e986002d5b,20/3/21,ANILLO-VERDE-KM58-CAMINO-DE-LA-CAÑADA,-,-,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,7
+9886f7ff36bb1e9bdfe6d24740ec3ad8,20/3/21,AUTOVIA-M-500,-,-,-,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,2
+c8e161e4c0dc3800ff0f178ea9fa422e,21/3/21,Avenida-de-la-Albufera,https://wikidata.org/entity/Q5714221,-,-,23,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,1
+e7aaaa321b52f8a42fb166f2a06818d9,21/3/21,Calle-del-Clavel,https://wikidata.org/entity/Q28051075,-,-,5,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+04df079a7c2df2d9261f26b08805f821,21/3/21,Paseo-de-las-Yeserías,https://wikidata.org/entity/Q16616818,-CALLE-NAVES,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+0968c1a290ee6078809a160b43e2ef19,22/3/21,Calle-de-Huesca,https://wikidata.org/entity/Q29168261,Calle-del-Hermano-Gárate,https://wikidata.org/entity/Q29168523,-,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,1
+16b4a8b5a4a820fd57e1994155c0add1,22/3/21,AVENIDA-CARONDELET,-,-,-,37,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,7
+532fbafb746d1339f8349832a367a234,23/3/21,CALLE-PUERTO-RICO,-,-,-,15,Chamartín,https://wikidata.org/entity/Q1766348,Choque contra obstáculo fijo,Despejado,7
+ac1dbc205d770e53b23462dbc55c6af6,23/3/21,CALLE-PALAS-DE-REY,-,-,-,4,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,2
+31ba6b19d741b9c1b09a22dc1c32659c,23/3/21,CALLE-PALAS-DE-REY,-,-,-,4,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,14
+e3f0b4152ca9024c1d1ac88d74d9c1d0,23/3/21,FCO.-PI-Y-MARGALL-,-,Avenida-de-Niceto-Alcalá-Zamora,https://wikidata.org/entity/Q62107332,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,7
+7fb6514f528a7192a3538305d58bbdae,24/3/21,La-Campana,https://wikidata.org/entity/Q5742554,-CARRETERA-COLMENAR-VIEJO,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,7
+60d700139413d190592c130c9aa82e54,25/3/21,IDB.-PARQUE-LINEAL-DEL-MANZANARES,-,-,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,1
+702120081eccb4753b2e1e12078cc841,25/3/21,AVENIDA-CERRO-MILANO-,-,-CALLE-CAÑADA-DEL-SANTISIMO,-,-,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,7
+1704a0019b4526c0bd64e63b77a0ffd6,25/3/21,Serrano-Street,https://wikidata.org/entity/Q5740879,-,-,74,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,2
+afce171554c81ae61dbce82ee81ca86e,25/3/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,156,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Despejado,7
+c744dcbe451a41b6d3322912dce70fd6,26/3/21,AVENIDA-DE-LOS-POBLADOS,-,AVENIDA-DEL-EURO,-,-,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,7
+ea846d8decd02783d33cac99b5faea40,26/3/21,CALLE-CAPITAN-BLANCO-ARGIBAY,-,-,-,192,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,1
+67651b50d5f10d88132ff818d4b17b7b,27/3/21,CALLE-FRANCISCO-Y-JACINTO-ALCANTARA,-,-,-,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,7
+26919ab22ce555892a97821de024d7b6,27/3/21,Calle-de-Atocha,https://wikidata.org/entity/Q5492657,-,-,3,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+85f848f64091d9820aa6053e53efe3de,27/3/21,Calle-de-Alfonso-XII,https://wikidata.org/entity/Q5659170,Paseo-de-la-Infanta-Isabel,https://wikidata.org/entity/Q29051267,-,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,7
+62fd2b4cd236cfd681389b5e6e84dea5,28/3/21,Paseo-de-la-Esperanza,https://wikidata.org/entity/Q55947011,-,-,5,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+83bae54763b09d34a49efa2c0267fde0,28/3/21,CALLE-ALBERTO-DE-PALACIO-,-,Avenida-de-Niceto-Alcalá-Zamora,https://wikidata.org/entity/Q62107332,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,1
+cd02bdd351bea673cdacc24da8551dda,28/3/21,Ronda-de-Atocha,https://wikidata.org/entity/Q26831149,-,-,27,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,7
+ac96f2e2ea53d2bbafec67b591c43b05,29/3/21,AVENIDA-ENTREVIAS-,-,-CALLE-MEJORANA,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,6
+0c41d82e89f4a779b0ebc3ad06fe26c9,30/3/21,CALLE-ANTEQUERA,-,-,-,23,Usera,https://wikidata.org/entity/Q953368,Caída,Despejado,1
+f08ddbd8427f1d067775d5d229515f7a,30/3/21,Paseo-de-Eduardo-Dato,https://wikidata.org/entity/Q20890584,calle-de-Zurbano,https://wikidata.org/entity/Q27043742,-,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,6
+4bd30ab8bd2d723b878120a1ec78fab5,30/3/21,CALLE-COMUNEROS-DE-CASTILLA,-,-,-,4,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión frontal,Despejado,6
+7c1b00c5d6c171be4f340051d4019162,31/3/21,CÑADA.-REAL-DE-MERINAS,-,-,-,64,Vicálvaro,https://wikidata.org/entity/Q589403,Colisión fronto-lateral,Despejado,6
+647d71dc755e5aba61068554a855b268,31/3/21,Calle-de-Sevilla,https://wikidata.org/entity/Q20908843,Calle-de-Arlabán,https://wikidata.org/entity/Q44910881,-,Centro,https://wikidata.org/entity/Q1763376,Choque contra obstáculo fijo,Despejado,7
+f6d5a3b66b3cc02359346687b647ebb5,31/3/21,Calle-de-Irún,https://wikidata.org/entity/Q29920881,-,-,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,1
+6b82a4ccc73b863755fdec6162257439,31/3/21,Calle-de-Irún,https://wikidata.org/entity/Q29920881,-,-,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,7
+7851fbff5241f54199febaf75a19cfee,31/3/21,calle-de-Segovia,https://wikidata.org/entity/Q8255505,-,-,49,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+5bae277263cedb1459774170166dce63,31/3/21,AVENIDA-MANZANARES,-,-,-,216,Usera,https://wikidata.org/entity/Q953368,Caída,Despejado,2
+ff995fe4e9cde82e933355a5ab674f75,4/1/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,Madrid-Ring-Road,https://wikidata.org/entity/Q2606591,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,2
+0f664f92bfc8d5e3e3cace71d746e3cf,4/3/21,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,-,16,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,3
+38eb0e076f98f7a6a0763ba39796318f,4/3/21,CALLE-CASALARREINA-,-,Avenida-de-Daroca,https://wikidata.org/entity/Q62107216,-,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,2
+a5d28c171c84ce1c01d1af479815523d,4/3/21,CALLE--GRAN-VIA,-,-,-,72,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,6
+45174203558f7bda83e138be25272d22,4/3/21,CALLE-SAN-ANTONIO-DE-PADUA-,-,-CALLE-ANTONIO-SALVADOR,-,-,Usera,https://wikidata.org/entity/Q953368,Colisión frontal,Despejado,7
+55740e8fe234259ffaec6d7b69e9b3a5,4/3/21,Gran-Vía,https://wikidata.org/entity/Q1324163,-,-,80,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,1
+99c7659181c81e9d73b5c505053094ec,4/3/21,PARQUE-MADRID-RIO,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Atropello a persona,Despejado,14
+9b82540d1046fda13e08d4c91b7520ed,4/3/21,PARQUE-MADRID-RIO,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Atropello a persona,Despejado,7
+8ace069f1efa921c1c225e9a284f3c0e,4/3/21,GLORIETA-SIETE-HERMANAS-,-,-PASEO-CASTAÑOS,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Atropello a animal,Despejado,2
+04b78ab34eae1919979626f73cc8dc43,4/4/21,calle-de-Arturo-Soria,https://wikidata.org/entity/Q8255504,-AUTOVIA-M-11,-,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,1
+e8c9808b6794ea966efb5ad34d896a65,4/4/21,Calle-de-Atocha,https://wikidata.org/entity/Q5492657,-,-,36,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+6a2a8f406b2cd62314bd98914d166907,4/5/21,Avenida-de-Alfonso-XIII,https://wikidata.org/entity/Q29397736,-,-,145,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Despejado,7
+688a3bef1abd69dac708b5920b32e307,4/6/21,Avenida-de-Burgos,https://wikidata.org/entity/Q29902431,-,-,109,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,2
+76ba47f008ea2025acc0420b7a20546d,4/6/21,Avenida-del-Planetario,https://wikidata.org/entity/Q17622122,-,-,15,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,5
+7c5749082e6b9cc9fcdb1c3b4a8028ee,4/6/21,CALLE-PUERTO-DE-REINOSA,-,-,-,15,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,7
+24a42ac23b828369d305f88ffe19d4a2,4/6/21,CALLE-ARGANDA-,-,Paseo-de-las-Yeserías,https://wikidata.org/entity/Q16616818,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+0b4eca568515520d7ee86a4f42728867,4/6/21,Avenida-de-las-Fuerzas-Armadas,https://wikidata.org/entity/Q29353164,Avenida-de-las-Fuerzas-Armadas,https://wikidata.org/entity/Q29353164,-,Barajas,https://wikidata.org/entity/Q807230,Caída,Despejado,7
+39bcbfe204a669ef0aae77459ad15154,4/7/21,CALLE-REQUENA,-,-,-,5,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,7
+0cbe29a4ea73370c5a97388a8d21a574,4/8/21,Calle-del-Duque-de-Fernán-Núñez,https://wikidata.org/entity/Q29051517,-,-,19,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,7
+ea6329cb2d93415ba2e57a608fd1ff59,4/8/21,Avenida-de-Niceto-Alcalá-Zamora,https://wikidata.org/entity/Q62107332,Avenida-de-Francisco-Pi-y-Margall,https://wikidata.org/entity/Q27268566,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,6
+bb8a49be8c90eaa09d84a5e96e4b339c,4/8/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-GLORIETA-PINTOR-SOROLLA,-,-,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,6
+2197f9c9804d48bdaabe57b4f15fe010,4/8/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-GLORIETA-PINTOR-SOROLLA,-,-,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,14
+c0b77ba855067c7bd1f6a2adb4c02b86,4/8/21,Avenida-del-Cardenal-Herrera-Oria,https://wikidata.org/entity/Q27556319,-,-,76B,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,2
+888bb354720bcfbfb86f0e71909cb590,4/8/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,-,-,46,Centro,https://wikidata.org/entity/Q1763376,Caída,Nublado,2
+3b5f518f02231089a9208b1272d20528,4/9/21,Avenida-de-Ramón-y-Cajal,https://wikidata.org/entity/Q30467128,-PLAZA-VIRGEN-GUADALUPANA,-,-,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Nublado,3
+0e7ee3e1697767dcb1c9e88a615110ce,4/10/21,CARRETERA-GARABITAS,-,-,-,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,LLuvia intensa,3
+efe8820e729f2453a7e1c23e74cc577a,4/10/21,AVENIDA-MIGUEL-DELIBES-,-,-CALLE-ALTO-DEL-ESPARRAGAL,-,-,Vicálvaro,https://wikidata.org/entity/Q589403,Otro,Nublado,1
+a0f4918e30b4d25edc52b62430371954,4/11/21,calle-de-Valverde,https://wikidata.org/entity/Q20639924,calle-de-la-Puebla,https://wikidata.org/entity/Q28856259,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Nublado,6
+2097225599e59f280a65874fb9671a8d,4/11/21,calle-del-Príncipe-de-Vergara,https://wikidata.org/entity/Q5741020,-,-,262,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,14
+7f4641ea6c4d83d7dd5141af999253c3,4/12/21,Carrer-Jacint-Verdaguer,https://wikidata.org/entity/Q5740564,calle-de-Antonio-de-Leyva,https://wikidata.org/entity/Q42240205,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión frontal,Despejado,2
+b7c4663a4a0950da5cdb39177b79e4cd,4/12/21,AVENIDA-LOS-ROSALES,-,-,-,408,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,2
+c31f6ee6bca7e2f5b18f64a69e6728c5,4/12/21,AVENIDA-LOS-ROSALES,-,-,-,408,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,14
+218ac95c5fd7ac541505b819cda30977,4/12/21,CALLE-PADRE-LLANOS-,-,-AVENIDA-ENTREVIAS,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,7
+80bf5868f6c49962a2444d335f456ca4,4/12/21,Avenida-de-la-Ciudad-de-Barcelona,https://wikidata.org/entity/Q5714227,-CALLE-CATALINA-SUAREZ,-,-,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,14
+cb3eede8a5359390d51f6d9a3f448c44,4/12/21,Avenida-de-la-Ciudad-de-Barcelona,https://wikidata.org/entity/Q5714227,-CALLE-CATALINA-SUAREZ,-,-,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,1
+5447d26701ef3095b0adcd6b28c7c708,13/4/21,Calle-de-Guzmán-el-Bueno,https://wikidata.org/entity/Q27031398,calle-de-Fernández-de-los-Ríos,https://wikidata.org/entity/Q26774731,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,1
+40e889e9ca5a79567a5f4c1b5a94a6cc,13/4/21,Gran-Vía,https://wikidata.org/entity/Q1324163,-,-,56,Centro,https://wikidata.org/entity/Q1763376,Caída,Lluvia débil,1
+938758a2cb55ac17047cd413092b7499,14/4/21,calle-del-Marqués-de-Urquijo,https://wikidata.org/entity/Q17421317,-,-,30,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Alcance,Despejado,7
+8bbb2e3767ee9f509c9c19dd5418b2d4,14/4/21,CALLE-CONVENIO,-,-,-,41,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,7
+50cd3560880047688b3003cf59a7f448,15/4/21,PLAZA-DUQUE-DE-PASTRANA-,-,-CALLE-SANTA-MAGDALENA-SOFIA,-,-,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Lluvia débil,1
+e9765f866762a2602501b30608552b07,15/4/21,CALLE-FINISTERRE,-,-,-,29,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Alcance,Lluvia débil,1
+b71b6eabd3814371f71939929e67fe5b,16/4/21,Calle-de-Alberto-Aguilera,https://wikidata.org/entity/Q5740796,-,-,18,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,7
+f0ce7e002735f82da61dcd89634ab70a,21/4/21,Avenida-de-la-Ciudad-de-Barcelona,https://wikidata.org/entity/Q5714227,-,-,202,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Nublado,14
+555376374c11c7baf315d0719e6d4dbf,21/4/21,Avenida-de-la-Ciudad-de-Barcelona,https://wikidata.org/entity/Q5714227,-,-,202,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Nublado,7
+f55b4e470a1cd410fcbd7ccc6a3ec28f,21/4/21,MADRID-RIO---PUENTE-DEL-REY,-,-,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,1
+073b28339d80b710103736e1e84627ea,22/4/21,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,-,40,Latina,https://wikidata.org/entity/Q794954,Caída,Lluvia débil,7
+d610d21f1417d588f4f257ecfccddda8,22/4/21,PARQUE-MADRID-RIO,-,-,-,-,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,7
+df29beeef6ed5fa0088ed7e72025b8e0,22/4/21,PARQUE-MADRID-RIO-,-,-,-,-,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,7
+58298bfeedc1d6c8966f8effe008cd86,23/4/21,Calle-de-Francisco-Largo-Caballero,https://wikidata.org/entity/Q62107131,Avenida-de-la-Institución-Libre-de-Enseñanza,https://wikidata.org/entity/Q5740959,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,3
+074b582806c0ba8dd9d9aefb3b3bf11f,23/4/21,calle-de-Gaztambide,https://wikidata.org/entity/Q27243265,-,-,23,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,2
+22f50f0000b48ea214a320a8b779329a,24/4/21,Serrano-Street,https://wikidata.org/entity/Q5740879,-,-,44,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,7
+96a084fa2832c647e3530aa8d785105f,24/4/21,Paseo-de-las-Acacias,https://wikidata.org/entity/Q55947263,-CALLE-NOGALES,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión múltiple,LLuvia intensa,7
+ab51f8a0d2198510a37bae8524e11695,24/4/21,PASEO-REY,-,-,-,22,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Atropello a persona,LLuvia intensa,7
+c8ae60aa9f7038bd954546e513efadfe,24/4/21,PASEO-REY,-,-,-,22,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Atropello a persona,LLuvia intensa,14
+deb8b986e18e18754487b9935e364117,24/4/21,paseo-de-Marcelino-Camacho,https://wikidata.org/entity/Q53414018,Calle-del-General-Ricardos,https://wikidata.org/entity/Q5740542,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,LLuvia intensa,14
+ffc3b2d35a2fa8a882205c9b12b4b32c,24/4/21,paseo-de-Marcelino-Camacho,https://wikidata.org/entity/Q53414018,Calle-del-General-Ricardos,https://wikidata.org/entity/Q5740542,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,LLuvia intensa,14
+461f75ca198d61a690ad1638840ccd1e,24/4/21,CALLE-JOSE-PAULETE,-,-,-,5,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,2
+92e3e87ba7593065e275140fe373e1e1,24/4/21,METRO-RONDA-DE-LA-COMUNICACION,-,-,-,0,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,6
+1578738bf147a3007679e65e67c53dc3,24/4/21,METRO-RONDA-DE-LA-COMUNICACION,-,-,-,0,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,14
+ace988f6e5bc55532a7b1a146d38d40e,25/4/21,CALLE-TINTOREROS,-,Calle-de-los-Cuchilleros,https://wikidata.org/entity/Q29005894,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Lluvia débil,1
+52f91ef1960b418636028d7488357362,26/4/21,CALLE-PLAYA-DE-LA-CALETA-,-,-CALLE-VALHONDO,-,-,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,7
+3312a854a257175c24d04d9304abe958,26/4/21,Paseo-del-Prado,https://wikidata.org/entity/Q2079615,-,-,48,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,6
+1ba0da4557a14ec693fcf7bfa992f31b,27/4/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,-,-,137,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,LLuvia intensa,7
+fabf4fef76e011adca842ed57798dddc,27/4/21,Calle-de-Raimundo-Fernández-Villaverde,https://wikidata.org/entity/Q26741180,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,LLuvia intensa,14
+79222f40f3269c01144bb8d0d4c409f6,27/4/21,avenida-de-los-Poblados,https://wikidata.org/entity/Q26795575,-CALLE-DOBLA,-,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión lateral,Despejado,2
+9a598124deea61ee043bad54bb02b5d5,27/4/21,CALLE-CERILLERAS-,-,avenida-de-los-Poblados,https://wikidata.org/entity/Q26795575,-,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,7
+3b2ab0225ba5e791e2f66d577eddbc80,28/4/21,CAMINO-VIEJO-DE-VICALVARO-,-,Avenida-de-Daroca,https://wikidata.org/entity/Q62107216,-,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Nublado,2
+6d0227489ef0065cee61809fd769df4b,28/4/21,CALLE-CARLOS-MARTIN-ALVAREZ,-,-,-,2,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,7
+9f6a03e1f32a197889d99ddb5f76fe95,29/4/21,CALLE-CHIQUINQUIRA,-,-,-,60,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,1
+f2581b221bdf47fe217d55c8d0612e16,29/4/21,calle-de-Arturo-Soria,https://wikidata.org/entity/Q8255504,Cuesta-del-Sagrado-Corazón,https://wikidata.org/entity/Q62991300,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Atropello a persona,Nublado,14
+ad9ee98b31933c74199b768b49ad70d5,29/4/21,calle-de-Arturo-Soria,https://wikidata.org/entity/Q8255504,Cuesta-del-Sagrado-Corazón,https://wikidata.org/entity/Q62991300,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Atropello a persona,Nublado,3
+3c1335267a74dbe5464e3da753de84da,29/4/21,Avenida-de-Portugal,https://wikidata.org/entity/Q26736141,-,-,3,Latina,https://wikidata.org/entity/Q794954,Caída,Lluvia débil,7
+fb28f67fdefd381f67d0530141a23537,30/4/21,PLAZA-COLON-,-,Paseo-de-Recoletos,https://wikidata.org/entity/Q2550870,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,7
+314aa9c7612bb7b670d5938e2a178c87,30/4/21,CALLE-CONDESA-DE-VENADITO-,-,-CALLE-MARTINEZ-VILLERGAS,-,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,3
+3891118794f6e027c068bbb1063ee8e8,5/1/21,AVENIDA-VALDEMARIN-,-,-CAMINO-LAVADERO,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+16247d44a311341fe43a1af77cb73db6,5/2/21,Calle-del-Doctor-Esquerdo,https://wikidata.org/entity/Q5741005,-,-,47,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,1
+c874af77498ecab34eb241e2bd813c28,5/2/21,CALLE-AFUERAS-A-VALVERDE-,-,-CALLE-ISLA-DE-RODAS,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,7
+81290ebdf0f39494637c736a072201c5,5/2/21,PARQUE-MADRID-RIO-,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,2
+8026cd115935e5c0fb16fea5d166f6a5,5/2/21,PARQUE-MADRID-RIO,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,14
+74e03ddc83d111335810369fff92761b,5/3/21,PISTA-CRISTO-DE-EL-PARDO,-,-,-,17,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,2
+32aba7ccdf00d64b3cbfc1149c9b9ea3,5/4/21,CALLE-JOSE-ANTONIO-NOVAIS-,-,Calle-de-Ramiro-de-Maeztu,https://wikidata.org/entity/Q26833477,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,3
+f2ebc8b2e405c9268af0eef5c74d40e2,5/4/21,CALLE-JOSE-ANTONIO-NOVAIS-,-,Calle-de-Ramiro-de-Maeztu,https://wikidata.org/entity/Q26833477,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,14
+cb4223f5ccdcd5ad38397152b9a76418,5/4/21,CALLE-LOS-YEBENES,-,-,-,6,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,7
+d33c9fe382eeb2a7b962226611128a82,5/5/21,CALLE-JEMENUÑO-,-,-PASEO-MELANCOLICOS,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,3
+644debfd5d9bcde2e13d425f34248d3f,5/5/21,Cuesta-de-San-Vicente,https://wikidata.org/entity/Q5794006,-,-,8,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Alcance,Despejado,3
+1e98916cfa0775af82f79676ee11b97f,5/5/21,CALLE-VICENTE-BLASCO-IBAÑEZ-,-,-CALLE-ENRIQUE-AZCOAGA,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,3
+4bf5d36f8b8a5493636f6e110278c8d0,5/5/21,CALLE-MANUEL-AGUILAR-MUÑOZ-,-,-PASEO-ALAMEDA-DE-OSUNA,-,-,Barajas,https://wikidata.org/entity/Q807230,Colisión frontal,Despejado,7
+bad0db5caf948e722af4f3e0a6ac3b8c,5/5/21,CALLE-ALHAMBRA-,-,-CALLE-CUART-DE-POBLET,-,-,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,3
+541f698dfe0032c85b70d5c09d7a51c9,5/7/21,calle-de-Segovia,https://wikidata.org/entity/Q8255505,Calle-de-Beatriz-Galindo,https://wikidata.org/entity/Q28987115,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,1
+ed6d5eb8e45bf8d18810e788cd2d70d7,5/7/21,PLAZA-SAN-JUAN-DE-LA-CRUZ-,-,calle-de-Zurbano,https://wikidata.org/entity/Q27043742,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,3
+8607d193f7edda3dcd4a3b42a4c16ad4,5/7/21,CARRETERA-PARQUE-DE-ATRACCIONES,-,-,-,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,3
+dc4a544182f24545b192e33ae1ba768c,5/7/21,CAMINO-PRINCIPE,-,-,-,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,2
+aeb9b8b3960255977ef2dd0063abaa69,5/8/21,Calle-de-Santander,https://wikidata.org/entity/Q29648920,Calle-de-Melquíades-Álvarez,https://wikidata.org/entity/Q29647684,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,2
+009cd0f15d5b59b7963b6aed7f9abc33,5/8/21,Calle-de-Marcelo-Usera,https://wikidata.org/entity/Q5740848,-,-,131,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,7
+54146de6bfba5a1c72623d39c2752a30,5/8/21,AVENIDA-LOS-ROSALES-,-,-AUTOVIA-M-40,-,-,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,2
+d75a8b877a590e4cfd07db3fb17f3eca,5/9/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-,-,80,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,7
+f7f6872afff63b81942a393a955dfe60,5/9/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,-,211,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,7
+2cc2afb896720c4009966086dcb7cd4d,5/9/21,AVENIDA-CAMILO-JOSE-CELA,-,-,-,29,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,7
+2a4e3c0de2a7cb503886342aeb1f1a77,5/9/21,CALLE-MAYORAZGO-DE-DUARTE,-,-,-,40,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,2
+2c52b1533dbabfb7a99f862828ec77ac,5/9/21,AVENIDA-MIGUEL-HERNANDEZ-,-,-CALLE-TORREMOLINOS,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Nublado,2
+22359d14dcd470f036043b81e1dce0ba,5/9/21,Princesa,https://wikidata.org/entity/Q5740935,-,-,43,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,1
+ca716eb751680eb99c6fff00dc448e61,5/10/21,PLAZA-MANUEL-BECERRA,-,-,-,6,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,2
+98a984bb60c3b32f8e5fbc8d626450c6,5/11/21,CALLE-GOLONDRINA,-,-,-,52,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+7d5e06d3bd1faec139ff6c1894186504,5/11/21,GLORIETA-QUEVEDO-,-,calle-de-Arapiles,https://wikidata.org/entity/Q27243804,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,2
+2b32c76474481dc3c8ae36c1309e8736,5/12/21,Calle-de-Almagro,https://wikidata.org/entity/Q26844339,-,-,21,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,1
+d57254a0a962ad432e402fa436fa2a28,14/5/21,Paseo-de-los-Pontones,https://wikidata.org/entity/Q26737156,-PASEO-MELANCOLICOS,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,14
+1b81f77515e0f225e3d140ba9a9cffbe,14/5/21,CALLE-MORALZARZAL-,-,-CALLE-LA-MASO,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,3
+"6c774ba880212e0fe1fc7eca6cac2c9f,14/5/21,AVENIDA-MANUEL-FRAGA-IRIBARNE-,-,""-GLORIETA-ANTONIO-CHENEL-""""ANTOÑETE"""""",-,-,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,2"
+eaa65cca40b8a27ce8f206544845bc03,15/5/21,San-Bernardo-street,https://wikidata.org/entity/Q5740864,Calle-Palma,https://wikidata.org/entity/Q5740656,-,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,2
+34c4a48382321c60dca69787c6145c75,15/5/21,CALLE-SAN-HILARIO,-,-,-,5,San-Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,7
+7d3040cd16490053e9d2ae01c1203681,15/5/21,IDB.-PARQUE-LINEAL-DEL-MANZANARES,-,-,-,0,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Atropello a persona,Despejado,7
+0c1939398716ed87372db0e2e5f7b6a0,15/5/21,IDB.-PARQUE-LINEAL-DEL-MANZANARES,-,-,-,0,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Atropello a persona,Despejado,7
+a2a23e7458611f140171c041f15941d8,15/5/21,calle-de-Cea-Bermúdez,https://wikidata.org/entity/Q26791743,-,-,52,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,7
+5ef050d6ea0c07b409ed7ab28c2a080c,15/5/21,calle-de-Antonio-López,https://wikidata.org/entity/Q42238475,-,-,195E,Usera,https://wikidata.org/entity/Q953368,Colisión lateral,Despejado,7
+aa43f265e9ff9ed9a9d85350eebe4c0a,16/5/21,CALLE-SEPULVEDA,-,-,-,1,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,7
+200534d85cb54e2f550756d7a929fb27,16/5/21,calle-de-Velázquez,https://wikidata.org/entity/Q20031523,Calle-de-Goya,https://wikidata.org/entity/Q28015873,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,14
+f6eb1e718798f7c17e41c36e86b288e0,16/5/21,Avenida-de-las-Fuerzas-Armadas,https://wikidata.org/entity/Q29353164,Calle-de-Eduardo-Haro-Tecglen,https://wikidata.org/entity/Q29353490,-,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,6
+59d4d0ad8876aae8dca2dd1d61f2c525,16/5/21,Avenida-del-Doctor-García-Tapia,https://wikidata.org/entity/Q28935864,-AUTOVIA-M-40,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,7
+cd2921f28941b4e80132746f42f6a5ad,17/5/21,PLAZA-MANUEL-BECERRA-,-,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,5
+fc38e184d5d6798c9535eeabe406405f,18/5/21,Calle-de-Bravo-Murillo,https://wikidata.org/entity/Q5740815,Calle-de-Lope-de-Haro,https://wikidata.org/entity/Q28039019,-,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,3
+154a8e4c6018a873eccb301e45fb8fd8,18/5/21,CALLE-CERRO-DE-LA-PLATA,-,-,-,6,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,3
+c0ad47ee02209824494d5097556c48b0,19/5/21,avenida-de-los-Poblados,https://wikidata.org/entity/Q26795575,-,-,70,Latina,https://wikidata.org/entity/Q794954,Colisión lateral,Despejado,7
+40ecf2f1b558041a5b4915429f66b26c,19/5/21,CARRETERA-ALCOBENDAS-A-BARAJAS,-,-,-,30,Barajas,https://wikidata.org/entity/Q807230,Colisión lateral,Despejado,1
+62e362f2d685c20871d095c74d958bd6,19/5/21,Paseo-de-Recoletos,https://wikidata.org/entity/Q2550870,-,-,22,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,7
+764ca83e4a650004aa30946245432e77,20/5/21,CAMINO-VIEJO-DE-VICALVARO-,-,-,-,-,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,7
+9f346117972509c2acf012dba89d76a2,20/5/21,CARRETERA-CASTILLA-,-,-,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,7
+536d92dcc93b6e44edbdcf04ec8fd184,20/5/21,GLORIETA-OLGA-RAMOS-(FAROLA-84),-,-,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,1
+9b83dd6fa79bc6b8245cb2e9de80d761,21/5/21,CARRETERA-RODAJOS,-,-,-,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,2
+a75a4f55dbdf58fe8a70aca22ca7b72b,21/5/21,CARRETERA-ESTACION-DE-HORTALEZA,-,-,-,56,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,14
+d21cc59ff662d33880763d1349e23522,21/5/21,CARRETERA-ESTACION-DE-HORTALEZA,-,-,-,56,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,3
+cd96a85656e1b00384ef9a6101af8e6e,22/5/21,Calle-de-Toledo,https://wikidata.org/entity/Q5740883,-,-,52,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,3
+1e95ec7c8bf3231377f57626a06fbca8,22/5/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,-,253,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Alcance,Despejado,6
+c95250d95c1a1e14ee87be93f4c4d8d3,23/5/21,CALLE-PUERTO-ALTO-,-,Monte-Perdido-street,https://wikidata.org/entity/Q65395398,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Nublado,6
+41b84c05daf348ab72a37b5dafb99f07,23/5/21,CALLE-MINERVA-,-,-CALLE-TITANIO,-,-,Vicálvaro,https://wikidata.org/entity/Q589403,Alcance,Nublado,6
+e629251444a239fce29ef6f8956651b4,24/5/21,AVENIDA-ENTREVIAS-,-,-AVENIDA-BUENOS-AIRES,-,-,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,5
+1ee2c9d5f1c2d5efd69f3dc2e14de043,25/5/21,Calle-de-Mateo-Inurria,https://wikidata.org/entity/Q26821557,-,-,5,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,7
+bffba70529bcc586d15ece329444daf0,25/5/21,CALLE-VIRGEN-DE-LOS-ROSALES-,-,-CALLE-VELETA,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+f466e15384aec6f687d3cd79832878ca,25/5/21,Avenida-de-Arcentales,https://wikidata.org/entity/Q56155322,-,-,7,San-Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,6
+ca84928c4233da36e151086905cdd857,25/5/21,Paseo-de-la-Chopera,https://wikidata.org/entity/Q27044458,-,-,10,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,7
+ed19ff48f4a5ef7477f6dc814470e078,25/5/21,calle-de-Mesón-de-Paredes,https://wikidata.org/entity/Q5686332,Calle-de-Miguel-Servet,https://wikidata.org/entity/Q52158635,-,Centro,https://wikidata.org/entity/Q1763376,Colisión múltiple,Despejado,7
+f153aad4127b726983d50284425bb410,26/5/21,PASEO-MELANCOLICOS,-,-,-,4,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,3
+0e62a0a384c939b691cf6b43ebc38df6,26/5/21,Avenida-de-los-Andes,https://wikidata.org/entity/Q28997223,-,-,52,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,6
+e8e769ff57b378169cd60e0541780cee,26/5/21,Calle-de-Alfonso-XII,https://wikidata.org/entity/Q5659170,-,-,3,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,1
+3049c5344c588bfcaebe665bac20380b,26/5/21,Calle-de-Alfonso-XII,https://wikidata.org/entity/Q5659170,-,-,3,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,14
+8e01a4b9b3989ff867a1ff0797fef500,26/5/21,AVENIDA-MONASTERIO-DE-SILOS,-,-,-,7B,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,3
+16c5909ad7eb59fdc41ebec2cf6a32c7,26/5/21,AVENIDA-MONASTERIO-DE-SILOS,-,-,-,7B,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,3
+2b7122f9b7fc7dddbc15f6be90aa2d85,27/5/21,Calle-de-Santa-Engracia,https://wikidata.org/entity/Q26728109,-,-,140,Chamberí,https://wikidata.org/entity/Q1763370,Choque contra obstáculo fijo,Despejado,1
+db6fce6936aa298c55d994627f3ea29a,27/5/21,Calle-de-Antonio-Machado,https://wikidata.org/entity/Q28793893,-CALLE-VALDERREY,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión lateral,Despejado,6
+fe521551ce3308515b40399a071d0247,27/5/21,CAMINO-POZO-DEL-TIO-RAIMUNDO,-,-,-,37,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Colisión lateral,Despejado,1
+832c51fe995ca0b278b13b2e39b74f77,27/5/21,calle-de-Génova,https://wikidata.org/entity/Q24294474,-,-,24,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,7
+b38cb722055fcd98ea4475eaa88f0c91,28/5/21,Calle-de-Embajadores,https://wikidata.org/entity/Q5740826,-,-,300,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,7
+bc1880b8dccb3f46564fb59f3b9b1775,28/5/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,180,Chamartín,https://wikidata.org/entity/Q1766348,Choque contra obstáculo fijo,Despejado,1
+73695cd854a98cd6acf580e7068b1715,29/5/21,calle-de-Segovia,https://wikidata.org/entity/Q8255505,-,-,21,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,6
+aba1e58f5884a99fa7a58cb6834a30a4,29/5/21,PASEO-PIÑONEROS-KM-46,-,-,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,2
+b5fc58b64efccb29c0c73b4fb78837ff,29/5/21,PASEO-PIÑONEROS-KM-46,-,-,-,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,7
+710e6811a29ae6cd834e81cdef64ae9a,29/5/21,Avenida-del-Cardenal-Herrera-Oria,https://wikidata.org/entity/Q27556319,-AVENIDA-LLANO-CASTELLANO,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,6
+e92831eb9af7a23e41647667ca2b59ad,29/5/21,Avenida-del-Cardenal-Herrera-Oria,https://wikidata.org/entity/Q27556319,-AVENIDA-LLANO-CASTELLANO,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+5f7b09fa4083da07d8b12f7972342bb1,30/5/21,Calle-de-Pedro-Rico,https://wikidata.org/entity/Q56427389,-CALLE-ARTURO-DUPERIER,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,2
+e0056b478a07cd5aea4406b8de2a2e00,30/5/21,Calle-de-Embajadores,https://wikidata.org/entity/Q5740826,-ACCESO-CAJA-MAGICA,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,2
+c7fefff5a36b7fc8717ffe594dd1fb97,31/5/21,Paseo-de-Recoletos,https://wikidata.org/entity/Q2550870,calle-de-la-Armada-Española,https://wikidata.org/entity/Q58318905,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,5
+9c9a4d4b6679672fb2a9fe616280535f,31/5/21,CALLE-VIA-CARPETANA,-,-,-,57,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,5
+66a88a948e1bb7ff808f103b62868ce7,31/5/21,PLAZA-EMPERADOR-CARLOS-V,-,-,-,1,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,5
+231b7f3255abbe46e93c472ff1c2f018,6/1/21,AVENIDA-BRASILIA-,-,-AVENIDA-BADAJOZ,-,-,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,7
+98d15188ffee5a841b9c2f37d51d6053,6/1/21,Cuesta-de-San-Vicente,https://wikidata.org/entity/Q5794006,calle-de-Bailén,https://wikidata.org/entity/Q5740811,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+a8e30a8153fc11e1fddeec5b0ad46ab5,6/1/21,Ronda-de-Valencia,https://wikidata.org/entity/Q16626200,-CALLE-ALONSO-DEL-BARCO,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,1
+8fde31fadfcad1900d6f7ee44e91ef99,6/1/21,GLORIETA-EMBAJADORES-,-,Ronda-de-Valencia,https://wikidata.org/entity/Q16626200,-,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,1
+71bab88d1419ded7f1870cdcd092721b,6/1/21,GLORIETA-EMBAJADORES-,-,Ronda-de-Valencia,https://wikidata.org/entity/Q16626200,-,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,5
+c428af4f3cec828f22f420ec3b0fd51f,6/2/21,Calle-del-Alcalde-Sáinz-de-Baranda,https://wikidata.org/entity/Q28070977,-AUTOVIA-M-23,-,-,Retiro,https://wikidata.org/entity/Q2002296,Colisión frontal,Despejado,14
+00750edd983777a20f6e25a2351732e1,6/2/21,Paseo-de-la-Castellana,https://wikidata.org/entity/Q1473674,-,-,216,Chamartín,https://wikidata.org/entity/Q1766348,Colisión lateral,Despejado,7
+c4a13ba04d3a04d6185929c3ec762fad,6/2/21,CALLE-ALEJANDRO-SANCHEZ,-,-,-,72,Carabanchel,https://wikidata.org/entity/Q1001991,Choque contra obstáculo fijo,Despejado,7
+3ac5c54b52fae99085b141c223577d98,6/2/21,Avenida-de-Menéndez-Pelayo,https://wikidata.org/entity/Q28936960,Calle-del-Doctor-Castelo,https://wikidata.org/entity/Q63247891,-,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,7
+e1e003d1d660fd86c24fb8de6abbf7c4,6/2/21,Calle-de-la-Virgen-de-los-Peligros,https://wikidata.org/entity/Q28052626,-,-,12,Centro,https://wikidata.org/entity/Q1763376,Otro,Despejado,7
+0adc2fc410ad31f548d90d6a7bbfec0f,6/3/21,GLORIETA-MARQUES-DE-VADILLO,-,-,-,1,Carabanchel,https://wikidata.org/entity/Q1001991,Alcance,Despejado,7
+1733737564188888ff15cf210f604f91,6/3/21,PLAZA-INDEPENDENCIA-,-,Calle-de-Alfonso-XII,https://wikidata.org/entity/Q5659170,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,7
+c64b8c25bb1c810d18fb925a01916de1,6/4/21,Calle-de-Infanta-Mercedes,https://wikidata.org/entity/Q27044192,-,-,27,Tetuán,https://wikidata.org/entity/Q1773540,Otro,Despejado,7
+4f28a26f8467074e3ec0e19e5f6fca7c,6/4/21,calle-de-Fuencarral,https://wikidata.org/entity/Q5740840,-CALLE-JERONIMO-DE-LA-QUINTANA,-,-,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,3
+670cfdf5bdb208d5089bce564b0608a0,6/5/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,Madrid-Ring-Road,https://wikidata.org/entity/Q2606591,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,3
+46ae475d865e4c146df4e911f73650f5,6/5/21,PLAZA-LEGAZPI-CON-PASEO-DE-LA-CHOPERA,-,-,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,6
+e91addae265103240f75e2fa932a31e4,6/6/21,AVENIDA-MONASTERIO-DE-SILOS,-,-,-,96,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión frontal,Despejado,7
+7588e1fdccff9889738386f9bfda8619,6/6/21,AVENIDA-MONASTERIO-DE-SILOS,-,-,-,96,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión frontal,Despejado,6
+cc981debda93381749eba1cd259d9f20,6/6/21,CALLE-ISABEL-COLBRAND-,-,-CALLE-MARIA-TUBAU,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,5
+a5b6505777f624736cb148a14d22e65e,6/6/21,Avenida-de-las-Fuerzas-Armadas,https://wikidata.org/entity/Q29353164,-,-,136,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,1
+e77abc3f65529fbc55e5bbac30b093fb,6/6/21,Avenida-de-Menéndez-Pelayo,https://wikidata.org/entity/Q28936960,-,-,38,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,2
+bfe41b1fea33dd96841c518ed3c278c6,6/7/21,PLAZA-ALSACIA-,-,Avenida-de-la-Institución-Libre-de-Enseñanza,https://wikidata.org/entity/Q5740959,-,San-Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,2
+4e3773ec36393f79a60aefd8d5cb97c9,6/7/21,PLAZA-CORTES,-,-,-,2,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,7
+f9ef51e85e0b0112be87f37d53f39692,6/7/21,Avenida-de-Portugal,https://wikidata.org/entity/Q26736141,-AVENIDA-PRINCIPAL,-,-,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,1
+80f329144aca5fc04a540f6aa9d61448,6/8/21,PLAZA-CIBELES---CALLE-ALCALA,-,-,-,-,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,3
+80c94b5b1a7aabfe69aad48eb2bd4a16,6/9/21,Calle-de-Pinos-Alta,https://wikidata.org/entity/Q54562684,-,-,5,Tetuán,https://wikidata.org/entity/Q1773540,Atropello a persona,Despejado,14
+0eb43a60024fd624e8ff02802a33afe5,6/9/21,Calle-de-Pinos-Alta,https://wikidata.org/entity/Q54562684,-,-,5,Tetuán,https://wikidata.org/entity/Q1773540,Atropello a persona,Despejado,2
+a9c505fe31fab78d56d1c4f22ce2b346,6/9/21,Paseo-del-Prado,https://wikidata.org/entity/Q2079615,-,-,1,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,1
+f0e3f8c2f7696246e8e275541fa8803b,6/10/21,Calle-de-Cartagena,https://wikidata.org/entity/Q27038851,-,-,158,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,1
+5500888e6bbcc3253b2c260218a05cc7,6/10/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,CALLE-JOSE-ARCONES-GIL,-,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,6
+f401684281c56ff613611ad7a57dc8ca,6/10/21,CALLE-PLANETA-TIERRA-,-,-CALLE-EROS,-,-,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+d2ac2ac2cabae7241dc2746d94ce270f,6/10/21,Paseo-de-Santa-María-de-la-Cabeza,https://wikidata.org/entity/Q6065630,-,-,18,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+a0e6d01eae0cae1620624f19ad653beb,6/10/21,CALLE-SAN-DALMACIO,-,-,-,19,Villaverde,https://wikidata.org/entity/Q919536,Colisión lateral,Despejado,1
+35b7d721a7a037818a07b125d15f3a22,6/11/21,CALLE-MONASTERIO-DE-LAS-HUELGAS,-,-,-,5,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+8ee1a5028a8a6221421835804c2c9c1b,6/12/21,calle-de-Génova,https://wikidata.org/entity/Q24294474,-,-,24,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,2
+e844cdf8e9c0856a566c0ca37cc8ee9d,6/12/21,CALLE-ALEGRIA-DE-ORIA-,-,-CALLE-TESEO,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,7
+ff35916b37c8232c731c9c4ccb39df79,6/12/21,CALLE-SAMARIA-,-,Calle-del-Doctor-Esquerdo,https://wikidata.org/entity/Q5741005,-,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,1
+168c6bc5d4374c75041843efad7d7128,13/6/21,calle-de-Génova,https://wikidata.org/entity/Q24294474,-,-,16,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Nublado,2
+aed7a13c5f134f6e5321f377c908623e,13/6/21,REAL-DE-ARGANDA,-,-,-,74,Villa-de-Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,2
+004199c536b8cf1ec13cb6cf50c01a1a,13/6/21,Princesa,https://wikidata.org/entity/Q5740935,-,-,31,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Alcance,Despejado,2
+00dae52e7d0f22cd3bae24d5dbe90889,14/6/21,CALLE-MONASTERIO-DE-EL-PAULAR-,-,-AVENIDA-MONASTERIO-DE-SILOS,-,-,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,7
+11afbdc9675a808db75fca49a2123c4b,15/6/21,Avenida-del-Marqués-de-Corbera,https://wikidata.org/entity/Q29168364,-,-,22,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Colisión lateral,Despejado,1
+99a52a1e7eb7a1a74265481fb353e4b3,15/6/21,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,-,16,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,14
+ad8cc8d0a69c43597554a735eb8ea746,15/6/21,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,-,16,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,7
+56fd2523fb72f05e0b362af5b6b6e5d4,15/6/21,PASEO-CAMOENS-Y-VALERO-,-,paseo-de-Ruperto-Chapí,https://wikidata.org/entity/Q42250337,-,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,1
+ab2eb08e2418b06a399f934e86db278c,15/6/21,Avenida-de-Francisco-Pi-y-Margall,https://wikidata.org/entity/Q27268566,-CALLE-MARIA-DE-PORTUGAL,-,-,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,1
+5706fdb780a117a9149a7aeb74be0c7d,15/6/21,CALLE-LOMBIA-,-,Calle-de-Jorge-Juan,https://wikidata.org/entity/Q28070822,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,14
+27b58c45fae98ed830172e486d9277ce,16/6/21,CALLE-RICARDO-BELTRAN-Y-ROZPIDE-,-,-CALLE-ALBARDIN,-,-,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,7
+77ac061e0bc59ee7483626c1808586ef,16/6/21,CALLE-VIA-CARPETANA-,-,Paseo-de-la-Ermita-del-Santo,https://wikidata.org/entity/Q28137105,-,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,14
+7cb18d42dea3d307fbc19a7faa984241,17/6/21,Calle-de-Villanueva,https://wikidata.org/entity/Q28921542,Serrano-Street,https://wikidata.org/entity/Q5740879,-,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,7
+741059f48c95dc10c1963815e519cecb,17/6/21,calle-de-Velázquez,https://wikidata.org/entity/Q20031523,-,-,6,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Lluvia débil,2
+56bea58df5cf16e0e05686ef17fa8c5d,19/6/21,GLORIETA-EDIMBURGO,-,-,-,1,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,14
+ce4b32cf37a1ba5f765071576f2192b4,19/6/21,calle-de-Blas-Cabrera,https://wikidata.org/entity/Q29405139,-,-,125,Latina,https://wikidata.org/entity/Q794954,Choque contra obstáculo fijo,Despejado,14
+1ee2c564f16bbfcfd359546cfe52ba17,19/6/21,Carrera-Val-d'Arán,https://wikidata.org/entity/Q65395414,-,-,5,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Lluvia débil,14
+17200f27286346585b7b6cd3148fee01,19/6/21,BIBLM.-EUGENIO-TRIAS-CASA-DE-FIERAS-DEL-RETIRO,-,-,-,0,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,5
+e10afaf77b12631324730c58a385d2a1,19/6/21,Calle-de-Juan-Bravo,https://wikidata.org/entity/Q28054647,Calle-de-Alcántara,https://wikidata.org/entity/Q28070781,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,6
+7b261a699dd45b640d2689a90623bf0d,20/6/21,CALLE-LUIS-DE-HOYOS-SAINZ-,-,-CALLE-VALDEBERNARDO,-,-,Moratalaz,https://wikidata.org/entity/Q2076109,Alcance,Despejado,3
+59b7c350742bf9ed08a36e760bd395f8,20/6/21,Calle-de-Toledo,https://wikidata.org/entity/Q5740883,-,-,74,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,1
+2d523fa0f2b82580ed579d86c24a0b0c,21/6/21,Avenida-del-Doctor-García-Tapia,https://wikidata.org/entity/Q28935864,-,-,232,Moratalaz,https://wikidata.org/entity/Q2076109,Choque contra obstáculo fijo,Despejado,7
+1e33871d1daf4b9de3c4aebe84b9d94d,21/6/21,calle-de-Arturo-Soria,https://wikidata.org/entity/Q8255504,calle-de-López-de-Hoyos,https://wikidata.org/entity/Q27043844,-,Ciudad-Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,7
+37906f9e439a738ee79e6660937d7080,21/6/21,CALLE-BIGASTRO-,-,-CALLE-NAVACEPEDILLA,-,-,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,7
+2fcdc4a914b972f9012cf3b9423ba122,23/6/21,Calle-de-Toledo,https://wikidata.org/entity/Q5740883,-,-,107,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,1
+e3f4922bf01a7457fe8114156b79cf09,24/6/21,Avenida-del-Planetario,https://wikidata.org/entity/Q17622122,-,-,18,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,1
+1d8654724e4296775a06789e5967f1ed,24/6/21,PASEO-OLMOS,-,-,-,14,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,7
+d2e30b0e2f2b2f2faae236052a329b1c,24/6/21,Calle-del-General-Álvarez-de-Castro,https://wikidata.org/entity/Q28024232,-,-,24,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,14
+ec3bff0f09a45c31c196fecd4ed98c26,24/6/21,Calle-del-General-Álvarez-de-Castro,https://wikidata.org/entity/Q28024232,-,-,24,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,1
+3eae3fb8b7997c5f198682a3b1380a1f,24/6/21,Calle-de-O'Donnell,https://wikidata.org/entity/Q5740859,-,-,44,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,6
+499b0cedce1d6f04b9c8e5231a71877d,24/6/21,Paseo-de-Santa-María-de-la-Cabeza,https://wikidata.org/entity/Q6065630,-,-,13,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,7
+2f9e56f808a1e91e9e2e6f485f7fd6d1,24/6/21,CSTAN.-ANGELES,-,-,-,12,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,1
+bc3382eea454ecf8f3561f9210c3e6e0,25/6/21,calle-del-Príncipe-de-Vergara,https://wikidata.org/entity/Q5741020,calle-de-Maldonado,https://wikidata.org/entity/Q28056166,-,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,7
+df1c754b056a1f1e672b9bd5a0a1e0d7,25/6/21,CAMINO-PERALES,-,-,-,98,Usera,https://wikidata.org/entity/Q953368,Caída,Despejado,7
+a9c6d217196b0a4f72b8c7a30a07ef79,25/6/21,CALLE-BALTASAR-SANTOS,-,-,-,2,Puente-de-Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,7
+cf199b3d6e060dda9b748a8aa72a97b8,26/6/21,Avenida-de-la-Institución-Libre-de-Enseñanza,https://wikidata.org/entity/Q5740959,-CALLE-CASTILLO-DE-UCLES,-,-,San-Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,7
+b7d690e0f51bfdc614c7e034b9b9845a,26/6/21,Calle-de-la-Cruz,https://wikidata.org/entity/Q16659214,Calle-de-Barcelona,https://wikidata.org/entity/Q27048338,-,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+060b7e7e3971fa64e40500b6ac6c95bf,26/6/21,calle-de-Hortaleza,https://wikidata.org/entity/Q5740911,-,-,73,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,7
+b935ee70353c9dc1f3cc8ba0403b109e,26/6/21,CALLE-FERMIN-CABALLERO,-,-,-,89,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,7
+731dcad09c46d3e6566676b82150b78a,26/6/21,Alcalá-Street,https://wikidata.org/entity/Q2424746,-,-,48,Centro,https://wikidata.org/entity/Q1763376,Choque contra obstáculo fijo,Despejado,1
+064b183321f66b7ad36e8802ffc1ecaf,27/6/21,calle-del-Príncipe-de-Vergara,https://wikidata.org/entity/Q5741020,-,-,209A,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,2
+f15cdbebb5185efeea232d7889820c2f,27/6/21,CALLE-LA-ALBERCA,-,-,-,7,Fuencarral-El-Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,6
+15ed1b63dc2369daf9a842efe0da34f4,27/6/21,CALLE-LA-TABERNERA-DEL-PUERTO,-,-,-,2,Villaverde,https://wikidata.org/entity/Q919536,Colisión fronto-lateral,Despejado,6
+c3883c1aa499a856efa1ff331d12067f,27/6/21,CALLE-ENCOMIENDA-DE-PALACIOS,-,-,-,1,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Despejado,7
+cfbfc90392589b8b7b59c1d51447d23c,27/6/21,Calle-de-Jorge-Juan,https://wikidata.org/entity/Q28070822,-,-,38,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,6
+55b669b80add932d507b657a8552726a,28/6/21,PASEO-EMBARCADERO,-,-,-,6,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,6
+500b3d5233cc489da9022b772b2efa25,29/6/21,CALLE-SAN-EPIFANIO,-,-,-,5,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,14
+ff77f2fbb59434312b9f6717c1c478eb,30/6/21,CALLE-PLATANO,-,-,-,32,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,7
+1f5c2c0c1244615ceacdc37fe07a7e77,30/6/21,Paseo-de-Recoletos,https://wikidata.org/entity/Q2550870,calle-de-la-Armada-Española,https://wikidata.org/entity/Q58318905,-,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,14

@@ -1,6 +1,15 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://www.traffic-accidents.linkeddata.es/Accidentes#>
+
+
+SELECT  ?accidente ?district ?sameD ?addressnombre1 ?sameA1 ?addressnombre2 ?sameA2
+WHERE{
+    ?accidente rdf:type dbo:Accident.
+    ?accidente dbo:hasDistrict ?district.
+    ?district owl:sameAs "https://wikidata.org/entity/Q2076109".
+}
 
 SELECT DISTINCT ?accidente
 WHERE{
