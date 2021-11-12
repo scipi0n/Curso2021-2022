@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>District</title>
+</head>
+<style>
+table{
+	float:left;
+}
+table, th, td {
+  border:1px solid black;
+}
+td{
+	text-align: center;
+}
+</style>
+<body>
+	<h2>Datos de Accidentes Distrito de {{ barrio }}</h2>
+	 <img src= {{ locate }} width="400" height="300">
+	 <img src= {{ img }} width="400" height="300">
+	<p>El numero de accidentes es de {{ count }}.</p>
+	<p>La cantidad de accidentes por cada 1000 habitantes es de: {{ porcentage }}</p>
+    <h2>Accidentes con tiempo: {{ tiempo }} y tipo de Accidente: {{ tipoC }}</h2>
+
+<table style="width:30%">
+  <tr>
+    <th>Calle</th>
+  </tr>
+  {% for message in calles %}
+  		<tr>
+        <td>{{ message }}</td>
+    	</tr>
+  {% endfor %}
+</table>
+<table style="width:10%">
+  <tr>
+    <th>Lesividad</th>
+  </tr>
+  {% for message in ls %}
+  		<tr>
+        <td>{{ message }}</td>
+    	</tr>
+  {% endfor %}
+</table>
+<table style="width:10%">
+  <tr>
+    <th>Fecha</th>
+  </tr>
+  {% for message in fs %}
+  		<tr>
+        <td>{{ message }}</td>
+    	</tr>
+  {% endfor %}
+</table>
+</body>
+</html>

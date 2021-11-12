@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BikeAccidents</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/bike-accident-1501170-1271502.png">
+    <br>	
+	<form action="district" method="POST">
+		{% for message in get_flashed_messages() %}
+             <p>{{ message }}</p>
+         {% endfor %}
+        <br>
+	  <label for="districts">Choose a district:</label>
+	  <select id="districts" name="district_select">
+	  	<option value="Elegir">Elegir</option>
+	    {% for o in data %}
+              <option value="{{ o }}">{{ o }}</option>
+        {% endfor %}
+	  </select>
+	  <label for="weather">Choose weather:</label>
+	  <select id="weather" name="weather_select">
+	  	<option value="Elegir">Elegir</option>
+	    {% for w in weather %}
+              <option value="{{ w }}">{{ w }}</option>
+        {% endfor %}
+	  </select>
+	  <label for="tipoC">Choose fall:</label>
+	  <select id="tipoC" name="tipoC_select">
+	  	<option value="Elegir">Elegir</option>
+	    {% for t in tipoC %}
+              <option value="{{ t }}">{{ t }}</option>
+        {% endfor %}
+	  </select>
+	  <input type="submit" value="Filter" id="district">
+	</form>
+</body>
+</html>
