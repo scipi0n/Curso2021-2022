@@ -1,0 +1,370 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Same_as_wikidata_address1",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Same_as_wikidata_address1"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Same_as_wikidata_address2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Same_as_wikidata_address2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.replace(\"-\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.replace(\"-\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 410,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toString()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lesividad",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Lesividad using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Date using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address1",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Address1 using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Address2 using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "same_as_wikidata_distrito",
+    "newColumnName": "Same_as_wikidata_distrito",
+    "description": "Rename column same_as_wikidata_distrito to Same_as_wikidata_distrito"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Address1",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Adress1",
+    "columnInsertIndex": 3,
+    "description": "Create column ID Adress1 at index 3 based on column Address1 using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Adress1",
+    "expression": "value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Adress1 using expression value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID Adress1",
+    "index": 2,
+    "description": "Move column ID Adress1 to position 2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Address2",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Adress2",
+    "columnInsertIndex": 6,
+    "description": "Create column ID Adress2 at index 6 based on column Address2 using expression grel:value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID Adress2",
+    "index": 5,
+    "description": "Move column ID Adress2 to position 5"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Adress2",
+    "expression": "value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Adress2 using expression value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Disctrict",
+    "columnInsertIndex": 10,
+    "description": "Create column ID Disctrict at index 10 based on column District using expression grel:value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID Disctrict",
+    "index": 9,
+    "description": "Move column ID Disctrict to position 9"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Disctrict",
+    "expression": "value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Disctrict using expression value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID Disctrict",
+    "newColumnName": "ID_Disctrict",
+    "description": "Rename column ID Disctrict to ID_Disctrict"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID Adress1",
+    "newColumnName": "IDAddress1",
+    "description": "Rename column ID Adress1 to IDAddress1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID_Disctrict",
+    "newColumnName": "IDDisctrict",
+    "description": "Rename column ID_Disctrict to IDDisctrict"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "T",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Date by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Date 2",
+    "description": "Remove column Date 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Date 1",
+    "newColumnName": "Date",
+    "description": "Rename column Date 1 to Date"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID Adress2",
+    "newColumnName": "IDAddress2",
+    "description": "Rename column ID Adress2 to IDAddress2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "IDDisctrict",
+    "newColumnName": "IDDistrict",
+    "description": "Rename column IDDisctrict to IDDistrict"
+  }
+]

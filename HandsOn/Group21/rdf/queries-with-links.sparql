@@ -4,30 +4,54 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://www.traffic-accidents.linkeddata.es/Accidentes#>
 
 
-SELECT  ?accidente ?district ?sameD ?addressnombre1 ?sameA1 ?addressnombre2 ?sameA2
+SELECT  ?accidente
 WHERE{
     ?accidente rdf:type dbo:Accident.
     ?accidente dbo:hasDistrict ?district.
     ?district owl:sameAs "https://wikidata.org/entity/Q2076109".
 }
 
-SELECT DISTINCT ?accidente
+SELECT DISTINCT ?accidente ?distrito ?date
 WHERE{
     ?accidente rdf:type dbo:Accident.
-    ?accidente dbo:hasDate "30/1/21". 
-    ?accidente dbo:hasDistrict "Retiro". 
+    ?accidente dbo:hasDistrict ?district.
+    ?district  rdf:type dbo:District.
+    ?district dbo:hasDistrict "Retiro".
+    ?accidente dbo:hasDate "2021-05-18"^^xsd:date.
+
 }
+
 
 SELECT DISTINCT ?accidente
 WHERE{
     ?accidente rdf:type dbo:Accident.
-    ?accidente dbo:hasAddress "CALL. ALMAGRO". 
+    ?accidente dbo:hasAddress ?address. 
     ?accidente dbo:hasWeather "Despejado". 
+    ?address dbo:hasAddress "Calle De Antonio López"
 }
 
-SELECT DISTINCT ?accidente
+SELECT DISTINCT ?accidente ?distrito
 WHERE{
     ?accidente rdf:type dbo:Accident.
-    ?accidente dbo:hasAccidentType "Colisión fronto-lateral". 
-    ?accidente dbo:hasDistrict "Ciudad Lineal". 
+    ?accidente dbo:hasDistrict ?district.
+    ?district  rdf:type dbo:District.
+    ?district dbo:hasDistrict ?distrito.
+
+}
+
+
+SELECT Distinct  ?calle ?enlace 
+WHERE{
+    ?accident rdf:type dbo:Accident.
+    
+    ?accident dbo:hasAddress ?address.
+    ?address rdf:type dbo:Address.
+    ?address dbo:hasAddress ?calle.
+    OPTIONAL { ?address owl:sameAs ?enlace}.
+    
+    ?accident dbo:hasWeather "Nublado".
+  
+    ?accident dbo:hasDistrict ?district.
+    ?district rdf:type dbo:District.
+    ?district dbo:hasDistrict "Centro".
 }
